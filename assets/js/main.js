@@ -259,3 +259,25 @@
   new PureCounter();
 
 })()
+
+window.addEventListener("load", function() {
+  //     var load_screen = document.getElementById("load_screen");
+  //     document.body.removeChild(load_screen);
+  // });
+  
+      function removeFadeOut(el, speed) {
+          var seconds = speed / 1000;
+          el.style.transition = "opacity " + seconds + "s ease";
+  
+          el.style.opacity = 0;
+          setTimeout(function() {
+              el.parentNode.removeChild(el);
+          }, speed);
+      }
+  
+      removeFadeOut(document.getElementById('load_screen'), 500);
+  });
+  
+     
+    console.log("%c  Dev by  Ritesh Sandbhor","background-color: #191919; color: #f9d63d; font-size:10px; padding:8px 10px; border-radius:4px;");
+  
