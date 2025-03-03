@@ -1036,7 +1036,6 @@
 
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
               <form
-                action="forms/contact.php"
                 method="post"
                 role="form"
                 class="php-email-form"
@@ -1090,7 +1089,7 @@
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <input type="submit">Send Message</input>
                 </div>
               </form>
             </div>
