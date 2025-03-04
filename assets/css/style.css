@@ -1111,7 +1111,7 @@ section {
 
 
 body{
-  oncontextmenu="return false;"
+  oncontextmenu: "return false;"
 }
 div#load_screen {
   position: fixed;
