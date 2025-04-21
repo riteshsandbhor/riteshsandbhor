@@ -37,6 +37,8 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <style>
       .section-title-resume {
@@ -167,16 +169,85 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
+    <style>
+      /* Hero Section Enhancements */
+      #hero {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-container {
+        position: relative;
+        z-index: 2;
+      }
+      
+      .glitch-text {
+        font-size: 64px;
+        font-weight: 700;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        animation: glitch 3s ease-in-out infinite;
+        position: relative;
+        letter-spacing: 2px;
+        background: linear-gradient(45deg, #ffffff, #f0f0f0);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+      @keyframes glitch {
+        2%, 64% { transform: translate(2px,0) skew(0deg); }
+        4%, 60% { transform: translate(-2px,0) skew(0deg); }
+        62% { transform: translate(0,0) skew(5deg); }
+      }
+      
+      .glitch-text:before,
+      .glitch-text:after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background: #000;
+        clip: rect(0,0,0,0);
+      }
+      
+      .glitch-text:before {
+        left: -2px;
+        text-shadow: 2px 0 #ff00c1;
+      }
+      
+      .glitch-text:after {
+        left: 2px;
+        text-shadow: -2px 0 #00fff9;
+      }
+      
+      .gradient-text {
+        background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: 600;
+      }
+      
+      .hero-subtitle {
+        font-size: 26px;
+        margin: 15px 0 0 0;
+      }
+    </style>
     <section
       id="hero"
       class="d-flex flex-column justify-content-center align-items-center"
     >
-      <div class="hero-container" data-aos="fade-in">
-        <h1>Ritesh Sandbhor</h1>
-        <p>
+      <div id="particles-js"></div>
+      <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+        <h1 class="glitch-text" data-text="Ritesh Sandbhor">Ritesh Sandbhor</h1>
+        <p class="hero-subtitle">
           I'm the
           <span
-            class="typed"
+            class="typed gradient-text"
             data-typed-items="Designer, Developer, Problem Solver, Cloud Practitioner"
           ></span>
         </p>
@@ -277,88 +348,112 @@
       <section id="skills" class="skills section-bg">
         <div class="container">
           <div class="section-title">
-            <h2>Skills</h2>
+            <h2>Skills & Technologies</h2>
           </div>
 
           <div class="row skills-content">
             <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="skill-category">Frontend Development</h3>
               <div class="progress">
-                <span class="skill">HTML <i class="val">100%</i></span>
+                <span class="skill"><i class="bx bxl-html5"></i> HTML/CSS <i class="val">95%</i></span>
                 <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="100"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">CSS <i class="val">90%</i></span>
+                <span class="skill"><i class="bx bxl-javascript"></i> JavaScript/TypeScript <i class="val">90%</i></span>
                 <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <span class="skill"><i class="bx bxl-react"></i> React.js <i class="val">85%</i></span>
                 <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <h3 class="skill-category mt-4">Backend Development</h3>
+              <div class="progress">
+                <span class="skill"><i class="bx bxl-java"></i> Java <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><i class="bx bxl-python"></i> Python <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="skill-category">Database & Cloud</h3>
               <div class="progress">
-                <span class="skill">PHP <i class="val">80%</i></span>
+                <span class="skill"><i class="bx bx-data"></i> SQL/Oracle <i class="val">90%</i></span>
                 <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                <span class="skill"><i class="bx bxl-aws"></i> AWS <i class="val">80%</i></span>
                 <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <h3 class="skill-category mt-4">Tools & Frameworks</h3>
+              <div class="progress">
+                <span class="skill"><i class="bx bxl-git"></i> Git/GitHub <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <span class="skill"><i class="bx bxl-docker"></i> Docker <i class="val">85%</i></span>
                 <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="55"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><i class="bx bx-code-block"></i> Spring Boot <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Section -->
+          <div class="certifications mt-5" data-aos="fade-up">
+            <h3 class="skill-category text-center mb-4">Certifications</h3>
+            <div class="row justify-content-center">
+              <div class="col-md-4 mb-3">
+                <div class="certification-card">
+                  <i class="bx bxl-aws certification-icon"></i>
+                  <h4>AWS Cloud Practitioner</h4>
+                  <p>Amazon Web Services</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="certification-card">
+                  <i class="bx bx-code-alt certification-icon"></i>
+                  <h4>Java Full Stack Developer</h4>
+                  <p>TCS Internal Certification</p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="certification-card">
+                  <i class="bx bx-data certification-icon"></i>
+                  <h4>Oracle SQL Expert</h4>
+                  <p>Oracle Certification</p>
                 </div>
               </div>
             </div>
@@ -794,6 +889,20 @@
             data-aos-delay="100"
           >
             <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item" data-aos="fade-up">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    I had the opportunity to work with Ritesh over a period of 2.5 years and found him to be a highly dedicated and focused individual. His ability to grasp new concepts quickly, combined with a keen eye for detail, contributed to a steep and consistent learning curve. He is receptive to feedback, demonstrates a positive attitude, and remains committed to personal and professional growth. Ritesh also brings strong interpersonal and social skills to the table, enabling smooth collaboration within teams. His passion for his work, openness to learning, and reliability make him a valuable addition to any organization. I am confident he will be an asset wherever he goes and wish him continued success in all his future endeavors.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img src="assets/img/testimonials/manish.jpeg" class="testimonial-img" alt="">
+                  <h3>Manish Dixit</h3>
+                  <h4>Manish Dixit
+                  Solution Designer, Certified Business Analyst, PSM 1, PSPO 2 [TCS]
+                  </h4>
+                </div>
+              </div>
               <div class="swiper-slide">
                 <div class="testimonial-item" data-aos="fade-up">
                   <p>

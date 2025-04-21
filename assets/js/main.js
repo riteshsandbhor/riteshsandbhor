@@ -123,6 +123,25 @@
         scrollto(window.location.hash)
       }
     }
+
+    // Add section show animation
+    const sections = document.querySelectorAll('section');
+    const observerOptions = {
+      threshold: 0.15
+    };
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section-show');
+          sectionObserver.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach(section => {
+      sectionObserver.observe(section);
+    });
   });
 
   /**
