@@ -40,46 +40,9 @@
     <!-- Particles.js -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-    <style>
-      .section-title-resume {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-      }
-      .download-btn {
-        background-color: #007bff;
-        color: white;
-        padding: 12px 20px;
-        font-size: 16px;
-        font-weight: bold;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        margin-bottom: 28px;
-        transition: transform 0.2s ease, background-color 0.3s;
-      }
-      .download-btn:hover {
-        transform: scale(1.1);
-        background-color: #0056b3;
-      }
-      .download-btn:active {
-        transform: scale(0.9);
-      }
-      .education-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-      }
-      .education-year {
-        margin: 0;
-      }
-      .gradescolour {
-        background: #fafba0 !important;
-        font-family: "Open Sans", sans-serif;
-        color: #272829;
-      }
-    </style>
+    <!-- Custom CSS for enhanced styling -->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/project-resume.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -433,7 +396,7 @@
           </div>
 
           <!-- Certifications Section -->
-          <div class="certifications mt-5" data-aos="fade-up">
+          <!-- <div class="certifications mt-5" data-aos="fade-up">
             <h3 class="skill-category text-center mb-4">Certifications</h3>
             <div class="row justify-content-center">
               <div class="col-md-4 mb-3">
@@ -459,422 +422,567 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
       <!-- End Skills Section -->
 
       <!-- ======= Resume Section ======= -->
-      <section id="resume" class="resume">
-        <div class="container">
-          <div class="section-title section-title-resume">
-            <h2>Resume</h2>
-            <a target="_blank" href="assets/files/Resume.pdf" download>
-              <button class="download-btn">⬇ Download</button>
-            </a>
+      <style>
+.resume {
+  padding: 60px 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.resume-item {
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.resume-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+  position: relative;
+  padding-left: 20px;
+}
+
+.resume-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 25px;
+  background: #0563bb;
+  border-radius: 4px;
+}
+
+.download-btn {
+  background: linear-gradient(45deg, #0563bb, #3e8da8);
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(5, 99, 187, 0.4);
+}
+
+.download-btn:active {
+  transform: scale(0.98);
+}
+
+.resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.resume-item ul {
+  padding-left: 20px;
+}
+
+.resume-item ul li {
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.resume-item ul li:before {
+  content: "▹";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  color: #0563bb;
+}
+</style>
+<section id="resume" class="resume resume-section">
+  <div class="container resume-container" data-aos="fade-up">
+    <div class="section-title section-title-resume">
+      <h2>Resume</h2>
+      <a target="_blank" href="assets/files/Resume.pdf" download>
+        <button class="download-btn"><i class="bi bi-download"></i> Download CV</button>
+      </a>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12" data-aos="fade-up">
+        
+
+        <h3 class="resume-title">Education</h3>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <!-- Master's Degree Section -->
+          <div class="education-header">
+            <div class="education-title">
+              <i class="bi bi-mortarboard-fill education-icon"></i>
+              <h4>Master of Science in Computer Science</h4>
+            </div>
+            <div class="education-meta">
+              <span class="education-year"><i class="bi bi-calendar3"></i> 2024 - 2026</span>
+              <span class="education-gpa">GPA: 3.67/4</span>
+            </div>
+          </div>
+          <div class="education-school">
+            <img src="assets/img/George_Mason_University_logo.svg.png" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">             
+            <p><em>George Mason University, Fairfax, VA</em></p>
           </div>
 
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up">
-              <h3 class="resume-title">Sumary</h3>
-              <div class="resume-item pb-0">
-                <h4>Ritesh Sandbhor</h4>
-                <p>
-                  <em
-                    >Graduate Computer Science student with expertise in project
-                    coordination, software development, and team collaboration.
-                    Proficient in Python, Java, and web technologies. Seeking
-                    Internship opportunities in software development or program
-                    management starting May 2025.</em
-                  >
-                </p>
-                <ul>
-                  <li>10606 Kitty Pozer Dr Fairfax VA</li>
-                  <li>(571) 604-1043</li>
-                  <li>ritesh.sandbhor14@gmail.com</li>
-                </ul>
+          <div class="coursework">
+            <div class="semester-block" data-aos="fade-up">
+              <div class="semester-header">
+                <i class="bi bi-bookmark-star-fill"></i>
+                <h5>Relevant Coursework</h5>
               </div>
-
-              <h3 class="resume-title">Education</h3>
-
-              <div class="resume-item">
-                <!-- Master's Degree Section -->
-                <div class="education-container">
-                  <h4 class="education-year">
-                    Master of Science in Computer Science
-                  </h4>
-                  <h5 class="education-year">2024 - 2026</h5>
-                </div>
-                <div class="education-container">
-                  <p><em>George Mason University, Fairfax, VA</em></p>
-                  <h5 class="gradescolour">GPA: 3.67/4</h5>
-                </div>
-
-                <div class="coursework">
-                  <p class="semester">
-                    📌 Semester 1: <span class="gpa">(GPA: 3.67/4.0)</span>
-                  </p>
-                  <ul>
-                    <li>CS 550: Database Systems</li>
-                    <li>
-                      CS 530: Mathematical Foundations of Computer Science
-                    </li>
-                    <li>
-                      CS 531: Computer Systems and Fundamentals of Systems
-                      Programming
-                    </li>
-                  </ul>
-
-                  <p class="semester">
-                    📌 Semester 2: <span class="gpa">(In Progress)</span>
-                  </p>
-                  <ul>
-                    <li>CS 583: Analysis of Algorithms</li>
-                    <li>
-                      SWE 642: Software Engineering for the World Wide Web
-                    </li>
-                    <li>ISA 681: Secure Software Design and Programming</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="resume-item">
-                <!-- Bachelor's Degree Section -->
-                <div class="education-container">
-                  <h4 class="education-year">Bachelor of Engineering in IT</h4>
-                  <h5 class="education-year">2017 - 2021</h5>
-                </div>
-                <div class="education-container">
-                  <p>
-                    <em
-                      >K. J. Somaiya Institute of Engineering and IT, Mumbai,
-                      MH</em
-                    >
-                  </p>
-                  <h5 class="gradescolour">CGPA: 8.47/10</h5>
-                </div>
-
-                <div class="skills-container">
-                  <ul>
-                    <li>
-                      <span class="category">📌 Software Development:</span>
-                      Java, Python, C, Data Structures, Web Technologies, Mobile
-                      App Development, DevOps
-                    </li>
-                    <li>
-                      <span class="category"
-                        >📌 Data Analytics & Machine Learning:</span
-                      >
-                      Big Data Analytics, Data Mining, Business Intelligence,
-                      Artificial Intelligence
-                    </li>
-                    <li>
-                      <span class="category">📌 Systems & Security:</span>
-                      Database Management Systems (DBMS), Operating Systems,
-                      Cryptography, Network Security, Internet of Things (IoT)
-                    </li>
-                  </ul>
-
-                  <p class="experience">
-                    Gained hands-on experience in building scalable
-                    applications, analyzing large datasets, and developing
-                    secure systems, equipping me with the skills necessary for
-                    software and data-focused roles.
-                  </p>
-                </div>
-              </div>
-
-              <div class="resume-item">
-                <!-- Secondary and Higher Secondary Education Section -->
-                <div class="education-container">
-                  <h4 class="education-year">Higher Secondary Education</h4>
-                  <h5 class="education-year">2015 - 2017</h5>
-                </div>
-                <div class="education-container">
-                  <p><em>Pace Junior Science College, Thane, MH</em></p>
-                  <h5 class="gradescolour">Grade: 76.77%</h5>
-                </div>
-                <div class="skills-container">
-                  <p>
-                    Completed my HSC with a focus on science and mathematics,
-                    building a strong foundation in analytical and
-                    problem-solving skills.
-                  </p>
-                  <ul>
-                    <li>
-                      Developed a deep understanding of scientific principles
-                      and mathematical concepts, fostering problem-solving
-                      abilities and logical thinking.
-                    </li>
-                    <li>
-                      Acquired practical knowledge in technical and
-                      environmental subjects, while also strengthening
-                      communication and analytical skills.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="resume-item">
-                <!-- Secondary and Higher Secondary Education Section -->
-                <div class="education-container">
-                  <h4 class="education-year">Secondary Education</h4>
-                  <h5 class="education-year">2014 - 2015</h5>
-                </div>
-                <div class="education-container">
-                  <p><em>Guru Nanak English High School, Thane, MH</em></p>
-                  <h5 class="gradescolour">Grade: 89.40%</h5>
-                </div>
-                <div class="skills-container">
-                  <p>
-                    Completed SSC with a well-rounded education focusing on
-                    academics, technical skills, and personal development.
-                  </p>
-                  <ul>
-                    <li>
-                      Gained a strong foundation in academics, enhancing my
-                      analytical and problem-solving abilities.
-                    </li>
-                    <li>
-                      Developed effective communication and technical skills,
-                      along with a creative mindset.
-                    </li>
-                    <li>
-                      Built a sense of responsibility, teamwork, and leadership
-                      through extracurricular activities and personal
-                      development programs.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                <h4>System Engineer - Developer</h4>
-                <h5>Jun 2021 - Oct 2024</h5>
-                <p><em>Tata Consultancy Services, Pune, MH </em></p>
-                <ul>
-                  <li>
-                    Developed 25+ detailed business user stories for British
-                    Telecom, improving the experience of over 10M users. This
-                    reduced requirement changes by 15% and enhanced project
-                    efficiency, leading to faster delivery timelines and better
-                    client satisfaction.
-                  </li>
-                  <li>
-                    Designed and tested technical solutions, creating unit test
-                    cases and documentation to streamline impact assessments.
-                    This reduced testing time by 30% and lowered high-risk bugs
-                    by 25%, ensuring higher system reliability and smoother
-                    project execution.
-                  </li>
-                  <li>
-                    Resolved critical production and development issues across
-                    multiple environments, including Dev, UAT, and Production.
-                    Maintained 99.5% system uptime during key operations,
-                    ensuring uninterrupted service for users and seamless
-                    deployment processes.
-                  </li>
-                  <li>
-                    Collaborated with diverse cross-functional teams to address
-                    production challenges and improve system performance by 15%.
-                    Actively fostered teamwork, contributing to effective
-                    problem-solving and operational success.
-                  </li>
-                  <li>
-                    Managed onboarding for over 50+ new team members and
-                    organized 25+ local events in the Pune office, boosting team
-                    collaboration and improving employee engagement by 20%.
-                    Collaborated closely with four contractors from the client
-                    side, strong connections and teamwork.
-                  </li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Full Stack Developer [Internship]</h4>
-                <h5>Jan 2021 - Mar 2021</h5>
-                <p>
-                  <em
-                    >International Journal for Research in Engineering
-                    Application and Management [IJREAM], Thane, MH</em
-                  >
-                </p>
-                <ul>
-                  <li>
-                    Redesigned and customized a Research Publication Website,
-                    optimizing workflow and user experience.
-                  </li>
-                  <li>
-                    Replaced inefficient manual data collection (Google Forms &
-                    emails) with an integrated online system.
-                  </li>
-                  <li>
-                    Developed dedicated Admin and User Modules to centralize
-                    tasks and improve management efficiency.
-                  </li>
-                  <li>
-                    Automated key operations, reducing manual effort and
-                    enhancing productivity.
-                  </li>
-                  <li>
-                    Implemented the solution using HTML, CSS, Ajax, and PHP for
-                    a seamless and dynamic experience.
-                  </li>
-                  <li>
-                    Significantly improved website functionality, making it more
-                    intuitive, efficient, and user-friendly.
-                  </li>
-                </ul>
-              </div>
-
-              <div class="resume-item">
-                <h4>Android Developer [Internship]</h4>
-                <h5>Dec 2019 - Mar 2020</h5>
-                <p><em>MindScript, Thane, MH</em></p>
-                <ul>
-                  <li>
-                    Designed and developed an Event Section for the Mobisportz
-                    Mobile Application, providing detailed event information
-                    such as time, venue, duration, registration links, and event
-                    type.
-                  </li>
-                  <li>
-                    Seamlessly integrated YouTube videos using an API to enrich
-                    the app with multimedia content.
-                  </li>
-                  <li>
-                    Utilized Android Studio to craft a visually appealing and
-                    user-friendly interface.
-                  </li>
-                  <li>
-                    Enhanced app functionality, allowing users to quickly access
-                    event details and related videos.
-                  </li>
-                </ul>
-              </div>
-
-              <div class="resume-item">
-                <h4>Web Developer [Internship]</h4>
-                <h5>Jun 2019 - Nov 2019</h5>
-                <p><em>MindScript, Thane, MH</em></p>
-                <ul>
-                  <li>
-                    Developed an Event Section for the Mobisportz Website,
-                    presenting essential event details including time, venue,
-                    duration, registration links, and event type.
-                  </li>
-                  <li>
-                    Designed the frontend using HTML, CSS, JavaScript, Ajax, and
-                    Bootstrap, ensuring a responsive and user-friendly
-                    interface.
-                  </li>
-                  <li>
-                    Enhanced website usability, offering visitors an intuitive
-                    and easy way to access event information effortlessly.
-                  </li>
-                </ul>
+              <div class="course-list">
+                <div class="course-item">Database Systems</div>
+                <div class="course-item">Web Development</div>
+                <div class="course-item">Cloud Computing</div>
+                <div class="course-item">Data Structures</div>
+                <div class="course-item">Information Security</div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <!-- Master's Degree Section -->
+          <div class="education-header">
+            <div class="education-title">
+              <i class="bi bi-mortarboard-fill education-icon"></i>
+              <h4>Baechlor of Engineering in Information Technology</h4>
+            </div>
+            <div class="education-meta">
+              <span class="education-year"><i class="bi bi-calendar3"></i> 2017 - 2021</span>
+              <span class="education-gpa">GPA: 8.47/10</span>
+            </div>
+          </div>
+          <div class="education-school">
+            <img src="assets/img/mumbai.jpeg" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">             
+            <p><em>University of Mumbai, Mumbai, MH, IND</em></p>
+          </div>
+
+          <div class="coursework">
+            <div class="semester-block" data-aos="fade-up">
+              <div class="semester-header">
+                <i class="bi bi-bookmark-star-fill"></i>
+                <h5>Relevant Coursework</h5>
+              </div>
+              <div class="course-list">
+                <div class="course-item">Python</div>
+                <div class="course-item">rtificial Intelligence</div>
+                <div class="course-item">Cloud Computing</div>
+                <div class="course-item">Big Data</div>
+                <div class="course-item">Object Oriented Programming</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+        
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title"> Technical Professional Experience</h3>
+        
+        <!-- System Engineer Position -->
+        <div class="resume-item">
+          <div class="experience-header">
+            <div class="experience-title">
+              <i class="bi bi-briefcase-fill experience-icon"></i>
+              <h4>System Engineer</h4>
+            </div>
+            <div class="experience-meta">
+              <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2023 - Oct 2024 · 1 yr 5 mos</span>
+              
+            </div>
+          </div>
+          <div class="experience-company">
+            <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>Tata Consultancy Services</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · On-site</span>
+          </div>
+          <p><strong>🛠 Tools & Technologies:</strong> Oracle Siebel CRM, Oracle SQL, Java, JavaScript, HTML, CSS, LUMOS, Git, Jenkins, JIRA, MS Excel</p>
+          <ul>
+            <li>
+               Led the development of 25+ business user stories for British Telecom, enhancing the experience of 10M+ users, reducing requirement changes by 15% 📊.
+            </li>
+            <li>
+               Designed & tested technical solutions, improving impact assessments and reducing testing time by 30% ⚙️.
+            </li>
+            <li>
+               Ensured 99.5% system uptime by resolving critical production issues across multiple environments 🔄.
+            </li>
+            <li>
+               Collaborated with cross-functional teams to enhance system performance by 15% 🤝.
+            </li>
+            <li>
+               Onboarded & mentored 50+ new team members and organized 25+ company events, increasing engagement by 20% 🎯.
+            </li>
+          </ul>
+          <p><strong>🏆 Awards & Recognitions:</strong></p>
+          <ul>
+            <li>🏅 Service and Commitment Award – Jun 2024</li>
+            <li>🏅 Rising Star Award – October 2023</li>
+          </ul>
+        </div>
+        
+        <!-- Assistant System Engineer Position -->
+        <div class="resume-item">
+          <div class="experience-header">
+            <div class="experience-title">
+              <i class="bi bi-briefcase-fill experience-icon"></i>
+              <h4>Assistant System Engineer</h4>
+            </div>
+            <div class="experience-meta">
+              <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2022 - May 2023 · 1 yr</span>
+            </div>
+          </div>
+          <div class="experience-company">
+            <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>Tata Consultancy Services</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Hybrid</span>
+          </div>
+          <p><strong>🛠 Tools & Technologies:</strong> Oracle Siebel CRM, Oracle SQL, Java, JavaScript, HTML, CSS, GitHub, JIRA, Jenkins</p>
+          <ul>
+            <li>
+               Developed & deployed high-impact software solutions, reducing high-risk bugs by 25% and boosting system reliability 📈.
+            </li>
+            <li>
+               Conducted root cause analysis for production incidents, ensuring smooth deployments & minimal downtime 🔍.
+            </li>
+            <li>
+               Automated testing & deployment processes, increasing efficiency and reducing manual efforts ⚡.
+            </li>
+            <li>
+               Collaborated closely with clients & stakeholders to refine project requirements and implement seamless solutions 🤖.
+            </li>
+          </ul>
+          <p><strong>🏆 Awards & Recognitions:</strong></p>
+          <ul>
+            <li>🏅 On-the-Spot Award – Nov 2022</li>
+            <li>🏅 On-the-Spot Award – Oct 2022</li>
+            <li>🏅 AIP Anchor Award – Jul 2022</li>
+            <li>🏅 On-the-Spot Award – Jun 2022</li>
+          </ul>
+        </div>
+        
+        <!-- Assistant System Engineer Trainee Position -->
+        <div class="resume-item">
+          <div class="experience-header">
+            <div class="experience-title">
+              <i class="bi bi-briefcase-fill experience-icon"></i>
+              <h4>Assistant System Engineer Trainee</h4>
+            </div>
+            <div class="experience-meta">
+              <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2021 - May 2022 · 1 yr</span>
+              
+            </div>
+          </div>
+          <div class="experience-company">
+            <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>Tata Consultancy Services</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Remote</span>
+          </div>
+          <p><strong>🛠 Tools & Technologies:</strong> Git, JIRA, Java, SQL, HTML, CSS</p>
+          <ul>
+            <li>
+               Supported feature development & bug fixes, contributing to major product releases 🔄.
+            </li>
+            <li>
+               Participated in code reviews & debugging, improving app performance & stability 🛠️.
+            </li>
+            <li>
+               Worked in Agile teams, gaining hands-on experience in sprint planning & requirement analysis 📅.
+            </li>
+            <li>
+               Assisted internal teams with documentation, impact analysis, and knowledge sharing 📖.
+            </li>
+          </ul>
+        </div>
+
+        <!-- IJREAM Internship Position -->
+        <div class="resume-item">
+          <div class="experience-header">
+            <div class="experience-title">
+              <i class="bi bi-briefcase-fill experience-icon"></i>
+              <h4>Full Stack Developer</h4>
+            </div>
+            <div class="experience-meta">
+              <span class="experience-year"><i class="bi bi-calendar3"></i> Jan 2021 - Mar 2021 · 3 mos</span>
+              
+            </div>
+          </div>
+          <div class="experience-company">
+            <img src="assets/img/ijreampublish_logo.png" alt="IJREAM" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>International Journal for Research in Engineering Application and Management [IJREAM]</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Thane, Maharashtra, India · Remote</span>
+          </div>
+          <p><strong>🛠 Tools & Technologies:</strong> HTML, CSS, JavaScript, Ajax, PHP, MySQL</p>
+          <ul>
+            <li>
+               Worked on customizing a Research Publication Website, transforming its workflow and user experience 🔄.
+            </li>
+            <li>
+               Streamlined the process by developing separate Admin and User Modules, centralizing tasks for better convenience and management 📊.
+            </li>
+            <li>
+               Automated key operations, improving efficiency for both administrators and users ⚡.
+            </li>
+            <li>
+               Used HTML, CSS, Ajax, and PHP to implement the changes and enable a seamless workflow 🛠️.
+            </li>
+            <li>
+               The project significantly enhanced the website's functionality and user experience, making it more intuitive and efficient for all stakeholders 🎯.
+            </li>
+          </ul>
+        </div>
+
+        <!-- MindScript Android Developer Position -->
+        <div class="resume-item">
+          <div class="experience-header">
+            <div class="experience-title">
+              <i class="bi bi-briefcase-fill experience-icon"></i>
+              <h4>Android Developer</h4>
+            </div>
+            <div class="experience-meta">
+              <span class="experience-year"><i class="bi bi-calendar3"></i> Dec 2019 - Mar 2020 · 4 mos</span>
+              
+            </div>
+          </div>
+          <div class="experience-company">
+            <img src="assets/img/mindscript_logo.jpeg" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>MindScript</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Thane, Maharashtra, India · On-site</span>
+          </div>
+          <p><strong>🛠 Tools & Technologies:</strong> Android Studio, Java, XML, YouTube API</p>
+          <ul>
+            <li>
+               Developed an Event Section for the Mobisportz Mobile Application, showcasing detailed event information such as time, venue, duration, registration links, and event type 📱.
+            </li>
+            <li>
+               Integrated YouTube videos seamlessly using an API, enriching the app with multimedia content 🎬.
+            </li>
+            <li>
+               Used Android Studio to create a visually appealing and user-friendly interface 🎨.
+            </li>
+            <li>
+               Enhanced the app's functionality, providing users with quick access to event details and related videos 🚀.
+            </li>
+          </ul>
+        </div>
+
+        <!-- MindScript Web Developer Position -->
+        <div class="resume-item">
+          <div class="experience-header">
+            <div class="experience-title">
+              <i class="bi bi-briefcase-fill experience-icon"></i>
+              <h4>Web Developer</h4>
+            </div>
+            <div class="experience-meta">
+              <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2019 - Nov 2019 · 6 mos</span>
+            </div>
+          </div>
+          <div class="experience-company">
+            <img src="assets/img/mindscript_logo.jpeg" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>MindScript</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Thane, Maharashtra, India · On-site</span>
+          </div>
+          <p><strong>🛠 Tools & Technologies:</strong> HTML, CSS, JavaScript, Ajax, Bootstrap</p>
+          <ul>
+            <li>
+               Built an Event Section for the Mobisportz Website, presenting essential event details, including time, venue, duration, registration links, and event type 📅.
+            </li>
+            <li>
+               Designed the frontend using HTML, CSS, JavaScript, Ajax, and Bootstrap, ensuring a responsive and user-friendly design 🎨.
+            </li>
+            <li>
+               Improved the website's usability, offering visitors an intuitive way to access event information effortlessly 🚀.
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Non-Technical Experience</h3>
+        <div class="resume-item">
+          <div class="experience-header">
+            <div class="experience-title">
+              <i class="bi bi-briefcase-fill experience-icon"></i>
+              <h4>Manager on Duty</h4>
+            </div>
+            <div class="experience-meta">
+              <span class="experience-year"><i class="bi bi-calendar3"></i> Apr 2025 - Present</span>
+            </div>
+          </div>
+          <div class="experience-company">
+            <img src="assets/img/freedom-center-logo.png" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">                         
+            <p><em>Freedom Aquatic & Fitness Center
+            </em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Manassas, Virginia, United States · On-site</span>
+            
+          </div>
+          <p>As a Manager on Duty at one of Northern Virginia's largest recreational facilities Freedom Aquatic & Fitness Center (110,000 sq. ft.), I oversee early morning, evening, and weekend operations to ensure the safety, efficiency, and overall quality of the guest experience. I supervise part-time staff, enforce policies, and provide high-level customer service while managing daily operations in alignment with Mason's health and wellness mission.</p>
+          <p><strong>Key Responsibilities:</strong></p>
+          <ul>
+            <li>Supervise the facility during assigned shifts.</li>
+            <li>Provide exceptional customer service, responding to inquiries and resolving conflicts with professionalism and clarity.</li>
+            <li>Monitor and enforce facility rules and safety protocols to protect patrons and assets.</li>
+            <li>Oversee daily open and close procedures, including cash handling, drawer reconciliation, and credit card settlements using Fusion RMS, FreedomPay, and Elavon systems.</li>
+            <li>Submit incident and accident reports, staff communications, and asset logs.</li>
+            <li>Conduct hourly rounds to ensure equipment functionality, staff conduct, and patron safety.</li>
+            <li>Support event operations by coordinating with Event Supervisors and assisting with facility transitions during special programming.</li>
+          </ul>
+        </div>
+        
+        <div class="resume-item">
+          <div class="experience-header">
+            <div class="experience-title">
+              <i class="bi bi-briefcase-fill experience-icon"></i>
+              <h4>Fitness Attendant</h4>
+            </div>
+            <div class="experience-meta">
+              <span class="experience-year"><i class="bi bi-calendar3"></i> Jan 2025 - Present</span>
+            </div>
+          </div>
+          <div class="experience-company">
+            <img src="assets/img/masonreceration_logo.png" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">             
+            <p><em>Mason Recreation</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Fairfax, Virginia, United States · On-site</span>
+          </div>
+          <ul>
+            <li>Supervised daily fitness center operations, ensuring a safe, clean, and inclusive environment that enhanced user satisfaction and engagement.</li>
+            <li>Enforced policies to maintain an organized and respectful atmosphere, fostering a positive community culture.</li>
+            <li>Strengthened communication and interpersonal skills by engaging with diverse patrons, addressing inquiries, and resolving conflicts effectively.</li>
+            <li>Enhanced operational efficiency by identifying and resolving equipment issues, coordinating timely maintenance, and streamlining workflows.</li>
+            <li>Promoted health and wellness by guiding patrons on proper equipment use and safe exercise techniques.</li>
+            <li>Leveraged problem-solving skills to troubleshoot logistical challenges, ensuring smooth daily operations.</li>
+            <li>Collaborated with team members and supervisors to implement improvements, elevating the overall user experience.</li>
+          </ul>
+          <p class="skills-highlight"><strong>Skills:</strong> Leadership, Customer Support, Problem Solving, Communication, Team Collaboration, Facility Management</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       <!-- End Resume Section -->
 
       <!-- ======= Project Section ======= -->
-      <section id="projects" class="testimonials section-bg">
+      <section id="projects" class="section-bg">
         <div class="container">
           <div class="section-title">
             <h2>Projects</h2>
           </div>
 
-          <div class="project" data-aos="fade-up">
-            <div class="row">
-              <div class="col-md-4">
-                <img
-                  src="assets/img/projects/sims.PNG"
-                  alt="SIMS Project Image"
-                  style="width: 100%; height: auto"
-                />
+          <div class="row">
+            <!-- SIMS Project Card -->
+            <div class="col-lg-6" data-aos="fade-up">
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="assets/img/projects/sims.PNG" alt="SIMS Project Image" />
+                </div>
+                <div class="project-content">
+                  <h3 class="project-title">SIMS - Student Information Management System</h3>
+                  <div class="project-description">
+                    This is a Platform which helps in conducting daily operations
+                    of any Educational Institute. The platform is used by
+                    students, faculties, and parents via Web or through Mobile
+                    App. This Project is currently live and used by KJ Somaiya
+                    Institute of Engineering Mumbai. My role involved PHP for
+                    backend and Database handling to manage Student's and
+                    Faculty's data, JavaScript for validation, and other
+                    functionalities.
+                  </div>
+                  <div class="project-links">
+                    <a href="https://www.kjsieit.in/sims/php/home.php" target="_blank" class="project-link">
+                      <i class="bx bx-link"></i> View Website
+                    </a>
+                  </div>
+                  <div class="technologies-used">
+                    <strong>Technologies Used:</strong>
+                    <div class="tech-tags">
+                      <span class="tech-tag">HTML</span>
+                      <span class="tech-tag">CSS</span>
+                      <span class="tech-tag">JavaScript</span>
+                      <span class="tech-tag">PHP</span>
+                      <span class="tech-tag">Bootstrap</span>
+                      <span class="tech-tag">MySQL</span>
+                      <span class="tech-tag">PWA</span>
+                      <span class="tech-tag">GitHub</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-8 resume">
-                <h3 class="resume-title">
-                  SIMS - Student Information Management System
-                </h3>
+            </div>
 
-                <div class="project-description">
-                  This is a Platform which helps in conducting daily operations
-                  of any Educational Institute. The platform is used by
-                  students, faculties, and parents via Web or through Mobile
-                  App. This Project is currently live and used by KJ Somaiya
-                  Institute of Engineering Mumbai
-                  (https://www.kjsieit.in/sims/). My role involved PHP for
-                  backend and Database handling to manage Student’s and
-                  Faculty’s data, JavaScript for validation, and other
-                  functionalities. Created Admin Module which took care of the
-                  addition of Students and faculty to the system using PHP.
-                  <br />
+            <!-- SARI Project Card -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="assets/img/projects/sari.jpg" alt="SARI Project Image" />
                 </div>
-                <div class="github-url">
-                  <a
-                    href="https://www.kjsieit.in/sims/php/home.php"
-                    target="_blank"
-                    >Link to Website</a
-                  >
-                </div>
-                <div class="technologies-used">
-                  Technologies Used - HTML, CSS, Javascript, PHP, Bootstrap,
-                  Ajax, MySQL, PWA, SQL, PHPmyadmin, Github
+                <div class="project-content">
+                  <h3 class="project-title">SARI Disease Survey App</h3>
+                  <div class="project-description">
+                    A website and Mobile App used for surveying SARI disease patients
+                    in Solapur district. Features a dashboard for daily and timely analysis.
+                    Programmed for Asha Workers to reduce surveying efforts using HTML, CSS,
+                    PHP, and Progressive Web Application. Implemented Form Handling and Database
+                    module for proper data collection and analysis. Received an Appreciation letter
+                    from the Solapur District Health officer.
+                  </div>
+                  <div class="technologies-used">
+                    <strong>Technologies Used:</strong>
+                    <div class="tech-tags">
+                      <span class="tech-tag">HTML</span>
+                      <span class="tech-tag">CSS</span>
+                      <span class="tech-tag">JavaScript</span>
+                      <span class="tech-tag">PHP</span>
+                      <span class="tech-tag">Bootstrap</span>
+                      <span class="tech-tag">MySQL</span>
+                      <span class="tech-tag">PWA</span>
+                      <span class="tech-tag">SQL</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <br />
-          <br />
-          <br />
-
-          <div class="project" data-aos="fade-up">
-            <div class="row">
-              <div class="col-md-4">
-                <img
-                  src="assets/img/projects/sari.jpg"
-                  alt="SIMS Project Image"
-                  style="width: 100%; height: auto"
-                />
-              </div>
-              <div class="col-md-8 resume">
-                <h3 class="resume-title">
-                  SARI (Severe Acute Respiratory Infections) Disease Survey App
-                  for Solapur District
-                </h3>
-
-                <div class="project-description">
-                  It is a website as well as a Mobile App used for a survey of
-                  SARI disease patients town to town in Solapur district. It has
-                  a dashboard for daily as well as timely analysis. Programmed
-                  this for Asha Workers, a community of health workers, to
-                  reduce their efforts of surveying the disease using HTML, CSS,
-                  PHP, and Progressive Web Application for Mobile App.
-                  Implemented Form Handling and Database module for proper data
-                  collection and analysis using JavaScript and SQL. Got an
-                  Appreciation letter from the Solapur (Maharashtra, India)
-                  District Health officer.
-                  <br />
-                </div>
-                <div class="technologies-used">
-                  Technologies Used - HTML, CSS, Javascript, PHP, Bootstrap,
-                  Ajax, MySQL, PWA, SQL, PHPmyadmin, Github
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <br />
-          <br />
-          <br />
         </div>
       </section>
-
       <!-- End Project Section -->
 
       <!-- ======= Testimonials Section ======= -->
