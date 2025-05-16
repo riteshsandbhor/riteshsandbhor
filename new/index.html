@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - DevFolio Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Ritesh Sandbhor | Portfolio 🚀</title>
+  <meta content="Full Stack Developer | Cloud Practitioner | Problem Solver" name="description">
+  <meta content="developer, software engineer, full stack, cloud, java, javascript, python" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,6 +27,29 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    .download-resume-btn {
+      background: linear-gradient(45deg, #0ea2bd, #0ed3a3);
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(14, 162, 189, 0.2);
+    }
+
+    .download-resume-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(14, 162, 189, 0.3);
+      color: #fff;
+    }
+
+    .resume-title i {
+      color: #0ea2bd;
+    }
+  </style>
+
   <!-- =======================================================
   * Template Name: DevFolio
   * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -44,32 +67,16 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">DevFolio</h1>
+        <h1 class="sitename">Ritesh Sandbhor👨‍💻</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#testimonials">Recommendations</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -82,12 +89,11 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-img.jpg" alt="" data-aos="fade-in">
-
+      <div id="particles-js"></div>
       <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-        <h2>I am Morgan Freeman</h2>
-        <p><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+        <h2 class="glitch-text">Ritesh Sandbhor</h2>
+        <p><span class="typed" data-typed-items="Full Stack Developer, Cloud Practitioner, Problem Solver"></span></p>
+        
       </div>
 
     </section><!-- /Hero Section -->
@@ -99,51 +105,44 @@
 
         <div class="row gy-4">
           <div class="col-md-6">
-
             <div class="row justify-content-between gy-4">
               <div class="col-lg-5">
-                <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                <img src="assets/img/profile-img.jpg" class="img-fluid rounded" alt="">
               </div>
               <div class="col-lg-7 about-info">
-                <p><strong>Name: </strong> <span>Morgan Freeman</span></p>
-                <p><strong>Profile: </strong> <span>full stack developer</span></p>
-                <p><strong>Email: </strong> <span>contact@example.com</span></p>
-                <p><strong>Phone: </strong> <span>(617) 557-0089</span></p>
+                <p><strong>Name: </strong> <span>Ritesh Sandbhor</span></p>
+                <p><strong>Profile: </strong> <span>Full Stack Developer</span></p>
+                <p><strong>Email: </strong> <span>riteshsandbhor1999@gmail.com</span></p>
+                <p><strong>Location: </strong> <span>Fairfax, Virginia</span></p>
               </div>
             </div>
 
-            <div class="skills-content skills-animation">
-
-              <h5>Skills</h5>
-
+            <div class="skills-content skills-animation mt-4">
+              <h5>Technical Skills</h5>
               <div class="progress">
-                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div><!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                <span class="skill"><span>Java</span> <i class="val">90%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-              </div><!-- End Skills Item -->
-
+              </div>
               <div class="progress">
-                <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+                <span class="skill"><span>JavaScript/React</span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill"><span>Python</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill"><span>AWS/Cloud</span> <i class="val">75%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-              </div><!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div><!-- End Skills Item -->
-
+              </div>
             </div>
           </div>
 
@@ -151,20 +150,13 @@
             <div class="about-me">
               <h4>About me</h4>
               <p>
-                Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                imperdiet et, porttitor
-                at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                porttitor accumsan tincidunt.
+                I am a passionate Full Stack Developer with a strong foundation in computer science and a keen interest in cloud technologies. Currently pursuing my Master's in Computer Science at George Mason University, I bring over 2 years of professional experience in developing robust web applications and solving complex technical challenges.
               </p>
               <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                porttitor volutpat. Vestibulum
-                ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                My expertise spans across the entire software development lifecycle, from conceptualization to deployment. I specialize in building scalable applications using Java, Spring Boot, React, and AWS cloud services. I'm particularly enthusiastic about cloud-native development and implementing microservices architecture.
               </p>
               <p>
-                Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                Nulla porttitor accumsan
-                tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Beyond technical skills, I value collaboration and continuous learning. I actively contribute to open-source projects and stay updated with the latest industry trends. My goal is to create innovative solutions that make a positive impact while maintaining high standards of code quality and user experience.
               </p>
             </div>
           </div>
@@ -173,76 +165,282 @@
       </div>
 
     </section><!-- /About Section -->
-
+    
     <!-- Resume Section -->
-    <section id="resume" class="resume section">
+<section id="resume" class="resume section">
+  <div class="container section-title" data-aos="fade-up">
+    <div class="d-flex align-items-center justify-content-between">
+      <div>
+        <h2><i class="bi bi-file-earmark-person-fill me-2"></i>Resume</h2>
+        <p>Professional Experience & Educational Background</p>
+      </div>
+      <a target="_blank" href="assets/files/Resume.pdf" download class="download-resume-btn">
+        <i class="bi bi-cloud-download me-2"></i>Download CV
+      </a>
+    </div>
+  </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <div class="container">
+    <div class="row">
+      <!-- Left Column -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="container">
 
-        <div class="row">
+        <h3 class="resume-title"><i class="bi bi-mortarboard me-2"></i>Education</h3>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
+        <!-- Master's -->
+        <div class="resume-item">
+          <h4>Master of Science in Computer Science</h4>
+          <h5>2024 - 2026</h5>
+          <p><em>George Mason University, Fairfax, VA</em></p>
+          <h5 class="gradescolour">GPA: 3.67/4</h5>
+          <p>📌 Semester 1: <span class="gpa">(GPA: 3.67/4.0)</span></p>
+          <ul>
+            <li>CS 550: Database Systems</li>
+            <li>CS 530: Mathematical Foundations of Computer Science</li>
+            <li>CS 531: Computer Systems and Fundamentals of Systems Programming</li>
+          </ul>
+          <p>📌 Semester 2: <span class="gpa">(In Progress)</span></p>
+          <ul>
+            <li>CS 583: Analysis of Algorithms</li>
+            <li>SWE 642: Software Engineering for the World Wide Web</li>
+            <li>ISA 681: Secure Software Design and Programming</li>
+          </ul>
+        </div>
 
-            <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+        <!-- Bachelor's -->
+        <div class="resume-item">
+          <h4>Bachelor of Engineering in Information Technology</h4>
+          <h5>2017 - 2021</h5>
+          <p><em>K. J. Somaiya Institute of Engineering and IT, Mumbai, MH</em></p>
+          <h5 class="gradescolour">CGPA: 8.47/10</h5>
+          <ul>
+            <li><strong>Software Development:</strong> Java, Python, C, Web Tech, DevOps</li>
+            <li><strong>Data Analytics & AI:</strong> Big Data, ML, AI, BI</li>
+            <li><strong>Systems & Security:</strong> DBMS, OS, Cryptography, IoT</li>
+          </ul>
+          <p class="experience">Gained hands-on experience building scalable applications and secure systems for real-world deployment.</p>
+        </div>
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div><!-- Edn Resume Item -->
+        <!-- HSC -->
+        <div class="resume-item">
+          <h4>Higher Secondary Education</h4>
+          <h5>2015 - 2017</h5>
+          <p><em>Pace Junior Science College, Thane, MH</em></p>
+          <h5 class="gradescolour">Grade: 76.77%</h5>
+          <ul>
+            <li>Built a strong foundation in analytical and problem-solving skills.</li>
+            <li>Focused on mathematics, physics, and logical thinking development.</li>
+          </ul>
+        </div>
 
-            <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div><!-- Edn Resume Item -->
+        <!-- SSC -->
+        <div class="resume-item">
+          <h4>Secondary Education</h4>
+          <h5>2014 - 2015</h5>
+          <p><em>Guru Nanak English High School, Thane, MH</em></p>
+          <h5 class="gradescolour">Grade: 89.40%</h5>
+          <ul>
+            <li>Balanced academic excellence with technical and soft skill development.</li>
+            <li>Gained experience in leadership and extracurriculars.</li>
+          </ul>
+        </div>
 
+        <!-- Non-Technical Experience -->
+        <h3 class="resume-title mt-4"><i class="bi bi-person-workspace me-2"></i>Non-Technical Experience</h3>
+
+        <!-- Manager on Duty -->
+        <div class="resume-item">
+          <div class="experience-header">
+            <div class="experience-title">
+              <i class="bi bi-briefcase-fill experience-icon"></i>
+              <h4>Manager on Duty</h4>
+            </div>
+            <div class="experience-meta">
+              <span class="experience-year"><i class="bi bi-calendar3"></i> Apr 2025 - Present</span>
+            </div>
           </div>
+          <div class="experience-company">
+            <img src="assets/img/freedom-center-logo.png" alt="Freedom Aquatic & Fitness Center" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>Freedom Aquatic & Fitness Center</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Manassas, Virginia, United States · On-site</span>
+          </div>
+          <p>As a Manager on Duty at one of Northern Virginia's largest recreational facilities Freedom Aquatic & Fitness Center (110,000 sq. ft.), I oversee early morning, evening, and weekend operations to ensure the safety, efficiency, and overall quality of the guest experience. I supervise part-time staff, enforce policies, and provide high-level customer service while managing daily operations in alignment with Mason's health and wellness mission.</p>
+          <p><strong>Key Responsibilities:</strong></p>
+          <ul>
+            <li>Supervise the facility during assigned shifts.</li>
+            <li>Provide exceptional customer service, responding to inquiries and resolving conflicts with professionalism and clarity.</li>
+            <li>Monitor and enforce facility rules and safety protocols to protect patrons and assets.</li>
+            <li>Oversee daily open and close procedures, including cash handling, drawer reconciliation, and credit card settlements using Fusion RMS, FreedomPay, and Elavon systems.</li>
+            <li>Submit incident and accident reports, staff communications, and asset logs.</li>
+            <li>Conduct hourly rounds to ensure equipment functionality, staff conduct, and patron safety.</li>
+            <li>Support event operations by coordinating with Event Supervisors and assisting with facility transitions during special programming.</li>
+          </ul>
+        </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+        <!-- Fitness Attendant -->
+        <div class="resume-item">
+          <h4>Fitness Attendant</h4>
+          <h5>Jan 2025 - Present</h5>
+          <p><em>Mason Recreation, George Mason University, Fairfax, VA</em></p>
+          <ul>
+            <li>Supervised gym floor, ensuring safety and cleanliness of equipment used by 200+ daily visitors.</li>
+            <li>Assisted students and staff with exercise equipment and guided them on proper form and usage.</li>
+            <li>Performed daily checks and maintenance on all workout machines and weights.</li>
+          </ul>
+        </div>
 
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+        <!-- Floor Marshal -->
+        <div class="resume-item">
+          <h4>Floor Marshal</h4>
+          <h5>Jul 2020 - Jun 2022</h5>
+          <p><em>Tata Consultancy Services, Pune, MH</em></p>
+          <ul>
+            <li>Coordinated with multiple departments to organize over 25 internal events and team-building activities.</li>
+            <li>Managed floor-level logistics including decoration, catering, and client walkthroughs.</li>
+            <li>Ensured compliance with safety standards and seating arrangements across multiple teams.</li>
+          </ul>
+        </div>
 
+      </div>
+
+      <!-- Right Column -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+  <h3 class="resume-title"><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
+
+<!-- Technical Professional Experience -->
+<h3 class="resume-title"><i class="bi bi-code-slash me-2"></i>Technical Professional Experience</h3>
+
+<!-- System Engineer Position -->
+<div class="resume-item">
+  <div class="experience-header">
+    <div class="experience-title">
+      <i class="bi bi-briefcase-fill experience-icon"></i>
+      <h4>System Engineer</h4>
+    </div>
+    <div class="experience-meta">
+      <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2023 - Oct 2024 · 1 yr 5 mos</span>
+    </div>
+  </div>
+  <div class="experience-company">
+    <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+    <p><em>Tata Consultancy Services</em></p>
+    <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · On-site</span>
+  </div>
+  <p><strong>🛠 Tools & Technologies:</strong> Oracle Siebel CRM, Oracle SQL, Java, JavaScript, HTML, CSS, LUMOS, Git, Jenkins, JIRA, MS Excel</p>
+  <ul>
+    <li>Led the development of 25+ business user stories for British Telecom, enhancing the experience of 10M+ users, reducing requirement changes by 15% 📊.</li>
+    <li>Designed & tested technical solutions, improving impact assessments and reducing testing time by 30% ⚙️.</li>
+    <li>Ensured 99.5% system uptime by resolving critical production issues across multiple environments 🔄.</li>
+    <li>Collaborated with cross-functional teams to enhance system performance by 15% 🤝.</li>
+    <li>Onboarded & mentored 50+ new team members and organized 25+ company events, increasing engagement by 20% 🎯.</li>
+  </ul>
+  <p><strong>🏆 Awards & Recognitions:</strong></p>
+  <ul>
+    <li>🏅 Service and Commitment Award – Jun 2024</li>
+    <li>🏅 Rising Star Award – October 2023</li>
+  </ul>
+</div>
+
+<!-- Assistant System Engineer Position -->
+<div class="resume-item">
+  <div class="experience-header">
+    <div class="experience-title">
+      <i class="bi bi-briefcase-fill experience-icon"></i>
+      <h4>Assistant System Engineer</h4>
+    </div>
+    <div class="experience-meta">
+      <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2022 - May 2023 · 1 yr</span>
+    </div>
+  </div>
+  <div class="experience-company">
+    <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+    <p><em>Tata Consultancy Services</em></p>
+    <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Hybrid</span>
+  </div>
+  <p><strong>🛠 Tools & Technologies:</strong> Oracle Siebel CRM, Oracle SQL, Java, JavaScript, HTML, CSS, GitHub, JIRA, Jenkins</p>
+  <ul>
+    <li>Developed & deployed high-impact software solutions, reducing high-risk bugs by 25% and boosting system reliability 📈.</li>
+    <li>Conducted root cause analysis for production incidents, ensuring smooth deployments & minimal downtime 🔍.</li>
+    <li>Automated testing & deployment processes, increasing efficiency and reducing manual efforts ⚡.</li>
+    <li>Collaborated closely with clients & stakeholders to refine project requirements and implement seamless solutions 🤖.</li>
+  </ul>
+  <p><strong>🏆 Awards & Recognitions:</strong></p>
+  <ul>
+    <li>🏅 On-the-Spot Award – Nov 2022</li>
+    <li>🏅 On-the-Spot Award – Oct 2022</li>
+    <li>🏅 AIP Anchor Award – Jul 2022</li>
+    <li>🏅 On-the-Spot Award – Jun 2022</li>
+  </ul>
+</div>
+
+<!-- Assistant System Engineer Trainee Position -->
+<div class="resume-item">
+  <div class="experience-header">
+    <div class="experience-title">
+      <i class="bi bi-briefcase-fill experience-icon"></i>
+      <h4>Assistant System Engineer Trainee</h4>
+    </div>
+    <div class="experience-meta">
+      <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2021 - May 2022 · 1 yr</span>
+    </div>
+  </div>
+  <div class="experience-company">
+    <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+    <p><em>Tata Consultancy Services</em></p>
+    <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Remote</span>
+  </div>
+  <p><strong>🛠 Tools & Technologies:</strong> Git, JIRA, Java, SQL, HTML, CSS</p>
+  <ul>
+    <li>Supported feature development & bug fixes, contributing to major product releases 🔄.</li>
+    <li>Participated in code reviews & debugging, improving app performance & stability 🛠️.</li>
+    <li>Worked in Agile teams, gaining hands-on experience in sprint planning & requirement analysis 📅.</li>
+    <li>Assisted internal teams with documentation, impact analysis, and knowledge sharing 📖.</li>
+  </ul>
+</div>
+
+
+  <!-- IJREAM Internship -->
+  <div class="resume-item">
+    <h4>Full Stack Developer [Internship]</h4>
+    <h5>Jan 2021 - Mar 2021</h5>
+    <p><em>IJREAM, Thane, MH</em></p>
+    <ul>
+      <li>Redesigned research publication site, optimizing user flow.</li>
+      <li>Replaced manual submission with automated online systems.</li>
+      <li>Implemented modules using HTML, CSS, PHP, and Ajax.</li>
+    </ul>
+  </div>
+
+  <!-- MindScript Android -->
+  <div class="resume-item">
+    <h4>Android Developer [Internship]</h4>
+    <h5>Dec 2019 - Mar 2020</h5>
+    <p><em>MindScript, Thane, MH</em></p>
+    <ul>
+      <li>Built an event module in the Mobisportz app using Android Studio.</li>
+      <li>Integrated YouTube APIs for video content.</li>
+    </ul>
+  </div>
+
+  <!-- MindScript Web -->
+  <div class="resume-item">
+    <h4>Web Developer [Internship]</h4>
+    <h5>Jun 2019 - Nov 2019</h5>
+    <p><em>MindScript, Thane, MH</em></p>
+    <ul>
+      <li>Created responsive web event section using HTML, CSS, JS, Bootstrap.</li>
+      <li>Enhanced UI/UX for seamless visitor interaction.</li>
+    </ul>
+  </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+            
           </div>
 
         </div>
@@ -251,162 +449,24 @@
 
     </section><!-- /Resume Section -->
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
-              </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Eosle Commodi</h3>
-              </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Ledo Markt</h3>
-              </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
-              </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Velit Doloremque</h3>
-              </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Dolori Architecto</h3>
-              </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section accent-background">
-
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">232</span>
-              <p>Clients</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="0" class="purecounter">521</span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0" class="purecounter">1453</span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0" class="purecounter">32</span>
-              <p>Awards</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+        <h2>Projects</h2>
+        <p>Showcasing My Technical Expertise Through Real-World Applications</p>
+      </div>
 
       <div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
+            <li data-filter=".filter-web">Web Apps</li>
+            <li data-filter=".filter-cloud">Cloud</li>
+            <li data-filter=".filter-ml">Machine Learning</li>
+            <li data-filter=".filter-mobile">Mobile</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -668,118 +728,130 @@
 
     </section><!-- /Faq Section -->
 
+
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section accent-background">
 
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+  
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  
+<section id="testimonials" class="testimonials section accent-background">
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2>Recommendations</h2>
+</div><!-- End Section Title -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+  <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+      <div class="swiper-wrapper">
 
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/manish.jpeg" class="testimonial-img" alt="">
+            <h3>Manish Dixit</h3>
+            <h4>Solution Designer, Certified Business Analyst, PSM 1, PSPO 2 [TCS]</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>I had the opportunity to work with Ritesh over a period of 2.5 years and found him to be a highly dedicated and focused individual. His ability to grasp new concepts quickly, combined with a keen eye for detail, contributed to a steep and consistent learning curve. He is receptive to feedback, demonstrates a positive attitude, and remains committed to personal and professional growth. Ritesh also brings strong interpersonal and social skills to the table, enabling smooth collaboration within teams. His passion for his work, openness to learning, and reliability make him a valuable addition to any organization. I am confident he will be an asset wherever he goes and wish him continued success in all his future endeavors.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
           </div>
-          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/nilesh.jpeg" class="testimonial-img" alt="">
+            <h3>Nilesh Mangnakar</h3>
+            <h4>CO-FOUNDER NOVASLATE INC. & Freelancer</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>I have guided and worked with Ritesh on a few IT projects. While working on these projects, I got to know Ritesh better in person. Ritesh is a highly determined individual who knows how to get things done. He is punctual, dependable, and a good team leader. One thing I admire the most in him is the way he keeps his team together and leads them with confidence. I have loved working with him and guiding him and I have immense confidence in his abilities. I would recommend Ritesh for any position he is applying for. I wish him all the best in his future endeavors.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/reena.jpeg" class="testimonial-img" alt="">
+            <h3>Dr. Reena Lokare</h3>
+            <h4>Asst. Professor [KJSIEIT]</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>I am proud teacher of my bright student Ritesh. He has shown his logical and coding skills since his second year of engineering itself. Mini projects developed by Ritesh during engineering was converted into real life applications. He is quick learner, techno savvy, full of ideas and a person with broad vision. He is a great leader! Any organisation will be happy to have a gem like Ritesh! I wish my best wishes for a bright future Ritesh!</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/deepak.jpeg" class="testimonial-img" alt="">
+            <h3>Deepak Vijendran</h3>
+            <h4>Transformation Consultant & Program Manager [TCS]</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Ritesh is an excellent Siebel resource with good technical skills in UI, scripting & web development. He has an eye for detail and a quick learner to be able to adapt to any new technology. Would recommend him for software technology roles.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/Raghu.jpeg" class="testimonial-img" alt="">
+            <h3>Raghunandan Sharma</h3>
+            <h4>Associate Consultant [TCS]</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>As a Siebel Architect and Ritesh’s manager for three years at TCS, I had the pleasure of seeing his valuable contributions to our team and client. Ritesh consistently demonstrated strong technical skills in tools like Oracle Siebel CRM, SQL, Java, JavaScript, HTML, CSS, Git, Jenkins, and Jira. His proactive approach led to real improvements in customer experience, product quality, and team productivity. Some of his notable achievements include leading a successful Siebel product migration, optimizing testing processes, and conducting thorough root-cause analyses to ensure reliable system uptime. Ritesh’s efforts were frequently recognized with awards such as the Rising Star Award and Best Team Award. He is a dedicated and skilled professional, and I highly recommend him for future roles.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
         </div>
 
       </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
 
-    </section><!-- /Testimonials Section -->
+</section><!-- /Testimonials Section -->
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -787,7 +859,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -800,7 +871,7 @@
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>10606 Kitty Pozer Dr Apt E, Fairfax, VA 22030</p>
                 </div>
               </div>
             </div><!-- End Info Item -->
@@ -809,8 +880,8 @@
               <div class="info-item d-flex align-items-center">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
+                  <h3>Call Me</h3>
+                  <p>+1 (571)604-1043</p>
                 </div>
               </div>
             </div><!-- End Info Item -->
@@ -819,8 +890,8 @@
               <div class="info-item d-flex align-items-center">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
+                  <h3>Email Me</h3>
+                  <p>ritesh.sandbhor14@gmail.com</p>
                 </div>
               </div>
             </div><!-- End Info Item -->
@@ -868,21 +939,17 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright 2025</span> <strong class="px-1 sitename">Ritesh Sandbhor Portfolio</strong></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/riteshsandbhor/"><i class="bi bi-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/riteshsandbhor" class="github"><i class="bi bi-github"></i></a>
+        
+        <a target="_blank" href="https://www.facebook.com/ritesh.sandbhorpatil1999/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a target="_blank" href="https://www.instagram.com/ritesh_sandbhor_patil_1999/"><i class="bi bi-instagram"></i></a>
+        <a target="_blank" href="https://x.com/RSandbh" class="twitter"><i class="bi bi-twitter-x"></i></a>
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
-      </div>
+    
     </div>
 
   </footer>

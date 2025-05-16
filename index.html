@@ -133,7 +133,93 @@
 
     <!-- ======= Hero Section ======= -->
     <style>
-      /* Hero Section Enhancements */
+      /* Education Section Enhancements */
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.education-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.education-icon {
+  color: #0563bb;
+  font-size: 1.5em;
+}
+
+.education-meta {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.education-year {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #45505b;
+}
+
+.education-gpa {
+  background: linear-gradient(45deg, #0563bb, #3e8da8);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
+
+.semester-block {
+  margin-top: 20px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid #0563bb;
+}
+
+.semester-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.course-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.course-list li {
+  margin-bottom: 8px;
+  color: #45505b;
+}
+
+.skills-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-container li {
+  margin-bottom: 15px;
+}
+
+.category {
+  color: #0563bb;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.experience {
+  margin-top: 15px;
+  font-style: italic;
+  color: #666;
+}
+
+/* Hero Section Enhancements */
       #hero {
         background-image: url("assets/img/hero-bg.jpg");
         background-size: cover;
@@ -620,7 +706,7 @@
             </div>
           </div>
           <div class="education-school">
-            <img src="assets/img/George_Mason_University_logo.svg.png" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">             
+            <img src="assets/img/George_Mason_University_logo.svg.png" alt="George Mason University" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">             
             <p><em><a href="https://www.linkedin.com/school/george-mason-university/" target="_blank" class="education-link">George Mason University, Fairfax, VA</a></em></p>
           </div>
 
@@ -628,50 +714,106 @@
             <div class="semester-block" data-aos="fade-up">
               <div class="semester-header">
                 <i class="bi bi-bookmark-star-fill"></i>
-                <h5>Relevant Coursework</h5>
+                <h5>Semester 1 <span class="gpa">(GPA: 3.67/4.0)</span></h5>
               </div>
-              <div class="course-list">
-                <div class="course-item">Database Systems</div>
-                <div class="course-item">Web Development</div>
-                <div class="course-item">Cloud Computing</div>
-                <div class="course-item">Data Structures</div>
-                <div class="course-item">Information Security</div>
+              <ul class="course-list">
+                <li>CS 550: Database Systems</li>
+                <li>CS 530: Mathematical Foundations of Computer Science</li>
+                <li>CS 531: Computer Systems and Fundamentals of Systems Programming</li>
+              </ul>
+            </div>
+
+            <div class="semester-block" data-aos="fade-up">
+              <div class="semester-header">
+                <i class="bi bi-bookmark-star-fill"></i>
+                <h5>Semester 2 <span class="gpa">(In Progress)</span></h5>
               </div>
+              <ul class="course-list">
+                <li>CS 583: Analysis of Algorithms</li>
+                <li>SWE 642: Software Engineering for the World Wide Web</li>
+                <li>ISA 681: Secure Software Design and Programming</li>
+              </ul>
             </div>
           </div>
         </div>
 
         <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
-          <!-- Master's Degree Section -->
+          <!-- Bachelor's Degree Section -->
           <div class="education-header">
             <div class="education-title">
               <i class="bi bi-mortarboard-fill education-icon"></i>
-              <h4>Baechlor of Engineering in Information Technology</h4>
+              <h4>Bachelor of Engineering in Information Technology</h4>
             </div>
             <div class="education-meta">
               <span class="education-year"><i class="bi bi-calendar3"></i> Aug 2017 - Jun 2021</span>
-              <span class="education-gpa">GPA: 8.47/10</span>
+              <span class="education-gpa">CGPA: 8.47/10</span>
             </div>
           </div>
           <div class="education-school">
-            <img src="assets/img/mumbai.jpeg" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">             
-            <p><em>University of Mumbai, Mumbai, MH, IND</em></p>
+            <img src="assets/img/mumbai.jpeg" alt="K. J. Somaiya Institute" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">             
+            <p><em>K. J. Somaiya Institute of Engineering and IT, Mumbai, MH</em></p>
           </div>
 
-          <div class="coursework">
-            <div class="semester-block" data-aos="fade-up">
-              <div class="semester-header">
-                <i class="bi bi-bookmark-star-fill"></i>
-                <h5>Relevant Coursework</h5>
-              </div>
-              <div class="course-list">
-                <div class="course-item">Python</div>
-                <div class="course-item">Artificial Intelligence</div>
-                <div class="course-item">Cloud Computing</div>
-                <div class="course-item">Big Data</div>
-                <div class="course-item">Object Oriented Programming</div>
-              </div>
+          <div class="skills-container">
+            <ul>
+              <li>
+                <span class="category">📌 Software Development:</span>
+                Java, Python, C, Data Structures, Web Technologies, Mobile App Development, DevOps
+              </li>
+              <li>
+                <span class="category">📌 Data Analytics & Machine Learning:</span>
+                Big Data Analytics, Data Mining, Business Intelligence, Artificial Intelligence
+              </li>
+              <li>
+                <span class="category">📌 Systems & Security:</span>
+                Database Management Systems (DBMS), Operating Systems, Cryptography, Network Security, Internet of Things (IoT)
+              </li>
+            </ul>
+
+            <p class="experience">
+              Gained hands-on experience in building scalable applications, analyzing large datasets, and developing
+              secure systems, equipping me with the skills necessary for software and data-focused roles.
+            </p>
+          </div>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="150">
+          <!-- Higher Secondary Education Section -->
+          <div class="education-header">
+            <div class="education-title">
+              <i class="bi bi-mortarboard-fill education-icon"></i>
+              <h4>Higher Secondary Education</h4>
             </div>
+            <div class="education-meta">
+              <span class="education-year"><i class="bi bi-calendar3"></i> 2015 - 2017</span>
+              <span class="education-gpa">Grade: 76.77%</span>
+            </div>
+          </div>
+          <div class="education-school">
+            <p><em>Pace Junior Science College, Thane, MH</em></p>
+          </div>
+          <div class="skills-container">
+            <p>Completed HSC with a focus on science and mathematics, building a strong foundation in analytical and problem-solving skills.</p>
+            <ul>
+              <li>Developed a deep understanding of scientific principles and mathematical concepts, fostering problem-solving abilities and logical thinking.</li>
+              <li>Acquired practical knowledge in technical and environmental subjects, while also strengthening communication and analytical skills.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="200">
+          <!-- Secondary Education Section -->
+          <div class="education-header">
+            <div class="education-title">
+              <i class="bi bi-mortarboard-fill education-icon"></i>
+              <h4>Secondary Education</h4>
+            </div>
+            <div class="education-meta">
+              <span class="education-year"><i class="bi bi-calendar3"></i> 2014 - 2015</span>
+            </div>
+          </div>
+          <div class="education-school">
+            <p><em>Saraswati Secondary School, Thane, MH</em></p>
           </div>
         </div>
       
