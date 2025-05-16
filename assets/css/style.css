@@ -79,7 +79,7 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 250px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   padding: 0 15px;
@@ -732,10 +732,11 @@ section.section-show {
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
-  margin-top: -2px;
+  padding-right: 20px;
   border-left: 2px solid #1f5297;
   position: relative;
 }
+
 
 .resume .resume-item h4 {
   line-height: 18px;
