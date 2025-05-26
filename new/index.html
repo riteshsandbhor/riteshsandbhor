@@ -20,9 +20,10 @@
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
   
   <!-- Particles.js -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -197,7 +198,7 @@
     <section id="hero" class="hero section dark-background">
       <div id="particles-js"></div>
       <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-        <h2 class="glitch-text">Ritesh Sandbhor</h2>
+        <h2 class="glitch-text">Ritesh Sanjay Sandbhor</h2>
         <p><span class="typed" data-typed-items="Full Stack Developer, Cloud Practitioner, Problem Solver"></span></p>
       </div>
     </section><!-- /Hero Section -->
@@ -221,7 +222,7 @@
               <img src="assets/img/profile-img.jpg" class="img-fluid rounded shadow" alt="Profile Image" style="max-width: 300px; width: 100%;">
             </div>
             <div class="about-info p-3 bg-light rounded shadow-sm">
-              <p><i class="bi bi-person-fill me-2"></i><strong>Name: </strong> <span>Ritesh Sandbhor</span></p>
+              <p><i class="bi bi-person-fill me-2"></i><strong>Name: </strong> <span>Ritesh Sanjay Sandbhor</span></p>
               <p><i class="bi bi-briefcase-fill me-2"></i><strong>Profile: </strong> <span>Full Stack Developer</span></p>
               <p><i class="bi bi-envelope-fill me-2"></i><strong>Email: </strong> <span>riteshsandbhor1999@gmail.com</span></p>
               <p><i class="bi bi-geo-alt-fill me-2"></i><strong>Location: </strong> <span>Fairfax, Virginia</span></p>
@@ -249,6 +250,11 @@
 
 
 
+
+
+
+
+    
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
       <div class="container">
@@ -360,118 +366,314 @@
 
         <h3 class="resume-title"><i class="bi bi-mortarboard me-2"></i>Education</h3>
 
-        <!-- Master's -->
-        <div class="resume-item">
-          <h4>Master of Science in Computer Science</h4>
-          <h5>2024 - 2026</h5>
-          <p><em>George Mason University, Fairfax, VA</em></p>
-          <h5 class="gradescolour">GPA: 3.67/4</h5>
-          <p>📌 Semester 1: <span class="gpa">(GPA: 3.67/4.0)</span></p>
-          <ul>
-            <li>CS 550: Database Systems</li>
-            <li>CS 530: Mathematical Foundations of Computer Science</li>
-            <li>CS 531: Computer Systems and Fundamentals of Systems Programming</li>
-          </ul>
-          <p>📌 Semester 2: <span class="gpa">(In Progress)</span></p>
-          <ul>
-            <li>CS 583: Analysis of Algorithms</li>
-            <li>SWE 642: Software Engineering for the World Wide Web</li>
-            <li>ISA 681: Secure Software Design and Programming</li>
-          </ul>
-        </div>
+<!-- Master's -->
+         <div class="timeline-item">
+           <div class="timeline-icon">
+             <i class="bi bi-bank"></i>
+           </div>
+           <div class="education-card" data-bs-toggle="modal" data-bs-target="#mastersDegreeModal">
+             <div class="education-card-content">
+               <h4>Master of Science in Computer Science</h4>
+               <h5>2024 - 2026</h5>
+               <p><em>George Mason University, Fairfax, VA</em></p>
+               <h5 class="gradescolour">GPA: 3.67/4</h5>
+               <div class="card-hover-hint">Click for details</div>
+             </div>
+           </div>
+         </div>
+
+         <!-- Master's Degree Modal -->
+         <div class="modal fade" id="mastersDegreeModal" tabindex="-1" aria-labelledby="mastersDegreeModalLabel" aria-hidden="true">
+           <div class="modal-dialog modal-dialog-centered">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="mastersDegreeModalLabel">Master of Science in Computer Science</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                 <p><em>George Mason University, Fairfax, VA</em></p>
+                 <h5 class="gradescolour">GPA: 3.67/4</h5>
+                 <p>📌 Semester 1: <span class="gpa">(GPA: 3.67/4.0)</span></p>
+                 <ul>
+                   <li>CS 550: Database Systems</li>
+                   <li>CS 530: Mathematical Foundations of Computer Science</li>
+                   <li>CS 531: Computer Systems and Fundamentals of Systems Programming</li>
+                 </ul>
+                 <p>📌 Semester 2: <span class="gpa">(In Progress)</span></p>
+                 <ul>
+                   <li>CS 583: Analysis of Algorithms</li>
+                   <li>SWE 642: Software Engineering for the World Wide Web</li>
+                   <li>ISA 681: Secure Software Design and Programming</li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+         </div>
 
         <!-- Bachelor's -->
-        <div class="resume-item">
-          <h4>Bachelor of Engineering in Information Technology</h4>
-          <h5>2017 - 2021</h5>
-          <p><em>K. J. Somaiya Institute of Engineering and IT, Mumbai, MH</em></p>
-          <h5 class="gradescolour">CGPA: 8.47/10</h5>
-          <ul>
-            <li><strong>Software Development:</strong> Java, Python, C, Web Tech, DevOps</li>
-            <li><strong>Data Analytics & AI:</strong> Big Data, ML, AI, BI</li>
-            <li><strong>Systems & Security:</strong> DBMS, OS, Cryptography, IoT</li>
-          </ul>
-          <p class="experience">Gained hands-on experience building scalable applications and secure systems for real-world deployment.</p>
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="bi bi-bank"></i>
+          </div>
+          <div class="education-card" data-bs-toggle="modal" data-bs-target="#bachelorsDegreeModal">
+            <div class="education-card-content">
+              <h4>Bachelor of Engineering in Information Technology</h4>
+              <h5>2017 - 2021</h5>
+              <p><em>K. J. Somaiya Institute of Engineering and IT, Mumbai, MH</em></p>
+              <h5 class="gradescolour">CGPA: 8.47/10</h5>
+              <div class="card-hover-hint">Click for details</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bachelor's Degree Modal -->
+        <div class="modal fade" id="bachelorsDegreeModal" tabindex="-1" aria-labelledby="bachelorsDegreeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="bachelorsDegreeModalLabel">Bachelor of Engineering in Information Technology</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p><em>K. J. Somaiya Institute of Engineering and IT, Mumbai, MH</em></p>
+                <h5 class="gradescolour">CGPA: 8.47/10</h5>
+                <ul>
+                  <li><strong>Software Development:</strong> Java, Python, C, Web Tech, DevOps</li>
+                  <li><strong>Data Analytics & AI:</strong> Big Data, ML, AI, BI</li>
+                  <li><strong>Systems & Security:</strong> DBMS, OS, Cryptography, IoT</li>
+                </ul>
+                <p class="experience">Gained hands-on experience building scalable applications and secure systems for real-world deployment.</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- HSC -->
-        <div class="resume-item">
-          <h4>Higher Secondary Education</h4>
-          <h5>2015 - 2017</h5>
-          <p><em>Pace Junior Science College, Thane, MH</em></p>
-          <h5 class="gradescolour">Grade: 76.77%</h5>
-          <ul>
-            <li>Built a strong foundation in analytical and problem-solving skills.</li>
-            <li>Focused on mathematics, physics, and logical thinking development.</li>
-          </ul>
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="bi bi-mortarboard"></i>
+          </div>
+          <div class="education-card" data-bs-toggle="modal" data-bs-target="#hscModal">
+            <div class="education-card-content">
+              <h4>Higher Secondary Education</h4>
+              <h5>2015 - 2017</h5>
+              <p><em>Pace Junior Science College, Thane, MH</em></p>
+              <h5 class="gradescolour">Grade: 76.77%</h5>
+              <div class="card-hover-hint">Click for details</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HSC Modal -->
+        <div class="modal fade" id="hscModal" tabindex="-1" aria-labelledby="hscModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="hscModalLabel">Higher Secondary Education</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p><em>Pace Junior Science College, Thane, MH</em></p>
+                <h5 class="gradescolour">Grade: 76.77%</h5>
+                <ul>
+                  <li>Built a strong foundation in analytical and problem-solving skills.</li>
+                  <li>Focused on mathematics, physics, and logical thinking development.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- SSC -->
-        <div class="resume-item">
-          <h4>Secondary Education</h4>
-          <h5>2014 - 2015</h5>
-          <p><em>Guru Nanak English High School, Thane, MH</em></p>
-          <h5 class="gradescolour">Grade: 89.40%</h5>
-          <ul>
-            <li>Balanced academic excellence with technical and soft skill development.</li>
-            <li>Gained experience in leadership and extracurriculars.</li>
-          </ul>
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="bi bi-mortarboard"></i>
+          </div>
+          <div class="education-card" data-bs-toggle="modal" data-bs-target="#sscModal">
+            <div class="education-card-content">
+              <h4>Secondary Education</h4>
+              <h5>2014 - 2015</h5>
+              <p><em>Guru Nanak English High School, Thane, MH</em></p>
+              <h5 class="gradescolour">Grade: 89.40%</h5>
+              <div class="card-hover-hint">Click for details</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SSC Modal -->
+        <div class="modal fade" id="sscModal" tabindex="-1" aria-labelledby="sscModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="sscModalLabel">Secondary Education</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p><em>Guru Nanak English High School, Thane, MH</em></p>
+                <h5 class="gradescolour">Grade: 89.40%</h5>
+                <ul>
+                  <li>Balanced academic excellence with technical and soft skill development.</li>
+                  <li>Gained experience in leadership and extracurriculars.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Non-Technical Experience -->
         <h3 class="resume-title mt-4"><i class="bi bi-person-workspace me-2"></i>Non-Technical Experience</h3>
 
         <!-- Manager on Duty -->
-        <div class="resume-item">
-          <div class="experience-header">
-            <div class="experience-title">
-              <i class="bi bi-briefcase-fill experience-icon"></i>
-              <h4>Manager on Duty</h4>
-            </div>
-            <div class="experience-meta">
-              <span class="experience-year"><i class="bi bi-calendar3"></i> Apr 2025 - Present</span>
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="bi bi-briefcase-fill"></i>
+          </div>
+          <div class="education-card" data-bs-toggle="modal" data-bs-target="#managerModal">
+            <div class="education-card-content">
+              <div class="experience-header">
+                <div class="experience-title">
+                  <h4>Manager on Duty</h4>
+                </div>
+                <div class="experience-meta">
+                  <span class="experience-year"><i class="bi bi-calendar3"></i> Apr 2025 - Present</span>
+                </div>
+              </div>
+              <div class="experience-company">
+                <img src="assets/img/freedom-center-logo.png" alt="Freedom Aquatic & Fitness Center" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+                <p><em>Freedom Aquatic & Fitness Center</em></p>
+                <span class="experience-location"><i class="bi bi-geo-alt"></i> Manassas, Virginia, United States · On-site</span>
+              </div>
+              <div class="card-hover-hint">Click for details</div>
             </div>
           </div>
-          <div class="experience-company">
-            <img src="assets/img/freedom-center-logo.png" alt="Freedom Aquatic & Fitness Center" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
-            <p><em>Freedom Aquatic & Fitness Center</em></p>
-            <span class="experience-location"><i class="bi bi-geo-alt"></i> Manassas, Virginia, United States · On-site</span>
+        </div>
+
+        <!-- Manager Modal -->
+        <div class="modal fade" id="managerModal" tabindex="-1" aria-labelledby="managerModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="managerModalLabel">Manager on Duty at Freedom Aquatic & Fitness Center</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="experience-company mb-3">
+                  <img src="assets/img/freedom-center-logo.png" alt="Freedom Aquatic & Fitness Center" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+                  <p><em>Freedom Aquatic & Fitness Center</em></p>
+                  <span class="experience-location"><i class="bi bi-geo-alt"></i> Manassas, Virginia, United States · On-site</span>
+                </div>
+                <p>As a Manager on Duty at one of Northern Virginia's largest recreational facilities Freedom Aquatic & Fitness Center (110,000 sq. ft.), I oversee early morning, evening, and weekend operations to ensure the safety, efficiency, and overall quality of the guest experience. I supervise part-time staff, enforce policies, and provide high-level customer service while managing daily operations in alignment with Mason's health and wellness mission.</p>
+                <p><strong>Key Responsibilities:</strong></p>
+                <ul>
+                  <li>Supervise the facility during assigned shifts.</li>
+                  <li>Provide exceptional customer service, responding to inquiries and resolving conflicts with professionalism and clarity.</li>
+                  <li>Monitor and enforce facility rules and safety protocols to protect patrons and assets.</li>
+                  <li>Oversee daily open and close procedures, including cash handling, drawer reconciliation, and credit card settlements using Fusion RMS, FreedomPay, and Elavon systems.</li>
+                  <li>Submit incident and accident reports, staff communications, and asset logs.</li>
+                  <li>Conduct hourly rounds to ensure equipment functionality, staff conduct, and patron safety.</li>
+                  <li>Support event operations by coordinating with Event Supervisors and assisting with facility transitions during special programming.</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <p>As a Manager on Duty at one of Northern Virginia's largest recreational facilities Freedom Aquatic & Fitness Center (110,000 sq. ft.), I oversee early morning, evening, and weekend operations to ensure the safety, efficiency, and overall quality of the guest experience. I supervise part-time staff, enforce policies, and provide high-level customer service while managing daily operations in alignment with Mason's health and wellness mission.</p>
-          <p><strong>Key Responsibilities:</strong></p>
-          <ul>
-            <li>Supervise the facility during assigned shifts.</li>
-            <li>Provide exceptional customer service, responding to inquiries and resolving conflicts with professionalism and clarity.</li>
-            <li>Monitor and enforce facility rules and safety protocols to protect patrons and assets.</li>
-            <li>Oversee daily open and close procedures, including cash handling, drawer reconciliation, and credit card settlements using Fusion RMS, FreedomPay, and Elavon systems.</li>
-            <li>Submit incident and accident reports, staff communications, and asset logs.</li>
-            <li>Conduct hourly rounds to ensure equipment functionality, staff conduct, and patron safety.</li>
-            <li>Support event operations by coordinating with Event Supervisors and assisting with facility transitions during special programming.</li>
-          </ul>
         </div>
 
         <!-- Fitness Attendant -->
-        <div class="resume-item">
-          <h4>Fitness Attendant</h4>
-          <h5>Jan 2025 - Present</h5>
-          <p><em>Mason Recreation, George Mason University, Fairfax, VA</em></p>
-          <ul>
-            <li>Supervised gym floor, ensuring safety and cleanliness of equipment used by 200+ daily visitors.</li>
-            <li>Assisted students and staff with exercise equipment and guided them on proper form and usage.</li>
-            <li>Performed daily checks and maintenance on all workout machines and weights.</li>
-          </ul>
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="bi bi-briefcase-fill"></i>
+          </div>
+          <div class="education-card" data-bs-toggle="modal" data-bs-target="#fitnessModal">
+            <div class="education-card-content">
+              <div class="experience-header">
+                <div class="experience-title">
+                  <h4>Fitness Attendant</h4>
+                </div>
+                <div class="experience-meta">
+                  <span class="experience-year"><i class="bi bi-calendar3"></i> Jan 2025 - Present</span>
+                </div>
+              </div>
+              <div class="experience-company">
+                <img src="assets/img/gmu-logo.png" alt="George Mason University" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+                <p><em>Mason Recreation, George Mason University</em></p>
+                <span class="experience-location"><i class="bi bi-geo-alt"></i> Fairfax, Virginia, United States · On-site</span>
+              </div>
+              <div class="card-hover-hint">Click for details</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fitness Modal -->
+        <div class="modal fade" id="fitnessModal" tabindex="-1" aria-labelledby="fitnessModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="fitnessModalLabel">Fitness Attendant at Mason Recreation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="experience-company mb-3">
+                  <img src="assets/img/gmu-logo.png" alt="George Mason University" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+                  <p><em>Mason Recreation, George Mason University</em></p>
+                  <span class="experience-location"><i class="bi bi-geo-alt"></i> Fairfax, Virginia, United States · On-site</span>
+                </div>
+                <ul>
+                  <li>Supervised gym floor, ensuring safety and cleanliness of equipment used by 200+ daily visitors.</li>
+                  <li>Assisted students and staff with exercise equipment and guided them on proper form and usage.</li>
+                  <li>Performed daily checks and maintenance on all workout machines and weights.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Floor Marshal -->
-        <div class="resume-item">
-          <h4>Floor Marshal</h4>
-          <h5>Jul 2020 - Jun 2022</h5>
-          <p><em>Tata Consultancy Services, Pune, MH</em></p>
-          <ul>
-            <li>Coordinated with multiple departments to organize over 25 internal events and team-building activities.</li>
-            <li>Managed floor-level logistics including decoration, catering, and client walkthroughs.</li>
-            <li>Ensured compliance with safety standards and seating arrangements across multiple teams.</li>
-          </ul>
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="bi bi-briefcase-fill"></i>
+          </div>
+          <div class="education-card" data-bs-toggle="modal" data-bs-target="#marshalModal">
+            <div class="education-card-content">
+              <div class="experience-header">
+                <div class="experience-title">
+                  <h4>Floor Marshal</h4>
+                </div>
+                <div class="experience-meta">
+                  <span class="experience-year"><i class="bi bi-calendar3"></i> Jul 2020 - Jun 2022</span>
+                </div>
+              </div>
+              <div class="experience-company">
+                <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+                <p><em>Tata Consultancy Services</em></p>
+                <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · On-site</span>
+              </div>
+              <div class="card-hover-hint">Click for details</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marshal Modal -->
+        <div class="modal fade" id="marshalModal" tabindex="-1" aria-labelledby="marshalModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="marshalModalLabel">Floor Marshal at Tata Consultancy Services</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="experience-company mb-3">
+                  <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+                  <p><em>Tata Consultancy Services</em></p>
+                  <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · On-site</span>
+                </div>
+                <ul>
+                  <li>Coordinated with multiple departments to organize over 25 internal events and team-building activities.</li>
+                  <li>Managed floor-level logistics including decoration, catering, and client walkthroughs.</li>
+                  <li>Ensured compliance with safety standards and seating arrangements across multiple teams.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -484,126 +686,318 @@
 <h3 class="resume-title"><i class="bi bi-code-slash me-2"></i>Technical Professional Experience</h3>
 
 <!-- System Engineer Position -->
-<div class="resume-item">
-  <div class="experience-header">
-    <div class="experience-title">
-      <i class="bi bi-briefcase-fill experience-icon"></i>
-      <h4>System Engineer</h4>
-    </div>
-    <div class="experience-meta">
-      <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2023 - Oct 2024 · 1 yr 5 mos</span>
+<div class="timeline-item">
+  <div class="timeline-icon">
+    <i class="bi bi-briefcase-fill"></i>
+  </div>
+  <div class="education-card" data-bs-toggle="modal" data-bs-target="#systemEngineerModal">
+    <div class="education-card-content">
+      <div class="experience-header">
+        <div class="experience-title">
+          <h4>System Engineer</h4>
+        </div>
+        <div class="experience-meta">
+          <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2023 - Oct 2024 · 1 yr 5 mos</span>
+        </div>
+      </div>
+      <div class="experience-company">
+        <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+        <p><em>Tata Consultancy Services</em></p>
+        <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · On-site</span>
+      </div>
+      <div class="card-hover-hint">Click for details</div>
     </div>
   </div>
-  <div class="experience-company">
-    <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
-    <p><em>Tata Consultancy Services</em></p>
-    <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · On-site</span>
+</div>
+
+<!-- System Engineer Modal -->
+<div class="modal fade" id="systemEngineerModal" tabindex="-1" aria-labelledby="systemEngineerModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="systemEngineerModalLabel">System Engineer at Tata Consultancy Services</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="experience-company mb-3">
+          <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+          <p><em>Tata Consultancy Services</em></p>
+          <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · On-site</span>
+        </div>
+        <p><strong>🛠 Tools & Technologies:</strong> Oracle Siebel CRM, Oracle SQL, Java, JavaScript, HTML, CSS, LUMOS, Git, Jenkins, JIRA, MS Excel</p>
+        <ul>
+          <li>Led the development of 25+ business user stories for British Telecom, enhancing the experience of 10M+ users, reducing requirement changes by 15% 📊.</li>
+          <li>Designed & tested technical solutions, improving impact assessments and reducing testing time by 30% ⚙️.</li>
+          <li>Ensured 99.5% system uptime by resolving critical production issues across multiple environments 🔄.</li>
+          <li>Collaborated with cross-functional teams to enhance system performance by 15% 🤝.</li>
+          <li>Onboarded & mentored 50+ new team members and organized 25+ company events, increasing engagement by 20% 🎯.</li>
+        </ul>
+        <p><strong>🏆 Awards & Recognitions:</strong></p>
+        <ul>
+          <li>🏅 Service and Commitment Award – Jun 2024</li>
+          <li>🏅 Rising Star Award – October 2023</li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <p><strong>🛠 Tools & Technologies:</strong> Oracle Siebel CRM, Oracle SQL, Java, JavaScript, HTML, CSS, LUMOS, Git, Jenkins, JIRA, MS Excel</p>
-  <ul>
-    <li>Led the development of 25+ business user stories for British Telecom, enhancing the experience of 10M+ users, reducing requirement changes by 15% 📊.</li>
-    <li>Designed & tested technical solutions, improving impact assessments and reducing testing time by 30% ⚙️.</li>
-    <li>Ensured 99.5% system uptime by resolving critical production issues across multiple environments 🔄.</li>
-    <li>Collaborated with cross-functional teams to enhance system performance by 15% 🤝.</li>
-    <li>Onboarded & mentored 50+ new team members and organized 25+ company events, increasing engagement by 20% 🎯.</li>
-  </ul>
-  <p><strong>🏆 Awards & Recognitions:</strong></p>
-  <ul>
-    <li>🏅 Service and Commitment Award – Jun 2024</li>
-    <li>🏅 Rising Star Award – October 2023</li>
-  </ul>
 </div>
 
 <!-- Assistant System Engineer Position -->
-<div class="resume-item">
-  <div class="experience-header">
-    <div class="experience-title">
-      <i class="bi bi-briefcase-fill experience-icon"></i>
-      <h4>Assistant System Engineer</h4>
-    </div>
-    <div class="experience-meta">
-      <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2022 - May 2023 · 1 yr</span>
+<div class="timeline-item">
+  <div class="timeline-icon">
+    <i class="bi bi-briefcase-fill"></i>
+  </div>
+  <div class="education-card" data-bs-toggle="modal" data-bs-target="#aseModal">
+    <div class="education-card-content">
+      <div class="experience-header">
+        <div class="experience-title">
+          <h4>Assistant System Engineer</h4>
+        </div>
+        <div class="experience-meta">
+          <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2022 - May 2023 · 1 yr</span>
+        </div>
+      </div>
+      <div class="experience-company">
+        <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+        <p><em>Tata Consultancy Services</em></p>
+        <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Hybrid</span>
+      </div>
+      <div class="card-hover-hint">Click for details</div>
     </div>
   </div>
-  <div class="experience-company">
-    <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
-    <p><em>Tata Consultancy Services</em></p>
-    <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Hybrid</span>
+</div>
+
+<!-- ASE Modal -->
+<div class="modal fade" id="aseModal" tabindex="-1" aria-labelledby="aseModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="aseModalLabel">Assistant System Engineer at Tata Consultancy Services</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="experience-company mb-3">
+          <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+          <p><em>Tata Consultancy Services</em></p>
+          <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Hybrid</span>
+        </div>
+        <p><strong>🛠 Tools & Technologies:</strong> Oracle Siebel CRM, Oracle SQL, Java, JavaScript, HTML, CSS, GitHub, JIRA, Jenkins</p>
+        <ul>
+          <li>Developed & deployed high-impact software solutions, reducing high-risk bugs by 25% and boosting system reliability 📈.</li>
+          <li>Conducted root cause analysis for production incidents, ensuring smooth deployments & minimal downtime 🔍.</li>
+          <li>Automated testing & deployment processes, increasing efficiency and reducing manual efforts ⚡.</li>
+          <li>Collaborated closely with clients & stakeholders to refine project requirements and implement seamless solutions 🤖.</li>
+        </ul>
+        <p><strong>🏆 Awards & Recognitions:</strong></p>
+        <ul>
+          <li>🏅 On-the-Spot Award – Nov 2022</li>
+          <li>🏅 On-the-Spot Award – Oct 2022</li>
+          <li>🏅 AIP Anchor Award – Jul 2022</li>
+          <li>🏅 On-the-Spot Award – Jun 2022</li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <p><strong>🛠 Tools & Technologies:</strong> Oracle Siebel CRM, Oracle SQL, Java, JavaScript, HTML, CSS, GitHub, JIRA, Jenkins</p>
-  <ul>
-    <li>Developed & deployed high-impact software solutions, reducing high-risk bugs by 25% and boosting system reliability 📈.</li>
-    <li>Conducted root cause analysis for production incidents, ensuring smooth deployments & minimal downtime 🔍.</li>
-    <li>Automated testing & deployment processes, increasing efficiency and reducing manual efforts ⚡.</li>
-    <li>Collaborated closely with clients & stakeholders to refine project requirements and implement seamless solutions 🤖.</li>
-  </ul>
-  <p><strong>🏆 Awards & Recognitions:</strong></p>
-  <ul>
-    <li>🏅 On-the-Spot Award – Nov 2022</li>
-    <li>🏅 On-the-Spot Award – Oct 2022</li>
-    <li>🏅 AIP Anchor Award – Jul 2022</li>
-    <li>🏅 On-the-Spot Award – Jun 2022</li>
-  </ul>
 </div>
 
 <!-- Assistant System Engineer Trainee Position -->
-<div class="resume-item">
-  <div class="experience-header">
-    <div class="experience-title">
-      <i class="bi bi-briefcase-fill experience-icon"></i>
-      <h4>Assistant System Engineer Trainee</h4>
-    </div>
-    <div class="experience-meta">
-      <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2021 - May 2022 · 1 yr</span>
+<div class="timeline-item">
+  <div class="timeline-icon">
+    <i class="bi bi-briefcase-fill"></i>
+  </div>
+  <div class="education-card" data-bs-toggle="modal" data-bs-target="#asetModal">
+    <div class="education-card-content">
+      <div class="experience-header">
+        <div class="experience-title">
+          <h4>Assistant System Engineer Trainee</h4>
+        </div>
+        <div class="experience-meta">
+          <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2021 - May 2022 · 1 yr</span>
+        </div>
+      </div>
+      <div class="experience-company">
+        <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+        <p><em>Tata Consultancy Services</em></p>
+        <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Remote</span>
+      </div>
+      <div class="card-hover-hint">Click for details</div>
     </div>
   </div>
-  <div class="experience-company">
-    <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
-    <p><em>Tata Consultancy Services</em></p>
-    <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Remote</span>
+</div>
+
+<!-- ASET Modal -->
+<div class="modal fade" id="asetModal" tabindex="-1" aria-labelledby="asetModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="asetModalLabel">Assistant System Engineer Trainee at Tata Consultancy Services</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="experience-company mb-3">
+          <img src="assets/img/tcs-logo.png" alt="Tata Consultancy Services" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+          <p><em>Tata Consultancy Services</em></p>
+          <span class="experience-location"><i class="bi bi-geo-alt"></i> Pune, Maharashtra, India · Remote</span>
+        </div>
+        <p><strong>🛠 Tools & Technologies:</strong> Git, JIRA, Java, SQL, HTML, CSS</p>
+        <ul>
+          <li>Supported feature development & bug fixes, contributing to major product releases 🔄.</li>
+          <li>Participated in code reviews & debugging, improving app performance & stability 🛠️.</li>
+          <li>Worked in Agile teams, gaining hands-on experience in sprint planning & requirement analysis 📅.</li>
+          <li>Assisted internal teams with documentation, impact analysis, and knowledge sharing 📖.</li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <p><strong>🛠 Tools & Technologies:</strong> Git, JIRA, Java, SQL, HTML, CSS</p>
-  <ul>
-    <li>Supported feature development & bug fixes, contributing to major product releases 🔄.</li>
-    <li>Participated in code reviews & debugging, improving app performance & stability 🛠️.</li>
-    <li>Worked in Agile teams, gaining hands-on experience in sprint planning & requirement analysis 📅.</li>
-    <li>Assisted internal teams with documentation, impact analysis, and knowledge sharing 📖.</li>
-  </ul>
 </div>
 
 
   <!-- IJREAM Internship -->
-  <div class="resume-item">
-    <h4>Full Stack Developer [Internship]</h4>
-    <h5>Jan 2021 - Mar 2021</h5>
-    <p><em>IJREAM, Thane, MH</em></p>
-    <ul>
-      <li>Redesigned research publication site, optimizing user flow.</li>
-      <li>Replaced manual submission with automated online systems.</li>
-      <li>Implemented modules using HTML, CSS, PHP, and Ajax.</li>
-    </ul>
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <i class="bi bi-briefcase-fill"></i>
+    </div>
+    <div class="education-card" data-bs-toggle="modal" data-bs-target="#ijreamModal">
+      <div class="education-card-content">
+        <div class="experience-header">
+          <div class="experience-title">
+            <h4>Full Stack Developer [Internship]</h4>
+          </div>
+          <div class="experience-meta">
+            <span class="experience-year"><i class="bi bi-calendar3"></i> Jan 2021 - Mar 2021</span>
+          </div>
+        </div>
+        <div class="experience-company">
+          <img src="assets/img/ijreampublish_logo.png" alt="IJREAM" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+          <p><em>IJREAM</em></p>
+          <span class="experience-location"><i class="bi bi-geo-alt"></i> Thane, Maharashtra, India · On-site</span>
+        </div>
+        <div class="card-hover-hint">Click for details</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- IJREAM Modal -->
+  <div class="modal fade" id="ijreamModal" tabindex="-1" aria-labelledby="ijreamModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ijreamModalLabel">Full Stack Developer Internship at IJREAM</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="experience-company mb-3">
+            <img src="assets/img/ijreampublish_logo.png" alt="IJREAM" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>IJREAM</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Thane, Maharashtra, India · On-site</span>
+          </div>
+          <p><strong>🛠 Tools & Technologies:</strong> HTML, CSS, PHP, Ajax</p>
+          <ul>
+            <li>Redesigned research publication site, optimizing user flow.</li>
+            <li>Replaced manual submission with automated online systems.</li>
+            <li>Implemented modules using HTML, CSS, PHP, and Ajax.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- MindScript Android -->
-  <div class="resume-item">
-    <h4>Android Developer [Internship]</h4>
-    <h5>Dec 2019 - Mar 2020</h5>
-    <p><em>MindScript, Thane, MH</em></p>
-    <ul>
-      <li>Built an event module in the Mobisportz app using Android Studio.</li>
-      <li>Integrated YouTube APIs for video content.</li>
-    </ul>
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <i class="bi bi-briefcase-fill"></i>
+    </div>
+    <div class="education-card" data-bs-toggle="modal" data-bs-target="#androidModal">
+      <div class="education-card-content">
+        <div class="experience-header">
+          <div class="experience-title">
+            <h4>Android Developer [Internship]</h4>
+          </div>
+          <div class="experience-meta">
+            <span class="experience-year"><i class="bi bi-calendar3"></i> Dec 2019 - Mar 2020</span>
+          </div>
+        </div>
+        <div class="experience-company">
+          <img src="assets/img/mindscript_logo.jpeg" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+          <p><em>MindScript</em></p>
+          <span class="experience-location"><i class="bi bi-geo-alt"></i> Thane, Maharashtra, India · On-site</span>
+        </div>
+        <div class="card-hover-hint">Click for details</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Android Modal -->
+  <div class="modal fade" id="androidModal" tabindex="-1" aria-labelledby="androidModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="androidModalLabel">Android Developer Internship at MindScript</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="experience-company mb-3">
+            <img src="assets/img/mindscript_logo.jpeg" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>MindScript</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Thane, Maharashtra, India · On-site</span>
+          </div>
+          <p><strong>🛠 Tools & Technologies:</strong> Android Studio, Java, YouTube API</p>
+          <ul>
+            <li>Built an event module in the Mobisportz app using Android Studio.</li>
+            <li>Integrated YouTube APIs for video content.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- MindScript Web -->
-  <div class="resume-item">
-    <h4>Web Developer [Internship]</h4>
-    <h5>Jun 2019 - Nov 2019</h5>
-    <p><em>MindScript, Thane, MH</em></p>
-    <ul>
-      <li>Created responsive web event section using HTML, CSS, JS, Bootstrap.</li>
-      <li>Enhanced UI/UX for seamless visitor interaction.</li>
-    </ul>
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <i class="bi bi-briefcase-fill"></i>
+    </div>
+    <div class="education-card" data-bs-toggle="modal" data-bs-target="#webdevModal">
+      <div class="education-card-content">
+        <div class="experience-header">
+          <div class="experience-title">
+            <h4>Web Developer [Internship]</h4>
+          </div>
+          <div class="experience-meta">
+            <span class="experience-year"><i class="bi bi-calendar3"></i> Jun 2019 - Nov 2019</span>
+          </div>
+        </div>
+        <div class="experience-company">
+          <img src="assets/img/mindscript_logo.jpeg" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+          <p><em>MindScript</em></p>
+          <span class="experience-location"><i class="bi bi-geo-alt"></i> Thane, Maharashtra, India · On-site</span>
+        </div>
+        <div class="card-hover-hint">Click for details</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Web Dev Modal -->
+  <div class="modal fade" id="webdevModal" tabindex="-1" aria-labelledby="webdevModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="webdevModalLabel">Web Developer Internship at MindScript</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="experience-company mb-3">
+            <img src="assets/img/mindscript_logo.jpeg" alt="MindScript" class="company-logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+            <p><em>MindScript</em></p>
+            <span class="experience-location"><i class="bi bi-geo-alt"></i> Thane, Maharashtra, India · On-site</span>
+          </div>
+          <p><strong>🛠 Tools & Technologies:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+          <ul>
+            <li>Created responsive web event section using HTML, CSS, JS, Bootstrap.</li>
+            <li>Enhanced UI/UX for seamless visitor interaction.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 
 
