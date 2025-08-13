@@ -78,7 +78,8 @@
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: 0;
+  left: 2%; /* Center the line */
+  transform: translateX(-50%); /* Adjust for centering */
   top: 0;
   bottom: 0;
   width: 2px;
@@ -1704,4 +1705,43 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/* Adjusted styles for WhatsApp button to ensure visibility */
+.whatsapp-button {
+  position: fixed;
+  bottom: 80px; /* Placed above the Go to Top button */
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 9999; /* Ensure it is above other elements */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: visible; /* Ensure it is visible */
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-button i {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .timeline-icon {
+    left: -10px; /* Adjusted for better alignment on smaller screens */
+    top: 15px; /* Adjusted spacing for mobile */
+    width: 25px; /* Reduced size for mobile */
+    height: 25px; /* Reduced size for mobile */
+  }
+
+  .timeline-icon i {
+    font-size: 0.8rem; /* Adjusted icon size for mobile */
+  }
 }

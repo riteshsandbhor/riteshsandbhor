@@ -1170,6 +1170,29 @@
       color: #666;
       line-height: 1.6;
     }
+
+    /* WhatsApp Button */
+    .whatsapp-button {
+      position: fixed;
+      bottom: 80px; /* Adjusted to place above the Go to Top button */
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      transition: transform 0.3s ease;
+    }
+
+    .whatsapp-button:hover {
+      transform: scale(1.1);
+    }
+
+    .whatsapp-button i {
+      font-size: 24px;
+    }
   </style>
 
 </head>
@@ -2517,6 +2540,8 @@
         <p>© <span>Copyright 2025</span> <strong class="px-1 sitename">Ritesh Sandbhor Portfolio</strong></p>
       </div>
       <div class="social-links d-flex justify-content-center">
+        <a href="https://wa.me/+15716041043"><i class="bi bi-whatsapp"></i></a>
+        
         <a href="https://www.linkedin.com/in/riteshsandbhor/"><i class="bi bi-linkedin"></i></a>
         <a target="_blank" href="https://github.com/riteshsandbhor" class="github"><i class="bi bi-github"></i></a>
         
@@ -2531,6 +2556,12 @@
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/+15716041043" target="_blank" class="whatsapp-button d-flex align-items-center justify-content-center">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
 
   <!-- Preloader -->
   <div id="preloader"></div>

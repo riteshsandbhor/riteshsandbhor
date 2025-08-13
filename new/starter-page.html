@@ -136,6 +136,11 @@
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/yourphonenumber" target="_blank" class="whatsapp-button d-flex align-items-center justify-content-center">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
   <!-- Preloader -->
   <div id="preloader"></div>
 
@@ -153,6 +158,30 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <style>
+    .whatsapp-button {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      transition: transform 0.3s ease;
+    }
+
+    .whatsapp-button:hover {
+      transform: scale(1.1);
+    }
+
+    .whatsapp-button i {
+      font-size: 24px;
+    }
+  </style>
 
 </body>
 
