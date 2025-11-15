@@ -218,8 +218,8 @@
       transform: translateY(0) rotate(-45deg);
     }
     :root {
-      --primary-color: #0563bb;
-      --secondary-color: #2ecc71;
+      --primary-color: #0ea2bd;
+      --secondary-color: #0ed3a3;
       --dark-color: #222;
       --light-color: #f4f6f9;
       --gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
@@ -751,6 +751,22 @@
     /* Enhanced Animations */
     [data-aos] {
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      will-change: transform, opacity;
+    }
+    
+    /* Smooth animation performance */
+    section {
+      will-change: auto;
+    }
+    
+    /* Stagger animations for better visual flow */
+    .skills-content [data-aos] {
+      animation-fill-mode: both;
+    }
+    
+    /* Professional animation delays */
+    [data-aos-delay] {
+      transition-delay: calc(var(--aos-delay, 0) * 1ms);
     }
 
     /* Hover Effects */
@@ -1329,20 +1345,20 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
       <div id="particles-js"></div>
-      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-        <h2 class="glitch-text">Ritesh Sanjay Sandbhor</h2>
-        <p><span class="typed" data-typed-items="Full Stack Developer, Cloud Practitioner, Problem Solver, Software Engineer"></span></p>
-        <p style="font-size: 20px; color: rgba(255, 255, 255, 0.85); margin-top: 15px; max-width: 700px; margin-left: auto; margin-right: auto;">
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center">
+        <h2 class="glitch-text" data-aos="fade-down" data-aos-duration="1200" data-aos-easing="ease-out-cubic">Ritesh Sanjay Sandbhor</h2>
+        <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"><span class="typed" data-typed-items="Full Stack Developer, Cloud Practitioner, Problem Solver, Software Engineer"></span></p>
+        <p style="font-size: 20px; color: rgba(255, 255, 255, 0.85); margin-top: 15px; max-width: 700px; margin-left: auto; margin-right: auto;" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
           Crafting innovative solutions with cutting-edge technology. Passionate about building scalable applications and solving complex challenges.
         </p>
-        <div class="social-links mt-4">
-          <a href="assets/files/Resume.pdf" class="btn btn-outline-light me-3" target="_blank">
+        <div class="social-links mt-4" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+          <a href="assets/files/Resume.pdf" class="btn btn-outline-light me-3" target="_blank" data-aos="zoom-in" data-aos-delay="700">
             <i class="bi bi-cloud-download me-2"></i>Download Resume
           </a>
-          <a href="https://www.linkedin.com/in/riteshsandbhor" class="btn btn-outline-light me-3" target="_blank">
+          <a href="https://www.linkedin.com/in/riteshsandbhor" class="btn btn-outline-light me-3" target="_blank" data-aos="zoom-in" data-aos-delay="800">
             <i class="bi bi-linkedin me-2"></i>Connect on LinkedIn
           </a>
-          <a href="https://github.com/riteshsandbhor" class="btn btn-outline-light" target="_blank">
+          <a href="https://github.com/riteshsandbhor" class="btn btn-outline-light" target="_blank" data-aos="zoom-in" data-aos-delay="900">
             <i class="bi bi-github me-2"></i>View GitHub
           </a>
         </div>
@@ -1354,14 +1370,14 @@
 
     <!-- About Section -->
     <section id="about" class="about section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="section-title text-center" data-aos="fade-up">
+      <div class="container">
+        <div class="section-title text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
           <h2><i class="bi bi-person-circle me-2"></i>About Me</h2>
           <p>Get to know more about my background, experience, and passion for technology</p>
         </div>
         <div class="row gy-4">
           <div class="col-lg-4">
-            <div class="about-img-container text-center mb-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="about-img-container text-center mb-4" data-aos="flip-left" data-aos-delay="200" data-aos-duration="1200">
               <div class="profile-img-wrapper">
                 <img src="assets/img/profile-img.jpg" class="img-fluid rounded-lg profile-img" alt="Profile Image">
                 <div class="profile-badge">
@@ -1369,7 +1385,7 @@
                 </div>
               </div>
             </div>
-            <div class="about-info" data-aos="fade-right" data-aos-delay="300">
+            <div class="about-info" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
               <div class="info-header">
                 <h3>Personal Information</h3>
                 <div class="header-accent"></div>
@@ -1441,7 +1457,7 @@
           </div>
 
           <div class="col-lg-8">
-            <div class="about-me" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-me" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
               <div class="about-me-header">
                 <h3>Professional Summary</h3>
                 <div class="header-accent"></div>
@@ -1523,7 +1539,7 @@
                 <h3>Frontend Development</h3>
               </div>
               <div class="skill-items">
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="150">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-code-slash"></i>
                   </div>
@@ -1532,7 +1548,7 @@
                     <span class="skill-level">Expert</span>
                   </div>
                 </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-filetype-js"></i>
                   </div>
@@ -1541,7 +1557,7 @@
                     <span class="skill-level">Advanced</span>
                   </div>
                 </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="250">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-code-square"></i>
                   </div>
@@ -1555,14 +1571,14 @@
           </div>
 
           <!-- Backend Development -->
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-up" data-aos-delay="200" data-aos-duration="1000">
             <div class="skill-category-card">
               <div class="skill-category-header">
                 <i class="bi bi-server"></i>
                 <h3>Backend Development</h3>
               </div>
               <div class="skill-items">
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="250">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-file-earmark-code"></i>
                   </div>
@@ -1571,7 +1587,7 @@
                     <span class="skill-level">Advanced</span>
                   </div>
                 </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-filetype-py"></i>
                   </div>
@@ -1580,7 +1596,7 @@
                     <span class="skill-level">Advanced</span>
                   </div>
                 </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="350">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="350" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-gear"></i>
                   </div>
@@ -1594,14 +1610,14 @@
           </div>
 
           <!-- Database & Cloud -->
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
             <div class="skill-category-card">
               <div class="skill-category-header">
                 <i class="bi bi-cloud-fill"></i>
                 <h3>Database & Cloud</h3>
               </div>
               <div class="skill-items">
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="350">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="350" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-database"></i>
                   </div>
@@ -1610,7 +1626,7 @@
                     <span class="skill-level">Advanced</span>
                   </div>
                 </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-cloud"></i>
                   </div>
@@ -1619,7 +1635,7 @@
                     <span class="skill-level">Intermediate</span>
                   </div>
                 </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="450" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-box-seam"></i>
                   </div>
@@ -1633,14 +1649,14 @@
           </div>
 
           <!-- Tools & Frameworks -->
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-up" data-aos-delay="400" data-aos-duration="1000">
             <div class="skill-category-card">
               <div class="skill-category-header">
                 <i class="bi bi-tools"></i>
                 <h3>Tools & Frameworks</h3>
               </div>
               <div class="skill-items">
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="450" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-git"></i>
                   </div>
@@ -1649,7 +1665,7 @@
                     <span class="skill-level">Advanced</span>
                   </div>
                 </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-file-earmark-code"></i>
                   </div>
@@ -1658,7 +1674,7 @@
                     <span class="skill-level">Advanced</span>
                   </div>
                 </div>
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="550">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="550" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-bootstrap"></i>
                   </div>
@@ -1672,14 +1688,14 @@
           </div>
 
           <!-- Additional Technologies -->
-          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="skill-category-card">
               <div class="skill-category-header">
                 <i class="bi bi-stack"></i>
                 <h3>Additional Technologies</h3>
               </div>
               <div class="skill-items">
-                <div class="skill-item" data-aos="zoom-in" data-aos-delay="550">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="550" data-aos-duration="800">
                   <div class="skill-icon-wrapper">
                     <i class="bi bi-kanban"></i>
                   </div>
@@ -1715,12 +1731,12 @@
     
     <!-- Resume Section -->
 <section id="resume" class="resume section">
-  <div class="container section-title text-center" data-aos="fade-up">
+  <div class="container section-title text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
     <h2><i class="bi bi-file-earmark-person me-2"></i>Resume</h2>
     <p>My professional journey, education, and experience</p>
-    <div class="mt-4">
-      <a target="_blank" href="assets/files/Resume.pdf" download class="btn btn-primary">
-        <i class="bi bi-cloud-download me-2"></i>Download Resume
+    <div class="resume-download-wrapper mt-4" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
+      <a target="_blank" href="assets/files/Resume.pdf" class="resume-download-btn">
+        <i class="bi bi-cloud-download me-2"></i>Download Resume PDF
       </a>
     </div>
   </div>
@@ -1728,11 +1744,11 @@
   <div class="container">
     <div class="row">
       <!-- Left Column -->
-      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+      <div class="col-lg-6" data-aos="slide-right" data-aos-delay="100" data-aos-duration="1200" data-aos-easing="ease-out-cubic">
         <h3 class="section-subtitle"><i class="bi bi-mortarboard me-2"></i>Education</h3>
 
 <!-- Master's -->
-         <div class="timeline-item">
+         <div class="timeline-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
            <div class="timeline-icon">
              <i class="bi bi-bank"></i>
            </div>
@@ -1778,7 +1794,7 @@
          </div>
 
         <!-- Bachelor's -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
           <div class="timeline-icon">
             <i class="bi bi-bank"></i>
           </div>
@@ -1818,7 +1834,7 @@
         </div>
 
         <!-- HSC -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
           <div class="timeline-icon">
             <i class="bi bi-mortarboard"></i>
           </div>
@@ -1856,7 +1872,7 @@
         </div>
 
         <!-- SSC -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
           <div class="timeline-icon">
             <i class="bi bi-book"></i>
           </div>
@@ -1897,7 +1913,7 @@
         <h3 class="section-subtitle mt-4"><i class="bi bi-person-workspace me-2"></i>Additional Experience</h3>
 
         <!-- System Engineer Position -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
           <div class="timeline-icon">
             <i class="bi bi-briefcase-fill"></i>
           </div>
@@ -1962,7 +1978,7 @@
         </div>
 
         <!-- Fitness Attendant -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
           <div class="timeline-icon">
             <i class="bi bi-briefcase-fill"></i>
           </div>
@@ -2021,7 +2037,7 @@
         </div>
 
         <!-- Floor Marshal -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="700" data-aos-duration="800">
           <div class="timeline-icon">
             <i class="bi bi-briefcase-fill"></i>
           </div>
@@ -2080,11 +2096,11 @@
       </div>
 
       <!-- Right Column -->
-<div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+<div class="col-lg-6" data-aos="slide-left" data-aos-delay="200" data-aos-duration="1200" data-aos-easing="ease-out-cubic">
         <h3 class="section-subtitle"><i class="bi bi-code-slash me-2"></i>Technical Experience</h3>
 
 <!-- System Engineer Position -->
-<div class="timeline-item">
+<div class="timeline-item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
   <div class="timeline-icon">
     <i class="bi bi-briefcase-fill"></i>
   </div>
@@ -2151,7 +2167,7 @@
 </div>
 
 <!-- Assistant System Engineer Position -->
-<div class="timeline-item">
+<div class="timeline-item" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
   <div class="timeline-icon">
     <i class="bi bi-briefcase-fill"></i>
   </div>
@@ -2215,7 +2231,7 @@
 </div>
 
 <!-- Assistant System Engineer Trainee Position -->
-<div class="timeline-item">
+<div class="timeline-item" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
   <div class="timeline-icon">
     <i class="bi bi-briefcase-fill"></i>
   </div>
@@ -2273,7 +2289,7 @@
 
 
   <!-- IJREAM Internship -->
-  <div class="timeline-item">
+  <div class="timeline-item" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
     <div class="timeline-icon">
       <i class="bi bi-briefcase-fill"></i>
     </div>
@@ -2333,7 +2349,7 @@
   </div>
 
   <!-- MindScript Android -->
-  <div class="timeline-item">
+  <div class="timeline-item" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
     <div class="timeline-icon">
       <i class="bi bi-briefcase-fill"></i>
     </div>
@@ -2392,7 +2408,7 @@
   </div>
 
   <!-- MindScript Web -->
-  <div class="timeline-item">
+  <div class="timeline-item" data-aos="fade-up" data-aos-delay="700" data-aos-duration="800">
     <div class="timeline-icon">
       <i class="bi bi-briefcase-fill"></i>
     </div>
@@ -2469,7 +2485,7 @@
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
-      <div class="container section-title text-center" data-aos="fade-up">
+      <div class="container section-title text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
         <h2><i class="bi bi-briefcase me-2"></i>Projects</h2>
         <p>Showcasing My Technical Expertise Through Real-World Applications</p>
       </div>
@@ -2480,7 +2496,7 @@
         <div class="container">
           <div class="row gy-4">
             <!-- Project: Student Information Management System (SIMS) -->
-            <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-4 col-md-6 project-item" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
               <div class="card project-card">
                 <div class="project-img-wrapper">
                   <img src="assets/img/projects/sims.PNG" class="card-img-top" alt="SIMS">
@@ -2504,7 +2520,7 @@
             </div>
 
             <!-- Added Project: Full Stack Developer at IJREAM -->
-            <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 project-item" data-aos="flip-left" data-aos-delay="200" data-aos-duration="1000">
               <div class="card project-card">
                 <div class="project-img-wrapper">
                   <img src="assets/img/ijreampublish_logo.png" class="card-img-top" alt="IJREAM" style="object-fit: contain; padding: 20px; background: #f8f9fa;">
@@ -2528,7 +2544,7 @@
             </div>
 
             <!-- Added Project: Rutuja Kulfi -->
-            <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4 col-md-6 project-item" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
               <div class="card project-card">
                 <div class="project-img-wrapper">
                   <img src="assets/img/projects/rutuja-kulfi.jpg" class="card-img-top" alt="Rutuja Kulfi">
@@ -2552,7 +2568,7 @@
             </div>
 
             <!-- Added Project: Farm Fresh -->
-            <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-4 col-md-6 project-item" data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000">
               <div class="card project-card">
                 <div class="project-img-wrapper">
                   <img src="assets/img/projects/farm-fresh.jpg" class="card-img-top" alt="Farm Fresh">
@@ -2577,7 +2593,7 @@
             </div>
 
             <!-- Added Project: SARI Disease Survey App -->
-            <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 project-item" data-aos="flip-right" data-aos-delay="200" data-aos-duration="1000">
               <div class="card project-card">
                 <div class="project-img-wrapper">
                   <img src="assets/img/projects/sari.jpg" class="card-img-top" alt="SARI Disease Survey App">
@@ -2602,7 +2618,7 @@
             </div>
 
             <!-- Added Project: IoT based Attendance Monitoring -->
-            <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4 col-md-6 project-item" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
               <div class="card project-card">
                 <div class="project-img-wrapper">
                   <img src="assets/img/projects/iot-attendance.jpg" class="card-img-top" alt="IoT based Attendance Monitoring">
@@ -2644,14 +2660,14 @@
 <section id="testimonials" class="testimonials section accent-background">
 
      <!-- Section Title -->
-<div class="container section-title text-center" data-aos="fade-up">
+<div class="container section-title text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
   <h2><i class="bi bi-quote me-2"></i>Recommendations</h2>
   <p>What colleagues and mentors say about my work</p>
 </div><!-- End Section Title -->
 
   <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
 
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1200">
 
 
     <div class="swiper init-swiper">
@@ -2825,106 +2841,167 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-
       <!-- Section Title -->
-      <div class="container section-title text-center" data-aos="fade-up">
+      <div class="container section-title text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
         <h2><i class="bi bi-envelope me-2"></i>Get In Touch</h2>
         <p>Let's connect and discuss how we can work together</p>
-      </div><!-- End Section Title -->
+      </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
-          <div class="row gy-5">
-
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>4274 Cotswolds Hill Ln Fairfax Virginia 22030</p>
-                </div>
+      <div class="container">
+        <div class="row">
+          <!-- Contact Info Cards -->
+          <div class="col-lg-4 mb-4" data-aos="flip-right" data-aos-delay="200" data-aos-duration="1000">
+            <div class="contact-info-card">
+              <div class="contact-icon-wrapper">
+                <i class="bi bi-geo-alt-fill"></i>
               </div>
-            </div><!-- End Info Item -->
+              <h3>Location</h3>
+              <p>4274 Cotswolds Hill Ln<br>Fairfax, Virginia 22030<br>United States</p>
+            </div>
+          </div>
 
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Me</h3>
-                  <p>+1 (571)604-1043</p>
-                </div>
+          <div class="col-lg-4 mb-4" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
+            <div class="contact-info-card">
+              <div class="contact-icon-wrapper">
+                <i class="bi bi-envelope-fill"></i>
               </div>
-            </div><!-- End Info Item -->
+              <h3>Email</h3>
+              <p><a href="mailto:ritesh.sandbhor14@gmail.com">ritesh.sandbhor14@gmail.com</a></p>
+            </div>
+          </div>
 
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Me</h3>
-                  <p>ritesh.sandbhor14@gmail.com</p>
-                </div>
+          <div class="col-lg-4 mb-4" data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+            <div class="contact-info-card">
+              <div class="contact-icon-wrapper">
+                <i class="bi bi-phone-fill"></i>
               </div>
-            </div><!-- End Info Item -->
-
+              <h3>Phone</h3>
+              <p><a href="tel:+15716041043">+1 (571) 604-1043</a></p>
+            </div>
           </div>
         </div>
 
-        <form action="https://formspree.io/f/xrbendpy" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
-          <div class="row gy-4">
+        <!-- Contact Form -->
+        <div class="row justify-content-center" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1200">
+          <div class="col-lg-8">
+            <form action="https://formspree.io/f/xrbendpy" method="post" class="contact-form">
+              <div class="form-header">
+                <h3><i class="bi bi-send me-2"></i>Send Me a Message</h3>
+                <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+              </div>
 
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-            </div>
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name"><i class="bi bi-person"></i> Your Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                  </div>
+                </div>
 
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-            </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email"><i class="bi bi-envelope"></i> Your Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                  </div>
+                </div>
 
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-            </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="subject"><i class="bi bi-tag"></i> Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-control" placeholder="What's this about?" required>
+                  </div>
+                </div>
 
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-            </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="message"><i class="bi bi-chat-left-text"></i> Message</label>
+                    <textarea id="message" name="message" class="form-control" rows="6" placeholder="Tell me about your project or inquiry..." required></textarea>
+                  </div>
+                </div>
 
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    <i class="bi bi-check-circle"></i> Your message has been sent. Thank you!
+                  </div>
 
-              <button type="submit">Send Message</button>
-            </div>
-
+                  <button type="submit" class="btn-submit">
+                    <i class="bi bi-send-fill me-2"></i>Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
-        </form><!-- End Contact Form -->
-
+        </div>
       </div>
-
     </section><!-- /Contact Section -->
 
   </main>
 
-  <footer id="footer" class="footer accent-background">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright 2025</span> <strong class="px-1 sitename">Ritesh Sandbhor Portfolio</strong></p>
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Ritesh Sandbhor</h3>
+            <p>Full Stack Developer | Cloud Practitioner | Problem Solver</p>
+            <p>Passionate about building scalable applications and solving complex challenges with cutting-edge technology.</p>
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#hero"><i class="bi bi-chevron-right"></i> Home</a></li>
+              <li><a href="#about"><i class="bi bi-chevron-right"></i> About</a></li>
+              <li><a href="#skills"><i class="bi bi-chevron-right"></i> Skills</a></li>
+              <li><a href="#resume"><i class="bi bi-chevron-right"></i> Resume</a></li>
+              <li><a href="#portfolio"><i class="bi bi-chevron-right"></i> Projects</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Info</h4>
+            <p>
+              <i class="bi bi-geo-alt"></i> Fairfax, Virginia, USA<br>
+              <i class="bi bi-envelope"></i> <a href="mailto:ritesh.sandbhor14@gmail.com">ritesh.sandbhor14@gmail.com</a><br>
+              <i class="bi bi-phone"></i> <a href="tel:+15716041043">+1 (571) 604-1043</a>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-social">
+            <h4>Connect With Me</h4>
+            <p>Let's connect and collaborate on innovative projects!</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/riteshsandbhor/" target="_blank" class="linkedin" title="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://github.com/riteshsandbhor" target="_blank" class="github" title="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://wa.me/+15716041043" target="_blank" class="whatsapp" title="WhatsApp">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+              <a href="https://x.com/RSandbh" target="_blank" class="twitter" title="Twitter/X">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+              <a href="https://www.instagram.com/ritesh_sandbhor_patil_1999/" target="_blank" class="instagram" title="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/ritesh.sandbhorpatil1999/" target="_blank" class="facebook" title="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://wa.me/+15716041043"><i class="bi bi-whatsapp"></i></a>
-        
-        <a href="https://www.linkedin.com/in/riteshsandbhor/"><i class="bi bi-linkedin"></i></a>
-        <a target="_blank" href="https://github.com/riteshsandbhor" class="github"><i class="bi bi-github"></i></a>
-        
-        <a target="_blank" href="https://www.facebook.com/ritesh.sandbhorpatil1999/" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a target="_blank" href="https://www.instagram.com/ritesh_sandbhor_patil_1999/"><i class="bi bi-instagram"></i></a>
-        <a target="_blank" href="https://x.com/RSandbh" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      </div>
-    
     </div>
 
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="copyright">
+          <p>&copy; <span id="current-year">2025</span> <strong>Ritesh Sandbhor</strong>. All rights reserved.</p>
+          <p class="made-with">Made with <i class="bi bi-heart-fill"></i> and passion for technology</p>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <!-- Scroll Top -->
@@ -3004,4 +3081,5 @@
 
 </body>
 
+</html>
 </html>

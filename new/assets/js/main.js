@@ -94,13 +94,62 @@
    */
   function aosInit() {
     AOS.init({
-      duration: 600,
-      easing: 'ease-in-out',
+      duration: 1000,
+      easing: 'ease-out-cubic',
       once: true,
-      mirror: false
+      mirror: false,
+      offset: 100,
+      delay: 0
     });
   }
   window.addEventListener('load', aosInit);
+
+  /**
+   * Professional Section Transitions
+   * Smooth transitions for each section as they come into view
+   */
+  function initSectionTransitions() {
+    const sections = document.querySelectorAll('section[id]');
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          // Unobserve after animation to improve performance
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+
+    // Immediately show hero section on load
+    const hero = document.getElementById('hero');
+    if (hero) {
+      setTimeout(() => {
+        hero.classList.add('visible');
+      }, 100);
+    }
+
+    // Immediately show footer (don't wait for intersection)
+    const footer = document.getElementById('footer');
+    if (footer) {
+      footer.classList.add('visible');
+    }
+  }
+
+  // Initialize section transitions when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSectionTransitions);
+  } else {
+    initSectionTransitions();
+  }
 
   /**
    * Init typed.js
@@ -134,6 +183,15 @@
       }
     });
   });
+
+  /**
+   * Update Footer Year
+   */
+  const currentYear = new Date().getFullYear();
+  const yearElement = document.getElementById('current-year');
+  if (yearElement) {
+    yearElement.textContent = currentYear;
+  }
 
   /**
    * Initiate Pure Counter
