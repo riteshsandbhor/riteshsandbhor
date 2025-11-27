@@ -6360,18 +6360,18 @@ function renderTable() {
     
     console.log(`Rendering page ${currentPage} of ${totalPages} - showing ${pageData.length} rows`);
     
-    // Render only current page data
+    // Render only current page data (order must match table header)
     const tableHTML = pageData.map(voter => `
         <tr>
             <td>${voter.voterNo}</td>
             <td>${voter.voterId}</td>
+            <td>${voter.roomNo || '1'}</td>
             <td>${voter.fullNameMarathi}</td>
             <td>${voter.fullNameEnglish}</td>
             <td>${voter.relativeNameMarathi}</td>
             <td>${voter.relativeNameEnglish}</td>
             <td>${voter.houseNoMarathi}</td>
             <td>${voter.houseNoEnglish}</td>
-            <td>${voter.roomNo || '-'}</td>
             <td>${voter.age > 0 ? voter.age : '-'}</td>
             <td>${voter.genderMarathi}</td>
             <td>${voter.genderEnglish}</td>
