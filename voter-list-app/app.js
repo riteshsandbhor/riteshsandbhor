@@ -6278,44 +6278,81 @@ let currentPage = 1;
 let pageSize = 50;
 let totalPages = 1;
 
-// Initialize the app
+// Initialize the app with a simple login gate
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Initializing app...');
-    console.log('Voter data count:', voterData.length);
-    
-    // Initialize with embedded data (works without server)
-    filteredData = [...voterData];
-    currentPage = 1;
-    
-    console.log('Filtered data count:', filteredData.length);
-    
-    // Add event listeners
-    const searchInput = document.getElementById('searchInput');
-    const genderFilter = document.getElementById('genderFilter');
-    const minAge = document.getElementById('minAge');
-    const maxAge = document.getElementById('maxAge');
-    const houseFilter = document.getElementById('houseFilter');
-    const voterIdFilter = document.getElementById('voterIdFilter');
-    
-    if (searchInput) searchInput.addEventListener('input', applyFilters);
-    if (genderFilter) genderFilter.addEventListener('change', applyFilters);
-    if (minAge) minAge.addEventListener('input', applyFilters);
-    if (maxAge) maxAge.addEventListener('input', applyFilters);
-    if (houseFilter) houseFilter.addEventListener('input', applyFilters);
-    if (voterIdFilter) voterIdFilter.addEventListener('input', applyFilters);
-    
-    // Render table with embedded data
-    renderTable();
-    updateStats();
-    renderPagination();
-    
-    console.log(`✅ Loaded ${voterData.length} voters from embedded data`);
-    
-    // Note: JSON file loading only works with a web server (not when opening file directly)
-    // The embedded data above is already loaded and working
-    // To load from JSON file, use a local server (python -m http.server 8000)
-    // Then uncomment the line below:
-    // loadVoterData('data/voters.json');
+    console.log('Voter data count (embedded):', voterData.length);
+
+    const loginContainer = document.getElementById('login-container');
+    const appContent = document.getElementById('app-content');
+    const loginButton = document.getElementById('login-button');
+    const loginUser = document.getElementById('login-username');
+    const loginPass = document.getElementById('login-password');
+    const loginError = document.getElementById('login-error');
+
+    // Fixed login credentials (case-sensitive)
+    const VALID_USER = 'kalpana';
+    const VALID_PASS = 'Sandbhor';
+
+    function showApp() {
+        if (loginContainer) loginContainer.style.display = 'none';
+        if (appContent) appContent.style.display = 'block';
+
+        // Initialize with embedded data
+        filteredData = [...voterData];
+        currentPage = 1;
+
+        console.log('Filtered data count:', filteredData.length);
+
+        // Add event listeners
+        const searchInput = document.getElementById('searchInput');
+        const genderFilter = document.getElementById('genderFilter');
+        const minAge = document.getElementById('minAge');
+        const maxAge = document.getElementById('maxAge');
+        const houseFilter = document.getElementById('houseFilter');
+        const voterIdFilter = document.getElementById('voterIdFilter');
+
+        if (searchInput) searchInput.addEventListener('input', applyFilters);
+        if (genderFilter) genderFilter.addEventListener('change', applyFilters);
+        if (minAge) minAge.addEventListener('input', applyFilters);
+        if (maxAge) maxAge.addEventListener('input', applyFilters);
+        if (houseFilter) houseFilter.addEventListener('input', applyFilters);
+        if (voterIdFilter) voterIdFilter.addEventListener('input', applyFilters);
+
+        // Render table with embedded data
+        renderTable();
+        updateStats();
+        renderPagination();
+
+        console.log(`✅ Loaded ${voterData.length} voters from embedded data`);
+    }
+
+    function handleLogin() {
+        const user = (loginUser?.value || '').trim();
+        const pass = (loginPass?.value || '').trim();
+
+        if (user === VALID_USER && pass === VALID_PASS) {
+            if (loginError) loginError.classList.add('d-none');
+            showApp();
+        } else {
+            if (loginError) loginError.classList.remove('d-none');
+        }
+    }
+
+    if (loginButton) {
+        loginButton.addEventListener('click', handleLogin);
+    }
+
+    // Allow Enter key to submit
+    [loginUser, loginPass].forEach(input => {
+        if (input) {
+            input.addEventListener('keyup', (e) => {
+                if (e.key === 'Enter') {
+                    handleLogin();
+                }
+            });
+        }
+    });
 });
 
 // Render table with current filtered data (with pagination)
