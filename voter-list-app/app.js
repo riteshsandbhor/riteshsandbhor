@@ -143,6 +143,7 @@ function renderTable() {
             <td>${voter.relativeNameEnglish}</td>
             <td>${voter.houseNoMarathi}</td>
             <td>${voter.houseNoEnglish}</td>
+            <td>${voter.roomNo || '-'}</td>
             <td>${voter.age > 0 ? voter.age : '-'}</td>
             <td>${voter.genderMarathi}</td>
             <td>${voter.genderEnglish}</td>

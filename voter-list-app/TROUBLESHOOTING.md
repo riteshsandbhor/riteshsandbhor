@@ -136,3 +136,4 @@ If it shows `5`, the JSON file didn't load. Check console for errors.
 3. **Test with local server** instead of opening file directly
 4. **Check JSON file** is valid and has 30 entries
 
+
