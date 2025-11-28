@@ -7,7 +7,8 @@
     "build": "npm run sync",
     "sync": "npx cap sync",
     "open:android": "npx cap open android",
-    "prepare:apk": "./sync-and-build.sh"
+    "prepare:apk": "./sync-and-build.sh",
+    "build:apk": "./build-apk.sh"
   },
   "dependencies": {
     "xlsx": "^0.18.5"

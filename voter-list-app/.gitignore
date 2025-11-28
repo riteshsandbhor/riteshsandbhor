@@ -23,3 +23,12 @@ Thumbs.db
 
 # Excel temp files
 ~$*.xlsx
+
+# Keep these files (important for GitHub Pages and PWA)
+!index.html
+!app.js
+!manifest.json
+!sw.js
+!icon-*.png
+!data/
+!create-icons.html
