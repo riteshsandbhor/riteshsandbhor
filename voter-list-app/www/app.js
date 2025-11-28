@@ -12152,21 +12152,18 @@ function renderTable() {
     if (table) table.style.display = 'table';
     if (noResults) noResults.style.display = 'none';
     
-    // Calculate pagination
-    totalPages = Math.ceil(filteredData.length / pageSize);
-    if (currentPage > totalPages && totalPages > 0) {
-        currentPage = totalPages;
+    // Get data up to pageSize (or all if "all" is selected)
+    let displayData;
+    if (pageSize === 'all' || pageSize >= filteredData.length) {
+        displayData = filteredData;
+    } else {
+        displayData = filteredData.slice(0, pageSize);
     }
     
-    // Get data for current page
-    const startIndex = (currentPage - 1) * pageSize;
-    const endIndex = Math.min(startIndex + pageSize, filteredData.length);
-    const pageData = filteredData.slice(startIndex, endIndex);
+    console.log(`Rendering ${displayData.length} rows (out of ${filteredData.length} total)`);
     
-    console.log(`Rendering page ${currentPage} of ${totalPages} - showing ${pageData.length} rows`);
-    
-    // Render only current page data (order must match table header)
-    const tableHTML = pageData.map(voter => `
+    // Render data (order must match table header)
+    const tableHTML = displayData.map(voter => `
         <tr>
             <td>${voter.voterNo}</td>
             <td>${voter.voterId}</td>
@@ -12281,98 +12278,33 @@ function updateStats() {
     document.getElementById('maleCount').textContent = maleCount.toLocaleString();
 }
 
-// Render pagination controls
+// Update pagination info (simplified - no page buttons)
 function renderPagination() {
-    const pagination = document.getElementById('pagination');
     const paginationInfo = document.getElementById('paginationInfo');
     
     if (filteredData.length === 0) {
-        pagination.innerHTML = '';
-        paginationInfo.textContent = 'Showing 0 - 0 of 0 entries';
+        paginationInfo.textContent = 'Showing 0 of 0 entries';
         return;
     }
     
-    const startIndex = (currentPage - 1) * pageSize;
-    const endIndex = Math.min(startIndex + pageSize, filteredData.length);
-    paginationInfo.textContent = `Showing ${(startIndex + 1).toLocaleString()} - ${endIndex.toLocaleString()} of ${filteredData.length.toLocaleString()} entries`;
+    const displayCount = pageSize === 'all' || pageSize >= filteredData.length 
+        ? filteredData.length 
+        : Math.min(pageSize, filteredData.length);
     
-    // Build pagination HTML
-    let paginationHTML = '';
-    
-    // Previous button
-    paginationHTML += `
-        <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
-            <a class="page-link" href="#" onclick="goToPage(${currentPage - 1}); return false;">
-                <i class="bi bi-chevron-left"></i>
-            </a>
-        </li>
-    `;
-    
-    // Page numbers
-    const maxVisiblePages = 7;
-    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
-    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-    
-    if (endPage - startPage < maxVisiblePages - 1) {
-        startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    if (displayCount === filteredData.length) {
+        paginationInfo.textContent = `Showing all ${filteredData.length.toLocaleString()} entries`;
+    } else {
+        paginationInfo.textContent = `Showing ${displayCount.toLocaleString()} of ${filteredData.length.toLocaleString()} entries`;
     }
-    
-    if (startPage > 1) {
-        paginationHTML += `
-            <li class="page-item">
-                <a class="page-link" href="#" onclick="goToPage(1); return false;">1</a>
-            </li>
-        `;
-        if (startPage > 2) {
-            paginationHTML += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
-        }
-    }
-    
-    for (let i = startPage; i <= endPage; i++) {
-        paginationHTML += `
-            <li class="page-item ${i === currentPage ? 'active' : ''}">
-                <a class="page-link" href="#" onclick="goToPage(${i}); return false;">${i}</a>
-            </li>
-        `;
-    }
-    
-    if (endPage < totalPages) {
-        if (endPage < totalPages - 1) {
-            paginationHTML += `<li class="page-item disabled"><span class="page-link">...</span></li>`;
-        }
-        paginationHTML += `
-            <li class="page-item">
-                <a class="page-link" href="#" onclick="goToPage(${totalPages}); return false;">${totalPages}</a>
-            </li>
-        `;
-    }
-    
-    // Next button
-    paginationHTML += `
-        <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
-            <a class="page-link" href="#" onclick="goToPage(${currentPage + 1}); return false;">
-                <i class="bi bi-chevron-right"></i>
-            </a>
-        </li>
-    `;
-    
-    pagination.innerHTML = paginationHTML;
 }
 
-// Go to specific page
-function goToPage(page) {
-    if (page < 1 || page > totalPages) return;
-    currentPage = page;
+// Change page size (no pagination, just limit display)
+function changePageSize() {
+    const selectedValue = document.getElementById('pageSize').value;
+    pageSize = selectedValue === 'all' ? 'all' : parseInt(selectedValue);
     renderTable();
     // Scroll to top of table
     document.querySelector('.table-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-// Change page size
-function changePageSize() {
-    pageSize = parseInt(document.getElementById('pageSize').value);
-    currentPage = 1;
-    renderTable();
 }
 
 // Reset all filters
