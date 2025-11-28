@@ -12,283 +12,283 @@
 let voterData = [
   {
     "voterNo": 1,
-    "voterId": "5507599467",
+    "voterId": "SSO7599467",
     "fullNameMarathi": "सागर रामचंद्र लोहकरे",
     "fullNameEnglish": "Sagar Ramchandra Lohkare",
     "relativeNameMarathi": "वडिलांचे नाव : रामचंद्र लोहकरे",
     "relativeNameEnglish": "Father's Name: Ramchandra Lohkare",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 27,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 2,
-    "voterId": "5501519222",
+    "voterId": "SSO1519222",
     "fullNameMarathi": "कल्पना जितेंद्र सांडभोर",
     "fullNameEnglish": "Kalpana Jitendra Sandbhor",
     "relativeNameMarathi": "पतीचे नाव : जितेंद्र सांडभोर",
     "relativeNameEnglish": "Husband's Name: Jitendra Sandbhor",
-    "houseNoMarathi": "१०८",
+    "houseNoMarathi": "108",
     "houseNoEnglish": "108",
-    "roomNo": "1",
     "age": 53,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 3,
-    "voterId": "5508593279",
+    "voterId": "SSO8593279",
     "fullNameMarathi": "जितेंद्र ज्ञानेश्वर सांडभोर",
     "fullNameEnglish": "Jitendra Gyaneshwar Sandbhor",
     "relativeNameMarathi": "वडिलांचे नाव : ज्ञानेश्वर सांडभोर",
     "relativeNameEnglish": "Father's Name: Gyaneshwar Sandbhor",
-    "houseNoMarathi": "९९०",
+    "houseNoMarathi": "990",
     "houseNoEnglish": "990",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 4,
-    "voterId": "5509114539",
+    "voterId": "SSO9114539",
     "fullNameMarathi": "श्रुति सांडभोर",
     "fullNameEnglish": "Shruti Sandbhor",
     "relativeNameMarathi": "वडिलांचे नाव : जितेंद्र सांडभोर",
     "relativeNameEnglish": "Father's Name: Jitendra Sandbhor",
     "houseNoMarathi": "सत्कारस्थळ",
     "houseNoEnglish": "Satkarsthal",
-    "roomNo": "1",
     "age": 20,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 5,
-    "voterId": "5509389826",
+    "voterId": "SSO9389826",
     "fullNameMarathi": "रिद्धी जितेंद्र सांडभोर",
     "fullNameEnglish": "Riddhi Jitendra Sandbhor",
     "relativeNameMarathi": "वडिलांचे नाव : जितेंद्र सांडभोर",
     "relativeNameEnglish": "Father's Name: Jitendra Sandbhor",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 18,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 6,
-    "voterId": "5507604002",
+    "voterId": "SSO7604002",
     "fullNameMarathi": "चंद्रशेखर रामचंद्र भगत",
     "fullNameEnglish": "Chandrashekhar Ramchandra Bhagat",
     "relativeNameMarathi": "वडिलांचे नाव : रामचंद्र भगत",
     "relativeNameEnglish": "Father's Name: Ramchandra Bhagat",
-    "houseNoMarathi": "११५५",
+    "houseNoMarathi": "1155",
     "houseNoEnglish": "1155",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 7,
-    "voterId": "5507604069",
+    "voterId": "SSO7604069",
     "fullNameMarathi": "स्मिता चंद्रशेखर भगत",
     "fullNameEnglish": "Smita Chandrashekhar Bhagat",
     "relativeNameMarathi": "पतीचे नाव : चंद्रशेखर भगत",
     "relativeNameEnglish": "Husband's Name: Chandrashekhar Bhagat",
-    "houseNoMarathi": "११५५",
+    "houseNoMarathi": "1155",
     "houseNoEnglish": "1155",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 8,
-    "voterId": "5507760275",
+    "voterId": "SSO7760275",
     "fullNameMarathi": "पुरुषोत्तम किसनराव भागवत",
     "fullNameEnglish": "Purushottam Kisannrao Bhagwat",
     "relativeNameMarathi": "वडिलांचे नाव : किसनराव भागवत",
     "relativeNameEnglish": "Father's Name: Kisannrao Bhagwat",
-    "houseNoMarathi": "११५५",
+    "houseNoMarathi": "1155",
     "houseNoEnglish": "1155",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 9,
-    "voterId": "5507377054",
+    "voterId": "SSO7377054",
     "fullNameMarathi": "दिपाली निलेश कुंभार",
     "fullNameEnglish": "Dipalī Nilesh Kumbhar",
     "relativeNameMarathi": "पतीचे नाव : निलेश कुंभार",
     "relativeNameEnglish": "Husband's Name: Nilesh Kumbhar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 10,
-    "voterId": "5507377179",
+    "voterId": "SSO7377179",
     "fullNameMarathi": "वनिता विशाल कुंभार",
     "fullNameEnglish": "Vanita Vishal Kumbhar",
     "relativeNameMarathi": "पतीचे नाव : विशाल कुंभार",
     "relativeNameEnglish": "Husband's Name: Vishal Kumbhar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 34,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 11,
-    "voterId": "5507760168",
+    "voterId": "SSO7760168",
     "fullNameMarathi": "अशोक पंढरीनाथ राजापुरे",
     "fullNameEnglish": "Ashok Pandharinath Rajapure",
     "relativeNameMarathi": "वडिलांचे नाव : पंढरीनाथ राजापुरे",
     "relativeNameEnglish": "Father's Name: Pandharinath Rajapure",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 12,
-    "voterId": "5507760127",
+    "voterId": "SSO7760127",
     "fullNameMarathi": "सीमा अशोक राजापुरे",
     "fullNameEnglish": "Seema Ashok Rajapure",
     "relativeNameMarathi": "पतीचे नाव : अशोक राजापुरे",
     "relativeNameEnglish": "Husband's Name: Ashok Rajapure",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 39,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 13,
-    "voterId": "5508945339",
+    "voterId": "SSO8945339",
     "fullNameMarathi": "सुशीलकुमार सुकुमार उपाध्ये",
     "fullNameEnglish": "Sushilkumar Sukumar Upadhye",
     "relativeNameMarathi": "वडिलांचे नाव : सुकुमार उपाध्ये",
     "relativeNameEnglish": "Father's Name: Sukumar Upadhye",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 52,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 14,
-    "voterId": "5508289415",
+    "voterId": "SSO8289415",
     "fullNameMarathi": "राजश्री सुशीलकुमार उपाध्ये",
     "fullNameEnglish": "Rajashri Sushilkumar Upadhye",
     "relativeNameMarathi": "पतीचे नाव : सुशीलकुमार उपाध्ये",
     "relativeNameEnglish": "Husband's Name: Sushilkumar Upadhye",
-    "houseNoMarathi": "११५५",
+    "houseNoMarathi": "1155",
     "houseNoEnglish": "1155",
-    "roomNo": "1",
     "age": 47,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 15,
-    "voterId": "5501107212",
+    "voterId": "SSO1107212",
     "fullNameMarathi": "सायली अनिल शेळके",
     "fullNameEnglish": "Sayali Anil Shelke",
     "relativeNameMarathi": "वडिलांचे नाव : अनिल शेळके",
     "relativeNameEnglish": "Father's Name: Anil Shelke",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 28,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 16,
-    "voterId": "5501773381",
+    "voterId": "SSO1773381",
     "fullNameMarathi": "कार्तिकी सरडे",
     "fullNameEnglish": "Kartiki Sarade",
     "relativeNameMarathi": "वडिलांचे नाव : संजय सरडे",
     "relativeNameEnglish": "Father's Name: Sanjay Sarade",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 17,
-    "voterId": "5507512023",
+    "voterId": "SSO7512023",
     "fullNameMarathi": "सोनाली काशिनाथ मोरे",
     "fullNameEnglish": "Sonali Kashinath More",
     "relativeNameMarathi": "वडिलांचे नाव : काशिनाथ मोरे",
     "relativeNameEnglish": "Father's Name: Kashinath More",
     "houseNoMarathi": "कुमार कॉम्प्लेक्स",
     "houseNoEnglish": "Kumar Complex",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 18,
-    "voterId": "5501107212",
+    "voterId": "SSO1107212",
     "fullNameMarathi": "प्रतिभा सुरेश कातळे",
     "fullNameEnglish": "Pratibha Suresh Katle",
     "relativeNameMarathi": "पतीचे नाव : सुरेश कातळे",
     "relativeNameEnglish": "Husband's Name: Suresh Katle",
-    "houseNoMarathi": "१४८०७",
+    "houseNoMarathi": "14807",
     "houseNoEnglish": "14807",
-    "roomNo": "1",
     "age": 52,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 19,
-    "voterId": "5501773381",
+    "voterId": "SSO1773381",
     "fullNameMarathi": "प्रतिभा जवाहरलाल रुणवाल",
     "fullNameEnglish": "Pratibha Jawaharlal Runwal",
     "relativeNameMarathi": "पतीचे नाव : जवाहरलाल रुणवाल",
     "relativeNameEnglish": "Husband's Name: Jawaharlal Runwal",
-    "houseNoMarathi": "५६०",
+    "houseNoMarathi": "560",
     "houseNoEnglish": "560",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 20,
-    "voterId": "5507512023",
+    "voterId": "SSO7512023",
     "fullNameMarathi": "शैलेश बाळकृष्ण सांडभोर",
     "fullNameEnglish": "Shailesh Balkrishna Sandbhor",
     "relativeNameMarathi": "वडिलांचे नाव : बाळकृष्ण सांडभोर",
     "relativeNameEnglish": "Father's Name: Balkrishna Sandbhor",
-    "houseNoMarathi": "७०८",
+    "houseNoMarathi": "708",
     "houseNoEnglish": "708",
-    "roomNo": "1",
     "age": 40,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 21,
@@ -297,96 +297,96 @@ let voterData = [
     "fullNameEnglish": "Motilal Chunilal Runwal",
     "relativeNameMarathi": "वडिलांचे नाव : चुनिलाल रुणवाल",
     "relativeNameEnglish": "Father's Name: Chunilal Runwal",
-    "houseNoMarathi": "७८०",
+    "houseNoMarathi": "780",
     "houseNoEnglish": "780",
-    "roomNo": "1",
     "age": 97,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 22,
-    "voterId": "5502089076",
+    "voterId": "SSO2089076",
     "fullNameMarathi": "साहेबराव शंकर शेळके",
     "fullNameEnglish": "Sahebrao Shankar Shelke",
     "relativeNameMarathi": "वडिलांचे नाव : शंकर शेळके",
     "relativeNameEnglish": "Father's Name: Shankar Shelke",
-    "houseNoMarathi": "१००४",
+    "houseNoMarathi": "1004",
     "houseNoEnglish": "1004",
-    "roomNo": "1",
     "age": 86,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 23,
-    "voterId": "5502089068",
+    "voterId": "SSO2089068",
     "fullNameMarathi": "लिलाबाई साहेबराव शेळके",
     "fullNameEnglish": "Lilabai Sahebrao Shelke",
     "relativeNameMarathi": "पतीचे नाव : साहेबराव शेळके",
     "relativeNameEnglish": "Husband's Name: Sahebrao Shelke",
-    "houseNoMarathi": "१००४",
+    "houseNoMarathi": "1004",
     "houseNoEnglish": "1004",
-    "roomNo": "1",
     "age": 81,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 24,
-    "voterId": "5502089050",
+    "voterId": "SSO2089050",
     "fullNameMarathi": "अनिल साहेबराव शेळके",
     "fullNameEnglish": "Anil Sahebrao Shelke",
     "relativeNameMarathi": "वडिलांचे नाव : साहेबराव शेळके",
     "relativeNameEnglish": "Father's Name: Sahebrao Shelke",
-    "houseNoMarathi": "१००४",
+    "houseNoMarathi": "1004",
     "houseNoEnglish": "1004",
-    "roomNo": "1",
     "age": 56,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 25,
-    "voterId": "5502089043",
+    "voterId": "SSO2089043",
     "fullNameMarathi": "साधना अनिल शेळके",
     "fullNameEnglish": "Sadhana Anil Shelke",
     "relativeNameMarathi": "पतीचे नाव : अनिल शेळके",
     "relativeNameEnglish": "Husband's Name: Anil Shelke",
-    "houseNoMarathi": "१००४",
+    "houseNoMarathi": "1004",
     "houseNoEnglish": "1004",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 26,
-    "voterId": "5501521335",
+    "voterId": "SSO1521335",
     "fullNameMarathi": "दर्शना प्रकाश कहाणे",
     "fullNameEnglish": "Darshana Prakash Kahane",
     "relativeNameMarathi": "पतीचे नाव : प्रकाश कहाणे",
     "relativeNameEnglish": "Husband's Name: Prakash Kahane",
-    "houseNoMarathi": "१०७८",
+    "houseNoMarathi": "1078",
     "houseNoEnglish": "1078",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 27,
-    "voterId": "5501522952",
+    "voterId": "SSO1522952",
     "fullNameMarathi": "उर्मिला विशाल कहाणे",
     "fullNameEnglish": "Urmila Vishal Kahane",
     "relativeNameMarathi": "पतीचे नाव : विशाल कहाणे",
     "relativeNameEnglish": "Husband's Name: Vishal Kahane",
-    "houseNoMarathi": "१०७९",
+    "houseNoMarathi": "1079",
     "houseNoEnglish": "1079",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 28,
@@ -395,54 +395,54 @@ let voterData = [
     "fullNameEnglish": "Baban Katle",
     "relativeNameMarathi": "वडिलांचे नाव : बबन कातळे",
     "relativeNameEnglish": "Father's Name: Baban Katle",
-    "houseNoMarathi": "४८०४",
+    "houseNoMarathi": "4804",
     "houseNoEnglish": "4804",
-    "roomNo": "1",
     "age": 55,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 29,
-    "voterId": "5507512247",
+    "voterId": "SSO7512247",
     "fullNameMarathi": "किशोर दयाराम कर्नावट",
     "fullNameEnglish": "Kishor Dayaram Karnavat",
     "relativeNameMarathi": "वडिलांचे नाव : दयाराम कर्नावट",
     "relativeNameEnglish": "Father's Name: Dayaram Karnavat",
     "houseNoMarathi": "१५८६/८७",
     "houseNoEnglish": "1586/87",
-    "roomNo": "1",
     "age": 64,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 30,
-    "voterId": "5501764992",
+    "voterId": "SSO1764992",
     "fullNameMarathi": "सुनीता किशोर कर्नावट",
     "fullNameEnglish": "Sunita Kishor Karnavat",
     "relativeNameMarathi": "पतीचे नाव : किशोर कर्नावट",
     "relativeNameEnglish": "Husband's Name: Kishor Karnavat",
     "houseNoMarathi": "१५८६/८७",
     "houseNoEnglish": "1586/87",
-    "roomNo": "1",
     "age": 59,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 31,
-    "voterId": "5507158371",
+    "voterId": "SSO7158371",
     "fullNameMarathi": "बाबाजी सोपान पाटोळे",
     "fullNameEnglish": "Babaji Sopan Patole",
     "relativeNameMarathi": "वडिलांचे नाव : सोपान पाटोळे",
     "relativeNameEnglish": "Father's Name: Sopan Patole",
-    "houseNoMarathi": "८३",
+    "houseNoMarathi": "83",
     "houseNoEnglish": "83",
-    "roomNo": "1",
     "age": 48,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 32,
@@ -451,12 +451,12 @@ let voterData = [
     "fullNameEnglish": "Ayesha Tosin Momin",
     "relativeNameMarathi": "वडिलांचे नाव : तोसीन मोमिन",
     "relativeNameEnglish": "Father's Name: Tosin Momin",
-    "houseNoMarathi": "११५५",
+    "houseNoMarathi": "1155",
     "houseNoEnglish": "1155",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 33,
@@ -467,10 +467,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Nathu Borhade",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 76,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 34,
@@ -481,10 +481,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Ganesh Bankhele",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 35,
@@ -495,10 +495,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Namdev Bhombe",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 36,
@@ -509,10 +509,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Ramdas Bhombe",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 37,
@@ -523,10 +523,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Nathu Jadhav",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 38,
@@ -537,10 +537,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Harak Karbhari",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 39,
@@ -551,10 +551,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Bhagwan Naikade",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 22,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 40,
@@ -565,10 +565,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Bhimrao Patil",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 41,
@@ -579,10 +579,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Shinde",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 28,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 42,
@@ -593,10 +593,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Goraksh Saundane",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 43,
@@ -607,10 +607,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Rahul Sandbhor",
     "houseNoMarathi": "लक्ष्मी पार्क",
     "houseNoEnglish": "Laxmi Park",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 44,
@@ -621,10 +621,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Mahadev Baste",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 45,
@@ -635,10 +635,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Deepak Baste",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 46,
@@ -649,10 +649,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Sachin Bhendale",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 28,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 47,
@@ -663,10 +663,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Nachiket Bhujbal",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 39,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 48,
@@ -677,10 +677,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Balu Jadhav",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 49,
@@ -691,10 +691,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Sandip Kshirgar",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 50,
@@ -705,10 +705,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Vaman Sandhor",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 67,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 51,
@@ -719,10 +719,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Popatrav Sandhor",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 65,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 52,
@@ -733,10 +733,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Popatrav Sandhor",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 44,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 53,
@@ -747,10 +747,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Popat Sandhor",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 54,
@@ -761,10 +761,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Balasaheb Sandhor",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 55,
@@ -775,10 +775,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Dattatray Sandhor",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 56,
@@ -789,10 +789,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Sudhir Sandhor",
     "houseNoMarathi": "राजगुरुनगर",
     "houseNoEnglish": "Rajagurunagar",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 57,
@@ -803,10 +803,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Prakash Chavan",
     "houseNoMarathi": "टेल्को कॉलनी",
     "houseNoEnglish": "Telco Colony",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 58,
@@ -817,10 +817,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Vikram Chavan",
     "houseNoMarathi": "टेल्को कॉलनी",
     "houseNoEnglish": "Telco Colony",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 59,
@@ -831,10 +831,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Suresh Hundare",
     "houseNoMarathi": "टेल्को कॉलनी",
     "houseNoEnglish": "Telco Colony",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 60,
@@ -845,10 +845,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ramchandra Jadhav",
     "houseNoMarathi": "१८०० कॉलनी",
     "houseNoEnglish": "1800 Colony",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 61,
@@ -859,10 +859,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Sandip Kirve",
     "houseNoMarathi": "१००० कॉलनी",
     "houseNoEnglish": "1000 Colony",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 62,
@@ -871,12 +871,12 @@ let voterData = [
     "fullNameEnglish": "Laxmi Mahadev Shinde",
     "relativeNameMarathi": "पतीचे नाव : महादेव शिंदे",
     "relativeNameEnglish": "Husband's Name: Mahadev Shinde",
-    "houseNoMarathi": "१८००",
+    "houseNoMarathi": "1800",
     "houseNoEnglish": "1800",
-    "roomNo": "1",
     "age": 64,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 63,
@@ -885,12 +885,12 @@ let voterData = [
     "fullNameEnglish": "Somnath Mahadev Shinde",
     "relativeNameMarathi": "वडिलांचे नाव : महादेव शिंदे",
     "relativeNameEnglish": "Father's Name: Mahadev Shinde",
-    "houseNoMarathi": "१६००",
+    "houseNoMarathi": "1600",
     "houseNoEnglish": "1600",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 64,
@@ -899,12 +899,12 @@ let voterData = [
     "fullNameEnglish": "Ashok Barku Thube",
     "relativeNameMarathi": "वडिलांचे नाव : बारकू ठुबे",
     "relativeNameEnglish": "Father's Name: Barku Thube",
-    "houseNoMarathi": "१००",
+    "houseNoMarathi": "100",
     "houseNoEnglish": "100",
-    "roomNo": "1",
     "age": 53,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 65,
@@ -913,12 +913,12 @@ let voterData = [
     "fullNameEnglish": "Suvarna Ashok Thube",
     "relativeNameMarathi": "पतीचे नाव : अशोक ठुबे",
     "relativeNameEnglish": "Husband's Name: Ashok Thube",
-    "houseNoMarathi": "१८००",
+    "houseNoMarathi": "1800",
     "houseNoEnglish": "1800",
-    "roomNo": "1",
     "age": 50,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 66,
@@ -927,12 +927,12 @@ let voterData = [
     "fullNameEnglish": "Sarla Sheshrao Limgude",
     "relativeNameMarathi": "पतीचे नाव : शेषराव लिमगुडे",
     "relativeNameEnglish": "Husband's Name: Sheshrao Limgude",
-    "houseNoMarathi": "४४८०५०",
+    "houseNoMarathi": "448050",
     "houseNoEnglish": "448050",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 67,
@@ -941,12 +941,12 @@ let voterData = [
     "fullNameEnglish": "Tejal Limgude",
     "relativeNameMarathi": "आईचे नाव : सरला लिमगुडे",
     "relativeNameEnglish": "Mother's Name: Sarla Limgude",
-    "houseNoMarathi": "४४८०५०",
+    "houseNoMarathi": "448050",
     "houseNoEnglish": "448050",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 68,
@@ -955,12 +955,12 @@ let voterData = [
     "fullNameEnglish": "Bhagyashree Prashant Aher",
     "relativeNameMarathi": "पतीचे नाव : प्रशांत आहेर",
     "relativeNameEnglish": "Husband's Name: Prashant Aher",
-    "houseNoMarathi": "१०००",
+    "houseNoMarathi": "1000",
     "houseNoEnglish": "1000",
-    "roomNo": "1",
     "age": 27,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 69,
@@ -969,12 +969,12 @@ let voterData = [
     "fullNameEnglish": "Taniksha Ajit Bambale",
     "relativeNameMarathi": "वडिलांचे नाव : अजित बांबळे",
     "relativeNameEnglish": "Father's Name: Ajit Bambale",
-    "houseNoMarathi": "१८००",
+    "houseNoMarathi": "1800",
     "houseNoEnglish": "1800",
-    "roomNo": "1",
     "age": 22,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 70,
@@ -983,12 +983,12 @@ let voterData = [
     "fullNameEnglish": "Suryakant Nigoji Jagdankar",
     "relativeNameMarathi": "वडिलांचे नाव : निगोजी जगदनकर",
     "relativeNameEnglish": "Father's Name: Nigoji Jagdankar",
-    "houseNoMarathi": "१०००",
+    "houseNoMarathi": "1000",
     "houseNoEnglish": "1000",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 71,
@@ -997,12 +997,12 @@ let voterData = [
     "fullNameEnglish": "Ashish Sandip Kadlag",
     "relativeNameMarathi": "वडिलांचे नाव : संदीप कडलग",
     "relativeNameEnglish": "Father's Name: Sandip Kadlag",
-    "houseNoMarathi": "१८००",
+    "houseNoMarathi": "1800",
     "houseNoEnglish": "1800",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 72,
@@ -1011,12 +1011,12 @@ let voterData = [
     "fullNameEnglish": "Dipalī Kailas Sandbhor",
     "relativeNameMarathi": "वडिलांचे नाव : कैलास सांडभोर",
     "relativeNameEnglish": "Father's Name: Kailas Sandbhor",
-    "houseNoMarathi": "१६००",
+    "houseNoMarathi": "1600",
     "houseNoEnglish": "1600",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 73,
@@ -1025,12 +1025,12 @@ let voterData = [
     "fullNameEnglish": "Prashant Kadu Aher",
     "relativeNameMarathi": "वडिलांचे नाव : कडू आहेर",
     "relativeNameEnglish": "Father's Name: Kadu Aher",
-    "houseNoMarathi": "१०००",
+    "houseNoMarathi": "1000",
     "houseNoEnglish": "1000",
-    "roomNo": "1",
     "age": 31,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 74,
@@ -1039,12 +1039,12 @@ let voterData = [
     "fullNameEnglish": "Shubhangi Aniket Deshmukh",
     "relativeNameMarathi": "पतीचे नाव : अनिकेत देशमुख",
     "relativeNameEnglish": "Husband's Name: Aniket Deshmukh",
-    "houseNoMarathi": "१८००",
+    "houseNoMarathi": "1800",
     "houseNoEnglish": "1800",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 75,
@@ -1053,12 +1053,12 @@ let voterData = [
     "fullNameEnglish": "Kirti Chandrashekhar Wadekar",
     "relativeNameMarathi": "पतीचे नाव : चंद्रशेखर वाडेकर",
     "relativeNameEnglish": "Husband's Name: Chandrashekhar Wadekar",
-    "houseNoMarathi": "१४३३",
+    "houseNoMarathi": "1433",
     "houseNoEnglish": "1433",
-    "roomNo": "1",
     "age": 47,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 76,
@@ -1067,12 +1067,12 @@ let voterData = [
     "fullNameEnglish": "Lilabai Ghevar Chand Baldota",
     "relativeNameMarathi": "वडिलांचे नाव : घेवरचंद बलदोटा",
     "relativeNameEnglish": "Father's Name: Ghevar Chand Baldota",
-    "houseNoMarathi": "१०९६",
+    "houseNoMarathi": "1096",
     "houseNoEnglish": "1096",
-    "roomNo": "1",
     "age": 77,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 77,
@@ -1081,12 +1081,12 @@ let voterData = [
     "fullNameEnglish": "Anil Ghevar Chand Baldota",
     "relativeNameMarathi": "वडिलांचे नाव : घेवरचंद बलदोटा",
     "relativeNameEnglish": "Father's Name: Ghevar Chand Baldota",
-    "houseNoMarathi": "१०९६",
+    "houseNoMarathi": "1096",
     "houseNoEnglish": "1096",
-    "roomNo": "1",
     "age": 58,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 78,
@@ -1095,12 +1095,12 @@ let voterData = [
     "fullNameEnglish": "Sunil Ghevar Chand Baldota",
     "relativeNameMarathi": "वडिलांचे नाव : घेवरचंद बलदोटा",
     "relativeNameEnglish": "Father's Name: Ghevar Chand Baldota",
-    "houseNoMarathi": "१०९६",
+    "houseNoMarathi": "1096",
     "houseNoEnglish": "1096",
-    "roomNo": "1",
     "age": 57,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 79,
@@ -1109,12 +1109,12 @@ let voterData = [
     "fullNameEnglish": "Sangeeta Anil Baldota",
     "relativeNameMarathi": "वडिलांचे नाव : अनिल बलदोटा",
     "relativeNameEnglish": "Father's Name: Anil Baldota",
-    "houseNoMarathi": "१०९६",
+    "houseNoMarathi": "1096",
     "houseNoEnglish": "1096",
-    "roomNo": "1",
     "age": 56,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 80,
@@ -1123,12 +1123,12 @@ let voterData = [
     "fullNameEnglish": "Sujata Sunil Baldota",
     "relativeNameMarathi": "वडिलांचे नाव : सुनिल बलदोटा",
     "relativeNameEnglish": "Father's Name: Sunil Baldota",
-    "houseNoMarathi": "१०९६",
+    "houseNoMarathi": "1096",
     "houseNoEnglish": "1096",
-    "roomNo": "1",
     "age": 54,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 81,
@@ -1139,10 +1139,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Santosh Bankhele",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 82,
@@ -1153,10 +1153,10 @@ let voterData = [
     "relativeNameEnglish": "Mother's Name: Sanjay Chaudhari",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 83,
@@ -1167,10 +1167,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Bhagwant Dhaibar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 55,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 84,
@@ -1181,10 +1181,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Nandkumar Dhaibar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 39,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 85,
@@ -1195,10 +1195,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sukadev Dhusing",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 86,
@@ -1209,10 +1209,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Milind Dhusing",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 87,
@@ -1223,10 +1223,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ranu Mhalungkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 28,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 88,
@@ -1237,10 +1237,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ranu Mhalungkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 89,
@@ -1251,10 +1251,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Bhikaji Pingale",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 55,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 90,
@@ -1265,10 +1265,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Balasaheb Pingale",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 91,
@@ -1279,10 +1279,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Balasaheb Pingale",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 27,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 92,
@@ -1293,10 +1293,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Ganpat Tambe",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 68,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 93,
@@ -1307,10 +1307,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ganpat Tambe",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 94,
@@ -1321,10 +1321,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Pravin Tambe",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 95,
@@ -1335,10 +1335,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Satish Thigale",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 96,
@@ -1349,10 +1349,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Baban Vaggh",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 44,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 97,
@@ -1363,10 +1363,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Sampat Vaggh",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 98,
@@ -1375,12 +1375,12 @@ let voterData = [
     "fullNameEnglish": "Gyaneshwar Ranganath Sonavane",
     "relativeNameMarathi": "वडिलांचे नाव : रंगनाथ सोनवणे",
     "relativeNameEnglish": "Father's Name: Ranganath Sonavane",
-    "houseNoMarathi": "५९२",
+    "houseNoMarathi": "592",
     "houseNoEnglish": "592",
-    "roomNo": "1",
     "age": 77,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 99,
@@ -1389,12 +1389,12 @@ let voterData = [
     "fullNameEnglish": "Shalini Gyaneshwar Sonavane",
     "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर सोनवणे",
     "relativeNameEnglish": "Husband's Name: Gyaneshwar Sonavane",
-    "houseNoMarathi": "५९२",
+    "houseNoMarathi": "592",
     "houseNoEnglish": "592",
-    "roomNo": "1",
     "age": 69,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 100,
@@ -1403,12 +1403,12 @@ let voterData = [
     "fullNameEnglish": "Siddharth Gyaneshwar Sonavane",
     "relativeNameMarathi": "वडिलांचे नाव : ज्ञानेश्वर सोनवणे",
     "relativeNameEnglish": "Father's Name: Gyaneshwar Sonavane",
-    "houseNoMarathi": "५९२",
+    "houseNoMarathi": "592",
     "houseNoEnglish": "592",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 101,
@@ -1417,12 +1417,12 @@ let voterData = [
     "fullNameEnglish": "Archana Siddharth Sonavane",
     "relativeNameMarathi": "पतीचे नाव : सिद्धार्थ सोनवणे",
     "relativeNameEnglish": "Husband's Name: Siddharth Sonavane",
-    "houseNoMarathi": "५९२",
+    "houseNoMarathi": "592",
     "houseNoEnglish": "592",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 102,
@@ -1431,12 +1431,12 @@ let voterData = [
     "fullNameEnglish": "Suresh Popatlal Pokharna",
     "relativeNameMarathi": "वडिलांचे नाव : पोपटलाल पोखर्णा",
     "relativeNameEnglish": "Father's Name: Popatlal Pokharna",
-    "houseNoMarathi": "६२७",
+    "houseNoMarathi": "627",
     "houseNoEnglish": "627",
-    "roomNo": "1",
     "age": 55,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 103,
@@ -1445,12 +1445,12 @@ let voterData = [
     "fullNameEnglish": "Savita Suresh Pokharna",
     "relativeNameMarathi": "वडिलांचे नाव : सुरेश पोखर्णा",
     "relativeNameEnglish": "Father's Name: Suresh Pokharna",
-    "houseNoMarathi": "६२७",
+    "houseNoMarathi": "627",
     "houseNoEnglish": "627",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 104,
@@ -1459,12 +1459,12 @@ let voterData = [
     "fullNameEnglish": "Mayuri Suresh Pokharna",
     "relativeNameMarathi": "वडिलांचे नाव : सुरेश पोखर्णा",
     "relativeNameEnglish": "Father's Name: Suresh Pokharna",
-    "houseNoMarathi": "६२७",
+    "houseNoMarathi": "627",
     "houseNoEnglish": "627",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 105,
@@ -1473,12 +1473,12 @@ let voterData = [
     "fullNameEnglish": "Sharad Nivruttī Patange",
     "relativeNameMarathi": "वडिलांचे नाव : निवृत्ती पतंगे",
     "relativeNameEnglish": "Father's Name: Nivruttī Patange",
-    "houseNoMarathi": "६९२",
+    "houseNoMarathi": "692",
     "houseNoEnglish": "692",
-    "roomNo": "1",
     "age": 55,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 106,
@@ -1487,12 +1487,12 @@ let voterData = [
     "fullNameEnglish": "Anita Sharad Patange",
     "relativeNameMarathi": "पतीचे नाव : शरद पतंगे",
     "relativeNameEnglish": "Husband's Name: Sharad Patange",
-    "houseNoMarathi": "६९२",
+    "houseNoMarathi": "692",
     "houseNoEnglish": "692",
-    "roomNo": "1",
     "age": 53,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 107,
@@ -1501,12 +1501,12 @@ let voterData = [
     "fullNameEnglish": "Jawahar Motilal Runwal",
     "relativeNameMarathi": "वडिलांचे नाव : मोतीलाल रुणवाल",
     "relativeNameEnglish": "Father's Name: Motilal Runwal",
-    "houseNoMarathi": "७८०",
+    "houseNoMarathi": "780",
     "houseNoEnglish": "780",
-    "roomNo": "1",
     "age": 70,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 108,
@@ -1515,12 +1515,12 @@ let voterData = [
     "fullNameEnglish": "Ujwala Jawahar Runwal",
     "relativeNameMarathi": "वडिलांचे नाव : जवाहर रुणवाल",
     "relativeNameEnglish": "Father's Name: Jawahar Runwal",
-    "houseNoMarathi": "७८०",
+    "houseNoMarathi": "780",
     "houseNoEnglish": "780",
-    "roomNo": "1",
     "age": 48,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 109,
@@ -1529,12 +1529,12 @@ let voterData = [
     "fullNameEnglish": "Pratik Jawahar Runwal",
     "relativeNameMarathi": "वडिलांचे नाव : जवाहर रुणवाल",
     "relativeNameEnglish": "Father's Name: Jawahar Runwal",
-    "houseNoMarathi": "७८०",
+    "houseNoMarathi": "780",
     "houseNoEnglish": "780",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 110,
@@ -1543,12 +1543,12 @@ let voterData = [
     "fullNameEnglish": "Dinesh Gulabchand Baldota",
     "relativeNameMarathi": "वडिलांचे नाव : गुलाबचंद बलदोटा",
     "relativeNameEnglish": "Father's Name: Gulabchand Baldota",
-    "houseNoMarathi": "७८३",
+    "houseNoMarathi": "783",
     "houseNoEnglish": "783",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 111,
@@ -1557,12 +1557,12 @@ let voterData = [
     "fullNameEnglish": "Abhishek Pandurang Bhoskar",
     "relativeNameMarathi": "वडिलांचे नाव : पांडुरंग दिनकर भोसकर",
     "relativeNameEnglish": "Father's Name: Pandurang Dinkar Bhoskar",
-    "houseNoMarathi": "११९६",
+    "houseNoMarathi": "1196",
     "houseNoEnglish": "1196",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 112,
@@ -1573,10 +1573,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Pundalik Kaddu",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 113,
@@ -1587,10 +1587,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Ravindra Kaddu",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 114,
@@ -1599,12 +1599,12 @@ let voterData = [
     "fullNameEnglish": "Ravindra Mahadu Kale",
     "relativeNameMarathi": "वडिलांचे नाव : महादू काळे",
     "relativeNameEnglish": "Father's Name: Mahadu Kale",
-    "houseNoMarathi": "११९४",
+    "houseNoMarathi": "1194",
     "houseNoEnglish": "1194",
-    "roomNo": "1",
     "age": 58,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 115,
@@ -1615,10 +1615,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Kedar Kulkarni",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 116,
@@ -1627,12 +1627,12 @@ let voterData = [
     "fullNameEnglish": "Santosh Ramesh Kute",
     "relativeNameMarathi": "वडिलांचे नाव : रमेश कुटे",
     "relativeNameEnglish": "Father's Name: Ramesh Kute",
-    "houseNoMarathi": "११९४",
+    "houseNoMarathi": "1194",
     "houseNoEnglish": "1194",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 117,
@@ -1643,10 +1643,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Bandu Malkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 118,
@@ -1655,12 +1655,12 @@ let voterData = [
     "fullNameEnglish": "Santosh Dinkar Mujumdar",
     "relativeNameMarathi": "वडिलांचे नाव : दिनकर मुजुमदार",
     "relativeNameEnglish": "Father's Name: Dinkar Mujumdar",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 47,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 119,
@@ -1669,12 +1669,12 @@ let voterData = [
     "fullNameEnglish": "Shilpa Santosh Mujumdar",
     "relativeNameMarathi": "पतीचे नाव : संतोष मुजुमदार",
     "relativeNameEnglish": "Husband's Name: Santosh Mujumdar",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 46,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 120,
@@ -1685,10 +1685,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Chimaji Nagre",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 48,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 121,
@@ -1699,10 +1699,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Shamlal Parekh",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 122,
@@ -1713,10 +1713,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Basgouda Patil",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 123,
@@ -1727,10 +1727,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Babasaheb Patil",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 124,
@@ -1739,12 +1739,12 @@ let voterData = [
     "fullNameEnglish": "Lalita Gajanan Sonar",
     "relativeNameMarathi": "पतीचे नाव : गजानन सोनार",
     "relativeNameEnglish": "Husband's Name: Gajanan Sonar",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 125,
@@ -1753,12 +1753,12 @@ let voterData = [
     "fullNameEnglish": "Savita Amol Sukre",
     "relativeNameMarathi": "पतीचे नाव : अमोल सुक्रे",
     "relativeNameEnglish": "Husband's Name: Amol Sukre",
-    "houseNoMarathi": "१११८",
+    "houseNoMarathi": "1118",
     "houseNoEnglish": "1118",
-    "roomNo": "1",
     "age": 34,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 126,
@@ -1769,10 +1769,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Sangeeta Thigale",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 46,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 127,
@@ -1783,10 +1783,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Ashok Kotwal",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 128,
@@ -1797,10 +1797,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Khubilal Rana",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 129,
@@ -1811,10 +1811,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Gyaneshwar Ghuge",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 130,
@@ -1825,10 +1825,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Haribhau Kotwal",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 72,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 131,
@@ -1839,10 +1839,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Balasaheb Kotwal",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 132,
@@ -1853,10 +1853,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Balasaheb Kotwal",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 133,
@@ -1867,10 +1867,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Yogendra Rana",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 40,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 134,
@@ -1881,10 +1881,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Chandrakant Rode",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 48,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 135,
@@ -1895,10 +1895,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Chandrakant Rode",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 136,
@@ -1909,10 +1909,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Kailas Varkad",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 34,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 137,
@@ -1923,10 +1923,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sopan Rode",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 53,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 138,
@@ -1937,10 +1937,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Shashikant Bhadke",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 139,
@@ -1951,10 +1951,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Bababrao Hadavale",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 140,
@@ -1965,10 +1965,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Mahadev Pokharkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 141,
@@ -1979,10 +1979,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Rakesh Pokharkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 142,
@@ -1993,10 +1993,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Santosh Sable",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 27,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 143,
@@ -2007,10 +2007,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Vasant Rao Shinde",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 144,
@@ -2021,10 +2021,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ramesh Tapkir",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 22,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 145,
@@ -2035,10 +2035,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Babulal Nichal",
     "houseNoMarathi": "तिन्हेवाडी रोड",
     "houseNoEnglish": "Tinhewadi Road",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 146,
@@ -2049,10 +2049,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Dattarao More",
     "houseNoMarathi": "तिन्हेवाडी रोड",
     "houseNoEnglish": "Tinhewadi Road",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 147,
@@ -2063,10 +2063,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Divakar Nichal",
     "houseNoMarathi": "तिन्हेवाडी रोड",
     "houseNoEnglish": "Tinhewadi Road",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 148,
@@ -2077,10 +2077,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Machhindra Sandbhor",
     "houseNoMarathi": "टेल्को कॉलनी २",
     "houseNoEnglish": "Telco Colony 2",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 149,
@@ -2091,10 +2091,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Omkar Kajale",
     "houseNoMarathi": "टेल्को कॉलनी",
     "houseNoEnglish": "Telco Colony",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 150,
@@ -2105,10 +2105,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Bhanudas Sangale",
     "houseNoMarathi": "टेल्को कॉलनी २",
     "houseNoEnglish": "Telco Colony 2",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 151,
@@ -2119,10 +2119,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Shravan Vaggh",
     "houseNoMarathi": "टेल्को कॉलनी २",
     "houseNoEnglish": "Telco Colony 2",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 152,
@@ -2133,10 +2133,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sharad Wadile",
     "houseNoMarathi": "टेल्को कॉलनी २",
     "houseNoEnglish": "Telco Colony 2",
-    "roomNo": "1",
     "age": 20,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 153,
@@ -2147,10 +2147,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Gulab Sutar",
     "houseNoMarathi": "टेल्को कॉलनी नं ३",
     "houseNoEnglish": "Telco Colony No 3",
-    "roomNo": "1",
     "age": 22,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 154,
@@ -2159,12 +2159,12 @@ let voterData = [
     "fullNameEnglish": "Narayan Popat Khetmalis",
     "relativeNameMarathi": "वडिलांचे नाव : पोपट खेतमाळीस",
     "relativeNameEnglish": "Father's Name: Popat Khetmalis",
-    "houseNoMarathi": "५४९",
+    "houseNoMarathi": "549",
     "houseNoEnglish": "549",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 155,
@@ -2173,12 +2173,12 @@ let voterData = [
     "fullNameEnglish": "Swati Narayan Khetmalis",
     "relativeNameMarathi": "पतीचे नाव : नारायण खेतमाळीस",
     "relativeNameEnglish": "Husband's Name: Narayan Khetmalis",
-    "houseNoMarathi": "५४९",
+    "houseNoMarathi": "549",
     "houseNoEnglish": "549",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 156,
@@ -2187,12 +2187,12 @@ let voterData = [
     "fullNameEnglish": "Vrushali Dinesh Baldota",
     "relativeNameMarathi": "वडिलांचे नाव : दिनेश बलदोटा",
     "relativeNameEnglish": "Father's Name: Dinesh Baldota",
-    "houseNoMarathi": "७८३",
+    "houseNoMarathi": "783",
     "houseNoEnglish": "783",
-    "roomNo": "1",
     "age": 46,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 157,
@@ -2201,12 +2201,12 @@ let voterData = [
     "fullNameEnglish": "Lata Eknath Devde",
     "relativeNameMarathi": "वडिलांचे नाव : एकनाथ देवडे",
     "relativeNameEnglish": "Father's Name: Eknath Devde",
-    "houseNoMarathi": "९७५",
+    "houseNoMarathi": "975",
     "houseNoEnglish": "975",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 158,
@@ -2215,12 +2215,12 @@ let voterData = [
     "fullNameEnglish": "Eknath Ramchandra Devde",
     "relativeNameMarathi": "वडिलांचे नाव : रामचंद्र देवडे",
     "relativeNameEnglish": "Father's Name: Ramchandra Devde",
-    "houseNoMarathi": "९७५",
+    "houseNoMarathi": "975",
     "houseNoEnglish": "975",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 159,
@@ -2229,12 +2229,12 @@ let voterData = [
     "fullNameEnglish": "Meenakshi Dhondu Kanthale",
     "relativeNameMarathi": "पतीचे नाव : धोंडु कंठाळे",
     "relativeNameEnglish": "Husband's Name: Dhondu Kanthale",
-    "houseNoMarathi": "९७६",
+    "houseNoMarathi": "976",
     "houseNoEnglish": "976",
-    "roomNo": "1",
     "age": 34,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 160,
@@ -2243,12 +2243,12 @@ let voterData = [
     "fullNameEnglish": "Ganesh Mahadu Pavale",
     "relativeNameMarathi": "वडिलांचे नाव : महादु पवळे",
     "relativeNameEnglish": "Father's Name: Mahadu Pavale",
-    "houseNoMarathi": "९७६",
+    "houseNoMarathi": "976",
     "houseNoEnglish": "976",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 161,
@@ -2257,12 +2257,12 @@ let voterData = [
     "fullNameEnglish": "Dhondu Uttamappa Kanthale",
     "relativeNameMarathi": "वडिलांचे नाव : उत्तमअप्पा कंठाळे",
     "relativeNameEnglish": "Father's Name: Uttamappa Kanthale",
-    "houseNoMarathi": "९७८",
+    "houseNoMarathi": "978",
     "houseNoEnglish": "978",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 162,
@@ -2271,12 +2271,12 @@ let voterData = [
     "fullNameEnglish": "Rajendra Krishnaji Dhavale",
     "relativeNameMarathi": "वडिलांचे नाव : कृष्णाजी ढवळे",
     "relativeNameEnglish": "Father's Name: Krishnaji Dhavale",
-    "houseNoMarathi": "९७९",
+    "houseNoMarathi": "979",
     "houseNoEnglish": "979",
-    "roomNo": "1",
     "age": 52,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 163,
@@ -2285,12 +2285,12 @@ let voterData = [
     "fullNameEnglish": "Sangeeta Rajendra Dhavale",
     "relativeNameMarathi": "पतीचे नाव : राजेंद्र ढवळे",
     "relativeNameEnglish": "Husband's Name: Rajendra Dhavale",
-    "houseNoMarathi": "९७९",
+    "houseNoMarathi": "979",
     "houseNoEnglish": "979",
-    "roomNo": "1",
     "age": 48,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 164,
@@ -2299,12 +2299,12 @@ let voterData = [
     "fullNameEnglish": "Kashinath Viththal Bhokare",
     "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल भोकरे",
     "relativeNameEnglish": "Father's Name: Viththal Bhokare",
-    "houseNoMarathi": "९८०",
+    "houseNoMarathi": "980",
     "houseNoEnglish": "980",
-    "roomNo": "1",
     "age": 52,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 165,
@@ -2313,12 +2313,12 @@ let voterData = [
     "fullNameEnglish": "Lakshmi Kashinath Bhokare",
     "relativeNameMarathi": "पतीचे नाव : काशिनाथ भोकरे",
     "relativeNameEnglish": "Husband's Name: Kashinath Bhokare",
-    "houseNoMarathi": "९८०",
+    "houseNoMarathi": "980",
     "houseNoEnglish": "980",
-    "roomNo": "1",
     "age": 49,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 166,
@@ -2327,12 +2327,12 @@ let voterData = [
     "fullNameEnglish": "Sandip Raghunath Patil",
     "relativeNameMarathi": "वडिलांचे नाव : रघुनाथ पाटील",
     "relativeNameEnglish": "Father's Name: Raghunath Patil",
-    "houseNoMarathi": "९८१",
+    "houseNoMarathi": "981",
     "houseNoEnglish": "981",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 167,
@@ -2341,12 +2341,12 @@ let voterData = [
     "fullNameEnglish": "Jayashri Sandip Patil",
     "relativeNameMarathi": "पतीचे नाव : संदीप पाटील",
     "relativeNameEnglish": "Husband's Name: Sandip Patil",
-    "houseNoMarathi": "९८१",
+    "houseNoMarathi": "981",
     "houseNoEnglish": "981",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 168,
@@ -2355,12 +2355,12 @@ let voterData = [
     "fullNameEnglish": "Bibhishan Arjun Toramal",
     "relativeNameMarathi": "वडिलांचे नाव : अर्जुन तोरमल",
     "relativeNameEnglish": "Father's Name: Arjun Toramal",
-    "houseNoMarathi": "९८२",
+    "houseNoMarathi": "982",
     "houseNoEnglish": "982",
-    "roomNo": "1",
     "age": 63,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 169,
@@ -2369,12 +2369,12 @@ let voterData = [
     "fullNameEnglish": "Ashwini Govind Takte",
     "relativeNameMarathi": "पतीचे नाव : गोविंद तक्ते",
     "relativeNameEnglish": "Husband's Name: Govind Takte",
-    "houseNoMarathi": "९८४",
+    "houseNoMarathi": "984",
     "houseNoEnglish": "984",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 170,
@@ -2383,12 +2383,12 @@ let voterData = [
     "fullNameEnglish": "Atmaram Dhanaji Borse",
     "relativeNameMarathi": "वडिलांचे नाव : धनाजी बोरसे",
     "relativeNameEnglish": "Father's Name: Dhanaji Borse",
-    "houseNoMarathi": "४८०१",
+    "houseNoMarathi": "4801",
     "houseNoEnglish": "4801",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 171,
@@ -2397,12 +2397,12 @@ let voterData = [
     "fullNameEnglish": "Jijabai Atmaram Borse",
     "relativeNameMarathi": "पतीचे नाव : आत्माराम बोरसे",
     "relativeNameEnglish": "Husband's Name: Atmaram Borse",
-    "houseNoMarathi": "४८०१",
+    "houseNoMarathi": "4801",
     "houseNoEnglish": "4801",
-    "roomNo": "1",
     "age": 79,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 172,
@@ -2411,12 +2411,12 @@ let voterData = [
     "fullNameEnglish": "Mahendra Atmaram Borse",
     "relativeNameMarathi": "वडिलांचे नाव : आत्माराम बोरसे",
     "relativeNameEnglish": "Father's Name: Atmaram Borse",
-    "houseNoMarathi": "४८०१",
+    "houseNoMarathi": "4801",
     "houseNoEnglish": "4801",
-    "roomNo": "1",
     "age": 61,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 173,
@@ -2425,12 +2425,12 @@ let voterData = [
     "fullNameEnglish": "Rajendra Atmaram Borse",
     "relativeNameMarathi": "वडिलांचे नाव : आत्माराम बोरसे",
     "relativeNameEnglish": "Father's Name: Atmaram Borse",
-    "houseNoMarathi": "४८०१",
+    "houseNoMarathi": "4801",
     "houseNoEnglish": "4801",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 174,
@@ -2439,12 +2439,12 @@ let voterData = [
     "fullNameEnglish": "Jayashri Rajendra Borse",
     "relativeNameMarathi": "पतीचे नाव : राजेंद्र बोरसे",
     "relativeNameEnglish": "Husband's Name: Rajendra Borse",
-    "houseNoMarathi": "४८०१",
+    "houseNoMarathi": "4801",
     "houseNoEnglish": "4801",
-    "roomNo": "1",
     "age": 55,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 175,
@@ -2453,12 +2453,12 @@ let voterData = [
     "fullNameEnglish": "Jyoti Mahendra Borse",
     "relativeNameMarathi": "पतीचे नाव : महेंद्र बोरसे",
     "relativeNameEnglish": "Husband's Name: Mahendra Borse",
-    "houseNoMarathi": "४८०१",
+    "houseNoMarathi": "4801",
     "houseNoEnglish": "4801",
-    "roomNo": "1",
     "age": 47,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 176,
@@ -2469,10 +2469,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Nirapat Yadav",
     "houseNoMarathi": "५१३/१",
     "houseNoEnglish": "513/1",
-    "roomNo": "1",
     "age": 44,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 177,
@@ -2483,10 +2483,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Alam Sheikh",
     "houseNoMarathi": "२०२९/३",
     "houseNoEnglish": "2029/3",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 178,
@@ -2497,10 +2497,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Alam Sheikh",
     "houseNoMarathi": "२०२९/३",
     "houseNoEnglish": "2029/3",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 179,
@@ -2511,10 +2511,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ramchandra Lohkare",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 27,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 180,
@@ -2525,10 +2525,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ismail Momin",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 31,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 181,
@@ -2537,12 +2537,12 @@ let voterData = [
     "fullNameEnglish": "Vishal Shankar Kumbhar",
     "relativeNameMarathi": "वडिलांचे नाव : शंकर कुंभार",
     "relativeNameEnglish": "Father's Name: Shankar Kumbhar",
-    "houseNoMarathi": "३०५०",
+    "houseNoMarathi": "3050",
     "houseNoEnglish": "3050",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 182,
@@ -2551,12 +2551,12 @@ let voterData = [
     "fullNameEnglish": "Nilesh Shankar Kumbhar",
     "relativeNameMarathi": "वडिलांचे नाव : शंकर कुंभार",
     "relativeNameEnglish": "Father's Name: Shankar Kumbhar",
-    "houseNoMarathi": "३०५०",
+    "houseNoMarathi": "3050",
     "houseNoEnglish": "3050",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 183,
@@ -2565,12 +2565,12 @@ let voterData = [
     "fullNameEnglish": "Nita Ganesh Bora",
     "relativeNameMarathi": "पतीचे नाव : गणेश बोरा",
     "relativeNameEnglish": "Husband's Name: Ganesh Bora",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 184,
@@ -2581,10 +2581,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ramesh Kadam",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 29,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 185,
@@ -2595,10 +2595,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Nitin Kahane",
     "houseNoMarathi": "अभिमान श्री रेसिडेंसी",
     "houseNoEnglish": "Abhiman Shree Residency",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 186,
@@ -2609,10 +2609,10 @@ let voterData = [
     "relativeNameEnglish": "Mother's Name: Kaveri Sandbhor",
     "houseNoMarathi": "रुक्मिणी",
     "houseNoEnglish": "Rukmini",
-    "roomNo": "1",
     "age": 19,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 187,
@@ -2623,10 +2623,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Shriram Minde",
     "houseNoMarathi": "शांताई निवास",
     "houseNoEnglish": "Shantai Niwas",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 188,
@@ -2635,12 +2635,12 @@ let voterData = [
     "fullNameEnglish": "Sangram Kadambande",
     "relativeNameMarathi": "वडिलांचे नाव : दिलीपराव कदमबांडे",
     "relativeNameEnglish": "Father's Name: Diliprao Kadambande",
-    "houseNoMarathi": "Oct-६५",
-    "houseNoEnglish": "Oct-65",
-    "roomNo": "1",
+    "houseNoMarathi": "24016",
+    "houseNoEnglish": "24016",
     "age": 35,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 189,
@@ -2651,10 +2651,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ravindra Pote",
     "houseNoMarathi": "फ्लॅट नं ९, गीता अपार्टमेंट",
     "houseNoEnglish": "Flat No 9, Geeta Apartment",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 190,
@@ -2663,12 +2663,12 @@ let voterData = [
     "fullNameEnglish": "Mohan Dagdu Nandkar",
     "relativeNameMarathi": "वडिलांचे नाव : दगडु नंदकर",
     "relativeNameEnglish": "Father's Name: Dagdu Nandkar",
-    "houseNoMarathi": "५",
+    "houseNoMarathi": "5",
     "houseNoEnglish": "5",
-    "roomNo": "1",
     "age": 52,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 191,
@@ -2677,12 +2677,12 @@ let voterData = [
     "fullNameEnglish": "Manjusha Mohan Nandkar",
     "relativeNameMarathi": "पतीचे नाव : मोहन नंदकर",
     "relativeNameEnglish": "Husband's Name: Mohan Nandkar",
-    "houseNoMarathi": "५",
+    "houseNoMarathi": "5",
     "houseNoEnglish": "5",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 192,
@@ -2693,10 +2693,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ramesh Khairnar",
     "houseNoMarathi": "एआर",
     "houseNoEnglish": "AR",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 193,
@@ -2705,12 +2705,12 @@ let voterData = [
     "fullNameEnglish": "Dattatray Kashinath Gopale",
     "relativeNameMarathi": "वडिलांचे नाव : राम गोपाळे",
     "relativeNameEnglish": "Father's Name: Ram Gopale",
-    "houseNoMarathi": "९३",
+    "houseNoMarathi": "93",
     "houseNoEnglish": "93",
-    "roomNo": "1",
     "age": 34,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 194,
@@ -2721,10 +2721,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Kondibhau Purvant",
     "houseNoMarathi": "१३९२-२",
     "houseNoEnglish": "1392-2",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 195,
@@ -2735,10 +2735,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ashok Nagre",
     "houseNoMarathi": "१८५६/३",
     "houseNoEnglish": "1856/3",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 196,
@@ -2749,10 +2749,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Jaywant Takalkar",
     "houseNoMarathi": "१८५६/४",
     "houseNoEnglish": "1856/4",
-    "roomNo": "1",
     "age": 53,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 197,
@@ -2763,10 +2763,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Subhash Takalkar",
     "houseNoMarathi": "१८५६/४",
     "houseNoEnglish": "1856/4",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 198,
@@ -2777,10 +2777,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Kailash Ghanwat",
     "houseNoMarathi": "मातोश्री निवास",
     "houseNoEnglish": "Matoshree Niwas",
-    "roomNo": "1",
     "age": 21,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 199,
@@ -2791,10 +2791,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Dinesh Baldota",
     "houseNoMarathi": "अभिमान श्री रेसिडेंसी",
     "houseNoEnglish": "Abhiman Shree Residency",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 200,
@@ -2805,10 +2805,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Madhukar Gilbile",
     "houseNoMarathi": "विश्वदर्शन फ्लॅट नं ९०",
     "houseNoEnglish": "Vishwadarshan Flat No 90",
-    "roomNo": "1",
     "age": 20,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 201,
@@ -2819,10 +2819,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Madhukar Gilbile",
     "houseNoMarathi": "विश्वदर्शन फ्लॅट नं ९०",
     "houseNoEnglish": "Vishwadarshan Flat No 90",
-    "roomNo": "1",
     "age": 19,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 202,
@@ -2833,10 +2833,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Jalinder Maruti Gayakwad",
     "houseNoMarathi": "आनंद अपार्टमेंट",
     "houseNoEnglish": "Anand Apartment",
-    "roomNo": "1",
     "age": 18,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 203,
@@ -2847,10 +2847,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Suresh Rakshe",
     "houseNoMarathi": "रूम नं ०७",
     "houseNoEnglish": "Room No 07",
-    "roomNo": "1",
     "age": 18,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 204,
@@ -2861,10 +2861,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Saiyadanjir Momin",
     "houseNoMarathi": "अभिमानश्री रेसिडेंसी",
     "houseNoEnglish": "Abhimanshree Residency",
-    "roomNo": "1",
     "age": 20,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 205,
@@ -2875,10 +2875,10 @@ let voterData = [
     "relativeNameEnglish": "Mother's Name: Vrushali Baldota",
     "houseNoMarathi": "अभिमानश्री रेसिडेंसी",
     "houseNoEnglish": "Abhimaanshri Residency",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 206,
@@ -2889,10 +2889,10 @@ let voterData = [
     "relativeNameEnglish": "Mother's Name: Vrushali Baldota",
     "houseNoMarathi": "अभिमानश्री रेसिडेंसी",
     "houseNoEnglish": "Abhimanshri Residency",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 207,
@@ -2903,10 +2903,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sheshrao Damodar Limgude",
     "houseNoMarathi": "वाडा रोड रायगुरुनगर",
     "houseNoEnglish": "Wada Road Raigurunagar",
-    "roomNo": "1",
     "age": 18,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 208,
@@ -2917,10 +2917,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Girish Naikade",
     "houseNoMarathi": "फ्लॅट नं २५ अथर्वा कॉन्स्ट्रक्शन",
     "houseNoEnglish": "Flat No 25 Atharva Construction",
-    "roomNo": "1",
     "age": 19,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 209,
@@ -2931,10 +2931,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Girish Naikade",
     "houseNoMarathi": "फ्लॅट नं २५ अथर्वा कॉन्स्ट्रक्शन",
     "houseNoEnglish": "Flat No 25 Atharva Construction",
-    "roomNo": "1",
     "age": 22,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 210,
@@ -2945,10 +2945,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Anil Rakshe",
     "houseNoMarathi": "गीता अपार्टमेंट",
     "houseNoEnglish": "Geeta Apartment",
-    "roomNo": "1",
     "age": 18,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 211,
@@ -2959,10 +2959,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ajit Lunavat",
     "houseNoMarathi": "पुण्याई बंगलो",
     "houseNoEnglish": "Punyai Bunglow",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 212,
@@ -2973,10 +2973,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Gyaneshwar Gade",
     "houseNoMarathi": "वृंदावन सोसायटी",
     "houseNoEnglish": "Vrundawan Society",
-    "roomNo": "1",
     "age": 21,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 213,
@@ -2987,10 +2987,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Manojkumar Phakatkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 214,
@@ -2999,12 +2999,12 @@ let voterData = [
     "fullNameEnglish": "Nilam Manoj Phakatkar",
     "relativeNameMarathi": "पतीचे नाव : मनोज फाकटकर",
     "relativeNameEnglish": "Husband's Name: Manoj Phakatkar",
-    "houseNoMarathi": "६८७",
+    "houseNoMarathi": "687",
     "houseNoEnglish": "687",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 215,
@@ -3013,12 +3013,12 @@ let voterData = [
     "fullNameEnglish": "Kamal Pralhad Phakatkar",
     "relativeNameMarathi": "पतीचे नाव : प्रल्हाद फाकटकर",
     "relativeNameEnglish": "Husband's Name: Pralhad Phakatkar",
-    "houseNoMarathi": "८०९",
+    "houseNoMarathi": "809",
     "houseNoEnglish": "809",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 216,
@@ -3027,12 +3027,12 @@ let voterData = [
     "fullNameEnglish": "Manoj Pralhad Phakatkar",
     "relativeNameMarathi": "वडिलांचे नाव : प्रल्हाद फाकटकर",
     "relativeNameEnglish": "Father's Name: Pralhad Phakatkar",
-    "houseNoMarathi": "८०९",
+    "houseNoMarathi": "809",
     "houseNoEnglish": "809",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 217,
@@ -3041,12 +3041,12 @@ let voterData = [
     "fullNameEnglish": "Vishal Prakash Kahane",
     "relativeNameMarathi": "वडिलांचे नाव : प्रकाश कहाणे",
     "relativeNameEnglish": "Father's Name: Prakash Kahane",
-    "houseNoMarathi": "१०५२",
+    "houseNoMarathi": "1052",
     "houseNoEnglish": "1052",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 218,
@@ -3057,10 +3057,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Namdev Bhuseakar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 48,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 219,
@@ -3071,10 +3071,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ganesh Raut",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 220,
@@ -3083,12 +3083,12 @@ let voterData = [
     "fullNameEnglish": "Akshay Bhagwan Sable",
     "relativeNameMarathi": "आईचे नाव : अनिता साबळे",
     "relativeNameEnglish": "Mother's Name: Anita Sable",
-    "houseNoMarathi": "३",
+    "houseNoMarathi": "3",
     "houseNoEnglish": "3",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 221,
@@ -3099,10 +3099,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Ganesh Tarade",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 222,
@@ -3113,10 +3113,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ankush Pokharkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 21,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 223,
@@ -3127,10 +3127,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Subhash Supekar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 224,
@@ -3141,10 +3141,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Balu Sandbhor",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 225,
@@ -3155,10 +3155,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ankush Pokharkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 226,
@@ -3169,10 +3169,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Subhash Takalkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 227,
@@ -3183,10 +3183,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Gorakshanath Kurkute",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 31,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 228,
@@ -3197,10 +3197,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Harshad Ramdas Saindane",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 229,
@@ -3211,10 +3211,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Subhash Patil",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 19,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 230,
@@ -3225,10 +3225,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Tanaji Gunaji Ambekar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 231,
@@ -3239,10 +3239,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Nikhil Sanjay Falle",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 232,
@@ -3253,10 +3253,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Tanaji Gunaji Ambekar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 29,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 233,
@@ -3267,10 +3267,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Ganesh Devde",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 29,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 234,
@@ -3281,10 +3281,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sachin Kaldhone",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 19,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 235,
@@ -3295,10 +3295,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Kundalik Patole",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 18,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 236,
@@ -3309,10 +3309,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Ankush Kengare",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 55,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 237,
@@ -3323,10 +3323,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Pandurang Tanpure",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 46,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 238,
@@ -3337,10 +3337,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Pandurang Bhoskar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 239,
@@ -3351,10 +3351,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Santosh Tanpure",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 240,
@@ -3365,10 +3365,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Balkrishna Khurpe",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 241,
@@ -3379,10 +3379,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Santosh Ganpat Joshi",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 18,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 242,
@@ -3393,10 +3393,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sakharam Dhonḍiba Bhoir",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 243,
@@ -3407,10 +3407,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ashok Maruti Chaudhari",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 244,
@@ -3421,10 +3421,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Tribhuvan Nehere",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 21,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 245,
@@ -3435,10 +3435,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Jitendra Shinde",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 246,
@@ -3449,10 +3449,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Pravin Takalkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 247,
@@ -3461,12 +3461,12 @@ let voterData = [
     "fullNameEnglish": "Nasim Ibrahim Momin",
     "relativeNameMarathi": "पतीचे नाव : इब्राहिम मोमीन",
     "relativeNameEnglish": "Husband's Name: Ibrahim Momin",
-    "houseNoMarathi": "२१३०",
+    "houseNoMarathi": "2130",
     "houseNoEnglish": "2130",
-    "roomNo": "1",
     "age": 69,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 248,
@@ -3475,12 +3475,12 @@ let voterData = [
     "fullNameEnglish": "Taisin Ibrahim Momin",
     "relativeNameMarathi": "वडिलांचे नाव : इब्राहिम मोमीन",
     "relativeNameEnglish": "Father's Name: Ibrahim Momin",
-    "houseNoMarathi": "२१३०",
+    "houseNoMarathi": "2130",
     "houseNoEnglish": "2130",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 249,
@@ -3489,12 +3489,12 @@ let voterData = [
     "fullNameEnglish": "Rukhsana Taisin Momin",
     "relativeNameMarathi": "पतीचे नाव : तैसीन मोमीन",
     "relativeNameEnglish": "Husband's Name: Taisin Momin",
-    "houseNoMarathi": "२१३०",
+    "houseNoMarathi": "2130",
     "houseNoEnglish": "2130",
-    "roomNo": "1",
     "age": 54,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 250,
@@ -3503,12 +3503,12 @@ let voterData = [
     "fullNameEnglish": "Vishal Vijay Kasawa",
     "relativeNameMarathi": "वडिलांचे नाव : विजय कासवा",
     "relativeNameEnglish": "Father's Name: Vijay Kasawa",
-    "houseNoMarathi": "३९८",
+    "houseNoMarathi": "398",
     "houseNoEnglish": "398",
-    "roomNo": "1",
     "age": 40,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 251,
@@ -3517,12 +3517,12 @@ let voterData = [
     "fullNameEnglish": "Vijay Harkachand Kasawa",
     "relativeNameMarathi": "वडिलांचे नाव : हरकचंद कासवा",
     "relativeNameEnglish": "Father's Name: Harkachand Kasawa",
-    "houseNoMarathi": "३९८",
+    "houseNoMarathi": "398",
     "houseNoEnglish": "398",
-    "roomNo": "1",
     "age": 67,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 252,
@@ -3531,12 +3531,12 @@ let voterData = [
     "fullNameEnglish": "Chhaya Vijay Kasawa",
     "relativeNameMarathi": "पतीचे नाव : विजय कासवा",
     "relativeNameEnglish": "Husband's Name: Vijay Kasawa",
-    "houseNoMarathi": "३९८",
+    "houseNoMarathi": "398",
     "houseNoEnglish": "398",
-    "roomNo": "1",
     "age": 65,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 253,
@@ -3547,10 +3547,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Khandopant Karve",
     "houseNoMarathi": "११३/६",
     "houseNoEnglish": "113/6",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 254,
@@ -3561,10 +3561,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Shankar Kumbhar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 255,
@@ -3575,10 +3575,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Popat Khaire",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 40,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 256,
@@ -3589,10 +3589,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Vikas Khaire",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 257,
@@ -3603,10 +3603,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Vijay Bhujbal",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 258,
@@ -3617,10 +3617,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Rahul Tanpure",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 259,
@@ -3629,12 +3629,12 @@ let voterData = [
     "fullNameEnglish": "Nilesh Jayprakash Shivle",
     "relativeNameMarathi": "वडिलांचे नाव : जयप्रकाश शिवळे",
     "relativeNameEnglish": "Father's Name: Jayprakash Shivle",
-    "houseNoMarathi": "११८",
+    "houseNoMarathi": "118",
     "houseNoEnglish": "118",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 260,
@@ -3643,12 +3643,12 @@ let voterData = [
     "fullNameEnglish": "Shakuntala Sopan Ghumatkar",
     "relativeNameMarathi": "पतीचे नाव : सोपान घुमटकर",
     "relativeNameEnglish": "Husband's Name: Sopan Ghumatkar",
-    "houseNoMarathi": "११७८",
+    "houseNoMarathi": "1178",
     "houseNoEnglish": "1178",
-    "roomNo": "1",
     "age": 77,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 261,
@@ -3657,12 +3657,12 @@ let voterData = [
     "fullNameEnglish": "Navnath Kundalik Pavale",
     "relativeNameMarathi": "वडिलांचे नाव : कुंडलीक पवळे",
     "relativeNameEnglish": "Father's Name: Kundalik Pavale",
-    "houseNoMarathi": "११९०",
+    "houseNoMarathi": "1190",
     "houseNoEnglish": "1190",
-    "roomNo": "1",
     "age": 54,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 262,
@@ -3671,12 +3671,12 @@ let voterData = [
     "fullNameEnglish": "Bhumita Navnath Pavale",
     "relativeNameMarathi": "पतीचे नाव : नवनाथ पवळे",
     "relativeNameEnglish": "Husband's Name: Navnath Pavale",
-    "houseNoMarathi": "११९०",
+    "houseNoMarathi": "1190",
     "houseNoEnglish": "1190",
-    "roomNo": "1",
     "age": 50,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 263,
@@ -3685,12 +3685,12 @@ let voterData = [
     "fullNameEnglish": "Vasant Prakash Shivle",
     "relativeNameMarathi": "वडिलांचे नाव : प्रकाश शिवळे",
     "relativeNameEnglish": "Father's Name: Prakash Shivle",
-    "houseNoMarathi": "१२०७",
+    "houseNoMarathi": "1207",
     "houseNoEnglish": "1207",
-    "roomNo": "1",
     "age": 40,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 264,
@@ -3699,12 +3699,12 @@ let voterData = [
     "fullNameEnglish": "Rambhau Shivram Jadhav",
     "relativeNameMarathi": "वडिलांचे नाव : शिवराम जाधव",
     "relativeNameEnglish": "Father's Name: Shivram Jadhav",
-    "houseNoMarathi": "५३०",
+    "houseNoMarathi": "530",
     "houseNoEnglish": "530",
-    "roomNo": "1",
     "age": 87,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 265,
@@ -3715,10 +3715,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Bhimaji Karve",
     "houseNoMarathi": "११३/६",
     "houseNoEnglish": "113/6",
-    "roomNo": "1",
     "age": 59,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 266,
@@ -3729,10 +3729,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Bandu Karve",
     "houseNoMarathi": "११३/६",
     "houseNoEnglish": "113/6",
-    "roomNo": "1",
     "age": 52,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 267,
@@ -3743,10 +3743,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Tukaram Ghule",
     "houseNoMarathi": "५४३/१",
     "houseNoEnglish": "543/1",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 268,
@@ -3757,10 +3757,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Dattatray Ghule",
     "houseNoMarathi": "५४३/१",
     "houseNoEnglish": "543/1",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 269,
@@ -3769,12 +3769,12 @@ let voterData = [
     "fullNameEnglish": "Samrin Ismail Shah",
     "relativeNameMarathi": "पतीचे नाव : इस्माइल शाह",
     "relativeNameEnglish": "Husband's Name: Ismail Shah",
-    "houseNoMarathi": "९९५",
+    "houseNoMarathi": "995",
     "houseNoEnglish": "995",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 270,
@@ -3785,10 +3785,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ramlal Gujarati",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 271,
@@ -3799,10 +3799,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Rausaheb Suryavanshi",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 272,
@@ -3811,12 +3811,12 @@ let voterData = [
     "fullNameEnglish": "Anita Vasudev Heda",
     "relativeNameMarathi": "पतीचे नाव : वासुदेव हेडा",
     "relativeNameEnglish": "Husband's Name: Vasudev Heda",
-    "houseNoMarathi": "११९६",
+    "houseNoMarathi": "1196",
     "houseNoEnglish": "1196",
-    "roomNo": "1",
     "age": 39,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 273,
@@ -3825,12 +3825,12 @@ let voterData = [
     "fullNameEnglish": "Supriya Swapnil Lahange",
     "relativeNameMarathi": "पतीचे नाव : स्वप्निल लहांगे",
     "relativeNameEnglish": "Husband's Name: Swapnil Lahange",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 34,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 274,
@@ -3839,12 +3839,12 @@ let voterData = [
     "fullNameEnglish": "Pratibha Nilesh Rajane",
     "relativeNameMarathi": "पतीचे नाव : निलेश रजाने",
     "relativeNameEnglish": "Husband's Name: Nilesh Rajane",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 275,
@@ -3853,12 +3853,12 @@ let voterData = [
     "fullNameEnglish": "Nilesh Suresh Rajane",
     "relativeNameMarathi": "वडिलांचे नाव : सुरेश रजाने",
     "relativeNameEnglish": "Father's Name: Suresh Rajane",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 276,
@@ -3867,12 +3867,12 @@ let voterData = [
     "fullNameEnglish": "Gaurav Diliprao Sandbhor",
     "relativeNameMarathi": "वडिलांचे नाव : दिलीपराव सांडभोर",
     "relativeNameEnglish": "Father's Name: Diliprao Sandbhor",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 28,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 277,
@@ -3881,12 +3881,12 @@ let voterData = [
     "fullNameEnglish": "Sunita Mahadev Ghule",
     "relativeNameMarathi": "पतीचे नाव : महादेव घुले",
     "relativeNameEnglish": "Husband's Name: Mahadev Ghule",
-    "houseNoMarathi": "१०६२",
+    "houseNoMarathi": "1062",
     "houseNoEnglish": "1062",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 278,
@@ -3895,12 +3895,12 @@ let voterData = [
     "fullNameEnglish": "Siddharth Mariba Chavan",
     "relativeNameMarathi": "वडिलांचे नाव : मरिबा चव्हाण",
     "relativeNameEnglish": "Father's Name: Mariba Chavan",
-    "houseNoMarathi": "१२८९",
+    "houseNoMarathi": "1289",
     "houseNoEnglish": "1289",
-    "roomNo": "1",
     "age": 70,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 279,
@@ -3909,12 +3909,12 @@ let voterData = [
     "fullNameEnglish": "Madhavi Rajesh Sonī",
     "relativeNameMarathi": "पतीचे नाव : राजेश सोनी",
     "relativeNameEnglish": "Husband's Name: Rajesh Sonī",
-    "houseNoMarathi": "१३८९",
+    "houseNoMarathi": "1389",
     "houseNoEnglish": "1389",
-    "roomNo": "1",
     "age": 44,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 280,
@@ -3923,12 +3923,12 @@ let voterData = [
     "fullNameEnglish": "Smita Siddharth Chavan",
     "relativeNameMarathi": "पतीचे नाव : सिद्धार्थ चव्हाण",
     "relativeNameEnglish": "Husband's Name: Siddharth Chavan",
-    "houseNoMarathi": "१२८९",
+    "houseNoMarathi": "1289",
     "houseNoEnglish": "1289",
-    "roomNo": "1",
     "age": 65,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 281,
@@ -3937,12 +3937,12 @@ let voterData = [
     "fullNameEnglish": "Rajesh Damodar Sonī",
     "relativeNameMarathi": "वडिलांचे नाव : दामोदर सोनी",
     "relativeNameEnglish": "Father's Name: Damodar Sonī",
-    "houseNoMarathi": "१२८९",
+    "houseNoMarathi": "1289",
     "houseNoEnglish": "1289",
-    "roomNo": "1",
     "age": 52,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 282,
@@ -3951,12 +3951,12 @@ let voterData = [
     "fullNameEnglish": "Krishnakant Siddharth Chavan",
     "relativeNameMarathi": "वडिलांचे नाव : सिद्धार्थ चव्हाण",
     "relativeNameEnglish": "Father's Name: Siddharth Chavan",
-    "houseNoMarathi": "१२८९",
+    "houseNoMarathi": "1289",
     "houseNoEnglish": "1289",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 283,
@@ -3965,12 +3965,12 @@ let voterData = [
     "fullNameEnglish": "Vasudev Om Prakash Heda",
     "relativeNameMarathi": "वडिलांचे नाव : ओमप्रकाश हेडा",
     "relativeNameEnglish": "Father's Name: Om Prakash Heda",
-    "houseNoMarathi": "११९६",
+    "houseNoMarathi": "1196",
     "houseNoEnglish": "1196",
-    "roomNo": "1",
     "age": 44,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 284,
@@ -3979,12 +3979,12 @@ let voterData = [
     "fullNameEnglish": "Uma Kaushalesh Heda",
     "relativeNameMarathi": "पतीचे नाव : कौशलेश हेडा",
     "relativeNameEnglish": "Husband's Name: Kaushalesh Heda",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 285,
@@ -3995,10 +3995,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Tanaji Suryavanshi",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 31,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 286,
@@ -4007,12 +4007,12 @@ let voterData = [
     "fullNameEnglish": "Abhishek Borhade",
     "relativeNameMarathi": "वडिलांचे नाव : विभीषण बोर्हाडे",
     "relativeNameEnglish": "Father's Name: Vibhishan Borhade",
-    "houseNoMarathi": "१२४",
+    "houseNoMarathi": "124",
     "houseNoEnglish": "124",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 287,
@@ -4021,12 +4021,12 @@ let voterData = [
     "fullNameEnglish": "Vaibhav Borhade",
     "relativeNameMarathi": "वडिलांचे नाव : विभीषण बोर्हाडे",
     "relativeNameEnglish": "Father's Name: Vibhishan Borhade",
-    "houseNoMarathi": "४६५",
+    "houseNoMarathi": "465",
     "houseNoEnglish": "465",
-    "roomNo": "1",
     "age": 27,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 288,
@@ -4035,12 +4035,12 @@ let voterData = [
     "fullNameEnglish": "Samrat Kishor Karnavat",
     "relativeNameMarathi": "वडिलांचे नाव : किशोर कर्नावट",
     "relativeNameEnglish": "Father's Name: Kishor Karnavat",
-    "houseNoMarathi": "११९६",
+    "houseNoMarathi": "1196",
     "houseNoEnglish": "1196",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 289,
@@ -4049,12 +4049,12 @@ let voterData = [
     "fullNameEnglish": "Raima Ramesh Talape",
     "relativeNameMarathi": "आईचे नाव : जिजा तळपे",
     "relativeNameEnglish": "Mother's Name: Jija Talape",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 290,
@@ -4063,12 +4063,12 @@ let voterData = [
     "fullNameEnglish": "Sangeeta Anil Thigale",
     "relativeNameMarathi": "पतीचे नाव : अनिल थिगळे",
     "relativeNameEnglish": "Husband's Name: Anil Thigale",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 46,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 291,
@@ -4079,10 +4079,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Namdev Jadhav",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 292,
@@ -4093,10 +4093,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Rahul Jadhav",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 293,
@@ -4107,10 +4107,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sunil Karpe",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 28,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 294,
@@ -4121,10 +4121,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Vidyavan Tarnage",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 295,
@@ -4135,10 +4135,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Avinash Jadhav",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 50,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 296,
@@ -4149,10 +4149,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Mulchandra Ratia",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 297,
@@ -4161,12 +4161,12 @@ let voterData = [
     "fullNameEnglish": "Amruta Appasaheb Shinde",
     "relativeNameMarathi": "पतीचे नाव : आप्पासाहेब शिंदे",
     "relativeNameEnglish": "Husband's Name: Appasaheb Shinde",
-    "houseNoMarathi": "९५१",
+    "houseNoMarathi": "951",
     "houseNoEnglish": "951",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 298,
@@ -4175,12 +4175,12 @@ let voterData = [
     "fullNameEnglish": "Sudhir Namdev Pokharkar",
     "relativeNameMarathi": "वडिलांचे नाव : नामदेव पोखरकर",
     "relativeNameEnglish": "Father's Name: Namdev Pokharkar",
-    "houseNoMarathi": "१२७९३",
+    "houseNoMarathi": "12793",
     "houseNoEnglish": "12793",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 299,
@@ -4191,10 +4191,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Laxman Naikade",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 300,
@@ -4205,10 +4205,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Govindrao Rambhau Wayal",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 301,
@@ -4219,10 +4219,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Vijay Govindrao Wayal",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 31,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 302,
@@ -4233,10 +4233,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Nilesh Kahane",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 19,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 303,
@@ -4245,12 +4245,12 @@ let voterData = [
     "fullNameEnglish": "Priya Vijay Dabhade",
     "relativeNameMarathi": "पतीचे नाव : विजय दाभाडे",
     "relativeNameEnglish": "Husband's Name: Vijay Dabhade",
-    "houseNoMarathi": "११९४",
+    "houseNoMarathi": "1194",
     "houseNoEnglish": "1194",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 304,
@@ -4259,12 +4259,12 @@ let voterData = [
     "fullNameEnglish": "Omkar Vilas Kajale",
     "relativeNameMarathi": "वडिलांचे नाव : विलास काजळे",
     "relativeNameEnglish": "Father's Name: Vilas Kajale",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 305,
@@ -4273,12 +4273,12 @@ let voterData = [
     "fullNameEnglish": "Kamalesh Suresh Tatia",
     "relativeNameMarathi": "वडिलांचे नाव : सुरेश टाटीया",
     "relativeNameEnglish": "Father's Name: Suresh Tatia",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 306,
@@ -4289,10 +4289,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Santosh Baldota",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 22,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 307,
@@ -4303,10 +4303,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Indranath Bhosale",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 308,
@@ -4315,12 +4315,12 @@ let voterData = [
     "fullNameEnglish": "Tejas Chandrashekhar Jadhav",
     "relativeNameMarathi": "वडिलांचे नाव : चंद्रशेखर जाधव",
     "relativeNameEnglish": "Father's Name: Chandrashekhar Jadhav",
-    "houseNoMarathi": "११९४",
+    "houseNoMarathi": "1194",
     "houseNoEnglish": "1194",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 309,
@@ -4329,12 +4329,12 @@ let voterData = [
     "fullNameEnglish": "Prasad Mahesh Raskar",
     "relativeNameMarathi": "वडिलांचे नाव : महेश रासकर",
     "relativeNameEnglish": "Father's Name: Mahesh Raskar",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 310,
@@ -4345,10 +4345,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Prashant Borate",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 311,
@@ -4359,10 +4359,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Vithoba Patole",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 85,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 312,
@@ -4373,10 +4373,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Amit Rakshe",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 313,
@@ -4385,12 +4385,12 @@ let voterData = [
     "fullNameEnglish": "Sarajuddin Ajiz Ansari",
     "relativeNameMarathi": "वडिलांचे नाव : अजीज अन्सारी",
     "relativeNameEnglish": "Father's Name: Ajiz Ansari",
-    "houseNoMarathi": "११०९",
+    "houseNoMarathi": "1109",
     "houseNoEnglish": "1109",
-    "roomNo": "1",
     "age": 48,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 314,
@@ -4399,12 +4399,12 @@ let voterData = [
     "fullNameEnglish": "Kurshid Sadauddin Ansari",
     "relativeNameMarathi": "वडिलांचे नाव : सदाद्दीन अन्सारी",
     "relativeNameEnglish": "Father's Name: Sadauddin Ansari",
-    "houseNoMarathi": "११०९",
+    "houseNoMarathi": "1109",
     "houseNoEnglish": "1109",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 315,
@@ -4413,12 +4413,12 @@ let voterData = [
     "fullNameEnglish": "Alammadin Razzak Ansari",
     "relativeNameMarathi": "वडिलांचे नाव : रज्जाक अन्सारी",
     "relativeNameEnglish": "Father's Name: Razzak Ansari",
-    "houseNoMarathi": "११०९",
+    "houseNoMarathi": "1109",
     "houseNoEnglish": "1109",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 316,
@@ -4427,12 +4427,12 @@ let voterData = [
     "fullNameEnglish": "Mofida Sarauddin Ansari",
     "relativeNameMarathi": "पतीचे नाव : सराऊद्दीन अन्सारी",
     "relativeNameEnglish": "Husband's Name: Sarauddin Ansari",
-    "houseNoMarathi": "११०९",
+    "houseNoMarathi": "1109",
     "houseNoEnglish": "1109",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 317,
@@ -4441,12 +4441,12 @@ let voterData = [
     "fullNameEnglish": "Dipti Shamkant Rakshe",
     "relativeNameMarathi": "वडिलांचे नाव : शामकांत राक्षे",
     "relativeNameEnglish": "Father's Name: Shamkant Rakshe",
-    "houseNoMarathi": "१७५३",
+    "houseNoMarathi": "1753",
     "houseNoEnglish": "1753",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 318,
@@ -4455,12 +4455,12 @@ let voterData = [
     "fullNameEnglish": "Seema Ashok Rakshe",
     "relativeNameMarathi": "वडिलांचे नाव : अशोक राक्षे",
     "relativeNameEnglish": "Father's Name: Ashok Rakshe",
-    "houseNoMarathi": "१९३२",
+    "houseNoMarathi": "1932",
     "houseNoEnglish": "1932",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 319,
@@ -4469,12 +4469,12 @@ let voterData = [
     "fullNameEnglish": "Manju Tukaram Bhallekar",
     "relativeNameMarathi": "पतीचे नाव : तुकाराम भालेकर",
     "relativeNameEnglish": "Husband's Name: Tukaram Bhallekar",
-    "houseNoMarathi": "१९८०",
+    "houseNoMarathi": "1980",
     "houseNoEnglish": "1980",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 320,
@@ -4483,12 +4483,12 @@ let voterData = [
     "fullNameEnglish": "Neha Arun Sonavane",
     "relativeNameMarathi": "वडिलांचे नाव : अरुण सोनवणे",
     "relativeNameEnglish": "Father's Name: Arun Sonavane",
-    "houseNoMarathi": "१९८१",
+    "houseNoMarathi": "1981",
     "houseNoEnglish": "1981",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 321,
@@ -4497,12 +4497,12 @@ let voterData = [
     "fullNameEnglish": "Sharif Ibadulla Shah",
     "relativeNameMarathi": "वडिलांचे नाव : इबादुल्ला शाह",
     "relativeNameEnglish": "Father's Name: Ibadulla Shah",
-    "houseNoMarathi": "११७८७४",
+    "houseNoMarathi": "117874",
     "houseNoEnglish": "117874",
-    "roomNo": "1",
     "age": 84,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 322,
@@ -4511,12 +4511,12 @@ let voterData = [
     "fullNameEnglish": "Jaibunnisa Sharif Shah",
     "relativeNameMarathi": "पतीचे नाव : शरीफ शाह",
     "relativeNameEnglish": "Husband's Name: Sharif Shah",
-    "houseNoMarathi": "११७८७४",
+    "houseNoMarathi": "117874",
     "houseNoEnglish": "117874",
-    "roomNo": "1",
     "age": 77,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 323,
@@ -4525,12 +4525,12 @@ let voterData = [
     "fullNameEnglish": "Latif Sharif Shah",
     "relativeNameMarathi": "वडिलांचे नाव : शरीफ शाह",
     "relativeNameEnglish": "Father's Name: Sharif Shah",
-    "houseNoMarathi": "११७८०४",
+    "houseNoMarathi": "117804",
     "houseNoEnglish": "117804",
-    "roomNo": "1",
     "age": 49,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 324,
@@ -4539,12 +4539,12 @@ let voterData = [
     "fullNameEnglish": "Naziya Anjum Sharif Shah",
     "relativeNameMarathi": "पतीचे नाव : शरीफ शाह",
     "relativeNameEnglish": "Husband's Name: Sharif Shah",
-    "houseNoMarathi": "११७८०४",
+    "houseNoMarathi": "117804",
     "houseNoEnglish": "117804",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 325,
@@ -4553,12 +4553,12 @@ let voterData = [
     "fullNameEnglish": "Viththal Sambhaji Dafal",
     "relativeNameMarathi": "वडिलांचे नाव : संभाजी डफळ",
     "relativeNameEnglish": "Father's Name: Sambhaji Dafal",
-    "houseNoMarathi": "११८३७",
+    "houseNoMarathi": "11837",
     "houseNoEnglish": "11837",
-    "roomNo": "1",
     "age": 71,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 326,
@@ -4567,12 +4567,12 @@ let voterData = [
     "fullNameEnglish": "Shakuntala Viththal Dafal",
     "relativeNameMarathi": "पतीचे नाव : विठ्ठल डफळ",
     "relativeNameEnglish": "Husband's Name: Viththal Dafal",
-    "houseNoMarathi": "११८३७",
+    "houseNoMarathi": "11837",
     "houseNoEnglish": "11837",
-    "roomNo": "1",
     "age": 66,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 327,
@@ -4581,12 +4581,12 @@ let voterData = [
     "fullNameEnglish": "Sandip Viththal Dafal",
     "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल डफळ",
     "relativeNameEnglish": "Father's Name: Viththal Dafal",
-    "houseNoMarathi": "११८३७",
+    "houseNoMarathi": "11837",
     "houseNoEnglish": "11837",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 328,
@@ -4595,12 +4595,12 @@ let voterData = [
     "fullNameEnglish": "Swati Viththal Dafal",
     "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल डफळ",
     "relativeNameEnglish": "Father's Name: Viththal Dafal",
-    "houseNoMarathi": "११८८७",
+    "houseNoMarathi": "11887",
     "houseNoEnglish": "11887",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 329,
@@ -4609,12 +4609,12 @@ let voterData = [
     "fullNameEnglish": "Shital Viththal Dafal",
     "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल डफळ",
     "relativeNameEnglish": "Father's Name: Viththal Dafal",
-    "houseNoMarathi": "११८८७",
+    "houseNoMarathi": "11887",
     "houseNoEnglish": "11887",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 330,
@@ -4623,12 +4623,12 @@ let voterData = [
     "fullNameEnglish": "Charushila Arun Jadhav",
     "relativeNameMarathi": "पतीचे नाव : अरुण जाधव",
     "relativeNameEnglish": "Husband's Name: Arun Jadhav",
-    "houseNoMarathi": "११९७८",
+    "houseNoMarathi": "11978",
     "houseNoEnglish": "11978",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 331,
@@ -4637,12 +4637,12 @@ let voterData = [
     "fullNameEnglish": "Jayprakash Narayan Shivle",
     "relativeNameMarathi": "वडिलांचे नाव : नारायण शिवळे",
     "relativeNameEnglish": "Father's Name: Narayan Shivle",
-    "houseNoMarathi": "१२०७",
+    "houseNoMarathi": "1207",
     "houseNoEnglish": "1207",
-    "roomNo": "1",
     "age": 81,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 332,
@@ -4651,12 +4651,12 @@ let voterData = [
     "fullNameEnglish": "Asha Jayprakash Shivle",
     "relativeNameMarathi": "पतीचे नाव : जयप्रकाश शिवळे",
     "relativeNameEnglish": "Husband's Name: Jayprakash Shivle",
-    "houseNoMarathi": "१२०७",
+    "houseNoMarathi": "1207",
     "houseNoEnglish": "1207",
-    "roomNo": "1",
     "age": 59,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 333,
@@ -4665,12 +4665,12 @@ let voterData = [
     "fullNameEnglish": "Komal Nivruttī Ishte",
     "relativeNameMarathi": "वडिलांचे नाव : निवृत्ती इष्टे",
     "relativeNameEnglish": "Father's Name: Nivruttī Ishte",
-    "houseNoMarathi": "११९४",
+    "houseNoMarathi": "1194",
     "houseNoEnglish": "1194",
-    "roomNo": "1",
     "age": 28,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 334,
@@ -4679,12 +4679,12 @@ let voterData = [
     "fullNameEnglish": "Laxman Mahadu Gilbile",
     "relativeNameMarathi": "वडिलांचे नाव : महादू गिलबिले",
     "relativeNameEnglish": "Father's Name: Mahadu Gilbile",
-    "houseNoMarathi": "११९७",
+    "houseNoMarathi": "1197",
     "houseNoEnglish": "1197",
-    "roomNo": "1",
     "age": 69,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 335,
@@ -4693,12 +4693,12 @@ let voterData = [
     "fullNameEnglish": "Shakuntala Laxman Gilbile",
     "relativeNameMarathi": "पतीचे नाव : लक्ष्मण गिलबिले",
     "relativeNameEnglish": "Husband's Name: Laxman Gilbile",
-    "houseNoMarathi": "११९७",
+    "houseNoMarathi": "1197",
     "houseNoEnglish": "1197",
-    "roomNo": "1",
     "age": 59,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 336,
@@ -4707,12 +4707,12 @@ let voterData = [
     "fullNameEnglish": "Rajendra Laxman Gilbile",
     "relativeNameMarathi": "वडिलांचे नाव : लक्ष्मण गिलबिले",
     "relativeNameEnglish": "Father's Name: Laxman Gilbile",
-    "houseNoMarathi": "११९७",
+    "houseNoMarathi": "1197",
     "houseNoEnglish": "1197",
-    "roomNo": "1",
     "age": 47,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 337,
@@ -4721,12 +4721,12 @@ let voterData = [
     "fullNameEnglish": "Navnath Laxman Gilbile",
     "relativeNameMarathi": "वडिलांचे नाव : लक्ष्मण गिलबिले",
     "relativeNameEnglish": "Father's Name: Laxman Gilbile",
-    "houseNoMarathi": "११९७",
+    "houseNoMarathi": "1197",
     "houseNoEnglish": "1197",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 338,
@@ -4735,12 +4735,12 @@ let voterData = [
     "fullNameEnglish": "Atul Maruti Takalkar",
     "relativeNameMarathi": "वडिलांचे नाव : मारुती टाकळकर",
     "relativeNameEnglish": "Father's Name: Maruti Takalkar",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 339,
@@ -4749,12 +4749,12 @@ let voterData = [
     "fullNameEnglish": "Rupali Atul Takalkar",
     "relativeNameMarathi": "पतीचे नाव : अतुल टाकळकर",
     "relativeNameEnglish": "Husband's Name: Atul Takalkar",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 340,
@@ -4765,10 +4765,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Tambe Jaywant",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 59,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 341,
@@ -4777,12 +4777,12 @@ let voterData = [
     "fullNameEnglish": "Madhuri Shamkant Rakshe",
     "relativeNameMarathi": "वडिलांचे नाव : शामकांत राक्षे",
     "relativeNameEnglish": "Father's Name: Shamkant Rakshe",
-    "houseNoMarathi": "१२११",
+    "houseNoMarathi": "1211",
     "houseNoEnglish": "1211",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 342,
@@ -4793,10 +4793,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Shubham Sanjay Kahane",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 343,
@@ -4805,12 +4805,12 @@ let voterData = [
     "fullNameEnglish": "Baban Sakharam Ladke",
     "relativeNameMarathi": "वडिलांचे नाव : सखाराम लाडके",
     "relativeNameEnglish": "Father's Name: Sakharam Ladke",
-    "houseNoMarathi": "११९४",
+    "houseNoMarathi": "1194",
     "houseNoEnglish": "1194",
-    "roomNo": "1",
     "age": 81,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 344,
@@ -4819,12 +4819,12 @@ let voterData = [
     "fullNameEnglish": "Hirabai Baban Ladke",
     "relativeNameMarathi": "पतीचे नाव : बबन लाडके",
     "relativeNameEnglish": "Husband's Name: Baban Ladke",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 72,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 345,
@@ -4833,12 +4833,12 @@ let voterData = [
     "fullNameEnglish": "Rajesh Baban Ladke",
     "relativeNameMarathi": "वडिलांचे नाव : बबन लाडके",
     "relativeNameEnglish": "Father's Name: Baban Ladke",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 346,
@@ -4847,12 +4847,12 @@ let voterData = [
     "fullNameEnglish": "Puja Vasant Londhe",
     "relativeNameMarathi": "वडिलांचे नाव : वसंत लोंढे",
     "relativeNameEnglish": "Father's Name: Vasant Londhe",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 347,
@@ -4863,10 +4863,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Brijesh Arade",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 348,
@@ -4877,10 +4877,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Dadabhau Bagad",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 79,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 349,
@@ -4891,10 +4891,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Prakash Arude",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 350,
@@ -4905,10 +4905,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ganpat Auti",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 60,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 351,
@@ -4919,10 +4919,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Dattu Auti",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 59,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 352,
@@ -4933,10 +4933,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sopan Bhor",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 22,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 353,
@@ -4947,10 +4947,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Dattatray Date",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 354,
@@ -4961,10 +4961,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Purushottam Naykare",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 355,
@@ -4975,10 +4975,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Baban Sadre",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 61,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 356,
@@ -4989,10 +4989,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Nitesh Sandhor",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 357,
@@ -5003,10 +5003,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Shriram Saronde",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 40,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 358,
@@ -5017,10 +5017,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Prakash Shinde",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 359,
@@ -5031,10 +5031,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Rajendra Tatia",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 360,
@@ -5045,10 +5045,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Krishna Bagad",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 27,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 361,
@@ -5059,10 +5059,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Bhushan Aerande",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 362,
@@ -5073,10 +5073,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Bharat Gavande",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 363,
@@ -5087,10 +5087,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Swapnil Gosavi",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 364,
@@ -5101,10 +5101,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Suresh Maide",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 365,
@@ -5115,10 +5115,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Raju Maide",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 31,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 366,
@@ -5129,10 +5129,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Baban Sadre",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 83,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 367,
@@ -5143,10 +5143,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ganesh Sadre",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 368,
@@ -5157,10 +5157,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Tukaram Shete",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 369,
@@ -5171,10 +5171,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Vishnu Ladkat",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 25,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 370,
@@ -5185,10 +5185,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Bhaaurao Kumbhare",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 371,
@@ -5199,10 +5199,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Vijay Kshirsagar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 372,
@@ -5211,12 +5211,12 @@ let voterData = [
     "fullNameEnglish": "Prakash Ganpat Rakshe",
     "relativeNameMarathi": "वडिलांचे नाव : गणपत राक्षे",
     "relativeNameEnglish": "Father's Name: Ganpat Rakshe",
-    "houseNoMarathi": "१०७",
+    "houseNoMarathi": "107",
     "houseNoEnglish": "107",
-    "roomNo": "1",
     "age": 74,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 373,
@@ -5225,12 +5225,12 @@ let voterData = [
     "fullNameEnglish": "Asha Prakash Rakshe",
     "relativeNameMarathi": "पतीचे नाव : प्रकाश राक्षे",
     "relativeNameEnglish": "Husband's Name: Prakash Rakshe",
-    "houseNoMarathi": "१०४",
+    "houseNoMarathi": "104",
     "houseNoEnglish": "104",
-    "roomNo": "1",
     "age": 67,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 374,
@@ -5239,12 +5239,12 @@ let voterData = [
     "fullNameEnglish": "Appasaheb Prakash Rakshe",
     "relativeNameMarathi": "वडिलांचे नाव : आप्पासाहेब राक्षे",
     "relativeNameEnglish": "Father's Name: Appasaheb Rakshe",
-    "houseNoMarathi": "१०५",
+    "houseNoMarathi": "105",
     "houseNoEnglish": "105",
-    "roomNo": "1",
     "age": 47,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 375,
@@ -5255,10 +5255,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Mhatarba Talape",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 59,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 376,
@@ -5269,10 +5269,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Nandkumar Talape",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 56,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 377,
@@ -5283,10 +5283,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Nandkumar Talape",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 378,
@@ -5297,10 +5297,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Nandkumar Talape",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 20,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 379,
@@ -5309,12 +5309,12 @@ let voterData = [
     "fullNameEnglish": "Kiran Viththal Pawade",
     "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल पावडे",
     "relativeNameEnglish": "Father's Name: Viththal Pawade",
-    "houseNoMarathi": "२६",
+    "houseNoMarathi": "26",
     "houseNoEnglish": "26",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 380,
@@ -5323,12 +5323,12 @@ let voterData = [
     "fullNameEnglish": "Varsha Yogesh Shinde",
     "relativeNameMarathi": "पतीचे नाव : योगेश शिंदे",
     "relativeNameEnglish": "Husband's Name: Yogesh Shinde",
-    "houseNoMarathi": "१००७",
+    "houseNoMarathi": "1007",
     "houseNoEnglish": "1007",
-    "roomNo": "1",
     "age": 42,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 381,
@@ -5337,12 +5337,12 @@ let voterData = [
     "fullNameEnglish": "Nilam Arjun Shinge",
     "relativeNameMarathi": "पतीचे नाव : अर्जुन शिंगे",
     "relativeNameEnglish": "Husband's Name: Arjun Shinge",
-    "houseNoMarathi": "१२१०",
+    "houseNoMarathi": "1210",
     "houseNoEnglish": "1210",
-    "roomNo": "1",
     "age": 55,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 382,
@@ -5351,12 +5351,12 @@ let voterData = [
     "fullNameEnglish": "Bhimashankar Arjun Shinge",
     "relativeNameMarathi": "वडिलांचे नाव : अर्जुन शिंगे",
     "relativeNameEnglish": "Father's Name: Arjun Shinge",
-    "houseNoMarathi": "१२१०",
+    "houseNoMarathi": "1210",
     "houseNoEnglish": "1210",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 383,
@@ -5365,12 +5365,12 @@ let voterData = [
     "fullNameEnglish": "Shankar Viththal Shelke",
     "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल शेळके",
     "relativeNameEnglish": "Father's Name: Viththal Shelke",
-    "houseNoMarathi": "१२८७७",
+    "houseNoMarathi": "12877",
     "houseNoEnglish": "12877",
-    "roomNo": "1",
     "age": 54,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 384,
@@ -5379,12 +5379,12 @@ let voterData = [
     "fullNameEnglish": "Kanchan Khushalchand Lunavat",
     "relativeNameMarathi": "पतीचे नाव : खुशालचंद लुणावत",
     "relativeNameEnglish": "Husband's Name: Khushalchand Lunavat",
-    "houseNoMarathi": "१३००८",
+    "houseNoMarathi": "13008",
     "houseNoEnglish": "13008",
-    "roomNo": "1",
     "age": 91,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 385,
@@ -5393,12 +5393,12 @@ let voterData = [
     "fullNameEnglish": "Ajit Khushalchand Lunavat",
     "relativeNameMarathi": "वडिलांचे नाव : खुशालचंद लुणावत",
     "relativeNameEnglish": "Father's Name: Khushalchand Lunavat",
-    "houseNoMarathi": "१३००८",
+    "houseNoMarathi": "13008",
     "houseNoEnglish": "13008",
-    "roomNo": "1",
     "age": 62,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 386,
@@ -5407,12 +5407,12 @@ let voterData = [
     "fullNameEnglish": "Kanta Ajit Lunavat",
     "relativeNameMarathi": "पतीचे नाव : अजित लुणावत",
     "relativeNameEnglish": "Husband's Name: Ajit Lunavat",
-    "houseNoMarathi": "१३००८",
+    "houseNoMarathi": "13008",
     "houseNoEnglish": "13008",
-    "roomNo": "1",
     "age": 58,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 387,
@@ -5421,12 +5421,12 @@ let voterData = [
     "fullNameEnglish": "Sudhir Namdev Pokharkar",
     "relativeNameMarathi": "वडिलांचे नाव : नामदेव पोखरकर",
     "relativeNameEnglish": "Father's Name: Namdev Pokharkar",
-    "houseNoMarathi": "१३९३",
+    "houseNoMarathi": "1393",
     "houseNoEnglish": "1393",
-    "roomNo": "1",
     "age": 40,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 388,
@@ -5435,12 +5435,12 @@ let voterData = [
     "fullNameEnglish": "Niraj Ramesh Pardeshi",
     "relativeNameMarathi": "वडिलांचे नाव : रमेश परदेशी",
     "relativeNameEnglish": "Father's Name: Ramesh Pardeshi",
-    "houseNoMarathi": "१९०९",
+    "houseNoMarathi": "1909",
     "houseNoEnglish": "1909",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 389,
@@ -5449,12 +5449,12 @@ let voterData = [
     "fullNameEnglish": "Shubhangi Ramesh Pardeshi",
     "relativeNameMarathi": "पतीचे नाव : रमेश परदेशी",
     "relativeNameEnglish": "Husband's Name: Ramesh Pardeshi",
-    "houseNoMarathi": "१९०९",
+    "houseNoMarathi": "1909",
     "houseNoEnglish": "1909",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 390,
@@ -5463,12 +5463,12 @@ let voterData = [
     "fullNameEnglish": "Indumati Vasant Mehta",
     "relativeNameMarathi": "पतीचे नाव : वसंत मेहता",
     "relativeNameEnglish": "Husband's Name: Vasant Mehta",
-    "houseNoMarathi": "१९२५७",
+    "houseNoMarathi": "19257",
     "houseNoEnglish": "19257",
-    "roomNo": "1",
     "age": 80,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 391,
@@ -5477,12 +5477,12 @@ let voterData = [
     "fullNameEnglish": "Swapna Vasant Mehta",
     "relativeNameMarathi": "पतीचे नाव : वसंत मेहता",
     "relativeNameEnglish": "Husband's Name: Vasant Mehta",
-    "houseNoMarathi": "१९२५७",
+    "houseNoMarathi": "19257",
     "houseNoEnglish": "19257",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 392,
@@ -5491,12 +5491,12 @@ let voterData = [
     "fullNameEnglish": "Pradip Badrinarayan Sarada",
     "relativeNameMarathi": "वडिलांचे नाव : बद्रिनारायण सारडा",
     "relativeNameEnglish": "Father's Name: Badrinarayan Sarada",
-    "houseNoMarathi": "१९२५०",
+    "houseNoMarathi": "19250",
     "houseNoEnglish": "19250",
-    "roomNo": "1",
     "age": 63,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 393,
@@ -5505,12 +5505,12 @@ let voterData = [
     "fullNameEnglish": "Jayashri Pradip Sarada",
     "relativeNameMarathi": "पतीचे नाव : प्रदिप सारडा",
     "relativeNameEnglish": "Husband's Name: Pradip Sarada",
-    "houseNoMarathi": "१९२५७",
+    "houseNoMarathi": "19257",
     "houseNoEnglish": "19257",
-    "roomNo": "1",
     "age": 54,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 394,
@@ -5519,12 +5519,12 @@ let voterData = [
     "fullNameEnglish": "Mayur Vasant Londhe",
     "relativeNameMarathi": "वडिलांचे नाव : वसंत लोंढे",
     "relativeNameEnglish": "Father's Name: Vasant Londhe",
-    "houseNoMarathi": "१९३४",
+    "houseNoMarathi": "1934",
     "houseNoEnglish": "1934",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 395,
@@ -5535,10 +5535,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Bansilal Shamole",
     "houseNoMarathi": "२२८/१",
     "houseNoEnglish": "228/1",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 396,
@@ -5547,12 +5547,12 @@ let voterData = [
     "fullNameEnglish": "Rohini Sunil Bhujbal",
     "relativeNameMarathi": "पतीचे नाव : सुनिल भुजबळ",
     "relativeNameEnglish": "Husband's Name: Sunil Bhujbal",
-    "houseNoMarathi": "७६७८",
+    "houseNoMarathi": "7678",
     "houseNoEnglish": "7678",
-    "roomNo": "1",
     "age": 37,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 397,
@@ -5561,12 +5561,12 @@ let voterData = [
     "fullNameEnglish": "Sagar Ramchandra Kalmakar",
     "relativeNameMarathi": "वडिलांचे नाव : रामचंद्र कळमकर",
     "relativeNameEnglish": "Father's Name: Ramchandra Kalmakar",
-    "houseNoMarathi": "७६७८",
+    "houseNoMarathi": "7678",
     "houseNoEnglish": "7678",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 398,
@@ -5577,10 +5577,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sopan Naikare",
     "houseNoMarathi": "९५९/९६",
     "houseNoEnglish": "959/96",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 399,
@@ -5591,10 +5591,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sopan Naikare",
     "houseNoMarathi": "९५९/९६",
     "houseNoEnglish": "959/96",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 400,
@@ -5603,12 +5603,12 @@ let voterData = [
     "fullNameEnglish": "Sahebrao Shankar Shelke",
     "relativeNameMarathi": "वडिलांचे नाव : शंकर शेळके",
     "relativeNameEnglish": "Father's Name: Shankar Shelke",
-    "houseNoMarathi": "१३९१४५",
+    "houseNoMarathi": "139145",
     "houseNoEnglish": "139145",
-    "roomNo": "1",
     "age": 90,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 401,
@@ -5619,10 +5619,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Balavant Pokharkar",
     "houseNoMarathi": "१३९३/९",
     "houseNoEnglish": "1393/9",
-    "roomNo": "1",
     "age": 64,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 402,
@@ -5633,10 +5633,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Namdev Pokharkar",
     "houseNoMarathi": "१३९३/९",
     "houseNoEnglish": "1393/9",
-    "roomNo": "1",
     "age": 58,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 403,
@@ -5647,10 +5647,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Namdev Pokharkar",
     "houseNoMarathi": "१३९३/९",
     "houseNoEnglish": "1393/9",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 404,
@@ -5661,10 +5661,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Rajendra Gosavi",
     "houseNoMarathi": "१८७०/४",
     "houseNoEnglish": "1870/4",
-    "roomNo": "1",
     "age": 52,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 405,
@@ -5675,10 +5675,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Machhindra Shinde",
     "houseNoMarathi": "९५९/१००",
     "houseNoEnglish": "959/100",
-    "roomNo": "1",
     "age": 39,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 406,
@@ -5687,12 +5687,12 @@ let voterData = [
     "fullNameEnglish": "Manjudevi Hanuman Jangid",
     "relativeNameMarathi": "पतीचे नाव : हनुमान जांगिड",
     "relativeNameEnglish": "Husband's Name: Hanuman Jangid",
-    "houseNoMarathi": "१३०००१३",
+    "houseNoMarathi": "1300013",
     "houseNoEnglish": "1300013",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 407,
@@ -5703,10 +5703,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Akshay Shelke",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 408,
@@ -5717,10 +5717,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Suhas Shinde",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 24,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 409,
@@ -5729,12 +5729,12 @@ let voterData = [
     "fullNameEnglish": "Lata Dhonḍiba Jagdale",
     "relativeNameMarathi": "वडिलांचे नाव : धोंडीबा जगदाळे",
     "relativeNameEnglish": "Father's Name: Dhonḍiba Jagdale",
-    "houseNoMarathi": "५७",
+    "houseNoMarathi": "57",
     "houseNoEnglish": "57",
-    "roomNo": "1",
     "age": 58,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 410,
@@ -5745,10 +5745,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Ramesh Sutar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 411,
@@ -5757,12 +5757,12 @@ let voterData = [
     "fullNameEnglish": "Madhav Sakharam Bahiram",
     "relativeNameMarathi": "वडिलांचे नाव : सखाराम बहिरम",
     "relativeNameEnglish": "Father's Name: Sakharam Bahiram",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 412,
@@ -5771,12 +5771,12 @@ let voterData = [
     "fullNameEnglish": "Nirmala Madhav Bahiram",
     "relativeNameMarathi": "पतीचे नाव : माधव बहिरम",
     "relativeNameEnglish": "Husband's Name: Madhav Bahiram",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 40,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 413,
@@ -5785,12 +5785,12 @@ let voterData = [
     "fullNameEnglish": "Pramila Sachin Jadhav",
     "relativeNameMarathi": "पतीचे नाव : सचिन जाधव",
     "relativeNameEnglish": "Husband's Name: Sachin Jadhav",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 35,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 414,
@@ -5799,12 +5799,12 @@ let voterData = [
     "fullNameEnglish": "Tejas Harishchandra Jadhav",
     "relativeNameMarathi": "वडिलांचे नाव : हरिश्चंद्र जाधव",
     "relativeNameEnglish": "Father's Name: Harishchandra Jadhav",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 415,
@@ -5813,12 +5813,12 @@ let voterData = [
     "fullNameEnglish": "Nanda Girish Naikade",
     "relativeNameMarathi": "पतीचे नाव : गिरीश नाईकडे",
     "relativeNameEnglish": "Husband's Name: Girish Naikade",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 45,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 416,
@@ -5827,12 +5827,12 @@ let voterData = [
     "fullNameEnglish": "Mayavati Pandurang Shinde",
     "relativeNameMarathi": "पतीचे नाव : पांडुरंग शिंदे",
     "relativeNameEnglish": "Husband's Name: Pandurang Shinde",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 75,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 417,
@@ -5843,10 +5843,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Anil Shelke",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 418,
@@ -5855,12 +5855,12 @@ let voterData = [
     "fullNameEnglish": "Vithoba Shripati Tijage",
     "relativeNameMarathi": "वडिलांचे नाव : श्रीपती टिजगे",
     "relativeNameEnglish": "Father's Name: Shripati Tijage",
-    "houseNoMarathi": "९१",
+    "houseNoMarathi": "91",
     "houseNoEnglish": "91",
-    "roomNo": "1",
     "age": 53,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 419,
@@ -5869,12 +5869,12 @@ let voterData = [
     "fullNameEnglish": "Surekha Vithoba Tijage",
     "relativeNameMarathi": "पतीचे नाव : विठोबा टिजगे",
     "relativeNameEnglish": "Husband's Name: Vithoba Tijage",
-    "houseNoMarathi": "९१",
+    "houseNoMarathi": "91",
     "houseNoEnglish": "91",
-    "roomNo": "1",
     "age": 47,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 420,
@@ -5883,12 +5883,12 @@ let voterData = [
     "fullNameEnglish": "Shankar Malhari Gayakwad",
     "relativeNameMarathi": "वडिलांचे नाव : मल्हारी गायकवाड",
     "relativeNameEnglish": "Father's Name: Malhari Gayakwad",
-    "houseNoMarathi": "१३९०",
+    "houseNoMarathi": "1390",
     "houseNoEnglish": "1390",
-    "roomNo": "1",
     "age": 72,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 421,
@@ -5897,12 +5897,12 @@ let voterData = [
     "fullNameEnglish": "Dinkar Malhari Gayakwad",
     "relativeNameMarathi": "वडिलांचे नाव : मल्हारी गायकवाड",
     "relativeNameEnglish": "Father's Name: Malhari Gayakwad",
-    "houseNoMarathi": "१३९०",
+    "houseNoMarathi": "1390",
     "houseNoEnglish": "1390",
-    "roomNo": "1",
     "age": 61,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 422,
@@ -5911,12 +5911,12 @@ let voterData = [
     "fullNameEnglish": "Chhaya Dinkar Gayakwad",
     "relativeNameMarathi": "पतीचे नाव : दिनकर गायकवाड",
     "relativeNameEnglish": "Husband's Name: Dinkar Gayakwad",
-    "houseNoMarathi": "१३९०",
+    "houseNoMarathi": "1390",
     "houseNoEnglish": "1390",
-    "roomNo": "1",
     "age": 53,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 423,
@@ -5925,12 +5925,12 @@ let voterData = [
     "fullNameEnglish": "Manjushree Sagar Gayakwad",
     "relativeNameMarathi": "पतीचे नाव : सागर गायकवाड",
     "relativeNameEnglish": "Husband's Name: Sagar Gayakwad",
-    "houseNoMarathi": "१३९०",
+    "houseNoMarathi": "1390",
     "houseNoEnglish": "1390",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 424,
@@ -5939,12 +5939,12 @@ let voterData = [
     "fullNameEnglish": "Sagar Shankar Gayakwad",
     "relativeNameMarathi": "वडिलांचे नाव : शंकर गायकवाड",
     "relativeNameEnglish": "Father's Name: Shankar Gayakwad",
-    "houseNoMarathi": "१६९०",
+    "houseNoMarathi": "1690",
     "houseNoEnglish": "1690",
-    "roomNo": "1",
     "age": 43,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 425,
@@ -5953,12 +5953,12 @@ let voterData = [
     "fullNameEnglish": "Mahesh Shankar Gayakwad",
     "relativeNameMarathi": "वडिलांचे नाव : शंकर गायकवाड",
     "relativeNameEnglish": "Father's Name: Shankar Gayakwad",
-    "houseNoMarathi": "१६९०",
+    "houseNoMarathi": "1690",
     "houseNoEnglish": "1690",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 426,
@@ -5967,12 +5967,12 @@ let voterData = [
     "fullNameEnglish": "Ashwini Viththal Shirke",
     "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल शिर्के",
     "relativeNameEnglish": "Father's Name: Viththal Shirke",
-    "houseNoMarathi": "१८७०",
+    "houseNoMarathi": "1870",
     "houseNoEnglish": "1870",
-    "roomNo": "1",
     "age": 36,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 427,
@@ -5981,12 +5981,12 @@ let voterData = [
     "fullNameEnglish": "Ganesh Viththal Shirke",
     "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल शिर्के",
     "relativeNameEnglish": "Father's Name: Viththal Shirke",
-    "houseNoMarathi": "१८७०",
+    "houseNoMarathi": "1870",
     "houseNoEnglish": "1870",
-    "roomNo": "1",
     "age": 32,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 428,
@@ -5995,12 +5995,12 @@ let voterData = [
     "fullNameEnglish": "Subhash Arjun Shelke",
     "relativeNameMarathi": "वडिलांचे नाव : अर्जुन शेळके",
     "relativeNameEnglish": "Father's Name: Arjun Shelke",
-    "houseNoMarathi": "१८७१",
+    "houseNoMarathi": "1871",
     "houseNoEnglish": "1871",
-    "roomNo": "1",
     "age": 80,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 429,
@@ -6009,12 +6009,12 @@ let voterData = [
     "fullNameEnglish": "Bhagubai Subhash Shelke",
     "relativeNameMarathi": "पतीचे नाव : सुभाष शेळके",
     "relativeNameEnglish": "Husband's Name: Subhash Shelke",
-    "houseNoMarathi": "१८७१",
+    "houseNoMarathi": "1871",
     "houseNoEnglish": "1871",
-    "roomNo": "1",
     "age": 79,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 430,
@@ -6023,12 +6023,12 @@ let voterData = [
     "fullNameEnglish": "Supriya Prabhakar Jadhav",
     "relativeNameMarathi": "वडिलांचे नाव : प्रभाकर जाधव",
     "relativeNameEnglish": "Father's Name: Prabhakar Jadhav",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 31,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 431,
@@ -6037,12 +6037,12 @@ let voterData = [
     "fullNameEnglish": "Nutan Gyaneshwar Jadhav",
     "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर जाधव",
     "relativeNameEnglish": "Husband's Name: Gyaneshwar Jadhav",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 28,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 432,
@@ -6051,12 +6051,12 @@ let voterData = [
     "fullNameEnglish": "Pratishtha Parbati Jamdade",
     "relativeNameMarathi": "वडिलांचे नाव : परबती जमदाडे",
     "relativeNameEnglish": "Father's Name: Parbati Jamdade",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 31,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 433,
@@ -6065,12 +6065,12 @@ let voterData = [
     "fullNameEnglish": "Pragnya Gyaneshwar Kadlag",
     "relativeNameMarathi": "वडिलांचे नाव : ज्ञानेश्वर कडलग",
     "relativeNameEnglish": "Father's Name: Gyaneshwar Kadlag",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 434,
@@ -6079,12 +6079,12 @@ let voterData = [
     "fullNameEnglish": "Ganesh Ramchandra Nikam",
     "relativeNameMarathi": "वडिलांचे नाव : रामचंद्र निकम",
     "relativeNameEnglish": "Father's Name: Ramchandra Nikam",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 41,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 435,
@@ -6093,12 +6093,12 @@ let voterData = [
     "fullNameEnglish": "Rupali Keshav Sutar",
     "relativeNameMarathi": "पतीचे नाव : केशव सुतार",
     "relativeNameEnglish": "Husband's Name: Keshav Sutar",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 38,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 436,
@@ -6107,12 +6107,12 @@ let voterData = [
     "fullNameEnglish": "Priyanka Santosh Sutar",
     "relativeNameMarathi": "पतीचे नाव : संतोष सुतार",
     "relativeNameEnglish": "Husband's Name: Santosh Sutar",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 437,
@@ -6121,12 +6121,12 @@ let voterData = [
     "fullNameEnglish": "Harshada Vishwanath Waydande",
     "relativeNameMarathi": "पतीचे नाव : विश्वनाथ वायदंडे",
     "relativeNameEnglish": "Husband's Name: Vishwanath Waydande",
-    "houseNoMarathi": "११९५",
+    "houseNoMarathi": "1195",
     "houseNoEnglish": "1195",
-    "roomNo": "1",
     "age": 28,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 438,
@@ -6137,10 +6137,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sanjay Chaudhari",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 439,
@@ -6151,10 +6151,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Rahul Gayakwad",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 440,
@@ -6165,10 +6165,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sunil Ghodke",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 23,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 441,
@@ -6179,10 +6179,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Sudam Gore",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 51,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 442,
@@ -6193,10 +6193,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Sudam Gore",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 33,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 443,
@@ -6207,10 +6207,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Vijay Nandkar",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 26,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 444,
@@ -6221,10 +6221,10 @@ let voterData = [
     "relativeNameEnglish": "Husband's Name: Vaibhav Nisal",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 30,
     "genderMarathi": "स्त्री",
-    "genderEnglish": "Female"
+    "genderEnglish": "Female",
+    "roomNo": "1"
   },
   {
     "voterNo": 445,
@@ -6235,10 +6235,10 @@ let voterData = [
     "relativeNameEnglish": "Father's Name: Satish Thigale",
     "houseNoMarathi": "-",
     "houseNoEnglish": "-",
-    "roomNo": "1",
     "age": 22,
     "genderMarathi": "पु",
-    "genderEnglish": "Male"
+    "genderEnglish": "Male",
+    "roomNo": "1"
   },
   {
     "voterNo": 446,
@@ -6249,24 +6249,5792 @@ let voterData = [
     "relativeNameEnglish": "Father's",
     "houseNoMarathi": "",
     "houseNoEnglish": "",
-    "roomNo": "1",
     "age": 0,
     "genderMarathi": "",
-    "genderEnglish": ""
+    "genderEnglish": "",
+    "roomNo": "1"
   },
   {
     "voterNo": 447,
-    "voterId": "",
-    "fullNameMarathi": "",
-    "fullNameEnglish": "",
-    "relativeNameMarathi": "",
-    "relativeNameEnglish": "",
-    "houseNoMarathi": "",
-    "houseNoEnglish": "",
-    "roomNo": "1",
+    "voterId": "SSO7379217",
+    "fullNameMarathi": "निशा घनशाम अभंग",
+    "fullNameEnglish": "Nisha Ghansham Abhang",
+    "relativeNameMarathi": "पतीचे नाव : घनशाम अभंग",
+    "relativeNameEnglish": "Husband's Name: Ghansham Abhang",
+    "houseNoMarathi": "45908",
+    "houseNoEnglish": "45908",
+    "age": 47,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 448,
+    "voterId": "SSO7265911",
+    "fullNameMarathi": "प्राची सोमनाथ मिटकरी",
+    "fullNameEnglish": "Prachi Somanath Mitkari",
+    "relativeNameMarathi": "वडिलांचे नाव : सोमनाथ मिटकरी",
+    "relativeNameEnglish": "Father's Name: Somanath Mitkari",
+    "houseNoMarathi": "1154",
+    "houseNoEnglish": "1154",
+    "age": 37,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 449,
+    "voterId": "SSO7517287",
+    "fullNameMarathi": "धावजी रामा दाते",
+    "fullNameEnglish": "Dhavaji Rama Date",
+    "relativeNameMarathi": "वडिलांचे नाव : रामा दाते",
+    "relativeNameEnglish": "Father's Name: Rama Date",
+    "houseNoMarathi": "1166",
+    "houseNoEnglish": "1166",
+    "age": 68,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 450,
+    "voterId": "SSO7517295",
+    "fullNameMarathi": "संतोष धावजी दाते",
+    "fullNameEnglish": "Santosh Dhavaji Date",
+    "relativeNameMarathi": "वडिलांचे नाव : धावजी दाते",
+    "relativeNameEnglish": "Father's Name: Dhavaji Date",
+    "houseNoMarathi": "1166",
+    "houseNoEnglish": "1166",
+    "age": 36,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 451,
+    "voterId": "SSO7517469",
+    "fullNameMarathi": "मंदा विठ्ठल सुतार",
+    "fullNameEnglish": "Manda Vitthal Sutar",
+    "relativeNameMarathi": "पतीचे नाव : विठ्ठल सुतार",
+    "relativeNameEnglish": "Husband's Name: Vitthal Sutar",
+    "houseNoMarathi": "१३९१/६६",
+    "houseNoEnglish": "1391/66",
+    "age": 65,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 452,
+    "voterId": "SSO8440034",
+    "fullNameMarathi": "विठ्ठल दगडू सुतार",
+    "fullNameEnglish": "Vitthal Dagdu Sutar",
+    "relativeNameMarathi": "वडिलांचे नाव : दगडू सुतार",
+    "relativeNameEnglish": "Father's Name: Dagdu Sutar",
+    "houseNoMarathi": "१३९१/७७",
+    "houseNoEnglish": "1391/77",
+    "age": 71,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 453,
+    "voterId": "SSO7517477",
+    "fullNameMarathi": "केशव विठ्ठल सुतार",
+    "fullNameEnglish": "Keshav Vitthal Sutar",
+    "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल सुतार",
+    "relativeNameEnglish": "Father's Name: Vitthal Sutar",
+    "houseNoMarathi": "१३९१/७७",
+    "houseNoEnglish": "1391/77",
+    "age": 47,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 454,
+    "voterId": "KXH2967313",
+    "fullNameMarathi": "संतोष विठ्ठल सुतार",
+    "fullNameEnglish": "Santosh Vitthal Sutar",
+    "relativeNameMarathi": "वडिलांचे नाव : विठ्ठल सुतार",
+    "relativeNameEnglish": "Father's Name: Vitthal Sutar",
+    "houseNoMarathi": "१३९१/७०",
+    "houseNoEnglish": "1391/70",
+    "age": 42,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 455,
+    "voterId": "KXH2970234",
+    "fullNameMarathi": "मारुती सहादु टाकळकर",
+    "fullNameEnglish": "Maruti Sahadu Takalkar",
+    "relativeNameMarathi": "वडिलांचे नाव : सहादु टाकळकर",
+    "relativeNameEnglish": "Father's Name: Sahadu Takalkar",
+    "houseNoMarathi": "१३९१/७७",
+    "houseNoEnglish": "1391/77",
+    "age": 62,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 456,
+    "voterId": "KXH2970218",
+    "fullNameMarathi": "जनाबाई मारुती टाकळकर",
+    "fullNameEnglish": "Janabai Maruti Takalkar",
+    "relativeNameMarathi": "पतीचे नाव : मारुती टाकळकर",
+    "relativeNameEnglish": "Husband's Name: Maruti Takalkar",
+    "houseNoMarathi": "१३९१/९६",
+    "houseNoEnglish": "1391/96",
+    "age": 57,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 457,
+    "voterId": "SSO7517360",
+    "fullNameMarathi": "श्याम रामचंद्र आसकनानी",
+    "fullNameEnglish": "Shyam Ramchandra Asknani",
+    "relativeNameMarathi": "वडिलांचे नाव : रामचंद्र आसकनानी",
+    "relativeNameEnglish": "Father's Name: Ramchandra Asknani",
+    "houseNoMarathi": "१३४८/१८४",
+    "houseNoEnglish": "1348/184",
+    "age": 44,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 458,
+    "voterId": "SSO7517386",
+    "fullNameMarathi": "हरिभाऊ बबन शिंदे",
+    "fullNameEnglish": "Haribhau Baban Shinde",
+    "relativeNameMarathi": "वडिलांचे नाव : बबन शिंदे",
+    "relativeNameEnglish": "Father's Name: Baban Shinde",
+    "houseNoMarathi": "१३४८/४५",
+    "houseNoEnglish": "1348/45",
+    "age": 54,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 459,
+    "voterId": "SSO7517394",
+    "fullNameMarathi": "सुरेखा हरिभाऊ शिंदे",
+    "fullNameEnglish": "Surekha Haribhau Shinde",
+    "relativeNameMarathi": "पतीचे नाव : हरिभाऊ शिंदे",
+    "relativeNameEnglish": "Husband's Name: Haribhau Shinde",
+    "houseNoMarathi": "१३४८/४५",
+    "houseNoEnglish": "1348/45",
+    "age": 49,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 460,
+    "voterId": "SSO9302217",
+    "fullNameMarathi": "सिद्धेश जाधव",
+    "fullNameEnglish": "Siddhesh Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : अविनाश जाधव",
+    "relativeNameEnglish": "Father's Name: Avinash Jadhav",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 23,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 461,
+    "voterId": "SSO7865694",
+    "fullNameMarathi": "चैताली योगेश भंडारी",
+    "fullNameEnglish": "Chaitali Yogesh Bhandari",
+    "relativeNameMarathi": "पतीचे नाव : योगेश भंडारी",
+    "relativeNameEnglish": "Husband's Name: Yogesh Bhandari",
+    "houseNoMarathi": "1155",
+    "houseNoEnglish": "1155",
+    "age": 41,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 462,
+    "voterId": "SSO7865611",
+    "fullNameMarathi": "संतोष शंकर बोंबले",
+    "fullNameEnglish": "Santosh Shankar Bombale",
+    "relativeNameMarathi": "वडिलांचे नाव : शंकर बोंबले",
+    "relativeNameEnglish": "Father's Name: Shankar Bombale",
+    "houseNoMarathi": "1155",
+    "houseNoEnglish": "1155",
+    "age": 44,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 463,
+    "voterId": "SSO7865538",
+    "fullNameMarathi": "अर्चना संतोष बोंबले",
+    "fullNameEnglish": "Archana Santosh Bombale",
+    "relativeNameMarathi": "पतीचे नाव : संतोष बोंबले",
+    "relativeNameEnglish": "Husband's Name: Santosh Bombale",
+    "houseNoMarathi": "1155",
+    "houseNoEnglish": "1155",
+    "age": 39,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 464,
+    "voterId": "SSO7604937",
+    "fullNameMarathi": "कोमल रवी गायकवाड",
+    "fullNameEnglish": "Komal Ravi Gaikwad",
+    "relativeNameMarathi": "पतीचे नाव : रवी गायकवाड",
+    "relativeNameEnglish": "Husband's Name: Ravi Gaikwad",
+    "houseNoMarathi": "1155",
+    "houseNoEnglish": "1155",
+    "age": 30,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 465,
+    "voterId": "SSO7962459",
+    "fullNameMarathi": "प्रशांत राजेंद्र गोसावी",
+    "fullNameEnglish": "Prashant Rajendra Gosavi",
+    "relativeNameMarathi": "वडिलांचे नाव : राजेंद्र गोसावी",
+    "relativeNameEnglish": "Father's Name: Rajendra Gosavi",
+    "houseNoMarathi": "1155",
+    "houseNoEnglish": "1155",
+    "age": 31,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 466,
+    "voterId": "SSO7962442",
+    "fullNameMarathi": "प्रियांका राजेंद्र गोसावी",
+    "fullNameEnglish": "Priyanka Rajendra Gosavi",
+    "relativeNameMarathi": "वडिलांचे नाव : राजेंद्र गोसावी",
+    "relativeNameEnglish": "Father's Name: Rajendra Gosavi",
+    "houseNoMarathi": "1155",
+    "houseNoEnglish": "1155",
+    "age": 29,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 467,
+    "voterId": "SSO7962467",
+    "fullNameMarathi": "सिध्दांत राजेंद्र गोसावी",
+    "fullNameEnglish": "Siddhant Rajendra Gosavi",
+    "relativeNameMarathi": "वडिलांचे नाव : राजेंद्र गोसावी",
+    "relativeNameEnglish": "Father's Name: Rajendra Gosavi",
+    "houseNoMarathi": "1155",
+    "houseNoEnglish": "1155",
+    "age": 26,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 468,
+    "voterId": "SSO7378995",
+    "fullNameMarathi": "प्रसाद परबती जमदाडे",
+    "fullNameEnglish": "Prasad Parbati Jamdade",
+    "relativeNameMarathi": "वडिलांचे नाव : परबती जमदाडे",
+    "relativeNameEnglish": "Father's Name: Parbati Jamdade",
+    "houseNoMarathi": "1155",
+    "houseNoEnglish": "1155",
+    "age": 28,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 469,
+    "voterId": "SSO8231821",
+    "fullNameMarathi": "समीर सागर गायकवाड",
+    "fullNameEnglish": "Sameer Sagar Gaikwad",
+    "relativeNameMarathi": "वडिलांचे नाव : सागर गायकवाड",
+    "relativeNameEnglish": "Father's Name: Sagar Gaikwad",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 22,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 470,
+    "voterId": "SSO9061029",
+    "fullNameMarathi": "ओमकार सुरेश राक्षे",
+    "fullNameEnglish": "Omkar Suresh Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : सुरेश राक्षे",
+    "relativeNameEnglish": "Father's Name: Suresh Rakhshe",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 21,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 471,
+    "voterId": "SSO8756538",
+    "fullNameMarathi": "तेजस विठोबा टिजगे",
+    "fullNameEnglish": "Tejas Vitthoba Tijage",
+    "relativeNameMarathi": "वडिलांचे नाव : विठोबा श्रीपती टिजगे",
+    "relativeNameEnglish": "Father's Name: Vitthoba Shripati Tijage",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 22,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 472,
+    "voterId": "SSO2091841",
+    "fullNameMarathi": "अनिल नारायण भुजबळ",
+    "fullNameEnglish": "Anil Narayan Bhujbal",
+    "relativeNameMarathi": "वडिलांचे नाव : नारायण भुजबळ",
+    "relativeNameEnglish": "Father's Name: Narayan Bhujbal",
+    "houseNoMarathi": "17",
+    "houseNoEnglish": "17",
+    "age": 64,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 473,
+    "voterId": "SSO2091858",
+    "fullNameMarathi": "अलका अनिल भुजबळ",
+    "fullNameEnglish": "Alka Anil Bhujbal",
+    "relativeNameMarathi": "पतीचे नाव : अनिल भुजबळ",
+    "relativeNameEnglish": "Husband's Name: Anil Bhujbal",
+    "houseNoMarathi": "17",
+    "houseNoEnglish": "17",
+    "age": 59,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 474,
+    "voterId": "SSO2091866",
+    "fullNameMarathi": "रविंद्र अनिल भुजबळ",
+    "fullNameEnglish": "Ravindra Anil Bhujbal",
+    "relativeNameMarathi": "वडिलांचे नाव : अनिल भुजबळ",
+    "relativeNameEnglish": "Father's Name: Anil Bhujbal",
+    "houseNoMarathi": "17",
+    "houseNoEnglish": "17",
+    "age": 40,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 475,
+    "voterId": "SSO1523786",
+    "fullNameMarathi": "शरद पाडुरंग शेटे",
+    "fullNameEnglish": "Sharad Padurang Shete",
+    "relativeNameMarathi": "वडिलांचे नाव : पाडुरंग शेटे",
+    "relativeNameEnglish": "Father's Name: Padurang Shete",
+    "houseNoMarathi": "17",
+    "houseNoEnglish": "17",
+    "age": 59,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 476,
+    "voterId": "SSO1523794",
+    "fullNameMarathi": "सुनंदा पाडुरंग शेटे",
+    "fullNameEnglish": "Sunanda Padurang Shete",
+    "relativeNameMarathi": "पतीचे नाव : पाडुरंग शेटे",
+    "relativeNameEnglish": "Husband's Name: Padurang Shete",
+    "houseNoMarathi": "17",
+    "houseNoEnglish": "17",
+    "age": 54,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 477,
+    "voterId": "KXH2965689",
+    "fullNameMarathi": "चिंतामण बाबुराव गोसावी",
+    "fullNameEnglish": "Chintaman Baburao Gosavi",
+    "relativeNameMarathi": "वडिलांचे नाव : बाबुराव गोसावी",
+    "relativeNameEnglish": "Father's Name: Baburao Gosavi",
+    "houseNoMarathi": "127",
+    "houseNoEnglish": "127",
+    "age": 67,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 478,
+    "voterId": "KXH2966620",
+    "fullNameMarathi": "शकुंतला चिंतामण गोसावी",
+    "fullNameEnglish": "Shakuntala Chintaman Gosavi",
+    "relativeNameMarathi": "पतीचे नाव : चिंतामण गोसावी",
+    "relativeNameEnglish": "Husband's Name: Chintaman Gosavi",
+    "houseNoMarathi": "127",
+    "houseNoEnglish": "127",
+    "age": 62,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 479,
+    "voterId": "SSO2091874",
+    "fullNameMarathi": "सुनिल गणपत गोसावी",
+    "fullNameEnglish": "Sunil Ganpat Gosavi",
+    "relativeNameMarathi": "वडिलांचे नाव : गणपत गोसावी",
+    "relativeNameEnglish": "Father's Name: Ganpat Gosavi",
+    "houseNoMarathi": "25",
+    "houseNoEnglish": "25",
+    "age": 41,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 480,
+    "voterId": "SSO2091882",
+    "fullNameMarathi": "अनिल चिंतामण गोसावी",
+    "fullNameEnglish": "Anil Chintaman Gosavi",
+    "relativeNameMarathi": "वडिलांचे नाव : चिंतामण गोसावी",
+    "relativeNameEnglish": "Father's Name: Chintaman Gosavi",
+    "houseNoMarathi": "45871",
+    "houseNoEnglish": "45871",
+    "age": 35,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 481,
+    "voterId": "SSO2091890",
+    "fullNameMarathi": "अर्चना अनिल गोसावी",
+    "fullNameEnglish": "Archana Anil Gosavi",
+    "relativeNameMarathi": "पतीचे नाव : अनिल गोसावी",
+    "relativeNameEnglish": "Husband's Name: Anil Gosavi",
+    "houseNoMarathi": "45871",
+    "houseNoEnglish": "45871",
+    "age": 35,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 482,
+    "voterId": "KXH2971034",
+    "fullNameMarathi": "अशोक सखाराम आचार्य",
+    "fullNameEnglish": "Ashok Sakharam Acharya",
+    "relativeNameMarathi": "वडिलांचे नाव : सखाराम आचार्य",
+    "relativeNameEnglish": "Father's Name: Sakharam Acharya",
+    "houseNoMarathi": "38",
+    "houseNoEnglish": "38",
+    "age": 70,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 483,
+    "voterId": "SSO7517519",
+    "fullNameMarathi": "कृष्णा दादाभाऊ बगाड",
+    "fullNameEnglish": "Krishna Dadabhau Bagad",
+    "relativeNameMarathi": "वडिलांचे नाव : दादाभाऊ बगाड",
+    "relativeNameEnglish": "Father's Name: Dadabhau Bagad",
+    "houseNoMarathi": "38",
+    "houseNoEnglish": "38",
+    "age": 50,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 484,
+    "voterId": "SSO7517527",
+    "fullNameMarathi": "जयश्री कृष्णा बागाड",
+    "fullNameEnglish": "Jayshree Krishna Bagad",
+    "relativeNameMarathi": "पतीचे नाव : कृष्णा बागाड",
+    "relativeNameEnglish": "Husband's Name: Krishna Bagad",
+    "houseNoMarathi": "38",
+    "houseNoEnglish": "38",
+    "age": 48,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 485,
+    "voterId": "SSO2091924",
+    "fullNameMarathi": "गणपत भालचंद्र जोशी",
+    "fullNameEnglish": "Ganpat Bhalchandra Joshi",
+    "relativeNameMarathi": "पतीचे नाव : भालचंद्र जोशी",
+    "relativeNameEnglish": "Husband's Name: Bhalchandra Joshi",
+    "houseNoMarathi": "34",
+    "houseNoEnglish": "34",
+    "age": 67,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 486,
+    "voterId": "SSO2091932",
+    "fullNameMarathi": "स्मिता गणपत जोशी",
+    "fullNameEnglish": "Smita Ganpat Joshi",
+    "relativeNameMarathi": "वडिलांचे नाव : गणपत जोशी",
+    "relativeNameEnglish": "Father's Name: Ganpat Joshi",
+    "houseNoMarathi": "38",
+    "houseNoEnglish": "38",
+    "age": 67,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 487,
+    "voterId": "KXH2965267",
+    "fullNameMarathi": "प्रशांत गणपत जोशी",
+    "fullNameEnglish": "Prashant Ganpat Joshi",
+    "relativeNameMarathi": "वडिलांचे नाव : गणपत जोशी",
+    "relativeNameEnglish": "Father's Name: Ganpat Joshi",
+    "houseNoMarathi": "38",
+    "houseNoEnglish": "38",
+    "age": 41,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 488,
+    "voterId": "KXH2971026",
+    "fullNameMarathi": "कुसूम अशोक आचार्य",
+    "fullNameEnglish": "Kusum Ashok Acharya",
+    "relativeNameMarathi": "पतीचे नाव : अशोक आचार्य",
+    "relativeNameEnglish": "Husband's Name: Ashok Acharya",
+    "houseNoMarathi": "48",
+    "houseNoEnglish": "48",
+    "age": 57,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 489,
+    "voterId": "KXH2970788",
+    "fullNameMarathi": "प्रदीप अशोक आचार्य",
+    "fullNameEnglish": "Pradeep Ashok Acharya",
+    "relativeNameMarathi": "वडिलांचे नाव : अशोक आचार्य",
+    "relativeNameEnglish": "Father's Name: Ashok Acharya",
+    "houseNoMarathi": "48",
+    "houseNoEnglish": "48",
+    "age": 42,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 490,
+    "voterId": "SSO2094940",
+    "fullNameMarathi": "सुभद्रा बाळू जाधव",
+    "fullNameEnglish": "Subhadra Balu Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : बाळू जाधव",
+    "relativeNameEnglish": "Father's Name: Balu Jadhav",
+    "houseNoMarathi": "60",
+    "houseNoEnglish": "60",
+    "age": 58,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 491,
+    "voterId": "SSO7517535",
+    "fullNameMarathi": "गणेश बबन सदरे",
+    "fullNameEnglish": "Ganesh Baban Sadre",
+    "relativeNameMarathi": "वडिलांचे नाव : बबन सदरे",
+    "relativeNameEnglish": "Father's Name: Baban Sadre",
+    "houseNoMarathi": "66",
+    "houseNoEnglish": "66",
+    "age": 52,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 492,
+    "voterId": "SSO7517543",
+    "fullNameMarathi": "शारद गणेश सदरे",
+    "fullNameEnglish": "Sharad Ganesh Sadre",
+    "relativeNameMarathi": "पतीचे नाव : गणेश सदरे",
+    "relativeNameEnglish": "Husband's Name: Ganesh Sadre",
+    "houseNoMarathi": "66",
+    "houseNoEnglish": "66",
+    "age": 46,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 493,
+    "voterId": "SSO2091965",
+    "fullNameMarathi": "बाळू गोपाळ बर्वे",
+    "fullNameEnglish": "Balu Gopal Barve",
+    "relativeNameMarathi": "वडिलांचे नाव : गोपाळ बर्वे",
+    "relativeNameEnglish": "Father's Name: Gopal Barve",
+    "houseNoMarathi": "77",
+    "houseNoEnglish": "77",
+    "age": 59,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 494,
+    "voterId": "SSO2091973",
+    "fullNameMarathi": "रजनी बाळू बर्वे",
+    "fullNameEnglish": "Rajani Balu Barve",
+    "relativeNameMarathi": "पतीचे नाव : बाळू बर्वे",
+    "relativeNameEnglish": "Husband's Name: Balu Barve",
+    "houseNoMarathi": "70",
+    "houseNoEnglish": "70",
+    "age": 54,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 495,
+    "voterId": "SSO7517550",
+    "fullNameMarathi": "अंजना सवाजी थिगळे",
+    "fullNameEnglish": "Anjana Savaji Thigale",
+    "relativeNameMarathi": "पतीचे नाव : सवाजी थिगळे",
+    "relativeNameEnglish": "Husband's Name: Savaji Thigale",
+    "houseNoMarathi": "70",
+    "houseNoEnglish": "70",
+    "age": 62,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 496,
+    "voterId": "SSO1776020",
+    "fullNameMarathi": "मधुकर रावजी गिलबिले",
+    "fullNameEnglish": "Madhukar Ravaji Gilbile",
+    "relativeNameMarathi": "वडिलांचे नाव : रावजी गिलबिले",
+    "relativeNameEnglish": "Father's Name: Ravaji Gilbile",
+    "houseNoMarathi": "37080",
+    "houseNoEnglish": "37080",
+    "age": 47,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 497,
+    "voterId": "KXH2965697",
+    "fullNameMarathi": "सुरेखा पुरुषोत्तम नाईकरे",
+    "fullNameEnglish": "Surekha Purushottam Naikre",
+    "relativeNameMarathi": "पतीचे नाव : पुरुषोत्तम नाईकरे",
+    "relativeNameEnglish": "Husband's Name: Purushottam Naikre",
+    "houseNoMarathi": "105",
+    "houseNoEnglish": "105",
+    "age": 53,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 498,
+    "voterId": "SSO7517493",
+    "fullNameMarathi": "मनिषा रविंद्र भुजबळ",
+    "fullNameEnglish": "Manisha Ravindra Bhujbal",
+    "relativeNameMarathi": "पतीचे नाव : रविंद्र भुजबळ",
+    "relativeNameEnglish": "Husband's Name: Ravindra Bhujbal",
+    "houseNoMarathi": "1307",
+    "houseNoEnglish": "1307",
+    "age": 39,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 499,
+    "voterId": "KXH2966505",
+    "fullNameMarathi": "पुरुषोत्तम शिवाजी नाईकरे",
+    "fullNameEnglish": "Purushottam Shivaji Naikre",
+    "relativeNameMarathi": "वडिलांचे नाव : शिवाजी नाईकरे",
+    "relativeNameEnglish": "Father's Name: Shivaji Naikre",
+    "houseNoMarathi": "1015",
+    "houseNoEnglish": "1015",
+    "age": 44,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 500,
+    "voterId": "SSO7517626",
+    "fullNameMarathi": "पुष्पा बाळकृष्ण कोरडे",
+    "fullNameEnglish": "Pushpa Balkrishna Korade",
+    "relativeNameMarathi": "पतीचे नाव : बाळकृष्ण कोरडे",
+    "relativeNameEnglish": "Husband's Name: Balkrishna Korade",
+    "houseNoMarathi": "1224",
+    "houseNoEnglish": "1224",
+    "age": 53,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 501,
+    "voterId": "SSO7517501",
+    "fullNameMarathi": "निलम सुनिल गोसावी",
+    "fullNameEnglish": "Nilam Sunil Gosavi",
+    "relativeNameMarathi": "पतीचे नाव : सुनिल गोसावी",
+    "relativeNameEnglish": "Husband's Name: Sunil Gosavi",
+    "houseNoMarathi": "1243",
+    "houseNoEnglish": "1243",
+    "age": 37,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 502,
+    "voterId": "SSO7517758",
+    "fullNameMarathi": "गणेश शिवाजी गायकवाड",
+    "fullNameEnglish": "Ganesh Shivaji Gaikwad",
+    "relativeNameMarathi": "वडिलांचे नाव : शिवाजी गायकवाड",
+    "relativeNameEnglish": "Father's Name: Shivaji Gaikwad",
+    "houseNoMarathi": "1290",
+    "houseNoEnglish": "1290",
+    "age": 33,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 503,
+    "voterId": "SSO7517683",
+    "fullNameMarathi": "माधुरी शाम गायकवाड",
+    "fullNameEnglish": "Madhuri Sham Gaikwad",
+    "relativeNameMarathi": "पतीचे नाव : शाम गायकवाड",
+    "relativeNameEnglish": "Husband's Name: Sham Gaikwad",
+    "houseNoMarathi": "1339",
+    "houseNoEnglish": "1339",
+    "age": 36,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 504,
+    "voterId": "SSO7517675",
+    "fullNameMarathi": "शाम दिनकर गायकवाड",
+    "fullNameEnglish": "Sham Dinkar Gaikwad",
+    "relativeNameMarathi": "वडिलांचे नाव : दिनकर गायकवाड",
+    "relativeNameEnglish": "Father's Name: Dinkar Gaikwad",
+    "houseNoMarathi": "1339",
+    "houseNoEnglish": "1339",
+    "age": 36,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 505,
+    "voterId": "SSO2091999",
+    "fullNameMarathi": "सुहास हरिभाऊ शिंदे",
+    "fullNameEnglish": "Suhas Haribhau Shinde",
+    "relativeNameMarathi": "वडिलांचे नाव : हरिभाऊ शिंदे",
+    "relativeNameEnglish": "Father's Name: Haribhau Shinde",
+    "houseNoMarathi": "1345",
+    "houseNoEnglish": "1345",
+    "age": 35,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 506,
+    "voterId": "SSO2092005",
+    "fullNameMarathi": "रवि दिनकर गायकवाड",
+    "fullNameEnglish": "Ravi Dinkar Gaikwad",
+    "relativeNameMarathi": "वडिलांचे नाव : दिनकर गायकवाड",
+    "relativeNameEnglish": "Father's Name: Dinkar Gaikwad",
+    "houseNoMarathi": "1390",
+    "houseNoEnglish": "1390",
+    "age": 34,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 507,
+    "voterId": "SSO1620178",
+    "fullNameMarathi": "संजय तुकाराम घनवट",
+    "fullNameEnglish": "Sanjay Tukaram Ghanwat",
+    "relativeNameMarathi": "वडिलांचे नाव : तुकाराम घनवट",
+    "relativeNameEnglish": "Father's Name: Tukaram Ghanwat",
+    "houseNoMarathi": "१३९३/४८",
+    "houseNoEnglish": "1393/48",
+    "age": 51,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 508,
+    "voterId": "SSO1620160",
+    "fullNameMarathi": "स्वप्नाली संजय घनवट",
+    "fullNameEnglish": "Swapnali Sanjay Ghanwat",
+    "relativeNameMarathi": "पतीचे नाव : संजय घनवट",
+    "relativeNameEnglish": "Husband's Name: Sanjay Ghanwat",
+    "houseNoMarathi": "१३९३/४८",
+    "houseNoEnglish": "1393/48",
+    "age": 46,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 509,
+    "voterId": "SSO7379209",
+    "fullNameMarathi": "करिश्मा प्रदिप शेवाळे",
+    "fullNameEnglish": "Karishma Pradip Shewale",
+    "relativeNameMarathi": "वडिलांचे नाव : प्रदिप शेवाळे",
+    "relativeNameEnglish": "Father's Name: Pradip Shewale",
+    "houseNoMarathi": "1654",
+    "houseNoEnglish": "1654",
+    "age": 30,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 510,
+    "voterId": "SSO8232456",
+    "fullNameMarathi": "साक्षी दत्तात्रय घुले",
+    "fullNameEnglish": "Sakshi Dattatray Ghule",
+    "relativeNameMarathi": "पतीचे नाव : दत्तात्रय घुले",
+    "relativeNameEnglish": "Husband's Name: Dattatray Ghule",
+    "houseNoMarathi": "1951",
+    "houseNoEnglish": "1951",
+    "age": 23,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 511,
+    "voterId": "SSO8440042",
+    "fullNameMarathi": "लक्ष्मी ज्ञानेश्वर गायकवाड",
+    "fullNameEnglish": "Lakshmi Gyaneshwar Gaikwad",
+    "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर गायकवाड",
+    "relativeNameEnglish": "Husband's Name: Gyaneshwar Gaikwad",
+    "houseNoMarathi": "13901",
+    "houseNoEnglish": "13901",
+    "age": 67,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 512,
+    "voterId": "SSO7151319",
+    "fullNameMarathi": "शिवाजी ज्ञानेश्वर गायकवाड",
+    "fullNameEnglish": "Shivaji Gyaneshwar Gaikwad",
+    "relativeNameMarathi": "वडिलांचे नाव : ज्ञानेश्वर गायकवाड",
+    "relativeNameEnglish": "Father's Name: Gyaneshwar Gaikwad",
+    "houseNoMarathi": "१३९०-१",
+    "houseNoEnglish": "1390-1",
+    "age": 63,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 513,
+    "voterId": "SSO7151327",
+    "fullNameMarathi": "शोभा शिवाजी गायकवाड",
+    "fullNameEnglish": "Shobha Shivaji Gaikwad",
+    "relativeNameMarathi": "पतीचे नाव : शिवाजी गायकवाड",
+    "relativeNameEnglish": "Husband's Name: Shivaji Gaikwad",
+    "houseNoMarathi": "१३९०-१",
+    "houseNoEnglish": "1390-1",
+    "age": 56,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 514,
+    "voterId": "SSO2092013",
+    "fullNameMarathi": "सुरेश भिमराव तितकरे",
+    "fullNameEnglish": "Suresh Bhimrao Titkare",
+    "relativeNameMarathi": "वडिलांचे नाव : भिमराव तितकरे",
+    "relativeNameEnglish": "Father's Name: Bhimrao Titkare",
+    "houseNoMarathi": "१३९१/१६",
+    "houseNoEnglish": "1391/16",
+    "age": 54,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 515,
+    "voterId": "SSO7517774",
+    "fullNameMarathi": "रेखा सुरेश तिटकारे",
+    "fullNameEnglish": "Rekha Suresh Titkare",
+    "relativeNameMarathi": "पतीचे नाव : सुरेश तिटकारे",
+    "relativeNameEnglish": "Husband's Name: Suresh Titkare",
+    "houseNoMarathi": "१३९१/१७",
+    "houseNoEnglish": "1391/17",
+    "age": 49,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 516,
+    "voterId": "SSO2092021",
+    "fullNameMarathi": "रंजना अशोक तिटकारे",
+    "fullNameEnglish": "Ranjana Ashok Titkare",
+    "relativeNameMarathi": "पतीचे नाव : अशोक तिटकारे",
+    "relativeNameEnglish": "Husband's Name: Ashok Titkare",
+    "houseNoMarathi": "१३९१/१०",
+    "houseNoEnglish": "1391/10",
+    "age": 48,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 517,
+    "voterId": "SSO7517808",
+    "fullNameMarathi": "लिलाबाई साहेबराव शेळके",
+    "fullNameEnglish": "Lilabai Sahebrao Shelke",
+    "relativeNameMarathi": "पतीचे नाव : साहेबराव शेळके",
+    "relativeNameEnglish": "Husband's Name: Sahebrao Shelke",
+    "houseNoMarathi": "१३९१/४५",
+    "houseNoEnglish": "1391/45",
+    "age": 84,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 518,
+    "voterId": "SSO7516370",
+    "fullNameMarathi": "अनिल साहेबराव शेळके",
+    "fullNameEnglish": "Anil Sahebrao Shelke",
+    "relativeNameMarathi": "वडिलांचे नाव : साहेबराव शेळके",
+    "relativeNameEnglish": "Father's Name: Sahebrao Shelke",
+    "houseNoMarathi": "१३९१/४७",
+    "houseNoEnglish": "1391/47",
+    "age": 54,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 519,
+    "voterId": "SSO7517816",
+    "fullNameMarathi": "सुधीर साहेबराव शेळके",
+    "fullNameEnglish": "Sudhir Sahebrao Shelke",
+    "relativeNameMarathi": "वडिलांचे नाव : साहेबराव शेळके",
+    "relativeNameEnglish": "Father's Name: Sahebrao Shelke",
+    "houseNoMarathi": "१३९१/४७",
+    "houseNoEnglish": "1391/47",
+    "age": 52,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 520,
+    "voterId": "SSO8199010",
+    "fullNameMarathi": "साधना अनिल शेळके",
+    "fullNameEnglish": "Sadhana Anil Shelke",
+    "relativeNameMarathi": "पतीचे नाव : अनिल शेळके",
+    "relativeNameEnglish": "Husband's Name: Anil Shelke",
+    "houseNoMarathi": "१३९१/४७",
+    "houseNoEnglish": "1391/47",
+    "age": 48,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 521,
+    "voterId": "KXH2970796",
+    "fullNameMarathi": "परबती सावता जमदाडे",
+    "fullNameEnglish": "Parbati Sawata Jamdade",
+    "relativeNameMarathi": "वडिलांचे नाव : सावता जमदाडे",
+    "relativeNameEnglish": "Father's Name: Sawata Jamdade",
+    "houseNoMarathi": "१३९१/५७",
+    "houseNoEnglish": "1391/57",
+    "age": 62,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 522,
+    "voterId": "KXH2971000",
+    "fullNameMarathi": "अरुणा परबती जमदाडे",
+    "fullNameEnglish": "Aruna Parbati Jamdade",
+    "relativeNameMarathi": "पतीचे नाव : परबती जमदाडे",
+    "relativeNameEnglish": "Husband's Name: Parbati Jamdade",
+    "houseNoMarathi": "१३९१/५८",
+    "houseNoEnglish": "1391/58",
+    "age": 57,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 523,
+    "voterId": "SSO7517832",
+    "fullNameMarathi": "पुनम परबती जमदाडे",
+    "fullNameEnglish": "Punam Parbati Jamdade",
+    "relativeNameMarathi": "वडिलांचे नाव : परबती जमदाडे",
+    "relativeNameEnglish": "Father's Name: Parbati Jamdade",
+    "houseNoMarathi": "१३९१/५",
+    "houseNoEnglish": "1391/5",
+    "age": 35,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 524,
+    "voterId": "SSO0236396",
+    "fullNameMarathi": "विठ्ठल बबन शिर्के",
+    "fullNameEnglish": "Vitthal Baban Shirke",
+    "relativeNameMarathi": "वडिलांचे नाव : बबन शिर्के",
+    "relativeNameEnglish": "Father's Name: Baban Shirke",
+    "houseNoMarathi": "१३९१/६७",
+    "houseNoEnglish": "1391/67",
+    "age": 65,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 525,
+    "voterId": "SSO0236407",
+    "fullNameMarathi": "मनिषा विठ्ठल शिर्के",
+    "fullNameEnglish": "Manisha Vitthal Shirke",
+    "relativeNameMarathi": "पतीचे नाव : विठ्ठल शिर्के",
+    "relativeNameEnglish": "Husband's Name: Vitthal Shirke",
+    "houseNoMarathi": "१३९१/६४",
+    "houseNoEnglish": "1391/64",
+    "age": 56,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 526,
+    "voterId": "SSO7517840",
+    "fullNameMarathi": "सोमदत्त बबन शिर्के",
+    "fullNameEnglish": "Somdatt Baban Shirke",
+    "relativeNameMarathi": "वडिलांचे नाव : बबन शिर्के",
+    "relativeNameEnglish": "Father's Name: Baban Shirke",
+    "houseNoMarathi": "१३९१/६८",
+    "houseNoEnglish": "1391/68",
+    "age": 46,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 527,
+    "voterId": "SSO1620186",
+    "fullNameMarathi": "शिवाजी तानाजी सावंत",
+    "fullNameEnglish": "Shivaji Tanaji Sawant",
+    "relativeNameMarathi": "वडिलांचे नाव : तानाजी सावंत",
+    "relativeNameEnglish": "Father's Name: Tanaji Sawant",
+    "houseNoMarathi": "१३९४/०/४",
+    "houseNoEnglish": "1394/0/4",
+    "age": 70,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 528,
+    "voterId": "SSO1620194",
+    "fullNameMarathi": "नंदा शिवाजी सावंत",
+    "fullNameEnglish": "Nanda Shivaji Sawant",
+    "relativeNameMarathi": "पतीचे नाव : शिवाजी सावंत",
+    "relativeNameEnglish": "Husband's Name: Shivaji Sawant",
+    "houseNoMarathi": "१३९४/०/४",
+    "houseNoEnglish": "1394/0/4",
+    "age": 62,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 529,
+    "voterId": "SSO1620202",
+    "fullNameMarathi": "दुर्गेश शिवाजी सावंत",
+    "fullNameEnglish": "Durgesh Shivaji Sawant",
+    "relativeNameMarathi": "वडिलांचे नाव : शिवाजी सावंत",
+    "relativeNameEnglish": "Father's Name: Shivaji Sawant",
+    "houseNoMarathi": "१३९४/०/४",
+    "houseNoEnglish": "1394/0/4",
+    "age": 40,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 530,
+    "voterId": "SSO7266802",
+    "fullNameMarathi": "सुहास यशवंत दाभाडे",
+    "fullNameEnglish": "Suhas Yashwant Dabhade",
+    "relativeNameMarathi": "वडिलांचे नाव : यशवंत दाभाडे",
+    "relativeNameEnglish": "Father's Name: Yashwant Dabhade",
+    "houseNoMarathi": "१८७०/४८",
+    "houseNoEnglish": "1870/48",
+    "age": 57,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 531,
+    "voterId": "SSO7266810",
+    "fullNameMarathi": "आशा सुहास दाभाडे",
+    "fullNameEnglish": "Asha Suhas Dabhade",
+    "relativeNameMarathi": "पतीचे नाव : सुहास दाभाडे",
+    "relativeNameEnglish": "Husband's Name: Suhas Dabhade",
+    "houseNoMarathi": "१८७०/४८",
+    "houseNoEnglish": "1870/48",
+    "age": 54,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 532,
+    "voterId": "SSO7266828",
+    "fullNameMarathi": "सायली सुहास दाभाडे",
+    "fullNameEnglish": "Sayali Suhas Dabhade",
+    "relativeNameMarathi": "वडिलांचे नाव : सुहास दाभाडे",
+    "relativeNameEnglish": "Father's Name: Suhas Dabhade",
+    "houseNoMarathi": "१८७०/४८",
+    "houseNoEnglish": "1870/48",
+    "age": 29,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 533,
+    "voterId": "SSO7605868",
+    "fullNameMarathi": "स्नेहा सुहास दाभाडे",
+    "fullNameEnglish": "Sneha Suhas Dabhade",
+    "relativeNameMarathi": "वडिलांचे नाव : सुहास दाभाडे",
+    "relativeNameEnglish": "Father's Name: Suhas Dabhade",
+    "houseNoMarathi": "१८७०/४८",
+    "houseNoEnglish": "1870/48",
+    "age": 28,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 534,
+    "voterId": "SSO1620228",
+    "fullNameMarathi": "उत्तम किसन उढाणे",
+    "fullNameEnglish": "Uttam Kisana Udhane",
+    "relativeNameMarathi": "वडिलांचे नाव : किसन उढाणे",
+    "relativeNameEnglish": "Father's Name: Kisana Udhane",
+    "houseNoMarathi": "१३९४/२८",
+    "houseNoEnglish": "1394/28",
+    "age": 58,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 535,
+    "voterId": "SSO1620210",
+    "fullNameMarathi": "सुषमा उत्तम उढाणे",
+    "fullNameEnglish": "Sushma Uttam Udhane",
+    "relativeNameMarathi": "पतीचे नाव : उत्तम उढाणे",
+    "relativeNameEnglish": "Husband's Name: Uttam Udhane",
+    "houseNoMarathi": "१३९४/२८",
+    "houseNoEnglish": "1394/28",
+    "age": 50,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 536,
+    "voterId": "SSO0236514",
+    "fullNameMarathi": "प्रकाश बापुराव पाटने",
+    "fullNameEnglish": "Prakash Bapurao Patne",
+    "relativeNameMarathi": "वडिलांचे नाव : बापुराव पाटने",
+    "relativeNameEnglish": "Father's Name: Bapurao Patne",
+    "houseNoMarathi": "1392",
+    "houseNoEnglish": "1392",
+    "age": 69,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 537,
+    "voterId": "SSO8442360",
+    "fullNameMarathi": "राजश्री प्रकाश पाटने",
+    "fullNameEnglish": "Rajashree Prakash Patne",
+    "relativeNameMarathi": "पतीचे नाव : प्रकाश पाटने",
+    "relativeNameEnglish": "Husband's Name: Prakash Patne",
+    "houseNoMarathi": "1392",
+    "houseNoEnglish": "1392",
+    "age": 60,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 538,
+    "voterId": "SSO7516453",
+    "fullNameMarathi": "रामचंद्र धोंडीबा कळमकर",
+    "fullNameEnglish": "Ramchandra Dhondu Kalambkar",
+    "relativeNameMarathi": "वडिलांचे नाव : धोंडीबा कळमकर",
+    "relativeNameEnglish": "Father's Name: Dhondu Kalambkar",
+    "houseNoMarathi": "९५९/१०",
+    "houseNoEnglish": "959/10",
+    "age": 67,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 539,
+    "voterId": "SSO7516438",
+    "fullNameMarathi": "चंद्रकला रामचंद्र कळमकर",
+    "fullNameEnglish": "Chandrakala Ramchandra Kalambkar",
+    "relativeNameMarathi": "पतीचे नाव : रामचंद्र कळमकर",
+    "relativeNameEnglish": "Husband's Name: Ramchandra Kalambkar",
+    "houseNoMarathi": "९५९/२७",
+    "houseNoEnglish": "959/27",
+    "age": 63,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 540,
+    "voterId": "KXH2968188",
+    "fullNameMarathi": "संदीप रामचंद्र कळमकर",
+    "fullNameEnglish": "Sandeep Ramchandra Kalambkar",
+    "relativeNameMarathi": "वडिलांचे नाव : रामचंद्र कळमकर",
+    "relativeNameEnglish": "Father's Name: Ramchandra Kalambkar",
+    "houseNoMarathi": "९५९/२७",
+    "houseNoEnglish": "959/27",
+    "age": 46,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 541,
+    "voterId": "SSO0236423",
+    "fullNameMarathi": "वर्षा दिपक शहा",
+    "fullNameEnglish": "Varsha Dipak Shah",
+    "relativeNameMarathi": "पतीचे नाव : दिपक शहा",
+    "relativeNameEnglish": "Husband's Name: Dipak Shah",
+    "houseNoMarathi": "९५९/३६",
+    "houseNoEnglish": "959/36",
+    "age": 54,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 542,
+    "voterId": "KXH2964237",
+    "fullNameMarathi": "ज्ञानेश्वर दत्तात्रय वाडेकर",
+    "fullNameEnglish": "Gyaneshwar Dattatray Wadekar",
+    "relativeNameMarathi": "वडिलांचे नाव : दत्तात्रय वाडेकर",
+    "relativeNameEnglish": "Father's Name: Dattatray Wadekar",
+    "houseNoMarathi": "९५९/४७",
+    "houseNoEnglish": "959/47",
+    "age": 67,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 543,
+    "voterId": "SSO8816407",
+    "fullNameMarathi": "शोभा ज्ञानेश्वर वाडेकर",
+    "fullNameEnglish": "Shobha Gyaneshwar Wadekar",
+    "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर वाडेकर",
+    "relativeNameEnglish": "Husband's Name: Gyaneshwar Wadekar",
+    "houseNoMarathi": "९५९/४०",
+    "houseNoEnglish": "959/40",
+    "age": 62,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 544,
+    "voterId": "SSO8816423",
+    "fullNameMarathi": "सुजाता ज्ञानेश्वर वाडेकर",
+    "fullNameEnglish": "Sujata Gyaneshwar Wadekar",
+    "relativeNameMarathi": "वडिलांचे नाव : ज्ञानेश्वर वाडेकर",
+    "relativeNameEnglish": "Father's Name: Gyaneshwar Wadekar",
+    "houseNoMarathi": "९५९/४७",
+    "houseNoEnglish": "959/47",
+    "age": 42,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 545,
+    "voterId": "SSO2400844",
+    "fullNameMarathi": "ज्ञानेश्वर दिनकर कळमकर",
+    "fullNameEnglish": "Gyaneshwar Dinkar Kalambkar",
+    "relativeNameMarathi": "वडिलांचे नाव : दिनकर कळमकर",
+    "relativeNameEnglish": "Father's Name: Dinkar Kalambkar",
+    "houseNoMarathi": "९५९/४",
+    "houseNoEnglish": "959/4",
+    "age": 53,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 546,
+    "voterId": "SSO2400851",
+    "fullNameMarathi": "शालिनी ज्ञानेश्वर कळमकर",
+    "fullNameEnglish": "Shalini Gyaneshwar Kalambkar",
+    "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर कळमकर",
+    "relativeNameEnglish": "Husband's Name: Gyaneshwar Kalambkar",
+    "houseNoMarathi": "९५९/४",
+    "houseNoEnglish": "959/4",
+    "age": 46,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 547,
+    "voterId": "SSO7516404",
+    "fullNameMarathi": "बबन रामभाऊ कोकाटे",
+    "fullNameEnglish": "Baban Rambahau Kokate",
+    "relativeNameMarathi": "वडिलांचे नाव : रामभाऊ कोकाटे",
+    "relativeNameEnglish": "Father's Name: Rambahau Kokate",
+    "houseNoMarathi": "९५९/५०",
+    "houseNoEnglish": "959/50",
+    "age": 54,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 548,
+    "voterId": "KXH2966463",
+    "fullNameMarathi": "आनंद मारुती बहीरट",
+    "fullNameEnglish": "Anand Maruti Bahirat",
+    "relativeNameMarathi": "वडिलांचे नाव : मारुती बहीरट",
+    "relativeNameEnglish": "Father's Name: Maruti Bahirat",
+    "houseNoMarathi": "९५९/६०",
+    "houseNoEnglish": "959/60",
+    "age": 52,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 549,
+    "voterId": "KXH2966455",
+    "fullNameMarathi": "कल्पना आनंद बहीरट",
+    "fullNameEnglish": "Kalpana Anand Bahirat",
+    "relativeNameMarathi": "पतीचे नाव : आनंद बहीरट",
+    "relativeNameEnglish": "Husband's Name: Anand Bahirat",
+    "houseNoMarathi": "९५९/६",
+    "houseNoEnglish": "959/6",
+    "age": 47,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 550,
+    "voterId": "SSO8440083",
+    "fullNameMarathi": "दिपाली सिद्धेश्वर पावले",
+    "fullNameEnglish": "Dipalī Siddheshwar Pawale",
+    "relativeNameMarathi": "वडिलांचे नाव : सिद्धेश्वर पावले",
+    "relativeNameEnglish": "Father's Name: Siddheshwar Pawale",
+    "houseNoMarathi": "९५९/८७",
+    "houseNoEnglish": "959/87",
+    "age": 45,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 551,
+    "voterId": "SSO2092187",
+    "fullNameMarathi": "बसवेश्वर बाबूराव पुरवंत",
+    "fullNameEnglish": "Basaveshwar Baburao Purwant",
+    "relativeNameMarathi": "वडिलांचे नाव : बाबूराव पुरवंत",
+    "relativeNameEnglish": "Father's Name: Baburao Purwant",
+    "houseNoMarathi": "13922",
+    "houseNoEnglish": "13922",
+    "age": 76,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 552,
+    "voterId": "SSO0236522",
+    "fullNameMarathi": "अरुणा बसवेश्वर पुरवंत",
+    "fullNameEnglish": "Aruna Basaveshwar Purwant",
+    "relativeNameMarathi": "पतीचे नाव : बसवेश्वर पुरवंत",
+    "relativeNameEnglish": "Husband's Name: Basaveshwar Purwant",
+    "houseNoMarathi": "13922",
+    "houseNoEnglish": "13922",
+    "age": 66,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 553,
+    "voterId": "SSO8440067",
+    "fullNameMarathi": "कोंडीभाऊ भिकू पुरवंत",
+    "fullNameEnglish": "Kondibhau Bhiku Purwant",
+    "relativeNameMarathi": "पतीचे नाव : भिकू पुरवंत",
+    "relativeNameEnglish": "Husband's Name: Bhiku Purwant",
+    "houseNoMarathi": "13922",
+    "houseNoEnglish": "13922",
+    "age": 64,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 554,
+    "voterId": "SSO8440075",
+    "fullNameMarathi": "संजीवनी कोंडीभाऊ पुरवंत",
+    "fullNameEnglish": "Sanjeevani Kondibhau Purwant",
+    "relativeNameMarathi": "पतीचे नाव : कोंडीभाऊ पुरवंत",
+    "relativeNameEnglish": "Husband's Name: Kondibhau Purwant",
+    "houseNoMarathi": "13922",
+    "houseNoEnglish": "13922",
+    "age": 48,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 555,
+    "voterId": "SSO0236554",
+    "fullNameMarathi": "पांडुरंग बबनराव शिंदे",
+    "fullNameEnglish": "Pandurang Babanrao Shinde",
+    "relativeNameMarathi": "वडिलांचे नाव : बबनराव शिंदे",
+    "relativeNameEnglish": "Father's Name: Babanrao Shinde",
+    "houseNoMarathi": "13923",
+    "houseNoEnglish": "13923",
+    "age": 74,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 556,
+    "voterId": "SSO0236564",
+    "fullNameMarathi": "मयावती पांडुरंग शिंदे",
+    "fullNameEnglish": "Mayavati Pandurang Shinde",
+    "relativeNameMarathi": "पतीचे नाव : पांडुरंग शिंदे",
+    "relativeNameEnglish": "Husband's Name: Pandurang Shinde",
+    "houseNoMarathi": "13923",
+    "houseNoEnglish": "13923",
+    "age": 67,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 557,
+    "voterId": "SSO1620343",
+    "fullNameMarathi": "योगेश पडुरंग शिंदे",
+    "fullNameEnglish": "Yogesh Padurang Shinde",
+    "relativeNameMarathi": "वडिलांचे नाव : पडुरंग शिंदे",
+    "relativeNameEnglish": "Father's Name: Padurang Shinde",
+    "houseNoMarathi": "13923",
+    "houseNoEnglish": "13923",
+    "age": 47,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 558,
+    "voterId": "SSO1620350",
+    "fullNameMarathi": "सारिका पाडुरंग शिंदे",
+    "fullNameEnglish": "Sarika Padurang Shinde",
+    "relativeNameMarathi": "वडिलांचे नाव : पाडुरंग शिंदे",
+    "relativeNameEnglish": "Father's Name: Padurang Shinde",
+    "houseNoMarathi": "13923",
+    "houseNoEnglish": "13923",
+    "age": 43,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 559,
+    "voterId": "SSO1620368",
+    "fullNameMarathi": "गौरीशंकर पडुरंग शिंदे",
+    "fullNameEnglish": "Gaurishankar Padurang Shinde",
+    "relativeNameMarathi": "वडिलांचे नाव : पडुरंग शिंदे",
+    "relativeNameEnglish": "Father's Name: Padurang Shinde",
+    "houseNoMarathi": "13923",
+    "houseNoEnglish": "13923",
+    "age": 41,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 560,
+    "voterId": "SSO2209625",
+    "fullNameMarathi": "सोनल सोमनाथ मिटकरी",
+    "fullNameEnglish": "Sonal Somanath Mitkari",
+    "relativeNameMarathi": "वडिलांचे नाव : सोमनाथ मिटकरी",
+    "relativeNameEnglish": "Father's Name: Somanath Mitkari",
+    "houseNoMarathi": "13924",
+    "houseNoEnglish": "13924",
+    "age": 43,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 561,
+    "voterId": "SSO2209633",
+    "fullNameMarathi": "अपर्णा सोमनाथ मिटकरी",
+    "fullNameEnglish": "Aparna Somanath Mitkari",
+    "relativeNameMarathi": "पतीचे नाव : सोमनाथ मिटकरी",
+    "relativeNameEnglish": "Husband's Name: Somanath Mitkari",
+    "houseNoMarathi": "13924",
+    "houseNoEnglish": "13924",
+    "age": 62,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 562,
+    "voterId": "SSO1765460",
+    "fullNameMarathi": "गजानन अशोक कुलरवार",
+    "fullNameEnglish": "Gajanan Ashok Kularwar",
+    "relativeNameMarathi": "वडिलांचे नाव : अशोक कुलरवार",
+    "relativeNameEnglish": "Father's Name: Ashok Kularwar",
+    "houseNoMarathi": "१३९३/३",
+    "houseNoEnglish": "1393/3",
+    "age": 33,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 563,
+    "voterId": "SSO0236449",
+    "fullNameMarathi": "मच्छिंद्र सिताराम शिंदे",
+    "fullNameEnglish": "Machhindra Sitaram Shinde",
+    "relativeNameMarathi": "वडिलांचे नाव : सिताराम शिंदे",
+    "relativeNameEnglish": "Father's Name: Sitaram Shinde",
+    "houseNoMarathi": "९५९/१०६",
+    "houseNoEnglish": "959/106",
+    "age": 58,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 564,
+    "voterId": "SSO7517865",
+    "fullNameMarathi": "प्रकाशचंद्र जवाहरमल कोठारी",
+    "fullNameEnglish": "Prakashchandra Jawaharmal Kothari",
+    "relativeNameMarathi": "वडिलांचे नाव : जवाहरमल कोठारी",
+    "relativeNameEnglish": "Father's Name: Jawaharmal Kothari",
+    "houseNoMarathi": "९५९/१२७",
+    "houseNoEnglish": "959/127",
+    "age": 70,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 565,
+    "voterId": "SSO2459444",
+    "fullNameMarathi": "चित्रा प्रकाशचंद्र कोठारी",
+    "fullNameEnglish": "Chitra Prakashchandra Kothari",
+    "relativeNameMarathi": "पतीचे नाव : प्रकाशचंद्र कोठारी",
+    "relativeNameEnglish": "Husband's Name: Prakashchandra Kothari",
+    "houseNoMarathi": "९५९/१२७",
+    "houseNoEnglish": "959/127",
+    "age": 67,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 566,
+    "voterId": "SSO1523844",
+    "fullNameMarathi": "मयूर प्रकाशचंद्र कोठारी",
+    "fullNameEnglish": "Mayur Prakashchandra Kothari",
+    "relativeNameMarathi": "वडिलांचे नाव : प्रकाशचंद्र कोठारी",
+    "relativeNameEnglish": "Father's Name: Prakashchandra Kothari",
+    "houseNoMarathi": "९५९/१२७",
+    "houseNoEnglish": "959/127",
+    "age": 42,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 567,
+    "voterId": "SSO1523851",
+    "fullNameMarathi": "मिलन प्रकाशचंद्र कोठारी",
+    "fullNameEnglish": "Milan Prakashchandra Kothari",
+    "relativeNameMarathi": "वडिलांचे नाव : प्रकाशचंद्र कोठारी",
+    "relativeNameEnglish": "Father's Name: Prakashchandra Kothari",
+    "houseNoMarathi": "९५९/१२७",
+    "houseNoEnglish": "959/127",
+    "age": 42,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 568,
+    "voterId": "SSO7517899",
+    "fullNameMarathi": "मुलचंद चंपालाल टाटीया",
+    "fullNameEnglish": "Mulchand Champalal Tatya",
+    "relativeNameMarathi": "वडिलांचे नाव : चंपालाल टाटीया",
+    "relativeNameEnglish": "Father's Name: Champalal Tatya",
+    "houseNoMarathi": "९५९/१३७",
+    "houseNoEnglish": "959/137",
+    "age": 59,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 569,
+    "voterId": "SSO7517907",
+    "fullNameMarathi": "भारती मुलचंद टाटीया",
+    "fullNameEnglish": "Bharati Mulchand Tatya",
+    "relativeNameMarathi": "पतीचे नाव : मुलचंद टाटीया",
+    "relativeNameEnglish": "Husband's Name: Mulchand Tatya",
+    "houseNoMarathi": "९५९/१३६",
+    "houseNoEnglish": "959/136",
+    "age": 53,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 570,
+    "voterId": "SSO7517915",
+    "fullNameMarathi": "राजेंद्र चंपालाल टाटीया",
+    "fullNameEnglish": "Rajendra Champalal Tatya",
+    "relativeNameMarathi": "वडिलांचे नाव : चंपालाल टाटीया",
+    "relativeNameEnglish": "Father's Name: Champalal Tatya",
+    "houseNoMarathi": "९५९/१३७",
+    "houseNoEnglish": "959/137",
+    "age": 52,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 571,
+    "voterId": "SSO7517881",
+    "fullNameMarathi": "संतोषी सुरेश टाटीया",
+    "fullNameEnglish": "Santoshi Suresh Tatya",
+    "relativeNameMarathi": "पतीचे नाव : सुरेश टाटीया",
+    "relativeNameEnglish": "Husband's Name: Suresh Tatya",
+    "houseNoMarathi": "९५९/१३६",
+    "houseNoEnglish": "959/136",
+    "age": 32,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 572,
+    "voterId": "KXH2966653",
+    "fullNameMarathi": "मंगल राजेंद्र टाटीया",
+    "fullNameEnglish": "Mangal Rajendra Tatya",
+    "relativeNameMarathi": "पतीचे नाव : राजेंद्र टाटीया",
+    "relativeNameEnglish": "Husband's Name: Rajendra Tatya",
+    "houseNoMarathi": "९५९/१३४",
+    "houseNoEnglish": "959/134",
+    "age": 49,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 573,
+    "voterId": "SSO2092518",
+    "fullNameMarathi": "दिलीप सुरेश टाटीया",
+    "fullNameEnglish": "Dilip Suresh Tatya",
+    "relativeNameMarathi": "वडिलांचे नाव : सुरेश टाटीया",
+    "relativeNameEnglish": "Father's Name: Suresh Tatya",
+    "houseNoMarathi": "९५९/१३",
+    "houseNoEnglish": "959/13",
+    "age": 32,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 574,
+    "voterId": "SSO0236704",
+    "fullNameMarathi": "अशोक लक्ष्मण कुल्लरवार",
+    "fullNameEnglish": "Ashok Lakshman Kullarwar",
+    "relativeNameMarathi": "वडिलांचे नाव : लक्ष्मण कुल्लरवार",
+    "relativeNameEnglish": "Father's Name: Lakshman Kullarwar",
+    "houseNoMarathi": "19934",
+    "houseNoEnglish": "19934",
+    "age": 71,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 575,
+    "voterId": "SSO0236712",
+    "fullNameMarathi": "अलका अशोक कुल्लरवार",
+    "fullNameEnglish": "Alka Ashok Kullarwar",
+    "relativeNameMarathi": "पतीचे नाव : अशोक कुल्लरवार",
+    "relativeNameEnglish": "Husband's Name: Ashok Kullarwar",
+    "houseNoMarathi": "19934",
+    "houseNoEnglish": "19934",
+    "age": 71,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 576,
+    "voterId": "SSO8442444",
+    "fullNameMarathi": "शशिकांत मुरलीधर धाडगे",
+    "fullNameEnglish": "Shashikant Muralidhar Dhadge",
+    "relativeNameMarathi": "वडिलांचे नाव : मुरलीधर धाडगे",
+    "relativeNameEnglish": "Father's Name: Muralidhar Dhadge",
+    "houseNoMarathi": "19935",
+    "houseNoEnglish": "19935",
+    "age": 64,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 577,
+    "voterId": "SSO8442451",
+    "fullNameMarathi": "पद्मा शशिकांत धाडगे",
+    "fullNameEnglish": "Padma Shashikant Dhadge",
+    "relativeNameMarathi": "पतीचे नाव : शशिकांत धाडगे",
+    "relativeNameEnglish": "Husband's Name: Shashikant Dhadge",
+    "houseNoMarathi": "19935",
+    "houseNoEnglish": "19935",
+    "age": 59,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 578,
+    "voterId": "SSO8950198",
+    "fullNameMarathi": "आरती बागड",
+    "fullNameEnglish": "Aarti Bagad",
+    "relativeNameMarathi": "वडिलांचे नाव : कृष्णा बागड",
+    "relativeNameEnglish": "Father's Name: Krishna Bagad",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 26,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 579,
+    "voterId": "SSO0236746",
+    "fullNameMarathi": "अरविंद निलकंठ हुनचगी",
+    "fullNameEnglish": "Arvind Nilkanth Hunachagi",
+    "relativeNameMarathi": "वडिलांचे नाव : निलकंठ हुनचगी",
+    "relativeNameEnglish": "Father's Name: Nilkanth Hunachagi",
+    "houseNoMarathi": "130064",
+    "houseNoEnglish": "130064",
+    "age": 65,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 580,
+    "voterId": "SSO0236752",
+    "fullNameMarathi": "महानंदा अरविंद हुनचगी",
+    "fullNameEnglish": "Mahananda Arvind Hunachagi",
+    "relativeNameMarathi": "पतीचे नाव : अरविंद हुनचगी",
+    "relativeNameEnglish": "Husband's Name: Arvind Hunachagi",
+    "houseNoMarathi": "13004",
+    "houseNoEnglish": "13004",
+    "age": 64,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 581,
+    "voterId": "SSO2092260",
+    "fullNameMarathi": "काशिनाथ महादु मोरे",
+    "fullNameEnglish": "Kashinath Mahadu More",
+    "relativeNameMarathi": "वडिलांचे नाव : महादु मोरे",
+    "relativeNameEnglish": "Father's Name: Mahadu More",
+    "houseNoMarathi": "130010",
+    "houseNoEnglish": "130010",
+    "age": 53,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 582,
+    "voterId": "SSO2092278",
+    "fullNameMarathi": "अलका काशिनाथ मोरे",
+    "fullNameEnglish": "Alka Kashinath More",
+    "relativeNameMarathi": "पतीचे नाव : काशिनाथ मोरे",
+    "relativeNameEnglish": "Husband's Name: Kashinath More",
+    "houseNoMarathi": "130010",
+    "houseNoEnglish": "130010",
+    "age": 48,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 583,
+    "voterId": "SSO8231797",
+    "fullNameMarathi": "सोमनाथ संभाप्पा मिटकरी",
+    "fullNameEnglish": "Somanath Sambhappa Mitkari",
+    "relativeNameMarathi": "वडिलांचे नाव : संभाप्पा मिटकरी",
+    "relativeNameEnglish": "Father's Name: Sambhappa Mitkari",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 64,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 584,
+    "voterId": "SSO8848145",
+    "fullNameMarathi": "बेबी बोंबले",
+    "fullNameEnglish": "Baby Bombale",
+    "relativeNameMarathi": "पतीचे नाव : राम बोंबले",
+    "relativeNameEnglish": "Husband's Name: Ram Bombale",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 31,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 585,
+    "voterId": "SSO8938482",
+    "fullNameMarathi": "यश नंदकर",
+    "fullNameEnglish": "Yash Nandkar",
+    "relativeNameMarathi": "वडिलांचे नाव : मोहन नंदकर",
+    "relativeNameEnglish": "Father's Name: Mohan Nandkar",
+    "houseNoMarathi": "0",
+    "houseNoEnglish": "0",
+    "age": 24,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 586,
+    "voterId": "SSO8936551",
+    "fullNameMarathi": "विशाल शिंदे",
+    "fullNameEnglish": "Vishal Shinde",
+    "relativeNameMarathi": "वडिलांचे नाव : चंद्रकांत शिंदे",
+    "relativeNameEnglish": "Father's Name: Chandrakant Shinde",
+    "houseNoMarathi": "0",
+    "houseNoEnglish": "0",
+    "age": 47,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 587,
+    "voterId": "SSO9064114",
+    "fullNameMarathi": "रंजना भीमाशंकर शिंगे",
+    "fullNameEnglish": "Ranjana Bhimashankar Shinge",
+    "relativeNameMarathi": "पतीचे नाव : भीमाशंकर शिंगे",
+    "relativeNameEnglish": "Husband's Name: Bhimashankar Shinge",
+    "houseNoMarathi": "४४/४१/१०/०",
+    "houseNoEnglish": "44/41/10/0",
+    "age": 40,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 588,
+    "voterId": "SSO7518095",
+    "fullNameMarathi": "सुरेखा अनिल भुजबळ",
+    "fullNameEnglish": "Surekha Anil Bhujbal",
+    "relativeNameMarathi": "पतीचे नाव : अनिल भुजबळ",
+    "relativeNameEnglish": "Husband's Name: Anil Bhujbal",
+    "houseNoMarathi": "11920",
+    "houseNoEnglish": "11920",
+    "age": 35,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 589,
+    "voterId": "SSO1524065",
+    "fullNameMarathi": "धनंजय दिलिप कुंभार",
+    "fullNameEnglish": "Dhananjay Dilip Kumbhar",
+    "relativeNameMarathi": "वडिलांचे नाव : दिलिप कुंभार",
+    "relativeNameEnglish": "Father's Name: Dilip Kumbhar",
+    "houseNoMarathi": "5597",
+    "houseNoEnglish": "5597",
+    "age": 39,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 590,
+    "voterId": "SSO1524057",
+    "fullNameMarathi": "विनोद दिलिप कुंभार",
+    "fullNameEnglish": "Vinod Dilip Kumbhar",
+    "relativeNameMarathi": "वडिलांचे नाव : दिलिप कुंभार",
+    "relativeNameEnglish": "Father's Name: Dilip Kumbhar",
+    "houseNoMarathi": "55977",
+    "houseNoEnglish": "55977",
+    "age": 34,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 591,
+    "voterId": "SSO7518004",
+    "fullNameMarathi": "शंकरराव विठोबा जाधव",
+    "fullNameEnglish": "Shankarrao Vitthoba Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : विठोबा जाधव",
+    "relativeNameEnglish": "Father's Name: Vitthoba Jadhav",
+    "houseNoMarathi": "13931",
+    "houseNoEnglish": "13931",
+    "age": 82,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 592,
+    "voterId": "SSO7518012",
+    "fullNameMarathi": "पार्वती शंकरराव जाधव",
+    "fullNameEnglish": "Parvati Shankarrao Jadhav",
+    "relativeNameMarathi": "पतीचे नाव : शंकरराव जाधव",
+    "relativeNameEnglish": "Husband's Name: Shankarrao Jadhav",
+    "houseNoMarathi": "13931",
+    "houseNoEnglish": "13931",
+    "age": 72,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 593,
+    "voterId": "SSO2092328",
+    "fullNameMarathi": "प्रभाकर शंकरराव जाधव",
+    "fullNameEnglish": "Prabhakar Shankarrao Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : शंकरराव जाधव",
+    "relativeNameEnglish": "Father's Name: Shankarrao Jadhav",
+    "houseNoMarathi": "13931",
+    "houseNoEnglish": "13931",
+    "age": 57,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 594,
+    "voterId": "SSO7518020",
+    "fullNameMarathi": "सुधाकर शंकरराव जाधव",
+    "fullNameEnglish": "Sudhakar Shankarrao Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : शंकरराव जाधव",
+    "relativeNameEnglish": "Father's Name: Shankarrao Jadhav",
+    "houseNoMarathi": "13931",
+    "houseNoEnglish": "13931",
+    "age": 55,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 595,
+    "voterId": "SSO2092336",
+    "fullNameMarathi": "नुतन प्रभाकर जाधव",
+    "fullNameEnglish": "Nutan Prabhakar Jadhav",
+    "relativeNameMarathi": "पतीचे नाव : प्रभाकर जाधव",
+    "relativeNameEnglish": "Husband's Name: Prabhakar Jadhav",
+    "houseNoMarathi": "13931",
+    "houseNoEnglish": "13931",
+    "age": 54,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 596,
+    "voterId": "SSO0236792",
+    "fullNameMarathi": "विठ्ठल पाटीलबुवा सोळसे",
+    "fullNameEnglish": "Vitthal Patilbuva Solase",
+    "relativeNameMarathi": "वडिलांचे नाव : पाटीलबुवा सोळसे",
+    "relativeNameEnglish": "Father's Name: Patilbuva Solase",
+    "houseNoMarathi": "13931",
+    "houseNoEnglish": "13931",
+    "age": 77,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 597,
+    "voterId": "SSO7518038",
+    "fullNameMarathi": "सुभद्रा विठ्ठल सोळसे",
+    "fullNameEnglish": "Subhadra Vitthal Solase",
+    "relativeNameMarathi": "पतीचे नाव : विठ्ठल सोळसे",
+    "relativeNameEnglish": "Husband's Name: Vitthal Solase",
+    "houseNoMarathi": "13932",
+    "houseNoEnglish": "13932",
+    "age": 67,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 598,
+    "voterId": "SSO7518061",
+    "fullNameMarathi": "इस्माईल इब्राहिम मोमीन",
+    "fullNameEnglish": "Ismail Ibrahim Momin",
+    "relativeNameMarathi": "वडिलांचे नाव : इब्राहिम मोमीन",
+    "relativeNameEnglish": "Father's Name: Ibrahim Momin",
+    "houseNoMarathi": "13933",
+    "houseNoEnglish": "13933",
+    "age": 54,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 599,
+    "voterId": "SSO7518079",
+    "fullNameMarathi": "मेहजबीन इस्माईल मोमीन",
+    "fullNameEnglish": "Mehjabin Ismail Momin",
+    "relativeNameMarathi": "पतीचे नाव : इस्माईल मोमीन",
+    "relativeNameEnglish": "Husband's Name: Ismail Momin",
+    "houseNoMarathi": "13933",
+    "houseNoEnglish": "13933",
+    "age": 48,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 600,
+    "voterId": "SSO2092344",
+    "fullNameMarathi": "ज्ञानेश्वर बालाजी भुजबळ",
+    "fullNameEnglish": "Gyaneshwar Balaji Bhujbal",
+    "relativeNameMarathi": "वडिलांचे नाव : बालाजी भुजबळ",
+    "relativeNameEnglish": "Father's Name: Balaji Bhujbal",
+    "houseNoMarathi": "13934",
+    "houseNoEnglish": "13934",
+    "age": 67,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 601,
+    "voterId": "SSO7518087",
+    "fullNameMarathi": "सुनिल ज्ञानेश्वर भुजबळ",
+    "fullNameEnglish": "Sunil Gyaneshwar Bhujbal",
+    "relativeNameMarathi": "वडिलांचे नाव : ज्ञानेश्वर भुजबळ",
+    "relativeNameEnglish": "Father's Name: Gyaneshwar Bhujbal",
+    "houseNoMarathi": "13934",
+    "houseNoEnglish": "13934",
+    "age": 43,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 602,
+    "voterId": "SSO1523992",
+    "fullNameMarathi": "अनिल ज्ञानेश्वर भुजबळ",
+    "fullNameEnglish": "Anil Gyaneshwar Bhujbal",
+    "relativeNameMarathi": "वडिलांचे नाव : ज्ञानेश्वर भुजबळ",
+    "relativeNameEnglish": "Father's Name: Gyaneshwar Bhujbal",
+    "houseNoMarathi": "13934",
+    "houseNoEnglish": "13934",
+    "age": 41,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 603,
+    "voterId": "SSO7518087",
+    "fullNameMarathi": "सुमन ज्ञानेश्वर भुजबळ",
+    "fullNameEnglish": "Suman Gyaneshwar Bhujbal",
+    "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर भुजबळ",
+    "relativeNameEnglish": "Husband's Name: Gyaneshwar Bhujbal",
+    "houseNoMarathi": "13934",
+    "houseNoEnglish": "13934",
+    "age": 57,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 604,
+    "voterId": "SSO1523992",
+    "fullNameMarathi": "हरीचंद्र पोपट जाधव",
+    "fullNameEnglish": "Harichandra Popat Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : पोपट जाधव",
+    "relativeNameEnglish": "Father's Name: Popat Jadhav",
+    "houseNoMarathi": "९५९/१५८",
+    "houseNoEnglish": "959/158",
+    "age": 63,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 605,
+    "voterId": "SSO1524008",
+    "fullNameMarathi": "दिलीप राजाराम कुंभार",
+    "fullNameEnglish": "Dilip Rajaram Kumbhar",
+    "relativeNameMarathi": "वडिलांचे नाव : राजाराम कुंभार",
+    "relativeNameEnglish": "Father's Name: Rajaram Kumbhar",
+    "houseNoMarathi": "९५९/१७७",
+    "houseNoEnglish": "959/177",
+    "age": 64,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 606,
+    "voterId": "SSO1524016",
+    "fullNameMarathi": "विजया दिलीप कुंभार",
+    "fullNameEnglish": "Vijaya Dilip Kumbhar",
+    "relativeNameMarathi": "पतीचे नाव : दिलीप कुंभार",
+    "relativeNameEnglish": "Husband's Name: Dilip Kumbhar",
+    "houseNoMarathi": "९५९/१७०",
+    "houseNoEnglish": "959/170",
+    "age": 60,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 607,
+    "voterId": "SSO9206384",
+    "fullNameMarathi": "विष्णु किसन लडकत",
+    "fullNameEnglish": "Vishnu Kisan Ladkat",
+    "relativeNameMarathi": "वडिलांचे नाव : किसन लडकत",
+    "relativeNameEnglish": "Father's Name: Kisan Ladkat",
+    "houseNoMarathi": "९५९/१९८",
+    "houseNoEnglish": "959/198",
+    "age": 62,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 608,
+    "voterId": "SSO9302886",
+    "fullNameMarathi": "लतिका विष्णु लडकत",
+    "fullNameEnglish": "Latika Vishnu Ladkat",
+    "relativeNameMarathi": "पतीचे नाव : विष्णु लडकत",
+    "relativeNameEnglish": "Husband's Name: Vishnu Ladkat",
+    "houseNoMarathi": "९५९/१९७",
+    "houseNoEnglish": "959/197",
+    "age": 58,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 609,
+    "voterId": "SSO9302217",
+    "fullNameMarathi": "तन्मय चंद्रशेखर वाडेकर",
+    "fullNameEnglish": "Tanmay Chandrashekhar Wadekar",
+    "relativeNameMarathi": "वडिलांचे नाव : चंद्रशेखर रामदास वाडेकर",
+    "relativeNameEnglish": "Father's Name: Chandrashekhar Ramdas Wadekar",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 19,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 610,
+    "voterId": "SSO9302886",
+    "fullNameMarathi": "राहील मोमीन",
+    "fullNameEnglish": "Raheel Momin",
+    "relativeNameMarathi": "वडिलांचे नाव : इस्माईल मोमीन",
+    "relativeNameEnglish": "Father's Name: Ismail Momin",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 25,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 611,
+    "voterId": "SSO9346396",
+    "fullNameMarathi": "निलेश लक्ष्मीकांत पोटभरे",
+    "fullNameEnglish": "Nilesh Laxmikant Potbhare",
+    "relativeNameMarathi": "वडिलांचे नाव : लक्ष्मीकांत पोटभरे",
+    "relativeNameEnglish": "Father's Name: Laxmikant Potbhare",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 50,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 612,
+    "voterId": "SSO9362765",
+    "fullNameMarathi": "तेजस्वी मोहिंदर थिगळे",
+    "fullNameEnglish": "Tejasvi Mohinder Thigale",
+    "relativeNameMarathi": "पतीचे नाव : मोहिंदर थिगळे",
+    "relativeNameEnglish": "Husband's Name: Mohinder Thigale",
+    "houseNoMarathi": "13",
+    "houseNoEnglish": "13",
+    "age": 29,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 613,
+    "voterId": "SSO8310310",
+    "fullNameMarathi": "सुप्रिया पुरी",
+    "fullNameEnglish": "Supriya Puri",
+    "relativeNameMarathi": "पतीचे नाव : दत्तात्रय पुरी",
+    "relativeNameEnglish": "Husband's Name: Dattatray Puri",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 30,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 614,
+    "voterId": "SSO8312936",
+    "fullNameMarathi": "दत्तात्रय पुरी",
+    "fullNameEnglish": "Dattatray Puri",
+    "relativeNameMarathi": "वडिलांचे नाव : रामनाथ पुरी",
+    "relativeNameEnglish": "Father's Name: Ramanath Puri",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 36,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 615,
+    "voterId": "SSO9528357",
+    "fullNameMarathi": "तेजस अशोक तिटकारे",
+    "fullNameEnglish": "Tejas Ashok Titkare",
+    "relativeNameMarathi": "वडिलांचे नाव : अशोक तिटकारे",
+    "relativeNameEnglish": "Father's Name: Ashok Titkare",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 22,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 616,
+    "voterId": "SSO9552506",
+    "fullNameMarathi": "अमन सागर गायकवाड",
+    "fullNameEnglish": "Aman Sagar Gaikwad",
+    "relativeNameMarathi": "वडिलांचे नाव : सागर गायकवाड",
+    "relativeNameEnglish": "Father's Name: Sagar Gaikwad",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 22,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 617,
+    "voterId": "SSO7381395",
+    "fullNameMarathi": "अजित अरुण निघोट",
+    "fullNameEnglish": "Ajit Arun Nighot",
+    "relativeNameMarathi": "वडिलांचे नाव : अरुण निघोट",
+    "relativeNameEnglish": "Father's Name: Arun Nighot",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 31,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 618,
+    "voterId": "SSO8185142",
+    "fullNameMarathi": "टिजगे त्रहषिकेश विठोबा",
+    "fullNameEnglish": "Tijage Trahshikesh Vitthoba",
+    "relativeNameMarathi": "वडिलांचे नाव : विठोबा श्रीपती टिजगे",
+    "relativeNameEnglish": "Father's Name: Vitthoba Shripati Tijage",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 25,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 619,
+    "voterId": "SSO9613886",
+    "fullNameMarathi": "ज्योत्स्ना त्रहषिकेश टिजगे",
+    "fullNameEnglish": "Jyotsna Trahshikesh Tijage",
+    "relativeNameMarathi": "पतीचे नाव : त्रहषिकेश विठोबा टिजगे",
+    "relativeNameEnglish": "Husband's Name: Trahshikesh Vitthoba Tijage",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 23,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 620,
+    "voterId": "SSO7605207",
+    "fullNameMarathi": "संकेत दिपक शाह",
+    "fullNameEnglish": "Sanket Dipak Shah",
+    "relativeNameMarathi": "वडिलांचे नाव : दिपक शाह",
+    "relativeNameEnglish": "Father's Name: Dipak Shah",
+    "houseNoMarathi": "1155",
+    "houseNoEnglish": "1155",
+    "age": 29,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 621,
+    "voterId": "SSO8803306",
+    "fullNameMarathi": "सोनाली भुजबळ",
+    "fullNameEnglish": "Sonali Bhujbal",
+    "relativeNameMarathi": "वडिलांचे नाव : शरद भुजबळ",
+    "relativeNameEnglish": "Father's Name: Sharad Bhujbal",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 22,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 622,
+    "voterId": "SSO8878068",
+    "fullNameMarathi": "मयूर राक्षे",
+    "fullNameEnglish": "Mayur Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : रमेश राक्षे",
+    "relativeNameEnglish": "Father's Name: Ramesh Rakhshe",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 24,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 623,
+    "voterId": "SSO8848780",
+    "fullNameMarathi": "सौरभ सांडभोर",
+    "fullNameEnglish": "Saurabh Sandbhor",
+    "relativeNameMarathi": "वडिलांचे नाव : बबनराव सांडभोर",
+    "relativeNameEnglish": "Father's Name: Babbanrao Sandbhor",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 27,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 624,
+    "voterId": "SSO8356321",
+    "fullNameMarathi": "नम्रता जाधव",
+    "fullNameEnglish": "Namrata Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : अरुण जाधव",
+    "relativeNameEnglish": "Father's Name: Arun Jadhav",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 22,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 625,
+    "voterId": "KXH2965648",
+    "fullNameMarathi": "राजाराम सिताराम शिंगाडे",
+    "fullNameEnglish": "Rajaram Sitaram Shingade",
+    "relativeNameMarathi": "वडिलांचे नाव : सिताराम शिंगाडे",
+    "relativeNameEnglish": "Father's Name: Sitaram Shingade",
+    "houseNoMarathi": "277",
+    "houseNoEnglish": "277",
+    "age": 51,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 626,
+    "voterId": "KXH2965655",
+    "fullNameMarathi": "मंदाकिनी राजाराम सिगाडे",
+    "fullNameEnglish": "Mandakini Rajaram Sigade",
+    "relativeNameMarathi": "पतीचे नाव : राजाराम सिगाडे",
+    "relativeNameEnglish": "Husband's Name: Rajaram Sigade",
+    "houseNoMarathi": "277",
+    "houseNoEnglish": "277",
+    "age": 47,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 627,
+    "voterId": "SSO7695232",
+    "fullNameMarathi": "किशोरी संदीप राक्षे",
+    "fullNameEnglish": "Kishori Sandeep Rakhshe",
+    "relativeNameMarathi": "पतीचे नाव : संदीप राक्षे",
+    "relativeNameEnglish": "Husband's Name: Sandeep Rakhshe",
+    "houseNoMarathi": "1154",
+    "houseNoEnglish": "1154",
+    "age": 33,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 628,
+    "voterId": "SSO8126831",
+    "fullNameMarathi": "गणेश संभाजी राक्षे",
+    "fullNameEnglish": "Ganesh Sambhaji Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : संभाजी राक्षे",
+    "relativeNameEnglish": "Father's Name: Sambhaji Rakhshe",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 26,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 629,
+    "voterId": "SSO8126823",
+    "fullNameMarathi": "शंतनू शिवाजी वाळूंज",
+    "fullNameEnglish": "Shantanu Shivaji Walunj",
+    "relativeNameMarathi": "वडिलांचे नाव : शिवाजी वाळूंज",
+    "relativeNameEnglish": "Father's Name: Shivaji Walunj",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 27,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 630,
+    "voterId": "SSO8803223",
+    "fullNameMarathi": "ज्ञानेश्वर सावंत",
+    "fullNameEnglish": "Gyaneshwar Sawant",
+    "relativeNameMarathi": "वडिलांचे नाव : प्रभाकर सावंत",
+    "relativeNameEnglish": "Father's Name: Prabhakar Sawant",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 41,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 631,
+    "voterId": "SSO8806101",
+    "fullNameMarathi": "उर्मिला सावंत",
+    "fullNameEnglish": "Urmila Sawant",
+    "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर सावंत",
+    "relativeNameEnglish": "Husband's Name: Gyaneshwar Sawant",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 30,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 632,
+    "voterId": "SSO8937021",
+    "fullNameMarathi": "रजनीकांत नाईकरे",
+    "fullNameEnglish": "Rajanikant Naikre",
+    "relativeNameMarathi": "वडिलांचे नाव : सोपान नाईकरे",
+    "relativeNameEnglish": "Father's Name: Sopan Naikre",
+    "houseNoMarathi": "0",
+    "houseNoEnglish": "0",
+    "age": 38,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 633,
+    "voterId": "SSO9103219",
+    "fullNameMarathi": "सावंत आदिती ज्ञानेश्वर",
+    "fullNameEnglish": "Sawant Aaditya Gyaneshwar",
+    "relativeNameMarathi": "वडिलांचे नाव : ज्ञानेश्वर प्रभाकर सावंत",
+    "relativeNameEnglish": "Father's Name: Gyaneshwar Prabhakar Sawant",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 18,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 634,
+    "voterId": "SSO8183360",
+    "fullNameMarathi": "पियुष हंसराज देसर्डा",
+    "fullNameEnglish": "Piyush Hansraj Desarda",
+    "relativeNameMarathi": "वडिलांचे नाव : हंसराज देसर्डा",
+    "relativeNameEnglish": "Father's Name: Hansraj Desarda",
+    "houseNoMarathi": "114",
+    "houseNoEnglish": "114",
+    "age": 26,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 635,
+    "voterId": "SSO7763717",
+    "fullNameMarathi": "श्रद्धा ज्ञानेश्वर गायकवाड",
+    "fullNameEnglish": "Shraddha Gyaneshwar Gaikwad",
+    "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर गायकवाड",
+    "relativeNameEnglish": "Husband's Name: Gyaneshwar Gaikwad",
+    "houseNoMarathi": "119",
+    "houseNoEnglish": "119",
+    "age": 34,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 636,
+    "voterId": "SSO7962558",
+    "fullNameMarathi": "वनेश राजु मुरतडकर",
+    "fullNameEnglish": "Vanesh Raju Muratdarkar",
+    "relativeNameMarathi": "वडिलांचे नाव : राजु मुरतडकर",
+    "relativeNameEnglish": "Father's Name: Raju Muratdarkar",
+    "houseNoMarathi": "1150",
+    "houseNoEnglish": "1150",
+    "age": 34,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 637,
+    "voterId": "SSO7695315",
+    "fullNameMarathi": "निलीमा कमलेश ताटीया",
+    "fullNameEnglish": "Nilima Kamlesh Tatya",
+    "relativeNameMarathi": "पतीचे नाव : कमलेश ताटीया",
+    "relativeNameEnglish": "Husband's Name: Kamlesh Tatya",
+    "houseNoMarathi": "1194",
+    "houseNoEnglish": "1194",
+    "age": 35,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 638,
+    "voterId": "SSO7695281",
+    "fullNameMarathi": "काजल अमर ताटीया",
+    "fullNameEnglish": "Kajal Amar Tatya",
+    "relativeNameMarathi": "पतीचे नाव : अमर ताटीया",
+    "relativeNameEnglish": "Husband's Name: Amar Tatya",
+    "houseNoMarathi": "1144",
+    "houseNoEnglish": "1144",
+    "age": 28,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 639,
+    "voterId": "KXH1195171",
+    "fullNameMarathi": "बाळासो दत्तात्रय कर्पे",
+    "fullNameEnglish": "Balaso Dattatray Karpe",
+    "relativeNameMarathi": "वडिलांचे नाव : दत्तात्रय कर्पे",
+    "relativeNameEnglish": "Father's Name: Dattatray Karpe",
+    "houseNoMarathi": "13814",
+    "houseNoEnglish": "13814",
+    "age": 62,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 640,
+    "voterId": "KXH1195189",
+    "fullNameMarathi": "मिना बाळासो कर्पे",
+    "fullNameEnglish": "Meena Balaso Karpe",
+    "relativeNameMarathi": "पतीचे नाव : बाळासो कर्पे",
+    "relativeNameEnglish": "Husband's Name: Balaso Karpe",
+    "houseNoMarathi": "13814",
+    "houseNoEnglish": "13814",
+    "age": 58,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 641,
+    "voterId": "SSO7151608",
+    "fullNameMarathi": "शांताबाई दत्तात्रय कर्पे",
+    "fullNameEnglish": "Shantabai Dattatray Karpe",
+    "relativeNameMarathi": "पतीचे नाव : दत्तात्रय कर्पे",
+    "relativeNameEnglish": "Husband's Name: Dattatray Karpe",
+    "houseNoMarathi": "१३८१-८",
+    "houseNoEnglish": "1381-8",
+    "age": 84,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 642,
+    "voterId": "SSO7151582",
+    "fullNameMarathi": "विजया दत्तात्रय ढुमणे",
+    "fullNameEnglish": "Vijaya Dattatray Dhumne",
+    "relativeNameMarathi": "पतीचे नाव : दत्तात्रय ढुमणे",
+    "relativeNameEnglish": "Husband's Name: Dattatray Dhumne",
+    "houseNoMarathi": "१३७३-५",
+    "houseNoEnglish": "1373-5",
+    "age": 79,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 643,
+    "voterId": "SSO7151590",
+    "fullNameMarathi": "संतोष दत्तात्रय ढुमणे",
+    "fullNameEnglish": "Santosh Dattatray Dhumne",
+    "relativeNameMarathi": "वडिलांचे नाव : दत्तात्रय ढुमणे",
+    "relativeNameEnglish": "Father's Name: Dattatray Dhumne",
+    "houseNoMarathi": "१३७३-५",
+    "houseNoEnglish": "1373-5",
+    "age": 50,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 644,
+    "voterId": "SSO7518319",
+    "fullNameMarathi": "स्मिता सिद्धार्थ चव्हाण",
+    "fullNameEnglish": "Smita Siddharth Chavan",
+    "relativeNameMarathi": "पतीचे नाव : सिद्धार्थ चव्हाण",
+    "relativeNameEnglish": "Husband's Name: Siddharth Chavan",
+    "houseNoMarathi": "१२८९/१७१६",
+    "houseNoEnglish": "1289/1716",
+    "age": 67,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 645,
+    "voterId": "SSO7518327",
+    "fullNameMarathi": "निलेश सिद्धार्थ चव्हाण",
+    "fullNameEnglish": "Nilesh Siddharth Chavan",
+    "relativeNameMarathi": "वडिलांचे नाव : सिद्धार्थ चव्हाण",
+    "relativeNameEnglish": "Father's Name: Siddharth Chavan",
+    "houseNoMarathi": "१२८९/१७१६",
+    "houseNoEnglish": "1289/1716",
+    "age": 40,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 646,
+    "voterId": "SSO8356313",
+    "fullNameMarathi": "तन्वी लोंढे",
+    "fullNameEnglish": "Tanvi Londhe",
+    "relativeNameMarathi": "वडिलांचे नाव : सुनील लोंढे",
+    "relativeNameEnglish": "Father's Name: Sunil Londhe",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "-",
+    "age": 22,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 647,
+    "voterId": "SSO2209856",
+    "fullNameMarathi": "अनिल मारुती राक्षे",
+    "fullNameEnglish": "Anil Maruti Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : मारुती राक्षे",
+    "relativeNameEnglish": "Father's Name: Maruti Rakhshe",
+    "houseNoMarathi": "१३९/५५",
+    "houseNoEnglish": "139/55",
+    "age": 48,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 648,
+    "voterId": "SSO7379381",
+    "fullNameMarathi": "सागर अशोक राक्षे",
+    "fullNameEnglish": "Sagar Ashok Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : अशोक राक्षे",
+    "relativeNameEnglish": "Father's Name: Ashok Rakhshe",
+    "houseNoMarathi": "1932",
+    "houseNoEnglish": "1932",
+    "age": 29,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 649,
+    "voterId": "SSO7379399",
+    "fullNameMarathi": "प्रतिक पांडुरंग राक्षे",
+    "fullNameEnglish": "Pratik Pandurang Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : पांडुरंग राक्षे",
+    "relativeNameEnglish": "Father's Name: Pandurang Rakhshe",
+    "houseNoMarathi": "1938",
+    "houseNoEnglish": "1938",
+    "age": 29,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 650,
+    "voterId": "SSO7379415",
+    "fullNameMarathi": "सार्थक सोपान घुमटकर",
+    "fullNameEnglish": "Sarthak Sopan Ghumatkar",
+    "relativeNameMarathi": "वडिलांचे नाव : सोपान घुमटकर",
+    "relativeNameEnglish": "Father's Name: Sopan Ghumatkar",
+    "houseNoMarathi": "2011",
+    "houseNoEnglish": "2011",
+    "age": 32,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 651,
+    "voterId": "SSO7379423",
+    "fullNameMarathi": "ओम शंकर घुमटकर",
+    "fullNameEnglish": "Om Shankar Ghumatkar",
+    "relativeNameMarathi": "वडिलांचे नाव : शंकर घुमटकर",
+    "relativeNameEnglish": "Father's Name: Shankar Ghumatkar",
+    "houseNoMarathi": "2011",
+    "houseNoEnglish": "2011",
+    "age": 31,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 652,
+    "voterId": "SSO1578889",
+    "fullNameMarathi": "हेमाजी शिवाजीराव सातकर",
+    "fullNameEnglish": "Hemaji Shivajirao Satkar",
+    "relativeNameMarathi": "वडिलांचे नाव : शिवाजीराव सातकर",
+    "relativeNameEnglish": "Father's Name: Shivajirao Satkar",
+    "houseNoMarathi": "2016",
+    "houseNoEnglish": "2016",
+    "age": 37,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 653,
+    "voterId": "SSO1776137",
+    "fullNameMarathi": "बाळासाहेब किसन लोणकर",
+    "fullNameEnglish": "Balasaheb Kisan Lonkar",
+    "relativeNameMarathi": "वडिलांचे नाव : किसन लोणकर",
+    "relativeNameEnglish": "Father's Name: Kisan Lonkar",
+    "houseNoMarathi": "13921",
+    "houseNoEnglish": "13921",
+    "age": 60,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 654,
+    "voterId": "SSO1776145",
+    "fullNameMarathi": "रेखा बाळासाहेब लोणकर",
+    "fullNameEnglish": "Rekha Balasaheb Lonkar",
+    "relativeNameMarathi": "पतीचे नाव : बाळासाहेब लोणकर",
+    "relativeNameEnglish": "Husband's Name: Balasaheb Lonkar",
+    "houseNoMarathi": "139210",
+    "houseNoEnglish": "139210",
+    "age": 52,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 655,
+    "voterId": "SSO1524289",
+    "fullNameMarathi": "जिजाबाई महादु राक्षे",
+    "fullNameEnglish": "Jijabai Mahadu Rakhshe",
+    "relativeNameMarathi": "पतीचे नाव : महादु राक्षे",
+    "relativeNameEnglish": "Husband's Name: Mahadu Rakhshe",
+    "houseNoMarathi": "139224",
+    "houseNoEnglish": "139224",
+    "age": 56,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 656,
+    "voterId": "SSO2092641",
+    "fullNameMarathi": "संतोष महादु राक्षे",
+    "fullNameEnglish": "Santosh Mahadu Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : महादु राक्षे",
+    "relativeNameEnglish": "Father's Name: Mahadu Rakhshe",
+    "houseNoMarathi": "139220",
+    "houseNoEnglish": "139220",
+    "age": 41,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 657,
+    "voterId": "SSO8442584",
+    "fullNameMarathi": "देविदास लहानु पाटोळे",
+    "fullNameEnglish": "Devidas Lahanu Patole",
+    "relativeNameMarathi": "वडिलांचे नाव : लहानु पाटोळे",
+    "relativeNameEnglish": "Father's Name: Lahanu Patole",
+    "houseNoMarathi": "139237",
+    "houseNoEnglish": "139237",
+    "age": 63,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 658,
+    "voterId": "SSO8442592",
+    "fullNameMarathi": "जिजाबाई देविदास पाटोळे",
+    "fullNameEnglish": "Jijabai Devidas Patole",
+    "relativeNameMarathi": "पतीचे नाव : देविदास पाटोळे",
+    "relativeNameEnglish": "Husband's Name: Devidas Patole",
+    "houseNoMarathi": "139237",
+    "houseNoEnglish": "139237",
+    "age": 57,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 659,
+    "voterId": "KXH2966497",
+    "fullNameMarathi": "श्रीपाद दत्तात्रय करमरकर",
+    "fullNameEnglish": "Shripad Dattatray Karamarkar",
+    "relativeNameMarathi": "वडिलांचे नाव : दत्तात्रय करमरकर",
+    "relativeNameEnglish": "Father's Name: Dattatray Karamarkar",
+    "houseNoMarathi": "139230",
+    "houseNoEnglish": "139230",
+    "age": 65,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 660,
+    "voterId": "SSO1524271",
+    "fullNameMarathi": "स्वाती श्रीपाद करमरकर",
+    "fullNameEnglish": "Swati Shripad Karamarkar",
+    "relativeNameMarathi": "पतीचे नाव : श्रीपाद करमरकर",
+    "relativeNameEnglish": "Husband's Name: Shripad Karamarkar",
+    "houseNoMarathi": "139237",
+    "houseNoEnglish": "139237",
+    "age": 55,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 661,
+    "voterId": "SSO1524255",
+    "fullNameMarathi": "रजनीकांत देवीदास पाटोळे",
+    "fullNameEnglish": "Rajanikant Devidas Patole",
+    "relativeNameMarathi": "वडिलांचे नाव : देवीदास पाटोळे",
+    "relativeNameEnglish": "Father's Name: Devidas Patole",
+    "houseNoMarathi": "१३९२/३७",
+    "houseNoEnglish": "1392/37",
+    "age": 37,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 662,
+    "voterId": "SSO1524263",
+    "fullNameMarathi": "तुषार देवीदास पाटोळे",
+    "fullNameEnglish": "Tushar Devidas Patole",
+    "relativeNameMarathi": "वडिलांचे नाव : देवीदास पाटोळे",
+    "relativeNameEnglish": "Father's Name: Devidas Patole",
+    "houseNoMarathi": "१३९२/३७",
+    "houseNoEnglish": "1392/37",
+    "age": 35,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 663,
+    "voterId": "SSO8442626",
+    "fullNameMarathi": "सुचित्रा मोहन जोशी",
+    "fullNameEnglish": "Suchitra Mohan Joshi",
+    "relativeNameMarathi": "पतीचे नाव : मोहन जोशी",
+    "relativeNameEnglish": "Husband's Name: Mohan Joshi",
+    "houseNoMarathi": "139240",
+    "houseNoEnglish": "139240",
+    "age": 63,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 664,
+    "voterId": "SSO1524297",
+    "fullNameMarathi": "शकुंतला मारुती राक्षे",
+    "fullNameEnglish": "Shakuntala Maruti Rakhshe",
+    "relativeNameMarathi": "पतीचे नाव : मारुती राक्षे",
+    "relativeNameEnglish": "Husband's Name: Maruti Rakhshe",
+    "houseNoMarathi": "139257",
+    "houseNoEnglish": "139257",
+    "age": 80,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 665,
+    "voterId": "SSO8816746",
+    "fullNameMarathi": "शामकांत कृष्णाजी राक्षे",
+    "fullNameEnglish": "Shamkant Krishnaji Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : कृष्णाजी राक्षे",
+    "relativeNameEnglish": "Father's Name: Krishnaji Rakhshe",
+    "houseNoMarathi": "139250",
+    "houseNoEnglish": "139250",
+    "age": 62,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 666,
+    "voterId": "SSO2209906",
+    "fullNameMarathi": "अशोक कृष्णाजी राक्षे",
+    "fullNameEnglish": "Ashok Krishnaji Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : कृष्णाजी राक्षे",
+    "relativeNameEnglish": "Father's Name: Krishnaji Rakhshe",
+    "houseNoMarathi": "13925",
+    "houseNoEnglish": "13925",
+    "age": 58,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 667,
+    "voterId": "SSO1524305",
+    "fullNameMarathi": "उषा शामकांत राक्षे",
+    "fullNameEnglish": "Usha Shamkant Rakhshe",
+    "relativeNameMarathi": "पतीचे नाव : शामकांत राक्षे",
+    "relativeNameEnglish": "Husband's Name: Shamkant Rakhshe",
+    "houseNoMarathi": "139255",
+    "houseNoEnglish": "139255",
+    "age": 57,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 668,
+    "voterId": "SSO2092328",
+    "fullNameMarathi": "शोभा अशोक राक्षे",
+    "fullNameEnglish": "Shobha Ashok Rakhshe",
+    "relativeNameMarathi": "पतीचे नाव : अशोक राक्षे",
+    "relativeNameEnglish": "Husband's Name: Ashok Rakhshe",
+    "houseNoMarathi": "139250",
+    "houseNoEnglish": "139250",
+    "age": 53,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 669,
+    "voterId": "SSO1524305",
+    "fullNameMarathi": "सुनिल मारुती राक्षे",
+    "fullNameEnglish": "Sunil Maruti Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : मारुती राक्षे",
+    "relativeNameEnglish": "Father's Name: Maruti Rakhshe",
+    "houseNoMarathi": "139250",
+    "houseNoEnglish": "139250",
+    "age": 51,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 670,
+    "voterId": "SSO1524313",
+    "fullNameMarathi": "अश्विनी सुनिल राक्षे",
+    "fullNameEnglish": "Ashwini Sunil Rakhshe",
+    "relativeNameMarathi": "पतीचे नाव : सुनिल राक्षे",
+    "relativeNameEnglish": "Husband's Name: Sunil Rakhshe",
+    "houseNoMarathi": "139257",
+    "houseNoEnglish": "139257",
+    "age": 44,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 671,
+    "voterId": "SSO1524321",
+    "fullNameMarathi": "वैशाली अनिल राक्षे",
+    "fullNameEnglish": "Vaishali Anil Rakhshe",
+    "relativeNameMarathi": "पतीचे नाव : अनिल राक्षे",
+    "relativeNameEnglish": "Husband's Name: Anil Rakhshe",
+    "houseNoMarathi": "139250",
+    "houseNoEnglish": "139250",
+    "age": 42,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 672,
+    "voterId": "KXH2965432",
+    "fullNameMarathi": "संदीप महादु राक्षे",
+    "fullNameEnglish": "Sandeep Mahadu Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : महादु राक्षे",
+    "relativeNameEnglish": "Father's Name: Mahadu Rakhshe",
+    "houseNoMarathi": "139256",
+    "houseNoEnglish": "139256",
+    "age": 41,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 673,
+    "voterId": "SSO2209922",
+    "fullNameMarathi": "मारुती कृष्णाजी राक्षे",
+    "fullNameEnglish": "Maruti Krishnaji Rakhshe",
+    "relativeNameMarathi": "वडिलांचे नाव : कृष्णाजी राक्षे",
+    "relativeNameEnglish": "Father's Name: Krishnaji Rakhshe",
+    "houseNoMarathi": "139257",
+    "houseNoEnglish": "139257",
+    "age": 82,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 674,
+    "voterId": "SSO7518343",
+    "fullNameMarathi": "वसंत परबती लोंढे",
+    "fullNameEnglish": "Vasant Parbati Londhe",
+    "relativeNameMarathi": "वडिलांचे नाव : परबती लोंढे",
+    "relativeNameEnglish": "Father's Name: Parbati Londhe",
+    "houseNoMarathi": "13926",
+    "houseNoEnglish": "13926",
+    "age": 62,
+    "genderMarathi": "पु",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 675,
+    "voterId": "SSO7518350",
+    "fullNameMarathi": "सिंधु वसंत लोंढे",
+    "fullNameEnglish": "Sindhu Vasant Londhe",
+    "relativeNameMarathi": "पतीचे नाव : वसंत लोंढे",
+    "relativeNameEnglish": "Husband's Name: Vasant Londhe",
+    "houseNoMarathi": "139260",
+    "houseNoEnglish": "139260",
+    "age": 59,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 676,
+    "voterId": "SSO2092658",
+    "fullNameMarathi": "सुमित प्रकाश निरगुडकर",
+    "fullNameEnglish": "Sumit Prakash Nirgudkar",
+    "relativeNameMarathi": "वडिलांचे नाव : प्रकाश निरगुडकर",
+    "relativeNameEnglish": "Father's Name: Prakash Nirgudkar",
+    "houseNoMarathi": "१३९२/६६",
+    "houseNoEnglish": "1392/66",
+    "age": 34,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 677,
+    "voterId": "SSO8442659",
+    "fullNameMarathi": "वत्सला रंगनाथ जाधव",
+    "fullNameEnglish": "Vatsala Ranganath Jadhav",
+    "relativeNameMarathi": "पतीचे नाव : रंगनाथ जाधव",
+    "relativeNameEnglish": "Husband's Name: Ranganath Jadhav",
+    "houseNoMarathi": "१३९२/८७",
+    "houseNoEnglish": "1392/87",
+    "age": 84,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 678,
+    "voterId": "SSO12965325",
+    "fullNameMarathi": "बाबाजी सोपान पाटोळे",
+    "fullNameEnglish": "Babaji Sopan Patole",
+    "relativeNameMarathi": "वडिलांचे नाव : सोपान पाटोळे",
+    "relativeNameEnglish": "Father's Name: Sopan Patole",
+    "houseNoMarathi": "१३९२/९०",
+    "houseNoEnglish": "1392/90",
+    "age": 47,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 679,
+    "voterId": "SSO7379407",
+    "fullNameMarathi": "सोनल संतोष राक्षे",
+    "fullNameEnglish": "Sonal Santosh Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : संतोष राक्षे",
+    "relativeNameEnglish": "Husband's Name: Santosh Rakshe",
+    "houseNoMarathi": "१९३३/१",
+    "houseNoEnglish": "1933/1",
+    "age": 33,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 680,
+    "voterId": "SSO7379431",
+    "fullNameMarathi": "रिध्दी दिपक शाह",
+    "fullNameEnglish": "Riddhi Deepak Shah",
+    "relativeNameMarathi": "वडिलांचे नाव : दिपक शाह",
+    "relativeNameEnglish": "Father's Name: Deepak Shah",
+    "houseNoMarathi": "१९४७/३",
+    "houseNoEnglish": "1947/3",
+    "age": 31,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 681,
+    "voterId": "SSO12965952",
+    "fullNameMarathi": "सुरेश सदाशिव करडे",
+    "fullNameEnglish": "Suresh Sadashiv Karade",
+    "relativeNameMarathi": "वडिलांचे नाव : सदाशिव करडे",
+    "relativeNameEnglish": "Father's Name: Sadashiv Karade",
+    "houseNoMarathi": "१३९२/१०",
+    "houseNoEnglish": "1392/10",
+    "age": 65,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 682,
+    "voterId": "SSO12966026",
+    "fullNameMarathi": "सुरेखा सुरेश करडे",
+    "fullNameEnglish": "Surekha Suresh Karade",
+    "relativeNameMarathi": "पतीचे नाव : सुरेश करडे",
+    "relativeNameEnglish": "Husband's Name: Suresh Karade",
+    "houseNoMarathi": "१३९२/१०",
+    "houseNoEnglish": "1392/10",
+    "age": 60,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 683,
+    "voterId": "SSO1620731",
+    "fullNameMarathi": "लक्ष्मण गिरजू राक्षे",
+    "fullNameEnglish": "Lakshman Girju Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : गिरजू राक्षे",
+    "relativeNameEnglish": "Father's Name: Girju Rakshe",
+    "houseNoMarathi": "१३९२/१९०",
+    "houseNoEnglish": "1392/190",
+    "age": 82,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 684,
+    "voterId": "SSO8816852",
+    "fullNameMarathi": "धोंडाबाई लक्ष्मण राक्षे",
+    "fullNameEnglish": "Dhondabai Lakshman Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : लक्ष्मण राक्षे",
+    "relativeNameEnglish": "Husband's Name: Lakshman Rakshe",
+    "houseNoMarathi": "१३९२/११०",
+    "houseNoEnglish": "1392/110",
+    "age": 77,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 685,
+    "voterId": "SSO2209971",
+    "fullNameMarathi": "तुकाराम गिरजू राक्षे",
+    "fullNameEnglish": "Tukaram Girju Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : गिरजू राक्षे",
+    "relativeNameEnglish": "Father's Name: Girju Rakshe",
+    "houseNoMarathi": "१३९२/१९",
+    "houseNoEnglish": "1392/19",
+    "age": 64,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 686,
+    "voterId": "SSO2209930",
+    "fullNameMarathi": "मिना भिकाजी राक्षे",
+    "fullNameEnglish": "Mina Bhikaji Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : भिकाजी राक्षे",
+    "relativeNameEnglish": "Husband's Name: Bhikaji Rakshe",
+    "houseNoMarathi": "१३९२/१९",
+    "houseNoEnglish": "1392/19",
+    "age": 62,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 687,
+    "voterId": "SSO2209989",
+    "fullNameMarathi": "कल्पना तुकाराम राक्षे",
+    "fullNameEnglish": "Kalpana Tukaram Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : तुकाराम राक्षे",
+    "relativeNameEnglish": "Husband's Name: Tukaram Rakshe",
+    "houseNoMarathi": "१३९२/१९",
+    "houseNoEnglish": "1392/19",
+    "age": 57,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 688,
+    "voterId": "SSO1620756",
+    "fullNameMarathi": "सुमन पाडुरंग राक्षे",
+    "fullNameEnglish": "Suman Padurang Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : पाडुरंग राक्षे",
+    "relativeNameEnglish": "Father's Name: Padurang Rakshe",
+    "houseNoMarathi": "१३९२/११",
+    "houseNoEnglish": "1392/11",
+    "age": 50,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 689,
+    "voterId": "SSO8817090",
+    "fullNameMarathi": "गणेश सिताराम राक्षे",
+    "fullNameEnglish": "Ganesh Sitaram Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : सिताराम राक्षे",
+    "relativeNameEnglish": "Father's Name: Sitaram Rakshe",
+    "houseNoMarathi": "१३९२/११",
+    "houseNoEnglish": "1392/11",
+    "age": 50,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 690,
+    "voterId": "SSO1620749",
+    "fullNameMarathi": "सुरेश लक्ष्मण राक्षे",
+    "fullNameEnglish": "Suresh Lakshman Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : लक्ष्मण राक्षे",
+    "relativeNameEnglish": "Father's Name: Lakshman Rakshe",
+    "houseNoMarathi": "१३९२/११",
+    "houseNoEnglish": "1392/11",
+    "age": 49,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 691,
+    "voterId": "SSO2209948",
+    "fullNameMarathi": "बंडू भिकाजी राक्षे",
+    "fullNameEnglish": "Bandu Bhikaji Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : भिकाजी राक्षे",
+    "relativeNameEnglish": "Father's Name: Bhikaji Rakshe",
+    "houseNoMarathi": "१३९२/११",
+    "houseNoEnglish": "1392/11",
+    "age": 48,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 692,
+    "voterId": "SSO2209997",
+    "fullNameMarathi": "विजय भिकाजी राक्षे",
+    "fullNameEnglish": "Vijay Bhikaji Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : भिकाजी राक्षे",
+    "relativeNameEnglish": "Father's Name: Bhikaji Rakshe",
+    "houseNoMarathi": "१३९२/११",
+    "houseNoEnglish": "1392/11",
+    "age": 44,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 693,
+    "voterId": "SSO4544789",
+    "fullNameMarathi": "विशाल भिकाजी राक्षे",
+    "fullNameEnglish": "Vishal Bhikaji Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : भिकाजी राक्षे",
+    "relativeNameEnglish": "Father's Name: Bhikaji Rakshe",
+    "houseNoMarathi": "१३९२/११",
+    "houseNoEnglish": "1392/11",
+    "age": 41,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 694,
+    "voterId": "SSO1776152",
+    "fullNameMarathi": "उज्वाला सुरेश राक्षे",
+    "fullNameEnglish": "Ujwala Suresh Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : सुरेश राक्षे",
+    "relativeNameEnglish": "Husband's Name: Suresh Rakshe",
+    "houseNoMarathi": "१३९२/११०",
+    "houseNoEnglish": "1392/110",
+    "age": 41,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 695,
+    "voterId": "SSO2209997",
+    "fullNameMarathi": "शकुंतला बंडू राक्षे",
+    "fullNameEnglish": "Shakuntala Bandu Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : बंडू राक्षे",
+    "relativeNameEnglish": "Husband's Name: Bandu Rakshe",
+    "houseNoMarathi": "१३९२/११७",
+    "houseNoEnglish": "1392/117",
+    "age": 40,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 696,
+    "voterId": "SSO12966992",
+    "fullNameMarathi": "अमोल तुकाराम राक्षे",
+    "fullNameEnglish": "Amol Tukaram Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : तुकाराम राक्षे",
+    "relativeNameEnglish": "Father's Name: Tukaram Rakshe",
+    "houseNoMarathi": "१३९२/११७",
+    "houseNoEnglish": "1392/117",
+    "age": 36,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 697,
+    "voterId": "SSO12967198",
+    "fullNameMarathi": "अमित तुकाराम राक्षे",
+    "fullNameEnglish": "Amit Tukaram Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : तुकाराम राक्षे",
+    "relativeNameEnglish": "Father's Name: Tukaram Rakshe",
+    "houseNoMarathi": "१३९२/११०",
+    "houseNoEnglish": "1392/110",
+    "age": 35,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 698,
+    "voterId": "SSO1524347",
+    "fullNameMarathi": "शिवाजी कोंडाजी सतकर",
+    "fullNameEnglish": "Shivaji Kondaji Satkar",
+    "relativeNameMarathi": "वडिलांचे नाव : कोंडाजी सतकर",
+    "relativeNameEnglish": "Father's Name: Kondaji Satkar",
+    "houseNoMarathi": "१३९२/१२०",
+    "houseNoEnglish": "1392/120",
+    "age": 70,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 699,
+    "voterId": "SSO12966992",
+    "fullNameMarathi": "शोभा शिवाजी सातकर",
+    "fullNameEnglish": "Shobha Shivaji Satkar",
+    "relativeNameMarathi": "पतीचे नाव : शिवाजी सातकर",
+    "relativeNameEnglish": "Husband's Name: Shivaji Satkar",
+    "houseNoMarathi": "१३९२/१२०",
+    "houseNoEnglish": "1392/120",
+    "age": 66,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 700,
+    "voterId": "SSO9030073",
+    "fullNameMarathi": "तनुजा त्रहषिकेश देशमुख",
+    "fullNameEnglish": "Tanuja Trushikesh Deshmukh",
+    "relativeNameMarathi": "पतीचे नाव : त्रहषिकेश देशमुख",
+    "relativeNameEnglish": "Husband's Name: Trushikesh Deshmukh",
+    "houseNoMarathi": "००६४४८० १०८४",
+    "houseNoEnglish": "0064480 1084",
+    "age": 31,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 701,
+    "voterId": "SSO7518400",
+    "fullNameMarathi": "सुरेश बंडू वाळुंज",
+    "fullNameEnglish": "Suresh Bandu Walunj",
+    "relativeNameMarathi": "वडिलांचे नाव : बंडू वाळुंज",
+    "relativeNameEnglish": "Father's Name: Bandu Walunj",
+    "houseNoMarathi": "१२८९/४१०",
+    "houseNoEnglish": "1289/410",
+    "age": 56,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 702,
+    "voterId": "SSO7518418",
+    "fullNameMarathi": "छाया सुरेश वाळुंज",
+    "fullNameEnglish": "Chhaya Suresh Walunj",
+    "relativeNameMarathi": "पतीचे नाव : सुरेश वाळुंज",
+    "relativeNameEnglish": "Husband's Name: Suresh Walunj",
+    "houseNoMarathi": "१२८९/४१०",
+    "houseNoEnglish": "1289/410",
+    "age": 49,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 703,
+    "voterId": "SSO9027848",
+    "fullNameMarathi": "पल्लवी अभिजीत वाळूज",
+    "fullNameEnglish": "Pallavi Abhijit Waluj",
+    "relativeNameMarathi": "वडिलांचे नाव : अभिजीत वाळूज",
+    "relativeNameEnglish": "Father's Name: Abhijit Waluj",
+    "houseNoMarathi": "ऑक्षक्षा ०८८",
+    "houseNoEnglish": "(Illegible)",
+    "age": 21,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 704,
+    "voterId": "SSO9018607",
+    "fullNameMarathi": "अश्विनी ईश्वर कदम",
+    "fullNameEnglish": "Ashwini Eshwar Kadam",
+    "relativeNameMarathi": "पतीचे नाव : ईश्वर कदम",
+    "relativeNameEnglish": "Husband's Name: Eshwar Kadam",
+    "houseNoMarathi": "6801084",
+    "houseNoEnglish": "6801084",
+    "age": 31,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 705,
+    "voterId": "SSO4544896",
+    "fullNameMarathi": "विणा नरेश हेडा",
+    "fullNameEnglish": "Vina Naresh Heda",
+    "relativeNameMarathi": "पतीचे नाव : नरेश हेडा",
+    "relativeNameEnglish": "Husband's Name: Naresh Heda",
+    "houseNoMarathi": "1289",
+    "houseNoEnglish": "1289",
+    "age": 45,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 706,
+    "voterId": "SSO4544888",
+    "fullNameMarathi": "कौशलेश ओमप्रकाश हेडा",
+    "fullNameEnglish": "Kaushalesh Omprakash Heda",
+    "relativeNameMarathi": "वडिलांचे नाव : ओमप्रकाश हेडा",
+    "relativeNameEnglish": "Father's Name: Omprakash Heda",
+    "houseNoMarathi": "1289",
+    "houseNoEnglish": "1289",
+    "age": 43,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 707,
+    "voterId": "SSO12966232",
+    "fullNameMarathi": "दुर्गादेवी ओमप्रकाश हेडा",
+    "fullNameEnglish": "Durgadevi Omprakash Heda",
+    "relativeNameMarathi": "पतीचे नाव : ओमप्रकाश हेडा",
+    "relativeNameEnglish": "Husband's Name: Omprakash Heda",
+    "houseNoMarathi": "१२८९/२",
+    "houseNoEnglish": "1289/2",
+    "age": 72,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 708,
+    "voterId": "SSO7518129",
+    "fullNameMarathi": "नरेश ओमप्रकाश हेडा",
+    "fullNameEnglish": "Naresh Omprakash Heda",
+    "relativeNameMarathi": "वडिलांचे नाव : ओमप्रकाश हेडा",
+    "relativeNameEnglish": "Father's Name: Omprakash Heda",
+    "houseNoMarathi": "१२८९/७२",
+    "houseNoEnglish": "1289/72",
+    "age": 48,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 709,
+    "voterId": "SSO7695448",
+    "fullNameMarathi": "केतन राजेंद्र पारख",
+    "fullNameEnglish": "Ketan Rajendra Parkh",
+    "relativeNameMarathi": "वडिलांचे नाव : राजेंद्र पारख",
+    "relativeNameEnglish": "Father's Name: Rajendra Parkh",
+    "houseNoMarathi": "१५ (Illegible)",
+    "houseNoEnglish": "15 (Illegible)",
+    "age": 27,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 710,
+    "voterId": "SSO12967073",
+    "fullNameMarathi": "पुंडलिक गजानन अभंग",
+    "fullNameEnglish": "Pundalik Gajanan Abhang",
+    "relativeNameMarathi": "वडिलांचे नाव : गजानन अभंग",
+    "relativeNameEnglish": "Father's Name: Gajanan Abhang",
+    "houseNoMarathi": "1389",
+    "houseNoEnglish": "1389",
+    "age": 52,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 711,
+    "voterId": "SSO12967065",
+    "fullNameMarathi": "सुनिता पुंडलिक अभंग",
+    "fullNameEnglish": "Sunita Pundalik Abhang",
+    "relativeNameMarathi": "पतीचे नाव : पुंडलिक अभंग",
+    "relativeNameEnglish": "Husband's Name: Pundalik Abhang",
+    "houseNoMarathi": "1389",
+    "houseNoEnglish": "1389",
+    "age": 47,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 712,
+    "voterId": "SSO12966943",
+    "fullNameMarathi": "रामदास शंकर होले",
+    "fullNameEnglish": "Ramdas Shankar Hole",
+    "relativeNameMarathi": "वडिलांचे नाव : शंकर होले",
+    "relativeNameEnglish": "Father's Name: Shankar Hole",
+    "houseNoMarathi": "1389",
+    "houseNoEnglish": "1389",
+    "age": 52,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 713,
+    "voterId": "SSO12968048",
+    "fullNameMarathi": "नयना रामदास होले",
+    "fullNameEnglish": "Nayana Ramdas Hole",
+    "relativeNameMarathi": "पतीचे नाव : रामदास होले",
+    "relativeNameEnglish": "Husband's Name: Ramdas Hole",
+    "houseNoMarathi": "1389",
+    "houseNoEnglish": "1389",
+    "age": 46,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 714,
+    "voterId": "SSO12965143",
+    "fullNameMarathi": "ज्ञानेश्वर जगन्नाथ शिंदे",
+    "fullNameEnglish": "Gyaneshwar Jagannath Shinde",
+    "relativeNameMarathi": "वडिलांचे नाव : जगन्नाथ शिंदे",
+    "relativeNameEnglish": "Father's Name: Jagannath Shinde",
+    "houseNoMarathi": "1389",
+    "houseNoEnglish": "1389",
+    "age": 50,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 715,
+    "voterId": "SSO12965150",
+    "fullNameMarathi": "वनिता ज्ञानेश्वर शिंदे",
+    "fullNameEnglish": "Vanita Gyaneshwar Shinde",
+    "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर शिंदे",
+    "relativeNameEnglish": "Husband's Name: Gyaneshwar Shinde",
+    "houseNoMarathi": "1389",
+    "houseNoEnglish": "1389",
+    "age": 47,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 716,
+    "voterId": "SSO2210193",
+    "fullNameMarathi": "सागर यशवंत जाधव",
+    "fullNameEnglish": "Sagar Yashwant Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : यशवंत जाधव",
+    "relativeNameEnglish": "Father's Name: Yashwant Jadhav",
+    "houseNoMarathi": "१४०६/३",
+    "houseNoEnglish": "1406/3",
+    "age": 34,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 717,
+    "voterId": "SSO9409699",
+    "fullNameMarathi": "स्नेहल अभिजीत राक्षे",
+    "fullNameEnglish": "Snehal Abhijit Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : अभिजीत राक्षे",
+    "relativeNameEnglish": "Husband's Name: Abhijit Rakshe",
+    "houseNoMarathi": "७६७ (Illegible)",
+    "houseNoEnglish": "767 (Illegible)",
+    "age": 27,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 718,
+    "voterId": "SSO9409715",
+    "fullNameMarathi": "अलका काशिनाथ राक्षे",
+    "fullNameEnglish": "Alka Kashinath Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : काशिनाथ राक्षे",
+    "relativeNameEnglish": "Husband's Name: Kashinath Rakshe",
+    "houseNoMarathi": "७६८ (Illegible)",
+    "houseNoEnglish": "768 (Illegible)",
+    "age": 67,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 719,
+    "voterId": "SSO9409772",
+    "fullNameMarathi": "विशाल काशिनाथ राक्षे",
+    "fullNameEnglish": "Vishal Kashinath Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : काशिनाथ राक्षे",
+    "relativeNameEnglish": "Father's Name: Kashinath Rakshe",
+    "houseNoMarathi": "७६८ (Illegible)",
+    "houseNoEnglish": "768 (Illegible)",
+    "age": 38,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 720,
+    "voterId": "SSO9409798",
+    "fullNameMarathi": "सचिन काशिनाथ राक्षे",
+    "fullNameEnglish": "Sachin Kashinath Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : काशिनाथ राक्षे",
+    "relativeNameEnglish": "Father's Name: Kashinath Rakshe",
+    "houseNoMarathi": "७६८ (Illegible)",
+    "houseNoEnglish": "768 (Illegible)",
+    "age": 46,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 721,
+    "voterId": "SSO9409863",
+    "fullNameMarathi": "मोहिनी विशाल राक्षे",
+    "fullNameEnglish": "Mohini Vishal Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : विशाल राक्षे",
+    "relativeNameEnglish": "Husband's Name: Vishal Rakshe",
+    "houseNoMarathi": "७६८ (Illegible)",
+    "houseNoEnglish": "768 (Illegible)",
+    "age": 32,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 722,
+    "voterId": "SSO9409897",
+    "fullNameMarathi": "नीलम रमेश राक्षे",
+    "fullNameEnglish": "Neelam Ramesh Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : रमेश राक्षे",
+    "relativeNameEnglish": "Husband's Name: Ramesh Rakshe",
+    "houseNoMarathi": "७६८ (Illegible)",
+    "houseNoEnglish": "768 (Illegible)",
+    "age": 48,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 723,
+    "voterId": "SSO9410028",
+    "fullNameMarathi": "कविता सचिन राक्षे",
+    "fullNameEnglish": "Kavita Sachin Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : सचिन राक्षे",
+    "relativeNameEnglish": "Husband's Name: Sachin Rakshe",
+    "houseNoMarathi": "७६८ (Illegible)",
+    "houseNoEnglish": "768 (Illegible)",
+    "age": 43,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 724,
+    "voterId": "SSO9410036",
+    "fullNameMarathi": "रमेश मारुती राक्षे",
+    "fullNameEnglish": "Ramesh Maruti Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : मारुती राक्षे",
+    "relativeNameEnglish": "Father's Name: Maruti Rakshe",
+    "houseNoMarathi": "७६८ (Illegible)",
+    "houseNoEnglish": "768 (Illegible)",
+    "age": 55,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 725,
+    "voterId": "SSO9410044",
+    "fullNameMarathi": "काशिनाथ कृष्णा राक्षे",
+    "fullNameEnglish": "Kashinath Krishna Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : कृष्णा राक्षे",
+    "relativeNameEnglish": "Father's Name: Krishna Rakshe",
+    "houseNoMarathi": "७६८ (Illegible)",
+    "houseNoEnglish": "768 (Illegible)",
+    "age": 70,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 726,
+    "voterId": "SSO1785484",
+    "fullNameMarathi": "शालन सुरेश गोरडे",
+    "fullNameEnglish": "Shalan Suresh Gorade",
+    "relativeNameMarathi": "पतीचे नाव : सुरेश गोरडे",
+    "relativeNameEnglish": "Husband's Name: Suresh Gorade",
+    "houseNoMarathi": "१९८७ (Illegible)",
+    "houseNoEnglish": "1987 (Illegible)",
+    "age": 52,
+    "genderMarathi": "स्त्री",
+    "genderEnglish": "Female",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 727,
+    "voterId": "SSO1785476",
+    "fullNameMarathi": "सुरेश गणपत गोरडे",
+    "fullNameEnglish": "Suresh Ganpat Gorade",
+    "relativeNameMarathi": "वडिलांचे नाव : गणपत गोरडे",
+    "relativeNameEnglish": "Father's Name: Ganpat Gorade",
+    "houseNoMarathi": "८४ (Illegible)",
+    "houseNoEnglish": "84 (Illegible)",
+    "age": 57,
+    "genderMarathi": "पुरुष",
+    "genderEnglish": "Male",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 728,
+    "voterId": "SSO7764665",
+    "fullNameMarathi": "अरुणा रामचंद्र आरुडे",
+    "fullNameEnglish": "Aruna Ramchandra Arude",
+    "relativeNameMarathi": "पतीचे नाव : रामचंद्र आरुडे",
+    "relativeNameEnglish": "Husband's Name: Ramchandra Arude",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "65",
     "age": 0,
-    "genderMarathi": "",
-    "genderEnglish": ""
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 729,
+    "voterId": "SSO8011785",
+    "fullNameMarathi": "रोहिणी पुंडलिक अभंग",
+    "fullNameEnglish": "Rohini Pundalik Abhang",
+    "relativeNameMarathi": "वडिलांचे नाव : पुंडलिक अभंग",
+    "relativeNameEnglish": "Father's Name: Pundalik Abhang",
+    "houseNoMarathi": "5 (Illegible)",
+    "houseNoEnglish": "26",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 730,
+    "voterId": "SSO7695679",
+    "fullNameMarathi": "नसीम खलील अन्सारी",
+    "fullNameEnglish": "Naseem Khalil Ansari",
+    "relativeNameMarathi": "वडिलांचे नाव : खलील अन्सारी",
+    "relativeNameEnglish": "Father's Name: Khalil Ansari",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "35",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 731,
+    "voterId": "SSO7695828",
+    "fullNameMarathi": "समजाराज खालील अन्सारी",
+    "fullNameEnglish": "Samjaraj Khalil Ansari",
+    "relativeNameMarathi": "वडिलांचे नाव : खालील अन्सारी",
+    "relativeNameEnglish": "Father's Name: Khalil Ansari",
+    "houseNoMarathi": "155",
+    "houseNoEnglish": "29",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 732,
+    "voterId": "SSO7764103",
+    "fullNameMarathi": "सुमेधा योगेश बरडकर",
+    "fullNameEnglish": "Sumedha Yogesh Baradkar",
+    "relativeNameMarathi": "पतीचे नाव : योगेश बरडकर",
+    "relativeNameEnglish": "Husband's Name: Yogesh Baradkar",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "34",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 733,
+    "voterId": "SSO8197568",
+    "fullNameMarathi": "दीपक माधव बस्ते",
+    "fullNameEnglish": "Deepak Madhav Baste",
+    "relativeNameMarathi": "वडिलांचे नाव : माधव बस्ते",
+    "relativeNameEnglish": "Father's Name: Madhav Baste",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "35",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 734,
+    "voterId": "SSO7926769",
+    "fullNameMarathi": "निखील राजेंद्र भिसे",
+    "fullNameEnglish": "Nikhil Rajendra Bhise",
+    "relativeNameMarathi": "वडिलांचे नाव : राजेंद्र भिसे",
+    "relativeNameEnglish": "Father's Name: Rajendra Bhise",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "26",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 735,
+    "voterId": "SSO7764095",
+    "fullNameMarathi": "प्रियांका सुशील भोस्कर",
+    "fullNameEnglish": "Priyanka Sushil Bhoskar",
+    "relativeNameMarathi": "पतीचे नाव : सुशील भोस्कर",
+    "relativeNameEnglish": "Husband's Name: Sushil Bhoskar",
+    "houseNoMarathi": "45661",
+    "houseNoEnglish": "35",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 736,
+    "voterId": "SSO8197618",
+    "fullNameMarathi": "प्रवीण संपत बोरहाडे",
+    "fullNameEnglish": "Pravin Sampat Borhade",
+    "relativeNameMarathi": "वडिलांचे नाव : संपत बोरहाडे",
+    "relativeNameEnglish": "Father's Name: Sampat Borhade",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "32",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 737,
+    "voterId": "SSO8197535",
+    "fullNameMarathi": "वर्षा प्रवीण बोरहाडे",
+    "fullNameEnglish": "Varsha Pravin Borhade",
+    "relativeNameMarathi": "पतीचे नाव : प्रवीण बोरहाडे",
+    "relativeNameEnglish": "Husband's Name: Pravin Borhade",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "29",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 738,
+    "voterId": "SSO8126914",
+    "fullNameMarathi": "ओंकार उत्तम ढोरे",
+    "fullNameEnglish": "Onkar Uttam Dhore",
+    "relativeNameMarathi": "वडिलांचे नाव : उत्तम ढोरे",
+    "relativeNameEnglish": "Father's Name: Uttam Dhore",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "25",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 739,
+    "voterId": "SSO7695752",
+    "fullNameMarathi": "माधुरी अशोक डोंगरे",
+    "fullNameEnglish": "Madhuri Ashok Dongre",
+    "relativeNameMarathi": "वडिलांचे नाव : अशोक डोंगरे",
+    "relativeNameEnglish": "Father's Name: Ashok Dongre",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "33",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 740,
+    "voterId": "SSO7765068",
+    "fullNameMarathi": "जगदिश लक्षमण गिलबिले",
+    "fullNameEnglish": "Jagdish Lakshman Gilbile",
+    "relativeNameMarathi": "वडिलांचे नाव : लक्षमण गिलबिले",
+    "relativeNameEnglish": "Father's Name: Lakshman Gilbile",
+    "houseNoMarathi": "145 (Illegible)",
+    "houseNoEnglish": "46",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 741,
+    "voterId": "SSO7765043",
+    "fullNameMarathi": "रेवती जगदिश गिलबिले",
+    "fullNameEnglish": "Revati Jagdish Gilbile",
+    "relativeNameMarathi": "पतीचे नाव : जगदिश गिलबिले",
+    "relativeNameEnglish": "Husband's Name: Jagdish Gilbile",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "34",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 742,
+    "voterId": "SSO7926959",
+    "fullNameMarathi": "अक्षदा तुकाराम गिलबिले",
+    "fullNameEnglish": "Akshada Tukaram Gilbile",
+    "relativeNameMarathi": "वडिलांचे नाव : तुकाराम गिलबिले",
+    "relativeNameEnglish": "Father's Name: Tukaram Gilbile",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "29",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 743,
+    "voterId": "SSO7764525",
+    "fullNameMarathi": "विकास दत्तु गोसावी",
+    "fullNameEnglish": "Vikas Dattu Gosavi",
+    "relativeNameMarathi": "वडिलांचे नाव : दत्तु गोसावी",
+    "relativeNameEnglish": "Father's Name: Dattu Gosavi",
+    "houseNoMarathi": "155",
+    "houseNoEnglish": "34",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 744,
+    "voterId": "SSO7765027",
+    "fullNameMarathi": "छाया विकास गोसावी",
+    "fullNameEnglish": "Chhaya Vikas Gosavi",
+    "relativeNameMarathi": "पतीचे नाव : विकास गोसावी",
+    "relativeNameEnglish": "Husband's Name: Vikas Gosavi",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "29",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 745,
+    "voterId": "SSO8197543",
+    "fullNameMarathi": "महेश बंडू हासे",
+    "fullNameEnglish": "Mahesh Bandu Hase",
+    "relativeNameMarathi": "वडिलांचे नाव : बंडू हासे",
+    "relativeNameEnglish": "Father's Name: Bandu Hase",
+    "houseNoMarathi": "155",
+    "houseNoEnglish": "31",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 746,
+    "voterId": "SSO7764764",
+    "fullNameMarathi": "स्नेहल सुजय जाधव",
+    "fullNameEnglish": "Snehal Sujay Jadhav",
+    "relativeNameMarathi": "पतीचे नाव : सुजय जाधव",
+    "relativeNameEnglish": "Husband's Name: Sujay Jadhav",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "32",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 747,
+    "voterId": "SSO8197576",
+    "fullNameMarathi": "अनिल कारभारी जेजुरकर",
+    "fullNameEnglish": "Anil Karbhari Jejurkar",
+    "relativeNameMarathi": "वडिलांचे नाव : कारभारी जेजुरकर",
+    "relativeNameEnglish": "Father's Name: Karbhari Jejurkar",
+    "houseNoMarathi": "154",
+    "houseNoEnglish": "35",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 748,
+    "voterId": "SSO8197584",
+    "fullNameMarathi": "रूपाली अनिल जेजुरकर",
+    "fullNameEnglish": "Rupali Anil Jejurkar",
+    "relativeNameMarathi": "पतीचे नाव : अनिल जेजुरकर",
+    "relativeNameEnglish": "Husband's Name: Anil Jejurkar",
+    "houseNoMarathi": "14 (Illegible)",
+    "houseNoEnglish": "31",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 749,
+    "voterId": "SSO7764582",
+    "fullNameMarathi": "तेजश्री कौस्तुभ कहाणे",
+    "fullNameEnglish": "Tejashri Kaustubh Kahane",
+    "relativeNameMarathi": "पतीचे नाव : कौस्तुभ कहाणे",
+    "relativeNameEnglish": "Husband's Name: Kaustubh Kahane",
+    "houseNoMarathi": "154",
+    "houseNoEnglish": "30",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 750,
+    "voterId": "SSO7764798",
+    "fullNameMarathi": "कोमल वैभव कर्वे",
+    "fullNameEnglish": "Komal Vaibhav Karve",
+    "relativeNameMarathi": "पतीचे नाव : वैभव कर्वे",
+    "relativeNameEnglish": "Husband's Name: Vaibhav Karve",
+    "houseNoMarathi": "195",
+    "houseNoEnglish": "33",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 751,
+    "voterId": "SSO7764046",
+    "fullNameMarathi": "गणेश तुकाराम कोहिनकर",
+    "fullNameEnglish": "Ganesh Tukaram Kohinkar",
+    "relativeNameMarathi": "वडिलांचे नाव : तुकाराम कोहिनकर",
+    "relativeNameEnglish": "Father's Name: Tukaram Kohinkar",
+    "houseNoMarathi": "155",
+    "houseNoEnglish": "38",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 752,
+    "voterId": "SSO7764947",
+    "fullNameMarathi": "सोनाली गणेश कोहिनकर",
+    "fullNameEnglish": "Sonali Ganesh Kohinkar",
+    "relativeNameMarathi": "वडिलांचे नाव : गणेश कोहिनकर",
+    "relativeNameEnglish": "Father's Name: Ganesh Kohinkar",
+    "houseNoMarathi": "111",
+    "houseNoEnglish": "33",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 753,
+    "voterId": "SSO8011801",
+    "fullNameMarathi": "रेश्मा कैलास कोहिनकर",
+    "fullNameEnglish": "Reshma Kailas Kohinkar",
+    "relativeNameMarathi": "वडिलांचे नाव : कैलास कोहिनकर",
+    "relativeNameEnglish": "Father's Name: Kailas Kohinkar",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "26",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 754,
+    "voterId": "SSO8197519",
+    "fullNameMarathi": "चंद्रकांत श्रीराम मरलापल्ले",
+    "fullNameEnglish": "Chandrakant Shriram Marlapalle",
+    "relativeNameMarathi": "वडिलांचे नाव : श्रीराम मरलापल्ले",
+    "relativeNameEnglish": "Father's Name: Shriram Marlapalle",
+    "houseNoMarathi": "111",
+    "houseNoEnglish": "39",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 755,
+    "voterId": "SSO8197527",
+    "fullNameMarathi": "संगीता चंद्रकांत मरलापल्ले",
+    "fullNameEnglish": "Sangeeta Chandrakant Marlapalle",
+    "relativeNameMarathi": "पतीचे नाव : चंद्रकांत मरलापल्ले",
+    "relativeNameEnglish": "Husband's Name: Chandrakant Marlapalle",
+    "houseNoMarathi": "194",
+    "houseNoEnglish": "29",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 756,
+    "voterId": "SSO8012007",
+    "fullNameMarathi": "स्नेहल श्रीकांत मेमाणे",
+    "fullNameEnglish": "Snehal Shrikant Memane",
+    "relativeNameMarathi": "वडिलांचे नाव : श्रीकांत मेमाणे",
+    "relativeNameEnglish": "Father's Name: Shrikant Memane",
+    "houseNoMarathi": "148",
+    "houseNoEnglish": "25",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 757,
+    "voterId": "SSO7605314",
+    "fullNameMarathi": "वनिता रमेश मोसे",
+    "fullNameEnglish": "Vanita Ramesh Mose",
+    "relativeNameMarathi": "पतीचे नाव : रमेश मोसे",
+    "relativeNameEnglish": "Husband's Name: Ramesh Mose",
+    "houseNoMarathi": "105",
+    "houseNoEnglish": "36",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 758,
+    "voterId": "SSO8197592",
+    "fullNameMarathi": "शिवाजी वासुदेव मुलुक",
+    "fullNameEnglish": "Shivaji Vasudev Muluk",
+    "relativeNameMarathi": "वडिलांचे नाव : वासुदेव मुलुक",
+    "relativeNameEnglish": "Father's Name: Vasudev Muluk",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "41",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 759,
+    "voterId": "SSO8197600",
+    "fullNameMarathi": "उज्जवला शिवाजी मुलुक",
+    "fullNameEnglish": "Ujjwala Shivaji Muluk",
+    "relativeNameMarathi": "पतीचे नाव : शिवाजी मुलुक",
+    "relativeNameEnglish": "Husband's Name: Shivaji Muluk",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "33",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 760,
+    "voterId": "SSO8011892",
+    "fullNameMarathi": "मोनिका आदेश मुळूक",
+    "fullNameEnglish": "Monika Adesh Muluk",
+    "relativeNameMarathi": "पतीचे नाव : आदेश मुळूक",
+    "relativeNameEnglish": "Husband's Name: Adesh Muluk",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "31",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 761,
+    "voterId": "SSO8011884",
+    "fullNameMarathi": "अनामिका चंद्रकांत मुळूक",
+    "fullNameEnglish": "Anamika Chandrakant Muluk",
+    "relativeNameMarathi": "वडिलांचे नाव : चंद्रकांत मुळूक",
+    "relativeNameEnglish": "Father's Name: Chandrakant Muluk",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "28",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 762,
+    "voterId": "SSO7764905",
+    "fullNameMarathi": "माधव बाळासाहेब निकम",
+    "fullNameEnglish": "Madhav Balasaheb Nikam",
+    "relativeNameMarathi": "वडिलांचे नाव : बाळासाहेब निकम",
+    "relativeNameEnglish": "Father's Name: Balasaheb Nikam",
+    "houseNoMarathi": "115",
+    "houseNoEnglish": "42",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 763,
+    "voterId": "SSO7764863",
+    "fullNameMarathi": "रामेश्वरी माधव निकम",
+    "fullNameEnglish": "Rameshwari Madhav Nikam",
+    "relativeNameMarathi": "पतीचे नाव : माधव निकम",
+    "relativeNameEnglish": "Husband's Name: Madhav Nikam",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "36",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 764,
+    "voterId": "SSO7843279",
+    "fullNameMarathi": "राजेंद्र विश्वनाथ निमसे",
+    "fullNameEnglish": "Rajendra Vishwanath Nimse",
+    "relativeNameMarathi": "वडिलांचे नाव : विश्वनाथ निमसे",
+    "relativeNameEnglish": "Father's Name: Vishwanath Nimse",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "51",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 765,
+    "voterId": "SSO7764228",
+    "fullNameMarathi": "विजया पुरुषोत्तम पतंगे",
+    "fullNameEnglish": "Vijaya Purushottam Patange",
+    "relativeNameMarathi": "पतीचे नाव : पुरुषोत्तम पतंगे",
+    "relativeNameEnglish": "Husband's Name: Purushottam Patange",
+    "houseNoMarathi": "115",
+    "houseNoEnglish": "63",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 766,
+    "voterId": "SSO7764954",
+    "fullNameMarathi": "रेणुका निलेश फल्ले",
+    "fullNameEnglish": "Renuka Nilesh Falle",
+    "relativeNameMarathi": "पतीचे नाव : निलेश फल्ले",
+    "relativeNameEnglish": "Husband's Name: Nilesh Falle",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "41",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 767,
+    "voterId": "SSO7695760",
+    "fullNameMarathi": "मयूर राजाराम राक्षे",
+    "fullNameEnglish": "Mayur Rajaram Rakshe",
+    "relativeNameMarathi": "वडिलांचे नाव : राजाराम राक्षे",
+    "relativeNameEnglish": "Father's Name: Rajaram Rakshe",
+    "houseNoMarathi": "1950",
+    "houseNoEnglish": "27",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 768,
+    "voterId": "SSO7843527",
+    "fullNameMarathi": "वनिता राजेंद्र सरडे",
+    "fullNameEnglish": "Vanita Rajendra Sarde",
+    "relativeNameMarathi": "पतीचे नाव : राजेंद्र सरडे",
+    "relativeNameEnglish": "Husband's Name: Rajendra Sarde",
+    "houseNoMarathi": "190",
+    "houseNoEnglish": "48",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 769,
+    "voterId": "SSO7765076",
+    "fullNameMarathi": "भाऊसाहेब रामचंद्र शेळके",
+    "fullNameEnglish": "Bhausaheb Ramchandra Shelke",
+    "relativeNameMarathi": "वडिलांचे नाव : रामचंद्र शेळके",
+    "relativeNameEnglish": "Father's Name: Ramchandra Shelke",
+    "houseNoMarathi": "150",
+    "houseNoEnglish": "42",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 770,
+    "voterId": "SSO7764129",
+    "fullNameMarathi": "नमिता भाऊसाहेब शेळके",
+    "fullNameEnglish": "Namita Bhausaheb Shelke",
+    "relativeNameMarathi": "पतीचे नाव : भाऊसाहेब शेळके",
+    "relativeNameEnglish": "Husband's Name: Bhausaheb Shelke",
+    "houseNoMarathi": "196",
+    "houseNoEnglish": "35",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 771,
+    "voterId": "SSO7764848",
+    "fullNameMarathi": "सुप्रिया जयदीप शिंदे",
+    "fullNameEnglish": "Supriya Jaydeep Shinde",
+    "relativeNameMarathi": "पतीचे नाव : जयदीप शिंदे",
+    "relativeNameEnglish": "Husband's Name: Jaydeep Shinde",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "36",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 772,
+    "voterId": "SSO7962798",
+    "fullNameMarathi": "समीर अनिल सोनार",
+    "fullNameEnglish": "Sameer Anil Sonar",
+    "relativeNameMarathi": "वडिलांचे नाव : अनिल सोनार",
+    "relativeNameEnglish": "Father's Name: Anil Sonar",
+    "houseNoMarathi": "194",
+    "houseNoEnglish": "27",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 773,
+    "voterId": "SSO7695737",
+    "fullNameMarathi": "हर्षल वामन सूर्यवंशी",
+    "fullNameEnglish": "Harshal Vaman Suryavanshi",
+    "relativeNameMarathi": "वडिलांचे नाव : वामन सूर्यवंशी",
+    "relativeNameEnglish": "Father's Name: Vaman Suryavanshi",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "30",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 774,
+    "voterId": "SSO7843345",
+    "fullNameMarathi": "नथुराम नाना तनपुरे",
+    "fullNameEnglish": "Nathuram Nana Tanpure",
+    "relativeNameMarathi": "वडिलांचे नाव : नाना तनपुरे",
+    "relativeNameEnglish": "Father's Name: Nana Tanpure",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "55",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 775,
+    "voterId": "SSO8011736",
+    "fullNameMarathi": "रोहित रामेश तापकीर",
+    "fullNameEnglish": "Rohit Ramesh Tapkir",
+    "relativeNameMarathi": "वडिलांचे नाव : रामेश तापकीर",
+    "relativeNameEnglish": "Father's Name: Ramesh Tapkir",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "27",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 776,
+    "voterId": "SSO7926736",
+    "fullNameMarathi": "मनिषा संतोष उढाणे",
+    "fullNameEnglish": "Manisha Santosh Udhane",
+    "relativeNameMarathi": "पतीचे नाव : संतोष उढाणे",
+    "relativeNameEnglish": "Husband's Name: Santosh Udhane",
+    "houseNoMarathi": "115",
+    "houseNoEnglish": "44",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 777,
+    "voterId": "SSO7764806",
+    "fullNameMarathi": "विश्वानंद विश्वनाथ वायदंडे",
+    "fullNameEnglish": "Vishwanand Vishwanath Vayadande",
+    "relativeNameMarathi": "वडिलांचे नाव : विश्वनाथ वायदंडे",
+    "relativeNameEnglish": "Father's Name: Vishwanath Vayadande",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "38",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 778,
+    "voterId": "SSO7764749",
+    "fullNameMarathi": "नंदा विश्वनाथ वायदंडे",
+    "fullNameEnglish": "Nanda Vishwanath Vayadande",
+    "relativeNameMarathi": "पतीचे नाव : विश्वनाथ वायदंडे",
+    "relativeNameEnglish": "Husband's Name: Vishwanath Vayadande",
+    "houseNoMarathi": "15 (Illegible)",
+    "houseNoEnglish": "59",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 779,
+    "voterId": "SSO8775801",
+    "fullNameMarathi": "शुभम दत्तात्रय आल्हाट",
+    "fullNameEnglish": "Shubham Dattatray Alhat",
+    "relativeNameMarathi": "वडिलांचे नाव : दत्तात्रय आल्हाट",
+    "relativeNameEnglish": "Father's Name: Dattatray Alhat",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "23",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 780,
+    "voterId": "SSO8774010",
+    "fullNameMarathi": "संतोष सुधाकरराव अष्टपुत्रे",
+    "fullNameEnglish": "Santosh Sudhakarrao Ashtaputre",
+    "relativeNameMarathi": "वडिलांचे नाव : सुधाकरराव अष्टपुत्रे",
+    "relativeNameEnglish": "Father's Name: Sudhakarrao Ashtaputre",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "54",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 781,
+    "voterId": "SSO8773285",
+    "fullNameMarathi": "धनश्री संतोष अष्टपुत्रे",
+    "fullNameEnglish": "Dhanshri Santosh Ashtaputre",
+    "relativeNameMarathi": "पतीचे नाव : संतोष अष्टपुत्रे",
+    "relativeNameEnglish": "Husband's Name: Santosh Ashtaputre",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "48",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 782,
+    "voterId": "SSO8916884",
+    "fullNameMarathi": "निम्बागीर गोरख भारती",
+    "fullNameEnglish": "Nimbagir Gorakh Bharati",
+    "relativeNameMarathi": "वडिलांचे नाव : गोरख भारती",
+    "relativeNameEnglish": "Father's Name: Gorakh Bharati",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "44",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 783,
+    "voterId": "SSO8774481",
+    "fullNameMarathi": "प्रियंका ओंकार बोंबले",
+    "fullNameEnglish": "Priyanka Onkar Bomble",
+    "relativeNameMarathi": "पतीचे नाव : ओंकार बोंबले",
+    "relativeNameEnglish": "Husband's Name: Onkar Bomble",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "29",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 784,
+    "voterId": "SSO7843436",
+    "fullNameMarathi": "निशा उत्तम ढोरे",
+    "fullNameEnglish": "Nisha Uttam Dhore",
+    "relativeNameMarathi": "पतीचे नाव : उत्तम ढोरे",
+    "relativeNameEnglish": "Husband's Name: Uttam Dhore",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "43",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 785,
+    "voterId": "SSO8773269",
+    "fullNameMarathi": "मृन्मयी देविदास गाडीलकर",
+    "fullNameEnglish": "Mrinmayi Devidas Gadilkar",
+    "relativeNameMarathi": "वडिलांचे नाव : देविदास गाडीलकर",
+    "relativeNameEnglish": "Father's Name: Devidas Gadilkar",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "22",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 786,
+    "voterId": "SSO7843428",
+    "fullNameMarathi": "जयश्री संदीप गेगजे",
+    "fullNameEnglish": "Jayashri Sandip Gegaje",
+    "relativeNameMarathi": "पतीचे नाव : संदीप गेगजे",
+    "relativeNameEnglish": "Husband's Name: Sandip Gegaje",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "35",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 787,
+    "voterId": "SSO8363475",
+    "fullNameMarathi": "शिल्पा राजेश घोलप",
+    "fullNameEnglish": "Shilpa Rajesh Gholap",
+    "relativeNameMarathi": "पतीचे नाव : राजेश घोलप",
+    "relativeNameEnglish": "Husband's Name: Rajesh Gholap",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "33",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 788,
+    "voterId": "SSO8774655",
+    "fullNameMarathi": "आदेश प्रदीप जाधव",
+    "fullNameEnglish": "Adesh Pradeep Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : प्रदीप जाधव",
+    "relativeNameEnglish": "Father's Name: Pradeep Jadhav",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "22",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 789,
+    "voterId": "SSO7379712",
+    "fullNameMarathi": "दिपाली विशाल मुळूक",
+    "fullNameEnglish": "Dipali Vishal Muluk",
+    "relativeNameMarathi": "पतीचे नाव : विशाल मुळूक",
+    "relativeNameEnglish": "Husband's Name: Vishal Muluk",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "30",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 790,
+    "voterId": "SSO7865926",
+    "fullNameMarathi": "भरत खाजीराव पवार",
+    "fullNameEnglish": "Bharat Khajirao Pawar",
+    "relativeNameMarathi": "वडिलांचे नाव : खाजीराव पवार",
+    "relativeNameEnglish": "Father's Name: Khajirao Pawar",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "32",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 791,
+    "voterId": "SSO8774754",
+    "fullNameMarathi": "ओंकार बाळासाहेब पिंगळे",
+    "fullNameEnglish": "Onkar Balasaheb Pingale",
+    "relativeNameMarathi": "वडिलांचे नाव : बाळासाहेब पिंगळे",
+    "relativeNameEnglish": "Father's Name: Balasaheb Pingale",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "22",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 792,
+    "voterId": "SSO7843329",
+    "fullNameMarathi": "शुभांगी रूपेश रसाळ",
+    "fullNameEnglish": "Shubhangi Rupesh Rasal",
+    "relativeNameMarathi": "पतीचे नाव : रूपेश रसाळ",
+    "relativeNameEnglish": "Husband's Name: Rupesh Rasal",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "30",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 793,
+    "voterId": "SSO7379845",
+    "fullNameMarathi": "अक्षय देविदास सैंदाणे",
+    "fullNameEnglish": "Akshay Devidas Saindane",
+    "relativeNameMarathi": "वडिलांचे नाव : देविदास सैंदाणे",
+    "relativeNameEnglish": "Father's Name: Devidas Saindane",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "30",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 794,
+    "voterId": "SSO7843386",
+    "fullNameMarathi": "सविता गोरखनाथ सांडभोर",
+    "fullNameEnglish": "Savita Gorakhnath Sandbhor",
+    "relativeNameMarathi": "पतीचे नाव : गोरखनाथ सांडभोर",
+    "relativeNameEnglish": "Husband's Name: Gorakhnath Sandbhor",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "28",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 795,
+    "voterId": "SSO8774614",
+    "fullNameMarathi": "सिद्धेश संतोष सरडे",
+    "fullNameEnglish": "Siddhesh Santosh Sarde",
+    "relativeNameMarathi": "वडिलांचे नाव : संतोष सरडे",
+    "relativeNameEnglish": "Father's Name: Santosh Sarde",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "24",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 796,
+    "voterId": "SSO8884405",
+    "fullNameMarathi": "सुधीर कांतराम सुपे",
+    "fullNameEnglish": "Sudhir Kantaram Supe",
+    "relativeNameMarathi": "वडिलांचे नाव : कांतराम सुपे",
+    "relativeNameEnglish": "Father's Name: Kantaram Supe",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "38",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 797,
+    "voterId": "SSO7843394",
+    "fullNameMarathi": "जयश्री बाळासाहेब तळेकर",
+    "fullNameEnglish": "Jayashri Balasaheb Talekar",
+    "relativeNameMarathi": "पतीचे नाव : बाळासाहेब तळेकर",
+    "relativeNameEnglish": "Husband's Name: Balasaheb Talekar",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "42",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 798,
+    "voterId": "SSO8774002",
+    "fullNameMarathi": "अशविनी स्वप्निल तनपुरे",
+    "fullNameEnglish": "Ashwini Swapnil Tanpure",
+    "relativeNameMarathi": "पतीचे नाव : स्वप्निल तनपुरे",
+    "relativeNameEnglish": "Husband's Name: Swapnil Tanpure",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "33",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 799,
+    "voterId": "SSO8775785",
+    "fullNameMarathi": "विक्रम अशोक ठुबे",
+    "fullNameEnglish": "Vikram Ashok Thube",
+    "relativeNameMarathi": "वडिलांचे नाव : अशोक ठुबे",
+    "relativeNameEnglish": "Father's Name: Ashok Thube",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "31",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 800,
+    "voterId": "SSO8774879",
+    "fullNameMarathi": "अरुणा विक्रम ठुबे",
+    "fullNameEnglish": "Aruna Vikram Thube",
+    "relativeNameMarathi": "पतीचे नाव : विक्रम ठुबे",
+    "relativeNameEnglish": "Husband's Name: Vikram Thube",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "28",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 801,
+    "voterId": "SSO8373714",
+    "fullNameMarathi": "राहुल राजाराम जाधव",
+    "fullNameEnglish": "Rahul Rajaram Jadhav",
+    "relativeNameMarathi": "वडिलांचे नाव : राजाराम जाधव",
+    "relativeNameEnglish": "Father's Name: Rajaram Jadhav",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "37",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 802,
+    "voterId": "SSO8775702",
+    "fullNameMarathi": "भाग्यश्री सम्राट कर्नावट",
+    "fullNameEnglish": "Bhagyashri Samrat Karnawat",
+    "relativeNameMarathi": "पतीचे नाव : सम्राट कर्नावट",
+    "relativeNameEnglish": "Husband's Name: Samrat Karnawat",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "32",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 803,
+    "voterId": "SSO8776098",
+    "fullNameMarathi": "कमलेश माधवराव माने",
+    "fullNameEnglish": "Kamalesh Madhavrao Mane",
+    "relativeNameMarathi": "वडिलांचे नाव : माधवराव माने",
+    "relativeNameEnglish": "Father's Name: Madhavrao Mane",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "32",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 804,
+    "voterId": "SSO8774952",
+    "fullNameMarathi": "निलेश प्रल्हाद पालवे",
+    "fullNameEnglish": "Nilesh Prahlad Palwe",
+    "relativeNameMarathi": "वडिलांचे नाव : प्रल्हाद पालवे",
+    "relativeNameEnglish": "Father's Name: Prahlad Palwe",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "33",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 805,
+    "voterId": "SSO8889958",
+    "fullNameMarathi": "अथर्व निलेश फल्ले",
+    "fullNameEnglish": "Atharva Nilesh Falle",
+    "relativeNameMarathi": "वडिलांचे नाव : निलेश फल्ले",
+    "relativeNameEnglish": "Father's Name: Nilesh Falle",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "20",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 806,
+    "voterId": "SSO8888141",
+    "fullNameMarathi": "सुजाता सोमनाथ संद्धोर",
+    "fullNameEnglish": "Sujata Somnath Sanddhor",
+    "relativeNameMarathi": "पतीचे नाव : सोमनाथ संद्धोर",
+    "relativeNameEnglish": "Husband's Name: Somnath Sanddhor",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "40",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 807,
+    "voterId": "SSO8806523",
+    "fullNameMarathi": "समीक्षा जयकुमार बलदोटा",
+    "fullNameEnglish": "Sameeksha Jaykumar Baldota",
+    "relativeNameMarathi": "वडिलांचे नाव : जयकुमार बलदोटा",
+    "relativeNameEnglish": "Father's Name: Jaykumar Baldota",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "22",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 808,
+    "voterId": "SSO8877342",
+    "fullNameMarathi": "योगेश सुरेश बरडकर",
+    "fullNameEnglish": "Yogesh Suresh Baradkar",
+    "relativeNameMarathi": "वडिलांचे नाव : सुरेश बरडकर",
+    "relativeNameEnglish": "Father's Name: Suresh Baradkar",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "43",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 809,
+    "voterId": "SSO8878084",
+    "fullNameMarathi": "दिनेश जुडावन चौधरी",
+    "fullNameEnglish": "Dinesh Judavan Chaudhari",
+    "relativeNameMarathi": "वडिलांचे नाव : जुडावन चौधरी",
+    "relativeNameEnglish": "Father's Name: Judavan Chaudhari",
+    "houseNoMarathi": "/",
+    "houseNoEnglish": "36",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 810,
+    "voterId": "SSO8853582",
+    "fullNameMarathi": "अमृता दिनेश चौधरी",
+    "fullNameEnglish": "Amrita Dinesh Chaudhari",
+    "relativeNameMarathi": "पतीचे नाव : दिनेश चौधरी",
+    "relativeNameEnglish": "Husband's Name: Dinesh Chaudhari",
+    "houseNoMarathi": "/",
+    "houseNoEnglish": "31",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 811,
+    "voterId": "SSO8878118",
+    "fullNameMarathi": "पूजा रमेश राक्षे",
+    "fullNameEnglish": "Puja Ramesh Rakshe",
+    "relativeNameMarathi": "पतीचे नाव : रमेश राक्षे",
+    "relativeNameEnglish": "Husband's Name: Ramesh Rakshe",
+    "houseNoMarathi": "/",
+    "houseNoEnglish": "27",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 812,
+    "voterId": "SSO7866015",
+    "fullNameMarathi": "श्रीकांत केडू गोरडे",
+    "fullNameEnglish": "Shrikant Kedu Gorade",
+    "relativeNameMarathi": "वडिलांचे नाव : केडू गोरडे",
+    "relativeNameEnglish": "Father's Name: Kedu Gorade",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "34",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 813,
+    "voterId": "SSO7865918",
+    "fullNameMarathi": "प्रशांत भास्कर कणसे",
+    "fullNameEnglish": "Prashant Bhaskar Kanse",
+    "relativeNameMarathi": "वडिलांचे नाव : भास्कर कणसे",
+    "relativeNameEnglish": "Father's Name: Bhaskar Kanse",
+    "houseNoMarathi": "-",
+    "houseNoEnglish": "40",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 814,
+    "voterId": "SSO8308660",
+    "fullNameMarathi": "प्राची अरुण पावडे",
+    "fullNameEnglish": "Prachi Arun Pawade",
+    "relativeNameMarathi": "वडिलांचे नाव : अरुण पावडे",
+    "relativeNameEnglish": "Father's Name: Arun Pawade",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "27",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 815,
+    "voterId": "SSO8366684",
+    "fullNameMarathi": "परिमल चंद्रकांत रोडे",
+    "fullNameEnglish": "Parimal Chandrakant Rode",
+    "relativeNameMarathi": "वडिलांचे नाव : चंद्रकांत रोडे",
+    "relativeNameEnglish": "Father's Name: Chandrakant Rode",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "22",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 816,
+    "voterId": "SSO9006719",
+    "fullNameMarathi": "शरद भीका वाडिले",
+    "fullNameEnglish": "Sharad Bhika Wadile",
+    "relativeNameMarathi": "वडिलांचे नाव : भीका वाडिले",
+    "relativeNameEnglish": "Father's Name: Bhika Wadile",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "47",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 817,
+    "voterId": "SSO9006651",
+    "fullNameMarathi": "सोनाली शरद वाडिले",
+    "fullNameEnglish": "Sonali Sharad Wadile",
+    "relativeNameMarathi": "पतीचे नाव : शरद वाडिले",
+    "relativeNameEnglish": "Husband's Name: Sharad Wadile",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "30",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 818,
+    "voterId": "SSO8011546",
+    "fullNameMarathi": "यादवराव सीताराम बांबळे",
+    "fullNameEnglish": "Yadavrao Sitaram Bambale",
+    "relativeNameMarathi": "वडिलांचे नाव : सीताराम बांबळे",
+    "relativeNameEnglish": "Father's Name: Sitaram Bambale",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "65",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 819,
+    "voterId": "SSO9006362",
+    "fullNameMarathi": "सिद्धी गणेश शेळके",
+    "fullNameEnglish": "Siddhi Ganesh Shelke",
+    "relativeNameMarathi": "पतीचे नाव : गणेश शेळके",
+    "relativeNameEnglish": "Husband's Name: Ganesh Shelke",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "24",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 820,
+    "voterId": "SSO8758351",
+    "fullNameMarathi": "राघू नलिनी अडसूळ",
+    "fullNameEnglish": "Raghu Nalini Adsul",
+    "relativeNameMarathi": "वडिलांचे नाव : नलिनी अडसूळ",
+    "relativeNameEnglish": "Father's Name: Nalini Adsul",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "68",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 818,
+    "voterId": "SSO8011546",
+    "fullNameMarathi": "यादवराव सीताराम बांबळे",
+    "fullNameEnglish": "Yadavrao Sitaram Bambale",
+    "relativeNameMarathi": "वडिलांचे नाव : सीताराम बांबळे",
+    "relativeNameEnglish": "Father's Name: Sitaram Bambale",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "65",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 819,
+    "voterId": "SSO9006362",
+    "fullNameMarathi": "सिद्धी गणेश शेळके",
+    "fullNameEnglish": "Siddhi Ganesh Shelke",
+    "relativeNameMarathi": "पतीचे नाव : गणेश शेळके",
+    "relativeNameEnglish": "Husband's Name: Ganesh Shelke",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "24",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 820,
+    "voterId": "SSO8758351",
+    "fullNameMarathi": "राघू नलिनी अडसूळ",
+    "fullNameEnglish": "Raghu Nalini Adsul",
+    "relativeNameMarathi": "वडिलांचे नाव : नलिनी अडसूळ",
+    "relativeNameEnglish": "Father's Name: Nalini Adsul",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "68",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 821,
+    "voterId": "SSO8330904",
+    "fullNameMarathi": "शंतनु शिवाजी वाळूज",
+    "fullNameEnglish": "Shantanu Shivaji Walunj",
+    "relativeNameMarathi": "वडिलांचे नाव : शिवाजी वाळूज",
+    "relativeNameEnglish": "Father's Name: Shivaji Walunj",
+    "houseNoMarathi": "4141409",
+    "houseNoEnglish": "27",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 822,
+    "voterId": "SSO9006446",
+    "fullNameMarathi": "रूपाली नित्यानंद पाटील",
+    "fullNameEnglish": "Rupali Nityanand Patil",
+    "relativeNameMarathi": "पतीचे नाव : नित्यानंद पाटील",
+    "relativeNameEnglish": "Husband's Name: Nityanand Patil",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "37",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 823,
+    "voterId": "SSO8211336",
+    "fullNameMarathi": "ललिता श्रीकांत यादव",
+    "fullNameEnglish": "Lalita Shrikant Yadav",
+    "relativeNameMarathi": "पतीचे नाव : श्रीकांत यादव",
+    "relativeNameEnglish": "Husband's Name: Shrikant Yadav",
+    "houseNoMarathi": "44/0",
+    "houseNoEnglish": "31",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 824,
+    "voterId": "SSO8362691",
+    "fullNameMarathi": "प्रगती शंकर काळे",
+    "fullNameEnglish": "Pragati Shankar Kale",
+    "relativeNameMarathi": "वडिलांचे नाव : शंकर काळे",
+    "relativeNameEnglish": "Father's Name: Shankar Kale",
+    "houseNoMarathi": "405",
+    "houseNoEnglish": "24",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 825,
+    "voterId": "SSO8958985",
+    "fullNameMarathi": "समृद्धी संतोष काळे",
+    "fullNameEnglish": "Samriddhi Santosh Kale",
+    "relativeNameMarathi": "वडिलांचे नाव : संतोष काळे",
+    "relativeNameEnglish": "Father's Name: Santosh Kale",
+    "houseNoMarathi": "1",
+    "houseNoEnglish": "25",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 826,
+    "voterId": "SSO1765486",
+    "fullNameMarathi": "हेमंत मारुती सावंत",
+    "fullNameEnglish": "Hemant Maruti Sawant",
+    "relativeNameMarathi": "वडिलांचे नाव : मारुती सावंत",
+    "relativeNameEnglish": "Father's Name: Maruti Sawant",
+    "houseNoMarathi": "1",
+    "houseNoEnglish": "49",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 827,
+    "voterId": "SSO2093094",
+    "fullNameMarathi": "शोभा हेमंत सावंत",
+    "fullNameEnglish": "Shobha Hemant Sawant",
+    "relativeNameMarathi": "पतीचे नाव : हेमंत सावंत",
+    "relativeNameEnglish": "Husband's Name: Hemant Sawant",
+    "houseNoMarathi": "1",
+    "houseNoEnglish": "46",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 828,
+    "voterId": "SSO8958993",
+    "fullNameMarathi": "प्राची उदाराम लिखार",
+    "fullNameEnglish": "Prachi Udarram Likhar",
+    "relativeNameMarathi": "वडिलांचे नाव : उदाराम लिखार",
+    "relativeNameEnglish": "Father's Name: Udarram Likhar",
+    "houseNoMarathi": "2",
+    "houseNoEnglish": "22",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 829,
+    "voterId": "SSO8099400",
+    "fullNameMarathi": "अमर संतोष उढणे",
+    "fullNameEnglish": "Amar Santosh Udhane",
+    "relativeNameMarathi": "वडिलांचे नाव : संतोष उढणे",
+    "relativeNameEnglish": "Father's Name: Santosh Udhane",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "24",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 830,
+    "voterId": "SSO8940371",
+    "fullNameMarathi": "वृषाली रवींद्र नरोड",
+    "fullNameEnglish": "Vrishali Ravindra Narod",
+    "relativeNameMarathi": "वडिलांचे नाव : रवींद्र नरोड",
+    "relativeNameEnglish": "Father's Name: Ravindra Narod",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "30",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 831,
+    "voterId": "SSO9006339",
+    "fullNameMarathi": "नित्यानंद राजाराम पाटील",
+    "fullNameEnglish": "Nityanand Rajaram Patil",
+    "relativeNameMarathi": "वडिलांचे नाव : राजाराम पाटील",
+    "relativeNameEnglish": "Father's Name: Rajaram Patil",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "35",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 832,
+    "voterId": "SSO9008160",
+    "fullNameMarathi": "आदित्य सोपान भोर",
+    "fullNameEnglish": "Aditya Sopan Bhor",
+    "relativeNameMarathi": "वडिलांचे नाव : सोपान भोर",
+    "relativeNameEnglish": "Father's Name: Sopan Bhor",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "21",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 833,
+    "voterId": "SSO8281560",
+    "fullNameMarathi": "सचिन भीमराव भेंडाळे",
+    "fullNameEnglish": "Sachin Bhimrao Bhendale",
+    "relativeNameMarathi": "वडिलांचे नाव : भीमराव भेंडाळे",
+    "relativeNameEnglish": "Father's Name: Bhimrao Bhendale",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "30",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 834,
+    "voterId": "SSO8367245",
+    "fullNameMarathi": "भक्ति संतोष जोशी",
+    "fullNameEnglish": "Bhakti Santosh Joshi",
+    "relativeNameMarathi": "वडिलांचे नाव : संतोष जोशी",
+    "relativeNameEnglish": "Father's Name: Santosh Joshi",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "23",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 835,
+    "voterId": "SSO1524420",
+    "fullNameMarathi": "विद्या ज्ञानेश्वर बोंबले",
+    "fullNameEnglish": "Vidya Gyaneshwar Bomble",
+    "relativeNameMarathi": "पतीचे नाव : ज्ञानेश्वर बोंबले",
+    "relativeNameEnglish": "Husband's Name: Gyaneshwar Bomble",
+    "houseNoMarathi": "6",
+    "houseNoEnglish": "34",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 836,
+    "voterId": "SSO8278483",
+    "fullNameMarathi": "निखिल उत्तम रौंधळ",
+    "fullNameEnglish": "Nikhil Uttam Raundhal",
+    "relativeNameMarathi": "वडिलांचे नाव : उत्तम रौंधळ",
+    "relativeNameEnglish": "Father's Name: Uttam Raundhal",
+    "houseNoMarathi": "7",
+    "houseNoEnglish": "25",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 837,
+    "voterId": "SSO8446916",
+    "fullNameMarathi": "शांताराम दामोदर भडके",
+    "fullNameEnglish": "Shantaram Damodar Bhadke",
+    "relativeNameMarathi": "वडिलांचे नाव : दामोदर भडके",
+    "relativeNameEnglish": "Father's Name: Damodar Bhadke",
+    "houseNoMarathi": "9",
+    "houseNoEnglish": "65",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 838,
+    "voterId": "SSO8446924",
+    "fullNameMarathi": "सुरेखा शांताराम भडके",
+    "fullNameEnglish": "Surekha Shantaram Bhadke",
+    "relativeNameMarathi": "पतीचे नाव : शांताराम भडके",
+    "relativeNameEnglish": "Husband's Name: Shantaram Bhadke",
+    "houseNoMarathi": "9",
+    "houseNoEnglish": "54",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 839,
+    "voterId": "SSO7021264",
+    "fullNameMarathi": "शशिकांत शांताराम भडके",
+    "fullNameEnglish": "Shashikant Shantaram Bhadke",
+    "relativeNameMarathi": "वडिलांचे नाव : शांताराम भडके",
+    "relativeNameEnglish": "Father's Name: Shantaram Bhadke",
+    "houseNoMarathi": "9",
+    "houseNoEnglish": "31",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 840,
+    "voterId": "SSO1525146",
+    "fullNameMarathi": "किशोर दत्तात्रय भगत",
+    "fullNameEnglish": "Kishor Dattatray Bhagat",
+    "relativeNameMarathi": "वडिलांचे नाव : दत्तात्रय भगत",
+    "relativeNameEnglish": "Father's Name: Dattatray Bhagat",
+    "houseNoMarathi": "89",
+    "houseNoEnglish": "54",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 841,
+    "voterId": "SSO2093136",
+    "fullNameMarathi": "वैशाली किशोर भगत",
+    "fullNameEnglish": "Vaishali Kishor Bhagat",
+    "relativeNameMarathi": "पतीचे नाव : किशोर भगत",
+    "relativeNameEnglish": "Husband's Name: Kishor Bhagat",
+    "houseNoMarathi": "89",
+    "houseNoEnglish": "51",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 842,
+    "voterId": "SSO9059342",
+    "fullNameMarathi": "पियुष संतोष उढाणे",
+    "fullNameEnglish": "Piyush Santosh Udhane",
+    "relativeNameMarathi": "वडिलांचे नाव : संतोष उढाणे",
+    "relativeNameEnglish": "Father's Name: Santosh Udhane",
+    "houseNoMarathi": "11",
+    "houseNoEnglish": "20",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 843,
+    "voterId": "SSO7605447",
+    "fullNameMarathi": "ज्ञानेश्वर गोपाला वाळुंज",
+    "fullNameEnglish": "Gyaneshwar Gopala Walunj",
+    "relativeNameMarathi": "वडिलांचे नाव : गोपाला वाळुंज",
+    "relativeNameEnglish": "Father's Name: Gopala Walunj",
+    "houseNoMarathi": "12",
+    "houseNoEnglish": "74",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 844,
+    "voterId": "SSO8936668",
+    "fullNameMarathi": "सुवर्णा आनंदा खंडागळे",
+    "fullNameEnglish": "Suvarna Ananda Khandagale",
+    "relativeNameMarathi": "वडिलांचे नाव : आनंदा खंडागळे",
+    "relativeNameEnglish": "Father's Name: Ananda Khandagale",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "38",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 845,
+    "voterId": "SSO9058470",
+    "fullNameMarathi": "त्रुहतिक उत्तम ढोरे",
+    "fullNameEnglish": "Truhtik Uttam Dhore",
+    "relativeNameMarathi": "वडिलांचे नाव : उत्तम ढोरे",
+    "relativeNameEnglish": "Father's Name: Uttam Dhore",
+    "houseNoMarathi": "31",
+    "houseNoEnglish": "23",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 846,
+    "voterId": "SSO1620889",
+    "fullNameMarathi": "रामदास गंगाधर खळदे",
+    "fullNameEnglish": "Ramdas Gangadhar Khalde",
+    "relativeNameMarathi": "वडिलांचे नाव : गंगाधर खळदे",
+    "relativeNameEnglish": "Father's Name: Gangadhar Khalde",
+    "houseNoMarathi": "34",
+    "houseNoEnglish": "68",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 847,
+    "voterId": "SSO1620897",
+    "fullNameMarathi": "कल्पना रामदास खळदे",
+    "fullNameEnglish": "Kalpana Ramdas Khalde",
+    "relativeNameMarathi": "पतीचे नाव : रामदास खळदे",
+    "relativeNameEnglish": "Husband's Name: Ramdas Khalde",
+    "houseNoMarathi": "34",
+    "houseNoEnglish": "58",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 848,
+    "voterId": "SSO2092807",
+    "fullNameMarathi": "सुजाता रामदास खळदे",
+    "fullNameEnglish": "Sujata Ramdas Khalde",
+    "relativeNameMarathi": "वडिलांचे नाव : रामदास खळदे",
+    "relativeNameEnglish": "Father's Name: Ramdas Khalde",
+    "houseNoMarathi": "34",
+    "houseNoEnglish": "33",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 849,
+    "voterId": "SSO2093417",
+    "fullNameMarathi": "तेजस रामदास खळदे",
+    "fullNameEnglish": "Tejas Ramdas Khalde",
+    "relativeNameMarathi": "वडिलांचे नाव : रामदास खळदे",
+    "relativeNameEnglish": "Father's Name: Ramdas Khalde",
+    "houseNoMarathi": "34",
+    "houseNoEnglish": "32",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 850,
+    "voterId": "SSO7843170",
+    "fullNameMarathi": "श्रीकांत कृष्णा मेमाणे",
+    "fullNameEnglish": "Shrikant Krishna Memane",
+    "relativeNameMarathi": "वडिलांचे नाव : कृष्णा मेमाणे",
+    "relativeNameEnglish": "Father's Name: Krishna Memane",
+    "houseNoMarathi": "49",
+    "houseNoEnglish": "49",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 851,
+    "voterId": "SSO7843162",
+    "fullNameMarathi": "मंगल श्रीकांत मेमाणे",
+    "fullNameEnglish": "Mangal Shrikant Memane",
+    "relativeNameMarathi": "पतीचे नाव : श्रीकांत मेमाणे",
+    "relativeNameEnglish": "Husband's Name: Shrikant Memane",
+    "houseNoMarathi": "49",
+    "houseNoEnglish": "47",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 852,
+    "voterId": "SSO8273252",
+    "fullNameMarathi": "मानसी सुभाष पाटील",
+    "fullNameEnglish": "Manasi Subhash Patil",
+    "relativeNameMarathi": "वडिलांचे नाव : सुभाष पाटील",
+    "relativeNameEnglish": "Father's Name: Subhash Patil",
+    "houseNoMarathi": "(Illegible)",
+    "houseNoEnglish": "23",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 853,
+    "voterId": "SSO8894743",
+    "fullNameMarathi": "विभीषण नथू बोर्हाडे",
+    "fullNameEnglish": "Vibhishan Nathu Borhade",
+    "relativeNameMarathi": "वडिलांचे नाव : नथू बोर्हाडे",
+    "relativeNameEnglish": "Father's Name: Nathu Borhade",
+    "houseNoMarathi": "124",
+    "houseNoEnglish": "54",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 854,
+    "voterId": "SSO8895468",
+    "fullNameMarathi": "सुदर्शन भगवान कातोरे",
+    "fullNameEnglish": "Sudarshan Bhagwan Katore",
+    "relativeNameMarathi": "वडिलांचे नाव : भगवान कातोरे",
+    "relativeNameEnglish": "Father's Name: Bhagwan Katore",
+    "houseNoMarathi": "124",
+    "houseNoEnglish": "(Illegible)",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 855,
+    "voterId": "SSO12961555",
+    "fullNameMarathi": "भगवान कुशाबा साबळे",
+    "fullNameEnglish": "Bhagwan Kushaba Sable",
+    "relativeNameMarathi": "वडिलांचे नाव : कुशाबा साबळे",
+    "relativeNameEnglish": "Father's Name: Kushaba Sable",
+    "houseNoMarathi": "374",
+    "houseNoEnglish": "(Illegible)",
+    "age": 0,
+    "genderMarathi": "Male",
+    "genderEnglish": "",
+    "roomNo": "1"
+  },
+  {
+    "voterNo": 856,
+    "voterId": "SSO12961613",
+    "fullNameMarathi": "अनिता भगवान साबळे",
+    "fullNameEnglish": "Anita Bhagwan Sable",
+    "relativeNameMarathi": "पतीचे नाव : भगवान साबळे",
+    "relativeNameEnglish": "Husband's Name: Bhagwan Sable",
+    "houseNoMarathi": "374",
+    "houseNoEnglish": "42",
+    "age": 0,
+    "genderMarathi": "Female",
+    "genderEnglish": "",
+    "roomNo": "1"
   }
 ];
 
@@ -6471,11 +12239,12 @@ function applyFilters() {
     currentPage = 1;
     
     filteredData = voterData.filter(voter => {
-        // Search filter
+        // Search filter (searches by name, voter ID, and room number)
         const matchesSearch = !searchTerm || 
             voter.fullNameEnglish.toLowerCase().includes(searchTerm) ||
             voter.fullNameMarathi.includes(searchTerm) ||
             voter.voterId.toLowerCase().includes(searchTerm) ||
+            voter.roomNo.toLowerCase().includes(searchTerm) ||
             voter.houseNoEnglish.toLowerCase().includes(searchTerm) ||
             voter.houseNoMarathi.includes(searchTerm) ||
             voter.relativeNameEnglish.toLowerCase().includes(searchTerm) ||

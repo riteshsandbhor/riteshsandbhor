@@ -1,35 +1,35 @@
 ﻿Voter No.,Voter ID (EPIC No.),Full Name (Marathi),Full Name (English),Relative's Name (Marathi),Relative's Name (English),House No. (Marathi),House No. (English),Age,Gender (Marathi),Gender (English)
-1,5507599467,सागर रामचंद्र लोहकरे,Sagar Ramchandra Lohkare,वडिलांचे नाव : रामचंद्र लोहकरे,Father's Name: Ramchandra Lohkare,-,-,२७,पु,Male
-2,5501519222,कल्पना जितेंद्र सांडभोर,Kalpana Jitendra Sandbhor,पतीचे नाव : जितेंद्र सांडभोर,Husband's Name: Jitendra Sandbhor,१०८,108,५३,स्त्री,Female
-3,5508593279,जितेंद्र ज्ञानेश्वर सांडभोर,Jitendra Gyaneshwar Sandbhor,वडिलांचे नाव : ज्ञानेश्वर सांडभोर,Father's Name: Gyaneshwar Sandbhor,९९०,990,५१,पु,Male
-4,5509114539,श्रुति सांडभोर,Shruti Sandbhor,वडिलांचे नाव : जितेंद्र सांडभोर,Father's Name: Jitendra Sandbhor,सत्कारस्थळ,Satkarsthal,२०,स्त्री,Female
-5,5509389826,रिद्धी जितेंद्र सांडभोर,Riddhi Jitendra Sandbhor,वडिलांचे नाव : जितेंद्र सांडभोर,Father's Name: Jitendra Sandbhor,-,-,१८,स्त्री,Female
-6,5507604002,चंद्रशेखर रामचंद्र भगत,Chandrashekhar Ramchandra Bhagat,वडिलांचे नाव : रामचंद्र भगत,Father's Name: Ramchandra Bhagat,११५५,1155,३५,पु,Male
-7,5507604069,स्मिता चंद्रशेखर भगत,Smita Chandrashekhar Bhagat,पतीचे नाव : चंद्रशेखर भगत,Husband's Name: Chandrashekhar Bhagat,११५५,1155,३३,स्त्री,Female
-8,5507760275,पुरुषोत्तम किसनराव भागवत,Purushottam Kisannrao Bhagwat,वडिलांचे नाव : किसनराव भागवत,Father's Name: Kisannrao Bhagwat,११५५,1155,३५,पु,Male
-9,5507377054,दिपाली निलेश कुंभार,Dipalī Nilesh Kumbhar,पतीचे नाव : निलेश कुंभार,Husband's Name: Nilesh Kumbhar,-,-,४२,स्त्री,Female
-10,5507377179,वनिता विशाल कुंभार,Vanita Vishal Kumbhar,पतीचे नाव : विशाल कुंभार,Husband's Name: Vishal Kumbhar,-,-,३४,स्त्री,Female
-11,5507760168,अशोक पंढरीनाथ राजापुरे,Ashok Pandharinath Rajapure,वडिलांचे नाव : पंढरीनाथ राजापुरे,Father's Name: Pandharinath Rajapure,-,-,४३,पु,Male
-12,5507760127,सीमा अशोक राजापुरे,Seema Ashok Rajapure,पतीचे नाव : अशोक राजापुरे,Husband's Name: Ashok Rajapure,-,-,३९,स्त्री,Female
-13,5508945339,सुशीलकुमार सुकुमार उपाध्ये,Sushilkumar Sukumar Upadhye,वडिलांचे नाव : सुकुमार उपाध्ये,Father's Name: Sukumar Upadhye,-,-,५२,पु,Male
-14,5508289415,राजश्री सुशीलकुमार उपाध्ये,Rajashri Sushilkumar Upadhye,पतीचे नाव : सुशीलकुमार उपाध्ये,Husband's Name: Sushilkumar Upadhye,११५५,1155,४७,स्त्री,Female
-15,5501107212,सायली अनिल शेळके,Sayali Anil Shelke,वडिलांचे नाव : अनिल शेळके,Father's Name: Anil Shelke,-,-,२८,स्त्री,Female
-16,5501773381,कार्तिकी सरडे,Kartiki Sarade,वडिलांचे नाव : संजय सरडे,Father's Name: Sanjay Sarade,-,-,२४,स्त्री,Female
-17,5507512023,सोनाली काशिनाथ मोरे,Sonali Kashinath More,वडिलांचे नाव : काशिनाथ मोरे,Father's Name: Kashinath More,कुमार कॉम्प्लेक्स,Kumar Complex,२३,स्त्री,Female
-18,5501107212,प्रतिभा सुरेश कातळे,Pratibha Suresh Katle,पतीचे नाव : सुरेश कातळे,Husband's Name: Suresh Katle,१४८०७,14807,५२,स्त्री,Female
-19,5501773381,प्रतिभा जवाहरलाल रुणवाल,Pratibha Jawaharlal Runwal,पतीचे नाव : जवाहरलाल रुणवाल,Husband's Name: Jawaharlal Runwal,५६०,560,-,स्त्री,Female
-20,5507512023,शैलेश बाळकृष्ण सांडभोर,Shailesh Balkrishna Sandbhor,वडिलांचे नाव : बाळकृष्ण सांडभोर,Father's Name: Balkrishna Sandbhor,७०८,708,४०,पु,Male
+1,SSO7599467,सागर रामचंद्र लोहकरे,Sagar Ramchandra Lohkare,वडिलांचे नाव : रामचंद्र लोहकरे,Father's Name: Ramchandra Lohkare,-,-,२७,पु,Male
+2,SSO1519222,कल्पना जितेंद्र सांडभोर,Kalpana Jitendra Sandbhor,पतीचे नाव : जितेंद्र सांडभोर,Husband's Name: Jitendra Sandbhor,१०८,108,५३,स्त्री,Female
+3,SSO8593279,जितेंद्र ज्ञानेश्वर सांडभोर,Jitendra Gyaneshwar Sandbhor,वडिलांचे नाव : ज्ञानेश्वर सांडभोर,Father's Name: Gyaneshwar Sandbhor,९९०,990,५१,पु,Male
+4,SSO9114539,श्रुति सांडभोर,Shruti Sandbhor,वडिलांचे नाव : जितेंद्र सांडभोर,Father's Name: Jitendra Sandbhor,सत्कारस्थळ,Satkarsthal,२०,स्त्री,Female
+5,SSO9389826,रिद्धी जितेंद्र सांडभोर,Riddhi Jitendra Sandbhor,वडिलांचे नाव : जितेंद्र सांडभोर,Father's Name: Jitendra Sandbhor,-,-,१८,स्त्री,Female
+6,SSO7604002,चंद्रशेखर रामचंद्र भगत,Chandrashekhar Ramchandra Bhagat,वडिलांचे नाव : रामचंद्र भगत,Father's Name: Ramchandra Bhagat,११५५,1155,३५,पु,Male
+7,SSO7604069,स्मिता चंद्रशेखर भगत,Smita Chandrashekhar Bhagat,पतीचे नाव : चंद्रशेखर भगत,Husband's Name: Chandrashekhar Bhagat,११५५,1155,३३,स्त्री,Female
+8,SSO7760275,पुरुषोत्तम किसनराव भागवत,Purushottam Kisannrao Bhagwat,वडिलांचे नाव : किसनराव भागवत,Father's Name: Kisannrao Bhagwat,११५५,1155,३५,पु,Male
+9,SSO7377054,दिपाली निलेश कुंभार,Dipalī Nilesh Kumbhar,पतीचे नाव : निलेश कुंभार,Husband's Name: Nilesh Kumbhar,-,-,४२,स्त्री,Female
+10,SSO7377179,वनिता विशाल कुंभार,Vanita Vishal Kumbhar,पतीचे नाव : विशाल कुंभार,Husband's Name: Vishal Kumbhar,-,-,३४,स्त्री,Female
+11,SSO7760168,अशोक पंढरीनाथ राजापुरे,Ashok Pandharinath Rajapure,वडिलांचे नाव : पंढरीनाथ राजापुरे,Father's Name: Pandharinath Rajapure,-,-,४३,पु,Male
+12,SSO7760127,सीमा अशोक राजापुरे,Seema Ashok Rajapure,पतीचे नाव : अशोक राजापुरे,Husband's Name: Ashok Rajapure,-,-,३९,स्त्री,Female
+13,SSO8945339,सुशीलकुमार सुकुमार उपाध्ये,Sushilkumar Sukumar Upadhye,वडिलांचे नाव : सुकुमार उपाध्ये,Father's Name: Sukumar Upadhye,-,-,५२,पु,Male
+14,SSO8289415,राजश्री सुशीलकुमार उपाध्ये,Rajashri Sushilkumar Upadhye,पतीचे नाव : सुशीलकुमार उपाध्ये,Husband's Name: Sushilkumar Upadhye,११५५,1155,४७,स्त्री,Female
+15,SSO1107212,सायली अनिल शेळके,Sayali Anil Shelke,वडिलांचे नाव : अनिल शेळके,Father's Name: Anil Shelke,-,-,२८,स्त्री,Female
+16,SSO1773381,कार्तिकी सरडे,Kartiki Sarade,वडिलांचे नाव : संजय सरडे,Father's Name: Sanjay Sarade,-,-,२४,स्त्री,Female
+17,SSO7512023,सोनाली काशिनाथ मोरे,Sonali Kashinath More,वडिलांचे नाव : काशिनाथ मोरे,Father's Name: Kashinath More,कुमार कॉम्प्लेक्स,Kumar Complex,२३,स्त्री,Female
+18,SSO1107212,प्रतिभा सुरेश कातळे,Pratibha Suresh Katle,पतीचे नाव : सुरेश कातळे,Husband's Name: Suresh Katle,१४८०७,14807,५२,स्त्री,Female
+19,SSO1773381,प्रतिभा जवाहरलाल रुणवाल,Pratibha Jawaharlal Runwal,पतीचे नाव : जवाहरलाल रुणवाल,Husband's Name: Jawaharlal Runwal,५६०,560,-,स्त्री,Female
+20,SSO7512023,शैलेश बाळकृष्ण सांडभोर,Shailesh Balkrishna Sandbhor,वडिलांचे नाव : बाळकृष्ण सांडभोर,Father's Name: Balkrishna Sandbhor,७०८,708,४०,पु,Male
 21,KXH1079979,मोतीलाल चुनिलाल रुणवाल,Motilal Chunilal Runwal,वडिलांचे नाव : चुनिलाल रुणवाल,Father's Name: Chunilal Runwal,७८०,780,९७,पु,Male
-22,5502089076,साहेबराव शंकर शेळके,Sahebrao Shankar Shelke,वडिलांचे नाव : शंकर शेळके,Father's Name: Shankar Shelke,१००४,1004,८६,पु,Male
-23,5502089068,लिलाबाई साहेबराव शेळके,Lilabai Sahebrao Shelke,पतीचे नाव : साहेबराव शेळके,Husband's Name: Sahebrao Shelke,१००४,1004,८१,स्त्री,Female
-24,5502089050,अनिल साहेबराव शेळके,Anil Sahebrao Shelke,वडिलांचे नाव : साहेबराव शेळके,Father's Name: Sahebrao Shelke,१००४,1004,५६,पु,Male
-25,5502089043,साधना अनिल शेळके,Sadhana Anil Shelke,पतीचे नाव : अनिल शेळके,Husband's Name: Anil Shelke,१००४,1004,५१,स्त्री,Female
-26,5501521335,दर्शना प्रकाश कहाणे,Darshana Prakash Kahane,पतीचे नाव : प्रकाश कहाणे,Husband's Name: Prakash Kahane,१०७८,1078,३६,स्त्री,Female
-27,5501522952,उर्मिला विशाल कहाणे,Urmila Vishal Kahane,पतीचे नाव : विशाल कहाणे,Husband's Name: Vishal Kahane,१०७९,1079,४३,स्त्री,Female
+22,SSO2089076,साहेबराव शंकर शेळके,Sahebrao Shankar Shelke,वडिलांचे नाव : शंकर शेळके,Father's Name: Shankar Shelke,१००४,1004,८६,पु,Male
+23,SSO2089068,लिलाबाई साहेबराव शेळके,Lilabai Sahebrao Shelke,पतीचे नाव : साहेबराव शेळके,Husband's Name: Sahebrao Shelke,१००४,1004,८१,स्त्री,Female
+24,SSO2089050,अनिल साहेबराव शेळके,Anil Sahebrao Shelke,वडिलांचे नाव : साहेबराव शेळके,Father's Name: Sahebrao Shelke,१००४,1004,५६,पु,Male
+25,SSO2089043,साधना अनिल शेळके,Sadhana Anil Shelke,पतीचे नाव : अनिल शेळके,Husband's Name: Anil Shelke,१००४,1004,५१,स्त्री,Female
+26,SSO1521335,दर्शना प्रकाश कहाणे,Darshana Prakash Kahane,पतीचे नाव : प्रकाश कहाणे,Husband's Name: Prakash Kahane,१०७८,1078,३६,स्त्री,Female
+27,SSO1522952,उर्मिला विशाल कहाणे,Urmila Vishal Kahane,पतीचे नाव : विशाल कहाणे,Husband's Name: Vishal Kahane,१०७९,1079,४३,स्त्री,Female
 28,KXH1071828,बबन कातळे,Baban Katle,वडिलांचे नाव : बबन कातळे,Father's Name: Baban Katle,४८०४,4804,५५,पु,Male
-29,5507512247,किशोर दयाराम कर्नावट,Kishor Dayaram Karnavat,वडिलांचे नाव : दयाराम कर्नावट,Father's Name: Dayaram Karnavat,१५८६/८७,1586/87,६४,पु,Male
-30,5501764992,सुनीता किशोर कर्नावट,Sunita Kishor Karnavat,पतीचे नाव : किशोर कर्नावट,Husband's Name: Kishor Karnavat,१५८६/८७,1586/87,५९,स्त्री,Female
-31,5507158371,बाबाजी सोपान पाटोळे,Babaji Sopan Patole,वडिलांचे नाव : सोपान पाटोळे,Father's Name: Sopan Patole,८३,83,४८,पु,Male
+29,SSO7512247,किशोर दयाराम कर्नावट,Kishor Dayaram Karnavat,वडिलांचे नाव : दयाराम कर्नावट,Father's Name: Dayaram Karnavat,१५८६/८७,1586/87,६४,पु,Male
+30,SSO1764992,सुनीता किशोर कर्नावट,Sunita Kishor Karnavat,पतीचे नाव : किशोर कर्नावट,Husband's Name: Kishor Karnavat,१५८६/८७,1586/87,५९,स्त्री,Female
+31,SSO7158371,बाबाजी सोपान पाटोळे,Babaji Sopan Patole,वडिलांचे नाव : सोपान पाटोळे,Father's Name: Sopan Patole,८३,83,४८,पु,Male
 32,SSO7604267,आयेशा तोसीन मोमिन,Ayesha Tosin Momin,वडिलांचे नाव : तोसीन मोमिन,Father's Name: Tosin Momin,११५५,1155,३०,स्त्री,Female
 33,SSO8915878,जनाबाई बोर्हाडे,Janabai Borhade,वडिलांचे नाव : नथू बोर्हाडे,Father's Name: Nathu Borhade,-,-,७६,स्त्री,Female
 34,SSO8221244,श्रद्धा गणेश बाणखेले,Shraddha Ganesh Bankhele,पतीचे नाव : गणेश बाणखेले,Husband's Name: Ganesh Bankhele,-,-,३३,स्त्री,Female
