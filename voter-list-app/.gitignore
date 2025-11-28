@@ -1,19 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Android build files
+android/
+.capacitor/
+
 # OS files
 .DS_Store
 Thumbs.db
 
-# Editor files
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# Logs
+# Temporary files
 *.log
-npm-debug.log*
+*.tmp
+~$*
 
-
-
-
-
+# Excel temp files
+~$*.xlsx
