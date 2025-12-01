@@ -481,55 +481,13 @@
             </div>
         </div> -->
 
-        <!-- Search and Filter Section -->
+        <!-- Search Section -->
         <div class="search-filter-section">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="search-box">
                         <i class="bi bi-search"></i>
-                        <input type="text" id="searchInput" class="form-control" placeholder="Search by name, voter ID, room number...">
-                    </div>
-                </div>
-                <div class="col-md-6 text-end">
-                    <button class="btn btn-reset" onclick="resetFilters()">
-                        <i class="bi bi-arrow-clockwise"></i> Reset Filters
-                    </button>
-                </div>
-            </div>
-
-            <div class="filter-section">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="filter-group">
-                            <label><i class="bi bi-gender-ambiguous"></i> Gender</label>
-                            <select id="genderFilter" class="form-select">
-                                <option value="">All Genders</option>
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                                <option value="Other">Other</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="filter-group">
-                            <label><i class="bi bi-calendar"></i> Age Range</label>
-                            <div class="d-flex gap-2">
-                                <input type="number" id="minAge" class="form-control" placeholder="Min" min="18">
-                                <input type="number" id="maxAge" class="form-control" placeholder="Max" min="18">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="filter-group">
-                            <label><i class="bi bi-house"></i> House No.</label>
-                            <input type="text" id="houseFilter" class="form-control" placeholder="Enter house number">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="filter-group">
-                            <label><i class="bi bi-123"></i> Voter ID</label>
-                            <input type="text" id="voterIdFilter" class="form-control" placeholder="Enter voter ID">
-                        </div>
+                        <input type="text" id="searchInput" class="form-control" placeholder="Search by name or voter ID...">
                     </div>
                 </div>
             </div>

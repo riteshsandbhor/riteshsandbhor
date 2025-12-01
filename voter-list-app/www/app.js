@@ -36059,18 +36059,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Add event listeners
         const searchInput = document.getElementById('searchInput');
-        const genderFilter = document.getElementById('genderFilter');
-        const minAge = document.getElementById('minAge');
-        const maxAge = document.getElementById('maxAge');
-        const houseFilter = document.getElementById('houseFilter');
-        const voterIdFilter = document.getElementById('voterIdFilter');
-
         if (searchInput) searchInput.addEventListener('input', applyFilters);
-        if (genderFilter) genderFilter.addEventListener('change', applyFilters);
-        if (minAge) minAge.addEventListener('input', applyFilters);
-        if (maxAge) maxAge.addEventListener('input', applyFilters);
-        if (houseFilter) houseFilter.addEventListener('input', applyFilters);
-        if (voterIdFilter) voterIdFilter.addEventListener('input', applyFilters);
 
         // Render table with embedded data
         renderTable();
@@ -36206,119 +36195,22 @@ function renderTable() {
 
 // Apply all filters
 function applyFilters() {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-    const genderFilter = document.getElementById('genderFilter').value;
-    // Get age filters - only use if user actually entered a value
-    const minAgeInput = document.getElementById('minAge').value.trim();
-    const maxAgeInput = document.getElementById('maxAge').value.trim();
-    const minAge = minAgeInput ? parseInt(minAgeInput) : null;
-    const maxAge = maxAgeInput ? parseInt(maxAgeInput) : null;
-    const houseFilter = document.getElementById('houseFilter').value.toLowerCase();
-    const voterIdFilter = document.getElementById('voterIdFilter').value.toLowerCase();
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
     
-    // IMPORTANT: Search across ALL voters from BOTH list 1 (room 1) AND list 3 (room 3)
-    // voterData contains ALL 1715 voters - no room restriction
-    console.log('🔍 Starting search - Total voters in voterData:', voterData.length);
-    const room1InData = voterData.filter(v => String(v.roomNo) === '1').length;
-    const room3InData = voterData.filter(v => String(v.roomNo) === '3').length;
-    console.log('   Room 1 voters:', room1InData);
-    console.log('   Room 3 voters:', room3InData);
-    
-    if (room3InData === 0) {
-        console.error('❌ CRITICAL: No Room 3 voters found in voterData!');
-        console.error('   This means the data array is incomplete or Room 3 data is missing!');
-    }
-    console.log('   Search term:', searchTerm || '(empty - showing all)');
-    
-    // CRITICAL: Ensure we're searching from the complete voterData array
-    // Verify voterData is complete before filtering
-    if (voterData.length !== 1715) {
-        console.error('⚠️ ERROR: voterData is incomplete! Expected 1715, got', voterData.length);
-    }
-    
-    // DEBUG: Test search on Room 3 voters specifically BEFORE filtering
-    if (searchTerm) {
-        const room3Test = voterData.filter(v => {
-            const roomNo = String(v.roomNo || '').trim();
-            return roomNo === '3';
-        });
-        console.log('   DEBUG: Total Room 3 voters in voterData:', room3Test.length);
-        
-        const room3Matches = room3Test.filter(v => {
-            const nameEng = (v.fullNameEnglish || '').toLowerCase();
-            const nameMar = v.fullNameMarathi || '';
-            return nameEng.includes(searchTerm) || nameMar.includes(searchTerm);
-        });
-        console.log('   DEBUG: Room 3 voters that match search term "' + searchTerm + '":', room3Matches.length);
-        
-        if (room3Matches.length > 0) {
-            console.log('   DEBUG: Sample Room 3 matches:', room3Matches.slice(0, 3).map(v => v.fullNameEnglish));
-        } else if (room3Test.length > 0) {
-            console.log('   DEBUG: Room 3 voters exist but none match. Sample Room 3 names:', room3Test.slice(0, 3).map(v => v.fullNameEnglish));
-        }
-    }
-    
-    // IMPORTANT: If search term is entered, ONLY search by name (ignore all other filters)
-    // If search term is empty, apply all other filters
-    if (searchTerm && searchTerm.trim()) {
-        // SEARCH MODE: Only filter by name (English and Marathi) - NO other filters
-        console.log('🔍 Search mode - filtering by NAME ONLY:', searchTerm);
-        
-        filteredData = voterData.filter(voter => {
-            // Search ONLY by name (English and Marathi) - ignore age, gender, house, voter ID
-            const nameEng = (voter.fullNameEnglish || '').toLowerCase();
-            const nameMar = voter.fullNameMarathi || '';
-            
-            return nameEng.includes(searchTerm) || nameMar.includes(searchTerm);
-        });
-        
-        const room1Count = filteredData.filter(v => String(v.roomNo) === '1').length;
-        const room3Count = filteredData.filter(v => String(v.roomNo) === '3').length;
-        console.log(`✅ Search complete: ${filteredData.length} results (Room 1: ${room1Count}, Room 3: ${room3Count})`);
+    if (!searchTerm) {
+        // If no search term, show all voters
+        filteredData = [...voterData];
     } else {
-        // FILTER MODE: Apply all filters when search is empty
-        console.log('🔍 Filter mode - applying all filters (no search term)');
-        
+        // Search by name (English and Marathi) OR voter ID
         filteredData = voterData.filter(voter => {
-            // Gender filter
-            const matchesGender = !genderFilter || voter.genderEnglish === genderFilter;
+            const nameEng = (voter.fullNameEnglish || '').toLowerCase();
+            const nameMar = (voter.fullNameMarathi || '').toLowerCase();
+            const voterId = (voter.voterId || '').toLowerCase();
             
-            // Age filter - only apply if user actually set minAge or maxAge
-            let matchesAge = true;
-            if (minAge !== null || maxAge !== null) {
-                if (voter.age > 0) {
-                    matchesAge = (minAge === null || voter.age >= minAge) && 
-                               (maxAge === null || voter.age <= maxAge);
-                } else {
-                    matchesAge = false;
-                }
-            }
-            
-            // House number filter
-            const matchesHouse = !houseFilter || 
-                voter.houseNoEnglish.toLowerCase().includes(houseFilter) ||
-                voter.houseNoMarathi.includes(houseFilter);
-            
-            // Voter ID filter
-            const matchesVoterId = !voterIdFilter || 
-                voter.voterId.toLowerCase().includes(voterIdFilter);
-            
-            return matchesGender && matchesAge && matchesHouse && matchesVoterId;
+            return nameEng.includes(searchTerm) || 
+                   nameMar.includes(searchTerm) || 
+                   voterId.includes(searchTerm);
         });
-        
-        console.log(`✅ Filter complete: ${filteredData.length} results`);
-    }
-    
-    // Debug: Log search results by room (check both string and number types)
-    const room1Count = filteredData.filter(v => String(v.roomNo) === '1').length;
-    const room3Count = filteredData.filter(v => String(v.roomNo) === '3').length;
-    console.log(`✅ Search complete: ${filteredData.length} results (Room 1: ${room1Count}, Room 3: ${room3Count})`);
-    
-    if (searchTerm && room3Count === 0 && room1Count > 0) {
-        console.warn('⚠️ WARNING: Search found results only in Room 1, not Room 3!');
-        console.warn('   This might indicate a data issue. Checking sample Room 3 names...');
-        const room3Sample = voterData.filter(v => v.roomNo === '3').slice(0, 5).map(v => v.fullNameEnglish);
-        console.warn('   Sample Room 3 names:', room3Sample);
     }
     
     renderTable();
@@ -36349,15 +36241,7 @@ function renderPagination() {
 // Reset all filters
 function resetFilters() {
     document.getElementById('searchInput').value = '';
-    document.getElementById('genderFilter').value = '';
-    document.getElementById('minAge').value = '';
-    document.getElementById('maxAge').value = '';
-    document.getElementById('houseFilter').value = '';
-    document.getElementById('voterIdFilter').value = '';
-    
-    filteredData = [...voterData];
-    renderTable();
-    updateStats();
+    applyFilters();
 }
 
 // Export to CSV function removed (button removed from UI)
