@@ -959,7 +959,7 @@ h6 {
     right: 10px;
     top: 10px;
   }
-  
+
   .navmenu ul {
     top: 60px;
     left: 10px;
@@ -972,6 +972,12 @@ h6 {
     padding: 10px 15px;
     font-size: 14px;
     margin: 3px 8px;
+  }
+
+  /* Further reduce padding on very small screens */
+  .resume .card-front,
+  .resume .card-back {
+    padding: 1px 4px; /* Minimal padding on very small screens */
   }
 }
 
@@ -2022,45 +2028,18 @@ section,
   color: #ffffff;
   font-weight: 600;
   font-size: 1rem;
-  border-radius: 50px;
+  border-radius: 15px;
   text-decoration: none;
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: 0 5px 20px rgba(14, 162, 189, 0.3);
-  border: 2px solid transparent;
-  position: relative;
-  overflow: hidden;
-}
-
-.resume-download-btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #0ed3a3 0%, #0ea2bd 100%);
-  transition: left 0.5s ease;
-  z-index: 0;
-}
-
-.resume-download-btn:hover::before {
-  left: 0;
-}
-
-.resume-download-btn i,
-.resume-download-btn span {
-  position: relative;
-  z-index: 1;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(14, 162, 189, 0.3);
+  border: none;
 }
 
 .resume-download-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(14, 162, 189, 0.4);
-  border-color: rgba(255, 255, 255, 0.3);
-}
-
-.resume-download-btn:active {
-  transform: translateY(-1px);
+  box-shadow: 0 10px 25px rgba(14, 162, 189, 0.4);
+  background: linear-gradient(135deg, #0ed3a3 0%, #0ea2bd 100%);
+  color: #ffffff;
 }
 
 .resume .resume-title {
@@ -2078,12 +2057,14 @@ section,
   color: var(--heading-color);
   position: relative;
   padding-bottom: 18px;
+  padding-left: 0; /* Ensure no overlap with timeline */
   background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   letter-spacing: -0.02em;
   transition: all 0.3s ease;
+  z-index: 5; /* Above timeline line */
 }
 
 .resume .section-subtitle:hover {
@@ -2162,117 +2143,546 @@ section,
   border: 2px solid var(--accent-color);
 }
 
-/* Enhanced Resume Timeline Styles */
-.resume .timeline-item {
-  margin-bottom: 30px;
+/* ============================================
+   PREMIUM TIMELINE DESIGN - COMPLETE REDESIGN
+   ============================================ */
+
+/* Main Timeline Line - Elegant Gradient with Gaps */
+.resume .col-lg-6 {
   position: relative;
-  padding-left: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.resume .timeline-item::before {
+/* Stack columns into single section below 1200px */
+@media (max-width: 1200px) {
+  .resume .container .row {
+    position: relative; /* Required for ::before pseudo-element */
+    flex-direction: column;
+  }
+
+  .resume .col-lg-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-bottom: 80px; /* Add space between stacked sections */
+  }
+
+  .resume .col-lg-6:last-child {
+    margin-bottom: 0; /* Remove margin from last section */
+  }
+
+  /* Create single continuous timeline for stacked layout */
+  .resume .container .row::before {
+    content: '';
+    position: absolute;
+    left: 60px;
+    top: 103px; /* Start after first section heading underline */
+    bottom: 0; /* Extend to bottom of last card */
+    width: 4px;
+    background: linear-gradient(180deg,
+      #0ea2bd 0%,
+      rgba(14, 162, 189, 0.8) 25%,
+      rgba(14, 211, 163, 0.8) 75%,
+      #0ed3a3 100%
+    );
+    z-index: 1;
+    border-radius: 2px;
+    box-shadow:
+      0 0 20px rgba(14, 162, 189, 0.3),
+      inset 0 0 10px rgba(14, 162, 189, 0.2);
+  }
+
+  /* Hide individual column timeline lines */
+  .resume .col-lg-6:first-child::before,
+  .resume .col-lg-6:last-child::before {
+    display: none;
+  }
+
+  /* Keep Additional Experience timeline but adjust position */
+  .resume .col-lg-6:last-child .additional-experience-wrapper::before {
+    left: 60px; /* Align with main timeline */
+    width: 4px;
+  }
+
+  /* Ensure all timeline icons align with the single timeline */
+  .resume .timeline-icon {
+    left: 60px; /* Align with timeline center */
+  }
+
+  /* Adjust card margins for single column layout */
+  .resume .education-card {
+    margin-left: 92px; /* Keep same margin as desktop */
+  }
+}
+
+/* Timeline line for Education section - starts after underline, extends to end of Secondary Education card */
+/* Left column timeline (Technical Experience) - starts after underline, extends to last card */
+.resume .col-lg-6:first-child::before {
   content: '';
   position: absolute;
-  left: 30px;
-  top: 30px;
-  bottom: -30px;
-  width: 3px;
-  background: linear-gradient(180deg, #0ea2bd 0%, #0ed3a3 100%);
+  left: 60px; /* Same position for consistency */
+  top: 103px; /* Start after underline: 50px (margin-top) + ~30px (heading height) + 18px (padding-bottom) + 4px (underline height) + 1px gap = 103px */
+  bottom: 0; /* Extend to bottom of last card in section - goes till last Technical Experience */
+  width: 4px;
+  background: linear-gradient(180deg, 
+    #0ea2bd 0%,
+    rgba(14, 162, 189, 0.8) 25%,
+    rgba(14, 211, 163, 0.8) 75%,
+    #0ed3a3 100%
+  );
   z-index: 1;
   border-radius: 2px;
+  box-shadow: 
+    0 0 20px rgba(14, 162, 189, 0.3),
+    inset 0 0 10px rgba(14, 162, 189, 0.2);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  /* No fixed height - extends to bottom of last Technical Experience card */
 }
 
-.resume .timeline-item:first-child::before {
-  top: 30px;
+/* Stop Education timeline exactly at the bottom of last education item (SSC) - white overlay */
+.resume .col-lg-6:last-child .last-education-item {
+  position: relative;
 }
 
-.resume .timeline-item:last-child::before {
+.resume .col-lg-6:last-child .last-education-item::after {
+  content: '';
+  position: absolute;
+  left: 45px;
+  top: 290px; /* Bottom of the last education card (card height is 290px) */
+  width: 4px;
+  height: 2000px; /* Large enough to cover any remaining timeline after Secondary Education card */
+  z-index: 3; /* Above timeline line to hide it completely - stops Education timeline */
+}
+
+/* Additional Experience wrapper - contains timeline */
+.resume .col-lg-6:last-child .additional-experience-wrapper {
+  position: relative;
+  margin-top: 60px; /* Space from education section */
+  z-index: 5;
+}
+
+/* Additional Experience section subtitle - matches Education styling */
+.resume .col-lg-6:last-child .additional-experience-section {
+  position: relative;
+  z-index: 5;
+  margin: 50px 0 35px 0; /* Same as Education heading */
+  padding-bottom: 18px; /* Same as Education heading */
+  padding-left: 0; /* Ensure no overlap with timeline */
+  background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+  transition: all 0.3s ease;
+  font-size: 1.9rem; /* Same as Education heading */
+  font-weight: 700; /* Same as Education heading */
+  color: var(--heading-color);
+}
+
+/* Additional Experience heading underline - matches Education */
+.resume .col-lg-6:last-child .additional-experience-section::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
   bottom: 0;
-  height: auto;
+  left: 0;
+  border-radius: 3px;
+  transition: width 0.3s ease;
 }
 
+.resume .col-lg-6:last-child .additional-experience-section:hover::after {
+  width: 120px;
+}
+
+/* New timeline line for Additional Experience section - starts from bottom border of heading, extends to last card */
+.resume .col-lg-6:last-child .additional-experience-wrapper::before {
+  content: '';
+  position: absolute;
+  left: 45px; /* Same position as education timeline */
+  top: 51px; /* Start from bottom border: 50px (margin-top) + heading height (1.9rem ≈ 30.4px) + 18px (padding-bottom) + 4px (underline) = ~102.4px */
+  bottom: 0; /* Extend to bottom of last card in section */
+  width: 4px;
+  background: linear-gradient(180deg, 
+    #0ea2bd 0%,
+    rgba(14, 162, 189, 0.8) 25%,
+    rgba(14, 211, 163, 0.8) 75%,
+    #0ed3a3 100%
+  );
+  z-index: 1; /* Higher than Education timeline stop (z-index: 3) to ensure it's visible above the white overlay */
+  border-radius: 2px;
+  box-shadow: 
+    0 0 20px rgba(14, 162, 189, 0.3),
+    inset 0 0 10px rgba(14, 162, 189, 0.2);
+  /* Ensure it's visible */
+  opacity: 1 !important;
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Right column timeline (Education section) - starts after underline, stops at last education item */
+.resume .col-lg-6:last-child::before {
+  content: '';
+  position: absolute;
+  left: 60px; /* Timeline line position - center will be at 47px (45px + 2px for 4px width) */
+  top: 103px; /* Start after underline: 50px (margin-top) + ~30px (heading height) + 18px (padding-bottom) + 4px (underline height) + 1px gap = 103px */
+  bottom: auto;
+  width: 4px;
+  background: linear-gradient(180deg, 
+    #0ea2bd 0%,
+    rgba(14, 162, 189, 0.8) 25%,
+    rgba(14, 211, 163, 0.8) 75%,
+    #0ed3a3 100%
+  );
+  z-index: 1;
+  border-radius: 2px;
+  box-shadow: 
+    0 0 20px rgba(14, 162, 189, 0.3),
+    inset 0 0 10px rgba(14, 162, 189, 0.2);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Extend to bottom of last education card: 4 items × ~350px spacing + card height (260px) = ~1660px */
+  height: 1590px; /* Extends to end of Secondary Education card - stops here */
+}
+
+.resume .col-lg-6:hover::before {
+  width: 5px;
+  box-shadow: 
+    0 0 30px rgba(14, 162, 189, 0.5),
+    inset 0 0 15px rgba(14, 162, 189, 0.3);
+  background: linear-gradient(180deg, 
+    #0ea2bd 0%,
+    rgba(14, 162, 189, 0.9) 25%,
+    rgba(14, 211, 163, 0.9) 75%,
+    #0ed3a3 100%
+  );
+}
+
+/* Timeline Items - Professional Animation */
+.resume .timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 0; /* No top margin since icon is at top */
+  padding-left: 0;
+  padding-top: 0;
+  animation: professionalFadeIn 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  opacity: 0;
+  z-index: 2; /* Above timeline line */
+}
+
+.resume .timeline-item:nth-child(1) { animation-delay: 0.1s; }
+.resume .timeline-item:nth-child(2) { animation-delay: 0.2s; }
+.resume .timeline-item:nth-child(3) { animation-delay: 0.3s; }
+.resume .timeline-item:nth-child(4) { animation-delay: 0.4s; }
+.resume .timeline-item:nth-child(5) { animation-delay: 0.5s; }
+.resume .timeline-item:nth-child(6) { animation-delay: 0.6s; }
+.resume .timeline-item:nth-child(7) { animation-delay: 0.7s; }
+.resume .timeline-item:nth-child(8) { animation-delay: 0.8s; }
+
+/* Professional fade-in animation */
+@keyframes professionalFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Timeline Icon - Positioned for card to touch bottom-right */
 .resume .timeline-icon {
   background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
   border: 4px solid #ffffff;
-  box-shadow: 0 6px 20px rgba(14, 162, 189, 0.35);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  width: 60px;
-  height: 60px;
+  box-shadow: 
+    0 8px 32px rgba(14, 162, 189, 0.4),
+    0 0 0 10px rgba(255, 255, 255, 1),
+    0 0 0 14px rgba(14, 162, 189, 0.1),
+    inset 0 2px 10px rgba(255, 255, 255, 0.3);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  width: 90px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   position: absolute;
-  left: 31.5px;
-  top: 0;
-  z-index: 3;
-  transform: translateX(-50%);
+  left: 47px; /* Timeline line center: 45px (line left) + 2px (half of 4px width) = 47px */
+  top: 0; /* Icon top aligns with card top - card touches icon */
+  z-index: 15;
+  transform: translateX(-50%); /* Center horizontally on timeline */
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
+/* Add white circle behind icon to create gap in line - centered on timeline */
 .resume .timeline-icon::after {
   content: '';
   position: absolute;
-  inset: -4px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px; /* Slightly larger than icon to cover line */
+  height: 100px;
+  background: #ffffff;
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 1);
+}
+
+/* Icon Glow Effect */
+.resume .timeline-icon::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
   border-radius: 50%;
   background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
   opacity: 0;
-  transition: opacity 0.4s ease;
-  z-index: -1;
-  filter: blur(8px);
+  transition: opacity 0.5s ease;
+  filter: blur(20px);
+  z-index: -2; /* Behind the white circle */
 }
 
+/* Timeline Icon - Default teal color, with hover animations */
+.resume .timeline-icon i {
+  color: #0ea2bd;
+  font-size: 36px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  position: relative;
+  z-index: 1;
+}
+
+/* Icon Hover Effect - Maintains Position with animations */
 .resume .timeline-item:hover .timeline-icon {
-  transform: scale(1.2) rotate(5deg);
-  box-shadow: 0 8px 25px rgba(14, 162, 189, 0.5);
-  border-color: rgba(255, 255, 255, 0.9);
+  transform: translateX(-50%) scale(1.1);
+  box-shadow: 
+    0 12px 40px rgba(14, 162, 189, 0.5),
+    0 0 0 10px rgba(255, 255, 255, 1),
+    0 0 0 16px rgba(14, 211, 163, 0.2),
+    inset 0 2px 15px rgba(255, 255, 255, 0.4);
+  border-color: #ffffff;
 }
 
-.resume .timeline-item:hover .timeline-icon::after {
+.resume .timeline-item:hover .timeline-icon::before {
   opacity: 0.6;
 }
 
-.resume .timeline-icon i {
-  color: #ffffff;
+.resume .timeline-item:hover .timeline-icon i {
+  transform: scale(1.15) rotate(5deg);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  color: #0ea2bd;
 }
 
+/* Remove connecting lines */
+.resume .timeline-item::before {
+  display: none;
+}
+
+/* Education/Experience Cards - Touch Icons with Flip Effect */
 .resume .education-card {
-  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-  border: 2px solid rgba(14, 162, 189, 0.1);
-  border-radius: 20px;
-  padding: 30px;
-  margin-bottom: 25px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin-bottom: 35px;
+  margin-left: 92px; /* Cards start at icon's right edge: icon center (47px) + half icon width (45px) = 92px */
+  margin-top: 0; /* Cards touch icons - no gap */
+  height: 290px; /* Increased card height to show location */
+  width: calc(100% - 92px); /* Adjusted for new margin */
+  perspective: 1000px;
   cursor: pointer;
   position: relative;
-  overflow: visible;
-  min-height: 180px;
-  display: flex;
-  flex-direction: column;
-  backdrop-filter: blur(10px);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.98) 100%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 2px solid rgba(14, 162, 189, 0.15);
+  border-radius: 20px;
+  box-shadow: 
+    0 8px 32px rgba(14, 162, 189, 0.12),
+    0 4px 16px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  overflow: hidden;
 }
 
+/* Card Flip Container */
+.resume .card-flip-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.resume .education-card:hover .card-flip-container {
+  transform: rotateY(180deg);
+}
+
+/* Card Front and Back Faces */
+.resume .card-front,
+.resume .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 5px 10px; /* Reduced padding for better content visibility */
+  border-radius: 20px;
+}
+
+.resume .card-front {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume .card-back {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.98) 100%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transform: rotateY(180deg);
+  position: relative;
+}
+
+/* Card Back Content */
+.resume .card-back-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.resume .card-back-content h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0ea2bd;
+  margin: 0;
+  text-align: left;
+  flex: 1;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+/* Header row with Key Responsibilities and Click for details */
+.resume .card-back-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgba(14, 162, 189, 0.2);
+  gap: 12px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.resume .card-back-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.resume .card-back-content ul li {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
+  padding-left: 20px;
+  position: relative;
+}
+
+.resume .card-back-content ul li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #0ea2bd;
+  font-weight: bold;
+}
+
+/* Click for details hint on card back - Highlighted and beside heading */
+.resume .card-back-hint {
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 4px 12px rgba(14, 162, 189, 0.4),
+    0 2px 6px rgba(14, 162, 189, 0.3);
+  white-space: nowrap;
+  z-index: 10;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.resume .card-back-hint:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 
+    0 6px 16px rgba(14, 162, 189, 0.5),
+    0 4px 8px rgba(14, 162, 189, 0.4);
+  background: linear-gradient(135deg, #0ed3a3 0%, #0ea2bd 100%);
+}
+
+/* Card Gradient Overlay */
+.resume .education-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #0ea2bd 0%, #0ed3a3 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+.resume .education-card:hover::after {
+  transform: scaleX(1);
+}
+
+/* Card Accent Border */
 .resume .education-card::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  width: 4px;
+  width: 5px;
   height: 100%;
-  background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
+  background: linear-gradient(180deg, #0ea2bd 0%, #0ed3a3 100%);
   transform: scaleY(0);
-  transition: transform 0.3s ease;
-  border-radius: 15px 0 0 15px;
+  transform-origin: top;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 24px 0 0 24px;
+  z-index: 1;
 }
 
 .resume .education-card:hover::before {
   transform: scaleY(1);
 }
 
+/* Card Hover Effect - Premium */
 .resume .education-card:hover {
-  transform: translateX(8px) translateY(-8px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(14, 162, 189, 0.25);
-  border-color: rgba(14, 162, 189, 0.4);
-  background: linear-gradient(135deg, #ffffff 0%, #f0f9fa 100%);
+  transform: translateX(10px) translateY(-8px);
+  box-shadow: 
+    0 20px 60px rgba(14, 162, 189, 0.25),
+    0 8px 24px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  border-color: rgba(14, 162, 189, 0.3);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(248, 250, 252, 1) 100%);
 }
 
 .resume .education-card-content {
@@ -2280,31 +2690,61 @@ section,
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding-bottom: 45px;
-  gap: 10px;
+  gap: 12px; /* Match spacing with other cards */
+  z-index: 2;
+  height: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0; /* Padding handled by card-front */
 }
 
 
-/* Uniform Date Badge Styling - Applied to both Education and Experience */
+/* Uniform Date Badge Styling - Professional Compact */
 .resume .education-card-content h5,
 .resume .experience-year {
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   color: #0ea2bd;
-  margin: 10px 0 15px 0;
-  font-weight: 600;
+  margin: 0;
+  font-weight: 700;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 18px;
-  background: linear-gradient(135deg, rgba(14, 162, 189, 0.12) 0%, rgba(14, 211, 163, 0.12) 100%);
+  gap: 6px;
+  padding: 7px 14px; /* Slightly reduced padding */
+  flex-shrink: 0;
+  white-space: normal;
+  background: linear-gradient(135deg, rgba(14, 162, 189, 0.1) 0%, rgba(14, 211, 163, 0.1) 100%);
   border-radius: 25px;
-  border: 1.5px solid rgba(14, 162, 189, 0.2);
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 2px solid rgba(14, 162, 189, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   width: fit-content;
-  white-space: nowrap;
-  box-shadow: 0 3px 10px rgba(14, 162, 189, 0.12);
+  max-width: 100%;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 12px rgba(14, 162, 189, 0.1);
+  z-index: 2;
+  min-height: 34px; /* Changed from height to min-height to allow wrapping */
+  flex-wrap: wrap;
+  line-height: 1.4;
+}
+
+/* When date wraps to next line, align it to the right */
+.resume .experience-title .experience-year {
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .resume .experience-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .resume .experience-title .experience-year {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-top: 4px;
+  }
 }
 
 /* Uniform Icon Styling for Dates */
@@ -2322,72 +2762,86 @@ section,
   background: linear-gradient(135deg, rgba(14, 162, 189, 0.2) 0%, rgba(14, 211, 163, 0.2) 100%);
   border-color: rgba(14, 162, 189, 0.4);
   color: #0ed3a3;
-  transform: scale(1.08) translateY(-2px);
-  box-shadow: 0 6px 18px rgba(14, 162, 189, 0.25);
-  font-weight: 700;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(14, 162, 189, 0.25);
 }
 
 .resume .education-card:hover .education-card-content h5 i,
 .resume .education-card:hover .experience-year i {
   color: #0ed3a3;
-  transform: rotate(10deg) scale(1.1);
+  transform: rotate(10deg);
 }
 
 .resume .education-card-content .grades {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   color: #0ea2bd;
-  font-weight: 700;
-  margin: 12px 0;
+  font-weight: 800;
+  margin: 12px 0 0 0; /* Add top margin to separate from company info */
   padding: 8px 16px;
-  background: linear-gradient(135deg, rgba(14, 162, 189, 0.12) 0%, rgba(14, 211, 163, 0.12) 100%);
-  border-radius: 10px;
-  display: inline-block;
+  background: linear-gradient(135deg, rgba(14, 162, 189, 0.15) 0%, rgba(14, 211, 163, 0.15) 100%);
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
   width: fit-content;
-  border: 1px solid rgba(14, 162, 189, 0.2);
-  box-shadow: 0 2px 8px rgba(14, 162, 189, 0.1);
-  transition: all 0.3s ease;
+  border: 2px solid rgba(14, 162, 189, 0.25);
+  box-shadow: 0 4px 14px rgba(14, 162, 189, 0.15);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 2;
+  min-height: 36px; /* Allow height to adjust */
+  flex-shrink: 0;
+  align-self: flex-start; /* Align to left like company info in other cards */
 }
 
 .resume .education-card:hover .grades {
-  background: linear-gradient(135deg, rgba(14, 162, 189, 0.2) 0%, rgba(14, 211, 163, 0.2) 100%);
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(14, 162, 189, 0.2);
+  background: linear-gradient(135deg, rgba(14, 162, 189, 0.25) 0%, rgba(14, 211, 163, 0.25) 100%);
+  border-color: rgba(14, 162, 189, 0.4);
+  color: #0ed3a3;
+  transform: translateY(-2px) scale(1.08);
+  box-shadow: 0 8px 24px rgba(14, 162, 189, 0.3);
 }
 
-/* Uniform Location Badge Styling */
+/* Uniform Location Badge Styling - Professional Compact */
 .resume .location-container {
   display: inline-flex;
   align-items: center;
-  color: #555;
-  font-size: 0.9rem;
-  padding: 8px 14px;
-  background: linear-gradient(135deg, rgba(14, 162, 189, 0.08) 0%, rgba(14, 211, 163, 0.08) 100%);
-  border-radius: 20px;
-  transition: all 0.3s ease;
+  color: #4a5568;
+  font-size: 0.88rem;
+  padding: 7px 14px; /* Reduced padding */
+  background: linear-gradient(135deg, rgba(14, 162, 189, 0.1) 0%, rgba(14, 211, 163, 0.1) 100%);
+  border-radius: 22px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   width: fit-content;
-  border: 1px solid rgba(14, 162, 189, 0.15);
+  border: 2px solid rgba(14, 162, 189, 0.18);
   flex-shrink: 0;
   white-space: nowrap;
   margin-left: auto;
-  font-weight: 500;
-  box-shadow: 0 2px 6px rgba(14, 162, 189, 0.08);
+  margin-top: auto; /* Push to bottom */
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(14, 162, 189, 0.12);
+  position: relative;
+  z-index: 2;
+  height: 34px; /* Reduced height */
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .resume .education-card-content .location-container {
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin-top: auto; /* Push to bottom */
+  margin-bottom: 0;
   margin-left: auto;
-  align-self: flex-end;
+  align-self: flex-end; /* Align to bottom right like other cards */
 }
 
 /* Uniform Location Hover Effects */
 .resume .education-card:hover .location-container {
-  background: linear-gradient(135deg, rgba(14, 162, 189, 0.15) 0%, rgba(14, 211, 163, 0.15) 100%);
+  background: linear-gradient(135deg, rgba(14, 162, 189, 0.2) 0%, rgba(14, 211, 163, 0.2) 100%);
   color: #0ea2bd;
-  border-color: rgba(14, 162, 189, 0.3);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(14, 162, 189, 0.15);
-  font-weight: 600;
+  border-color: rgba(14, 162, 189, 0.35);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(14, 162, 189, 0.2);
+  font-weight: 700;
 }
 
 /* Uniform Location Icon Styling */
@@ -2421,25 +2875,138 @@ section,
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 15px;
+  margin-bottom: 10px; /* Reduced margin */
   flex-wrap: wrap;
+  gap: 8px; /* Reduced gap */
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Uniform Title Styling - Professional Alignment */
+.resume .education-card-content .experience-title,
+.resume .experience-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px; /* Match spacing with other cards */
+}
+
+/* Education cards - title and date on same line, matching other cards */
+.resume .col-lg-6:last-child .education-card-content .experience-title {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   gap: 10px;
 }
 
-/* Uniform Title Styling - Applied to both Education and Experience */
-.resume .education-card-content h4,
+.resume .col-lg-6:last-child .education-card-content .experience-title h4 {
+  flex: 1;
+  margin: 0;
+}
+
+.resume .col-lg-6:last-child .education-card-content .experience-title .experience-year {
+  align-self: center;
+  margin-left: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Education cards - company info styling to match other cards */
+.resume .col-lg-6:last-child .education-card-content .experience-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 12px 0;
+  min-height: auto;
+  max-height: none;
+}
+
+.resume .col-lg-6:last-child .education-card-content .company-info-centered {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.resume .col-lg-6:last-child .education-card-content .company-info-centered p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  font-style: italic;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  flex: 0 1 auto;
+  min-width: 0;
+  line-height: 1.4;
+  white-space: normal;
+}
+
+/* Technical Experience - Title on one line (wraps on small screens), date on next line right-aligned */
+.resume .col-lg-6:first-child .experience-title {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.resume .col-lg-6:first-child .experience-title h4 {
+  width: 100%;
+  display: block;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.resume .col-lg-6:first-child .experience-title .experience-year {
+  align-self: flex-end;
+  margin-left: auto;
+  margin-top: 0;
+  white-space: nowrap; /* Keep date and duration on same line */
+}
+
+.resume .col-lg-6:first-child .experience-year br {
+  display: none; /* Remove line break to keep date and duration on same line */
+}
+
 .resume .experience-title h4 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--heading-color);
-  margin: 0 0 15px 0;
+  font-size: 1.35rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d3748 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  line-height: 1.35;
+  flex: 1;
+  min-width: 0;
+  letter-spacing: -0.01em;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  z-index: 2;
+  max-height: none; /* Allow full height - no truncation */
+  display: block;
+  overflow: visible;
+  text-overflow: unset;
+  flex-shrink: 0;
+  white-space: normal;
+  line-height: 1.4;
+}
+
+.resume .education-card:hover .education-card-content h4,
+.resume .education-card:hover .experience-title h4 {
   background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  line-height: 1.5;
-  letter-spacing: -0.02em;
-  transition: all 0.3s ease;
+  transform: translateX(2px);
 }
 
 .resume .experience-meta {
@@ -2472,15 +3039,19 @@ section,
   z-index: 1;
 }
 
-/* Uniform Company/Organization Styling */
+/* Uniform Company/Organization Styling - Professional Compact */
 .resume .experience-company {
-  margin: 15px 0;
+  margin: 0 0 6px 0; /* Reduced margin */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15px;
+  gap: 10px; /* Reduced gap */
   flex-wrap: wrap;
-  padding: 10px 0;
+  padding: 0;
+  flex-shrink: 0;
+  min-height: 42px;
+  max-height: 55px;
+  overflow: hidden;
 }
 
 .resume .experience-company .company-info {
@@ -2493,15 +3064,85 @@ section,
 
 .resume .experience-company .company-info p {
   margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  font-style: italic;
+  overflow: visible;
+  text-overflow: unset;
+  white-space: normal;
+  max-width: none;
+  word-wrap: break-word;
+  line-height: 1.4;
+}
+
+/* Leadership Experience & Technical Experience - Centered logo with company name */
+.resume .additional-experience-wrapper .experience-company,
+.resume .col-lg-6:last-child .experience-company,
+.resume .col-lg-6:first-child .experience-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 12px 0;
+  min-height: auto;
+  max-height: none;
+}
+
+.resume .additional-experience-wrapper .company-info-centered,
+.resume .col-lg-6:last-child .company-info-centered,
+.resume .col-lg-6:first-child .company-info-centered {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Left-align logo and company name */
+}
+
+.resume .additional-experience-wrapper .company-info-centered .company-logo,
+.resume .col-lg-6:last-child .company-info-centered .company-logo,
+.resume .col-lg-6:first-child .company-info-centered .company-logo {
+  height: 50px;
+  width: auto;
+  max-width: 50px;
+  object-fit: contain;
+  filter: grayscale(0%);
+  opacity: 1;
+  flex-shrink: 0;
+}
+
+.resume .additional-experience-wrapper .company-info-centered p,
+.resume .col-lg-6:last-child .company-info-centered p,
+.resume .col-lg-6:first-child .company-info-centered p {
+  margin: 0;
   font-size: 1rem;
   font-weight: 600;
   color: #333;
   font-style: italic;
+  text-align: left; /* Left-align text next to logo */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  flex: 0 1 auto; /* Don't grow, allow shrinking */
+  min-width: 0;
+  line-height: 1.4;
+  white-space: normal;
+}
+
+.resume .additional-experience-wrapper .location-container,
+.resume .col-lg-6:last-child .location-container,
+.resume .col-lg-6:first-child .location-container {
+  align-self: flex-end;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 .resume .experience-company .company-logo {
-  height: 30px;
+  height: 50px;
   width: auto;
+  max-width: 50px;
   object-fit: contain;
   filter: grayscale(100%);
   opacity: 0.7;
@@ -2529,37 +3170,148 @@ section,
 
 .resume .card-hover-hint {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  top: 16px;
+  right: 16px;
   color: #0ea2bd;
-  font-size: 0.7rem;
-  font-weight: 600;
+  font-size: 1.1rem;
   opacity: 0;
-  transform: translateY(5px);
-  transition: all 0.3s ease;
-  background: linear-gradient(135deg, rgba(14, 162, 189, 0.15) 0%, rgba(14, 211, 163, 0.15) 100%);
-  padding: 4px 10px;
-  border-radius: 12px;
-  white-space: nowrap;
+  transform: scale(0.8) rotate(-90deg);
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   z-index: 10;
   pointer-events: none;
-  border: 1px solid rgba(14, 162, 189, 0.2);
-  box-shadow: 0 2px 8px rgba(14, 162, 189, 0.15);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(14, 162, 189, 0.2);
+  border: 2px solid rgba(14, 162, 189, 0.2);
+}
+
+.resume .card-hover-hint i {
+  display: block;
 }
 
 .resume .education-card:hover .card-hover-hint {
   opacity: 1;
-  transform: translateY(0);
+  transform: scale(1) rotate(0deg);
+  box-shadow: 0 4px 12px rgba(14, 162, 189, 0.3);
+  border-color: rgba(14, 162, 189, 0.4);
+  background: rgba(255, 255, 255, 1);
 }
 
-/* Enhanced Modal Styles */
+/* Enhanced Modal Styles - Fixed to viewport, highest z-index */
+.resume .modal,
+.modal {
+  z-index: 2147483647 !important; /* Maximum z-index value */
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  /* Ensure modal is not affected by parent transforms */
+  transform: none !important;
+  will-change: auto !important;
+  /* Force modal to break out of any parent container */
+  contain: layout style paint !important;
+}
+
+.resume .modal.show,
+.modal.show {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 2147483647 !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 1rem !important;
+  transform: none !important;
+}
+
+.resume .modal.fade,
+.modal.fade {
+  display: none;
+}
+
+.resume .modal.fade.show,
+.modal.fade.show {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 2147483647 !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 1rem !important;
+  transform: none !important;
+}
+
+.resume .modal-dialog {
+  z-index: 2147483647 !important;
+  position: relative !important;
+  pointer-events: auto !important;
+  max-width: 500px;
+  width: auto !important;
+  margin: 0 !important;
+  display: block !important;
+  flex: 0 0 auto !important;
+}
+
+.resume .modal-dialog-centered {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 100% !important;
+  pointer-events: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 1rem !important;
+}
+
+.resume .modal-dialog-centered .modal-content {
+  pointer-events: auto !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.resume .modal-dialog.modal-lg {
+  max-width: 800px !important;
+  width: 100% !important;
+}
+
 .resume .modal-content {
-  border-radius: 25px;
-  border: none;
-  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  border: 2px solid rgba(14, 162, 189, 0.1);
+  box-shadow: 
+    0 20px 60px rgba(14, 162, 189, 0.2),
+    0 8px 24px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   backdrop-filter: blur(10px);
   animation: modalSlideIn 0.3s ease-out;
+  position: relative;
+  z-index: 10000002 !important;
+  pointer-events: auto !important;
+  background: linear-gradient(to bottom, #ffffff 0%, #fafbfc 100%) !important;
+  margin: 0 auto !important;
 }
 
 @keyframes modalSlideIn {
@@ -2601,15 +3353,63 @@ section,
 .resume .modal-header .btn-close {
   filter: brightness(0) invert(1);
   opacity: 0.9;
+  z-index: 10000003 !important;
+  position: relative;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* Modal Backdrop Styles - Below modal but above all other content */
+.modal-backdrop {
+  z-index: 2147483646 !important; /* Just below modal */
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  pointer-events: auto !important;
+  transform: none !important;
+}
+
+.modal-backdrop.show {
+  opacity: 0.5 !important;
+  z-index: 2147483646 !important;
+}
+
+.modal-backdrop.fade {
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+.modal-backdrop.fade.show {
+  opacity: 0.5;
+}
+
+/* Hide floating buttons when modal is open */
+body.modal-open .whatsapp-button,
+body.modal-open .chatbot-container,
+body.modal-open .chatbot-toggle {
+  z-index: 1 !important;
+  opacity: 0.3 !important;
+  pointer-events: none !important;
+}
+
+/* Ensure header doesn't interfere */
+.header {
+  z-index: 1030 !important;
 }
 
 .resume .modal-header .btn-close:hover {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 .resume .modal-body {
-  padding: 35px;
-  background: linear-gradient(to bottom, #ffffff 0%, #fafbfc 100%);
+  padding: 32px 35px;
+  background: #ffffff;
   max-height: 70vh;
   overflow-y: auto;
 }
@@ -2634,8 +3434,15 @@ section,
 
 .resume .modal-body p {
   line-height: 1.8;
-  color: #555;
-  margin-bottom: 15px;
+  color: #444;
+  margin-bottom: 18px;
+  font-size: 0.95rem;
+}
+
+.resume .modal-body p strong {
+  color: #0ea2bd;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .resume .modal-body p:last-of-type {
@@ -2643,15 +3450,23 @@ section,
 }
 
 .resume .modal-body .experience-company {
-  padding: 15px 20px;
-  background: linear-gradient(135deg, rgba(14, 162, 189, 0.05) 0%, rgba(14, 211, 163, 0.05) 100%);
+  padding: 18px 22px;
+  background: linear-gradient(135deg, rgba(14, 162, 189, 0.06) 0%, rgba(14, 211, 163, 0.06) 100%);
+  border: 1px solid rgba(14, 162, 189, 0.12);
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 15px;
   flex-wrap: wrap;
+  transition: all 0.3s ease;
+}
+
+.resume .modal-body .experience-company:hover {
+  background: linear-gradient(135deg, rgba(14, 162, 189, 0.08) 0%, rgba(14, 211, 163, 0.08) 100%);
+  border-color: rgba(14, 162, 189, 0.2);
+  box-shadow: 0 4px 12px rgba(14, 162, 189, 0.1);
 }
 
 .resume .modal-body .experience-company .company-info {
@@ -2667,13 +3482,22 @@ section,
   margin-top: 0;
   margin-bottom: 0;
   align-self: center;
-  background: rgba(14, 162, 189, 0.1);
-  border-color: rgba(14, 162, 189, 0.2);
+  background: rgba(14, 162, 189, 0.08);
+  border: 1px solid rgba(14, 162, 189, 0.15);
+  border-radius: 8px;
+  padding: 6px 12px;
+  transition: all 0.3s ease;
 }
 
 .resume .modal-body .experience-company .location-container:hover {
-  background: linear-gradient(135deg, rgba(14, 162, 189, 0.15) 0%, rgba(14, 211, 163, 0.15) 100%);
-  border-color: rgba(14, 162, 189, 0.3);
+  background: linear-gradient(135deg, rgba(14, 162, 189, 0.12) 0%, rgba(14, 211, 163, 0.12) 100%);
+  border-color: rgba(14, 162, 189, 0.25);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(14, 162, 189, 0.15);
+}
+
+.resume .modal-body .experience-company .location-container i {
+  color: #0ea2bd;
 }
 
 .resume .modal-body .gradescolour {
@@ -2716,50 +3540,46 @@ section,
 }
 
 .resume .modal-body ul li {
-  padding: 12px 0;
-  padding-left: 30px;
+  padding: 14px 0;
+  padding-left: 24px;
   position: relative;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid rgba(14, 162, 189, 0.1);
   line-height: 1.8;
-  color: #555;
-  transition: all 0.2s ease;
+  color: #444;
+  transition: all 0.3s ease;
+  margin-bottom: 4px;
 }
 
 .resume .modal-body ul li:hover {
-  padding-left: 35px;
-  background: rgba(14, 162, 189, 0.02);
-  border-left: 3px solid rgba(14, 162, 189, 0.2);
-  margin-left: -5px;
-  padding-left: 32px;
+  padding-left: 28px;
+  background: rgba(14, 162, 189, 0.03);
+  border-left: 3px solid #0ea2bd;
+  margin-left: -3px;
+  color: #333;
 }
 
 .resume .modal-body ul li:last-child {
   border-bottom: none;
+  margin-bottom: 0;
 }
 
 .resume .modal-body ul li::before {
-  content: '✓';
+  content: '';
   position: absolute;
-  left: 8px;
-  color: #0ed3a3;
-  font-weight: bold;
-  font-size: 1.2rem;
-  top: 12px;
-  transition: all 0.2s ease;
-  background: linear-gradient(135deg, rgba(14, 162, 189, 0.1) 0%, rgba(14, 211, 163, 0.1) 100%);
-  width: 24px;
-  height: 24px;
+  left: 0;
+  top: 18px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.9rem;
+  background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
+  transition: all 0.3s ease;
 }
 
 .resume .modal-body ul li:hover::before {
-  background: linear-gradient(135deg, #0ea2bd 0%, #0ed3a3 100%);
-  color: #ffffff;
-  transform: scale(1.1) rotate(5deg);
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(135deg, #0ed3a3 0%, #0ea2bd 100%);
+  box-shadow: 0 0 8px rgba(14, 162, 189, 0.4);
 }
 
 .resume .modal-body strong {
@@ -2767,7 +3587,59 @@ section,
   font-weight: 600;
 }
 
-/* Responsive Resume Section */
+/* Tablet Responsive Styles */
+/* Responsive Timeline Styles */
+@media (max-width: 992px) and (min-width: 769px) {
+  .resume .col-lg-6:first-child::before,
+  .resume .col-lg-6:last-child::before {
+    left: 40px;
+    width: 3px;
+    top: 98px; /* Start after underline on tablet: adjusted for smaller heading */
+    bottom: 0; /* Extend to last card */
+  }
+  
+  /* Additional Experience timeline on tablet */
+  .resume .col-lg-6:last-child .additional-experience-wrapper::before {
+    left: 55px; /* Match timeline position on tablet */
+    width: 3px;
+    top: 97px; /* Start from bottom border of heading on tablet: 50px + ~27px + 18px + 4px = 99px, adjusted to 97px */
+    bottom: 0; /* Extend to last card */
+  }
+  
+  .resume .timeline-icon {
+    width: 80px;
+    height: 80px;
+    left: 42px; /* Timeline center: 40px (line left) + 1.5px (half of 3px width) = 41.5px, rounded to 42px */
+    top: 0; /* Align icon top with card top */
+    transform: translateX(-50%); /* Center horizontally on timeline */
+  }
+  
+  .resume .timeline-icon i {
+    font-size: 32px;
+  }
+  
+  .resume .education-card {
+    margin-left: 82px; /* Cards start at icon's right edge on tablet: icon center (42px) + half icon (40px) = 82px */
+    margin-top: 0; /* Cards touch icons - no gap */
+    height: 280px; /* Increased height */
+    width: calc(100% - 82px);
+  }
+  
+  .resume .card-front,
+  .resume .card-back {
+    padding: 4px 8px; /* Reduced padding on tablet */
+  }
+  
+  .resume .timeline-icon {
+    left: 42px; /* Match timeline line center */
+    top: 0; /* Align icon top with card top */
+    transform: translateX(-50%); /* Center horizontally on timeline */
+  }
+  
+  /* Additional Experience timeline on tablet - duplicate removed, already defined above */
+}
+
+/* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .resume {
     padding: 60px 0;
@@ -2784,18 +3656,181 @@ section,
   }
   
   .resume .education-card {
-    padding: 20px;
-    margin-bottom: 20px;
+    margin-left: 71.5px; /* Cards start at icon's right edge on mobile: icon center (36.5px) + half icon (35px) = 71.5px */
+    margin-top: 0; /* Cards touch icons - no gap */
+    margin-bottom: 0; /* Remove margin - spacing handled by timeline-item */
+    min-height: 380px; /* Increased height to accommodate wrapping content */
+    height: auto; /* Allow height to grow with content */
+    width: calc(100% - 71.5px);
+    padding: 0; /* Padding handled by card-front/card-back */
   }
   
   .resume .education-card-content h4 {
-    font-size: 1.2rem;
+    font-size: 1.05rem; /* Reduced font size */
+    max-height: none; /* Remove height restriction */
+  }
+  
+  .resume .card-front,
+  .resume .card-back {
+    padding: 2px 5px; /* Further reduced padding on mobile */
+  }
+  
+  /* Remove text truncation on mobile - allow all text to wrap */
+  .resume .education-card-content h4,
+  .resume .experience-title h4 {
+    font-size: 1.0rem; /* Reduced font size */
+    max-height: none !important; /* Remove height restriction */
+    -webkit-line-clamp: unset !important;
+    line-clamp: unset !important;
+    display: block !important;
+    -webkit-box-orient: unset !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    white-space: normal !important;
+    line-height: 1.4;
+    word-wrap: break-word;
+  }
+  
+  .resume .experience-year {
+    font-size: 0.7rem; /* Reduced font size */
+    padding: 5px 10px;
+    white-space: normal !important;
+    word-wrap: break-word;
+    line-height: 1.3;
+    min-height: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  
+  .resume .experience-company .company-info p,
+  .resume .company-info-centered p {
+    white-space: normal !important;
+    text-overflow: unset !important;
+    overflow: visible !important;
+    max-width: none !important;
+    font-size: 0.85rem; /* Reduced font size */
+    line-height: 1.4;
+    word-wrap: break-word;
+  }
+  
+  .resume .location-container {
+    font-size: 0.75rem; /* Reduced font size */
+    padding: 4px 10px;
+    white-space: normal !important;
+    word-wrap: break-word;
+    line-height: 1.3;
+  }
+  
+  .resume .location-container span {
+    white-space: normal !important;
+    word-wrap: break-word;
+    font-size: 0.75rem;
+  }
+  
+  .resume .experience-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .resume .experience-title .experience-year {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-top: 4px;
+  }
+  
+  /* Card back header - allow wrapping on mobile */
+  .resume .card-back-header {
+    flex-wrap: wrap !important;
+    gap: 8px;
+  }
+  
+  .resume .card-back-header h5 {
+    font-size: 0.95rem;
+    white-space: normal !important;
+    word-wrap: break-word;
+  }
+  
+  .resume .card-back-hint {
+    font-size: 0.65rem;
+    padding: 4px 10px;
+    white-space: normal !important;
+    word-wrap: break-word;
+  }
+  
+  /* Card back list items */
+  .resume .card-back-content ul li {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    word-wrap: break-word;
+  }
+  
+  /* Education card specific styles */
+  .resume .education-card-content h5 {
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    white-space: normal !important;
+    word-wrap: break-word;
+  }
+  
+  .resume .grades {
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    white-space: normal !important;
+    word-wrap: break-word;
   }
   
   .resume .timeline-icon {
-    width: 50px;
-    height: 50px;
+    top: 0; /* Align icon top with card top */
+    left: 36.5px; /* Match timeline line center */
+    transform: translateX(-50%); /* Center horizontally on timeline */
   }
+  
+  /* Additional Experience timeline on mobile */
+  .resume .col-lg-6:last-child .additional-experience-wrapper::before {
+    left: 50px; /* Match timeline position on mobile */
+    width: 3px;
+    top: 92px; /* Start from bottom border of heading on mobile: 50px + ~24px + 18px + 4px = 96px, adjusted to 92px */
+    bottom: 0; /* Extend to last card */
+  }
+  
+  /* Mobile Timeline Adjustments - Premium */
+  .resume .col-lg-6:first-child::before,
+  .resume .col-lg-6:last-child::before {
+    left: 35px;
+    width: 3px;
+    top: 93px; /* Start after underline on mobile: adjusted for smaller heading */
+    bottom: 0; /* Extend to last card */
+  }
+  
+  .resume .timeline-icon {
+    width: 70px;
+    height: 70px;
+    left: 36.5px; /* Timeline center: 35px (line left) + 1.5px (half of 3px width) = 36.5px */
+    top: 50%; /* Center vertically on card */
+    transform: translateX(-50%) translateY(-50%); /* Perfect centering */
+  }
+  
+  .resume .timeline-icon::after {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .resume .timeline-icon i {
+    font-size: 28px;
+  }
+  
+  .resume .timeline-item {
+    margin-bottom: 20px; /* Reduced spacing between cards */
+  }
+  
+  .resume .timeline-item:last-child {
+    margin-bottom: 0; /* Remove margin from last item */
+  }
+  
+  /* Remove duplicate - already defined above */
   
   .resume .modal-header {
     padding: 20px 25px;
@@ -2815,13 +3850,91 @@ section,
   }
   
   .resume .experience-year {
-    font-size: 0.85rem;
-    padding: 8px 14px;
+    font-size: 0.7rem; /* Reduced font size */
+    padding: 5px 10px;
+    white-space: normal !important;
+    word-wrap: break-word;
+    line-height: 1.3;
+    min-height: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  
+  .resume .experience-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .resume .experience-title .experience-year {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-top: 4px;
   }
   
   .resume .education-card-content h5 i,
   .resume .experience-year i {
     font-size: 0.9rem;
+  }
+  
+  /* Responsive Timeline Adjustments */
+  .resume .timeline-icon {
+    width: 50px;
+    height: 50px;
+    left: 0;
+  }
+  
+  .resume .timeline-icon i {
+    font-size: 20px;
+  }
+  
+  /* Timeline line adjustments for mobile */
+  .resume .col-lg-6:first-child::before,
+  .resume .col-lg-6:last-child::before {
+    left: 25px; /* Center of 50px icon (25px) */
+    width: 2.5px;
+    box-shadow: 
+      0 0 5px rgba(14, 162, 189, 0.15),
+      inset 0 0 2px rgba(14, 162, 189, 0.1);
+    transform: translateX(-50%);
+  }
+  
+  /* Timeline icon adjustments for mobile */
+  .resume .timeline-icon {
+    width: 50px;
+    height: 50px;
+    left: 25px; /* Aligned with timeline line center */
+    transform: translateX(-50%);
+  }
+  
+  .resume .timeline-icon i {
+    font-size: 20px;
+  }
+  
+  /* Adjust card margin for mobile */
+  .resume .education-card {
+    margin-left: 55px; /* Space for icon (50px) + gap (5px) */
+    padding: 20px;
+    min-height: 160px;
+  }
+  
+  /* Adjust timeline item spacing */
+  .resume .timeline-item {
+    margin-bottom: 20px; /* Reduced spacing between cards on mobile */
+  }
+  
+  .resume .timeline-item:last-child {
+    margin-bottom: 0; /* Remove margin from last item */
+  }
+  
+  /* Reduce animation delays on mobile */
+  .resume .timeline-item:nth-child(n) {
+    animation-delay: 0s;
+  }
+  
+  /* Ensure columns stack properly on mobile */
+  .resume .col-lg-6 {
+    margin-bottom: 40px;
   }
 }
 
@@ -2843,6 +3956,31 @@ section,
   .resume .education-card-content .location-container {
     align-self: flex-end;
     margin-left: auto;
+  }
+  
+  /* Additional mobile timeline fixes */
+  .resume .timeline-item:hover .timeline-icon {
+    transform: translateX(-50%) scale(1.1);
+  }
+  
+  .resume .timeline-item:hover .timeline-icon i {
+    color: #0ea2bd;
+    transform: scale(1.15) rotate(5deg);
+  }
+  
+  /* Ensure timeline line is properly positioned on smaller tablets */
+  .resume .col-lg-6:first-child::before,
+  .resume .col-lg-6:last-child::before {
+    left: 25px;
+    width: 3px;
+  }
+  
+  .resume .timeline-icon {
+    left: 25px;
+  }
+  
+  .resume .education-card {
+    margin-left: 50px;
   }
   
   .resume .modal-body .experience-company {
@@ -3375,6 +4513,63 @@ section,
   margin: 0 2px;
   font-size: 18px;
   text-shadow: 0 2px 5px rgba(255, 193, 7, 0.3);
+}
+
+/* Testimonial Links Container */
+.testimonials .testimonial-item .testimonial-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 10px 0 15px 0;
+}
+
+/* LinkedIn Link Styling */
+.testimonials .testimonial-item .linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #0077b5 0%, #005885 100%);
+  border-radius: 50%;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 4px 15px rgba(0, 119, 181, 0.3);
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.testimonials .testimonial-item .linkedin-link::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #005885 0%, #0077b5 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 50%;
+}
+
+.testimonials .testimonial-item .linkedin-link:hover::before {
+  opacity: 1;
+}
+
+.testimonials .testimonial-item .linkedin-link i {
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.testimonials .testimonial-item .linkedin-link:hover {
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 119, 181, 0.5);
+}
+
+.testimonials .testimonial-item .linkedin-link:hover i {
+  transform: scale(1.15);
 }
 
 .testimonials .testimonial-item .quote-icon-left,

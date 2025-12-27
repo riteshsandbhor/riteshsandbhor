@@ -1,8 +1,0 @@
-{
-  "appId": "com.voterlist.app",
-  "appName": "Voter List",
-  "webDir": "www",
-  "server": {
-    "androidScheme": "https"
-  }
-}
